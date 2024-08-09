@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
+
+
+body {
+background-color:aquamarine; 
+background-size: cover;
+color: #a12435;
+font-size: 50px;
+font-family: "Pangolin";
+font-weight: 400;
+font-style: normal;
+background-attachment: fixed;
+}
+
+a{
+  color: rgb(0, 17, 255); 
+  text-decoration: none; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:rgb(235, 0, 0)
+}
+
+a:visited{
+    color: rgb(70, 70, 70);
+}
+
+.ava{
+    margin-left: 20px;
+    margin-top: 65px;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
+}
+
+.Info{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+@media (max-width: 700px) {
+    .Info {
+    text-align: center;    
+    display: block;
+}}
+
+.InfoText{
+    margin-left: 70px;
+    margin-top: 60px;
+    background-color: blue;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+    border-radius: 30px;
+}
+
+.Info-text h3 {
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Info-text p {
+    font-size: 2rem;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.Info p{
+  color: rgb(0, 20, 136);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+
+.btncar{ 
+    background: url(../../images/Osnova/MountainsBearPeaks.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px rgb(56, 191, 233);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    cursor: pointer;
+    display: block;
+    height: 100%;  
+    margin-top: 80px;
+    padding-left: 20px;
+    color: red;
+    
+}
+
+.btncar:hover{
+    opacity: 0.7;
+}
+
+.container{
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.cardgn{
+    background-color: #a12435;
+    border-radius: 30px;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+    margin-top: 80px; 
+    margin-bottom: 80px;
+}
+
+.gil{
+    display: flex;
+}
+
+
+.gilkuz{
+    background: url(../../images/Osnova/ShieldBlacksmith.webp);
+    background-size:cover;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px 10px rgb(233, 121, 56);
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    margin: 30px 50px 0px 50px;
+}
+
+.gilkuz:hover{
+    opacity: 0.7;
+}
+
+.diakuz {
+    width: 1000px;
+    height: 900px;
+    background: url(../../images/Osnova/Stone.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 10px 50px 10px 320px;
+    font-size: 2rem;
+  }
+
+.dk{
+    display: flex;
+}
+
+.dkk{
+    display: flex;
+}
+.dkkk{
+    display: flex;
+}
+
+.diakuz img{
+    border-style:solid;
+    border-color: rgb(233, 121, 56);
+    display: block;
+}
+
+.diakuz span {
+    font-size: 1.9rem;
+    margin: 10px 0 0 0;
+    font-family: "Pangolin";
+    color: rgb(233, 121, 56);
+}
+.k{
+    width: 230px;
+    height: 230px;
+    margin: 10px 50px 0px 10px;
+}
+
+.kk{
+    width: 180px;
+    height: 180px;
+    margin: 10px 50px 0px 10px;
+}
+
+.kkk{
+    width: 180px;
+    height: 180px;
+    margin: 10px 50px 0px 10px;
+}
+
+.btnclk{
+    margin: 10px 10px 10px 300px;
+    width: 400px;
+    height: 40px;
+    font-size: 2rem;
+    border-style: solid;
+    border-color:black;
+    background:rgb(233, 121, 56);
+    font-family: "Pangolin";
+}
+
+.btnclk:hover{
+    opacity: 0.7;
+}
+
+.diakuz::backdrop  {
+   background: rgb(233, 121, 56);
+   opacity: 0.3;
+  }
+
+.giltor{
+    background: url(../../images/Osnova/SieldMarchant.webp);
+    background-size:cover;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px 10px rgb(245, 231, 44); 
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    margin: 30px 50px 0px 50px; 
+}
+
+.giltor:hover {
+    opacity: 0.7;
+}
+
+.diator {
+    width: 1000px;
+    height: 800px;
+    background: url(../../images/Osnova/Stone.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 50px 50px 50px 320px;
+}
+
+.dt{
+    display: flex;
+}
+
+.dtt{
+    display: flex;
+}
+
+.diator img{
+    border-style:solid;
+    border-color: rgb(245, 231, 44);
+    display: block;
+}
+
+.diator span {
+    font-size: 1.9rem;
+    margin: 10px 0 0 0;
+    color:rgb(245, 231, 44) ;
+    font-family: "Pangolin";
+}
+
+.t{
+    width: 250px;
+    height: 250px;
+    margin: 10px 50px 0px 10px;
+}
+
+.tt{
+    width: 200px;
+    height: 200px;
+    margin: 10px 50px 0px 10px;
+}
+
+.btnclt{
+    margin: 130px 10px 10px 300px;
+    width: 400px;
+    height: 40px;
+    font-size: 2rem;
+    border-style: solid;
+    border-color:black;
+    background: rgb(245, 231, 44);
+    font-family: "Pangolin";
+}
+
+.btnclt:hover{
+    opacity: 0.7;
+}
+
+.diator::backdrop  {
+    background: rgb(245, 231, 44);
+    opacity: 0.3;
+  }
+
+.cardgn h3 {
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-align: center;  
+}
+
+.nad {
+    display: flex;
+    text-align: center;
+    padding-top: 0;
+    color: darkblue;
+} 
+
+.nad p{
+    margin: 30px 0 20px 0;
+    font-size: 2.5rem;
+
+    
+
+}
+
+.list{
+    padding: 0;
+    max-width: 400px; 
+    margin-top: 0; 
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.list1{
+    padding: 0;
+    max-width: 400px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 80px;
+   
+}  
+
+.list li{
+    color: darkgreen;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-right: 50px;
+    font-size: 1.7rem;
+}
+
+.list1 li{
+    color: darkgreen;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-right: 50px;
+    font-size: 1.7rem;
+} 
+
+.rinok {
+    width: 800px;
+    height: 1000px;
+    background-color: chartreuse;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px rgb(173, 173, 173); 
+}
+
+.kaznaKarakAzul {
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    background-size: cover;
+    font-size: medium;
+    margin: 20px 350px 20px 350px;
+
+}
+
+.kuznici {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    background-size: cover;
+    font-size: medium;
+    margin: 0px 540px 20px 20px;
+}
+
+.lavki{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    background-size: cover;
+    font-size: medium;
+    margin: 0px 20px 20px 20px;
+}
+
+.kaznaKuz{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    background-size: cover;
+    font-size: medium;
+    margin: 0px 540px 20px 20px;
+}
+
+.kaznaTor{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    background-size: cover;
+    font-size: medium;
+    margin: 0px 20px 20px 20px;
+}
+
+.proiz {
+    display: flex;
+}
+
+.kaz {
+    display: flex;
+}
+
+.cardtableg{
+    width: 800px;
+    background-color: dodgerblue;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+}
+
+.cardtableg h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.table{
+    margin: 50px ;
+    margin-top: 0;
+
+}
+
+.table tbody{
+ font-size: 1.5rem;  
+ background: url(../../images/Osnova/Stone.jpg);  
+ background-size: cover;
+}
+    
+.table tr th {
+    color: dodgerblue;
+}
+
+.table tr td:nth-child(1){
+    color: khaki;
+}
+
+.table tr td:nth-child(2){
+    color: cyan;
+}
+
+.table tr td:nth-child(3){
+ color: coral;
+}
+
+.table tr td:nth-child(4) {
+    color: greenyellow;
+}
+
+.table tr td {
+    padding-left:  10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+
+.contact{
+    text-align: center;
+    
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+}
+
+.form-group label {
+    display: block;
+    font-size: 50px;
+    color: darkblue;
+}
+
+.form-group input,
+.form-group textarea{
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border-top: solid 5px grey;
+    border-left: solid 5px grey;
+    border-right: solid 5px #282a30;
+    border-bottom: solid 5px #282a30;
+    background:url(../../images/Osnova/Stone.jpg);
+    color: white;
+    padding: 15px 0 10px;
+    outline:none;
+    font-family: inherit;
+}
+
+.row {
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child{
+    margin-right: 0;
+}
+
+.btn{
+   margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    font-size: 2rem;
+    border-style: solid;
+    border-color:black;
+    background: rgb(42, 156, 7);
+    font-family: "Pangolin";
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left:0%;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    background-color: dodgerblue;
+    box-shadow: 0px 0px 10px 10px#282a30;
+} 
+
+.box2 {
+    position: fixed;
+    top: 1%;
+    right: 50px;
+    background: url(../../images/BearPeaks/BannerOfBearPeaks.webp);
+    width: 200px;
+    height: 348px;
+    background-size: 100% ;
+    
+}
+
+.box3 {
+    position: fixed;
+    top: 0;
+    right: 300px;
+    width:30%;
+    height: 4000px;
+    background-color: dodgerblue;
+    max-width: 70px;
+    background-size: contain;
+} 
+
+.torg{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: dodgerblue;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px #282a30;
+    border-radius: 30px 0px 0px 0px;
+}
+
+
+
+.accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

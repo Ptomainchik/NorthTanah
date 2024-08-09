@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
+
+
+   
+
+
+.accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.accordionItem {
+    border: 1px solid #ccc;
+  }
+  
+  .accordionItem:not(:first-of-type) {
+    border-top: 0;
+  }
+  
+  .accordionItemTitle {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .accordionItemBtn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .accordionItemBtn::after {
+    content: '';
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .accordionItem.active .accordionItemBtn::after {
+    transform: rotate(-180deg);
+  }
+  
+  .accordionItemContainer {
+    transition: height 0.2s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .accordionItemContent {
+    border-top: 1px solid #cccccc;
+    padding: 15px 20px;
+  }
+
+
+
+.Zaglavie{
+    display: flex;
+    font-family: "Rakkas", serif;
+    color: red;
+    margin-left: 125px;
+}
+
+.Zaglavie h1{
+    width: 700px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.Banner{
+    width: 200px;
+    height: 348px;
+    background-size: cover;
+}
+
+.KarKo{
+    display: flex;
+   
+}
+
+.KingVid{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 50px 0px 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.Imen {
+    display: flex;
+    color: blue;
+    font-weight: bold;
+}
+
+.Imen p:first-child {
+    margin: 10px 50px 0px 50px;
+    padding: 0px 80px 0px 120px;
+    max-width: 400px;
+    font-size: 2rem;
+}
+
+.Imen p:last-child{
+margin: 10px 50px 0px 50px ;
+padding: 0px 50px 0px 150px;
+max-width: 400px;
+font-size: 2rem;
+}
+
+.HisKA{
+    background: url(../../images/BearPeaks/Scroll.webp) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    text-align: center;
+    font-size: 35%;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 1350px;
+}
+
+.HisKA h2 {
+    padding-top: 250px;
+}
+
+.HisKA p{
+    font-family: "Pangolin";
+    font-size: large;
+}
+
+.TraiKlya{
+    display: flex;
+   
+}
+.TK{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 25px 50px 75px;
+    width: 550px;
+}
+
+.TraK{
+    background: url(../../images/BearPeaks/Scroll.webp) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    text-align: center;
+    font-size: 35%;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 1350px;
+}
+
+.TraK h2 {
+    padding-top: 250px;
+}
+
+.TraK p{
+    font-family: "Pangolin";
+    font-size: large;   
+}
+
+.Kuznya{
+    display: flex;
+   
+}
+.Ku{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 25px 50px 75px;
+    width: 550px;
+}
+
+.Proiz{
+    background: url(../../images/BearPeaks/Scroll.webp) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    text-align: center;
+    font-size: 35%;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 1350px;
+}
+
+.Proiz h2 {
+    padding-top: 250px;
+}
+
+.Proiz p{
+    font-family: "Pangolin";
+    font-size: large;
+}
+
+.Sapfir{
+    display: flex;
+   
+}
+.Sapfirkar{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 25px 50px 75px;
+    width: 550px;
+}
+
+.Sapfirstr{
+    background: url(../../images/BearPeaks/Scroll.webp) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    text-align: center;
+    font-size: 35%;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 1350px;
+}
+
+.Sapfirstr h2 {
+    padding-top: 250px;
+}
+
+.Sapfirstr p{
+    font-family: "Pangolin";
+    font-size: large;
+}
+

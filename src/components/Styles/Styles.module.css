@@ -127,9 +127,8 @@ a:visited{
 .gilkuz{
     background: url(../../images/Osnova/ShieldBlacksmith.webp);
     background-size:cover;
-    border-radius: 50%;
     border: none;
-    box-shadow: 0px 0px 10px 10px rgb(233, 121, 56);
+    filter: drop-shadow(0px 0px 20px rgb(233, 121, 56));
     cursor: pointer;
     height: 300px;
     width: 300px;
@@ -214,9 +213,8 @@ a:visited{
 .giltor{
     background: url(../../images/Osnova/SieldMarchant.webp);
     background-size:cover;
-    border-radius: 50%;
     border: none;
-    box-shadow: 0px 0px 10px 10px rgb(245, 231, 44); 
+    filter: drop-shadow( 0px 0px 20px rgb(245, 231, 44)); 
     cursor: pointer;
     height: 300px;
     width: 300px;
@@ -294,6 +292,9 @@ a:visited{
     padding-top: 10px;
     text-align: center;  
 }
+.guilds {
+    background-color: darkgreen;
+}
 
 .nad {
     display: flex;
@@ -305,7 +306,7 @@ a:visited{
 .nad p{
     margin: 30px 0 20px 0;
     font-size: 2.5rem;
-
+    
     
 
 }
@@ -328,7 +329,7 @@ a:visited{
 }  
 
 .list li{
-    color: darkgreen;
+    color: rgb(207, 207, 171);
     margin-bottom: 10px;
     margin-left: 50px;
     padding-right: 50px;
@@ -336,7 +337,7 @@ a:visited{
 }
 
 .list1 li{
-    color: darkgreen;
+    color: rgb(207, 207, 171);
     margin-bottom: 10px;
     margin-left: 50px;
     padding-right: 50px;
@@ -413,7 +414,6 @@ a:visited{
     box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
     border-radius: 30px;
     margin-top: 80px;
-    margin-bottom: 80px;
     padding-bottom: 10px;
 }
 
@@ -424,14 +424,14 @@ a:visited{
 
 
 .table{
+    font-size: 2rem;
     margin: 50px ;
     margin-top: 0;
-
+    background: url(../../images/Osnova/Stone.jpg);  
 }
 
 .table tbody{
  font-size: 1.5rem;  
- background: url(../../images/Osnova/Stone.jpg);  
  background-size: cover;
 }
     

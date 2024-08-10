@@ -5,14 +5,17 @@ import classes from '../Styles/Styles.module.css'
 export const Layout = () => {
     return <>
     <nav>
-      <ul>
-        <li>
+        <span>
           <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/history" title="История Королевства Медвежьих Вершин" className={classes.btncar} >The history of Bear Peaks</Link>
-        </li>
-      </ul>
+        </span>
+
+        <span>
+          <Link to="guilds">Guilds</Link>
+        </span>
+
+        <span>
+          <Link to="market">Market</Link>
+        </span>
     </nav>
     <Outlet />
   </>

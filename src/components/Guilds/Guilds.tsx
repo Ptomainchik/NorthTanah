@@ -1,9 +1,11 @@
 import { BlacksmithGuild } from "./BlacksmithGuild/BlacksmithGuild"
 import { MerchantsGuild } from "./MerchantsGuild/MerchantsGuild"
 import classes from '../Styles/Styles.module.css'
+import { GuildTable } from "./ GuildTable/GuildTable"
+import { AppS } from "./Market/Market"
 
 export const Guilds = () => {
-    return <div>
+    return <div className={classes.guilds}>
         <div className={classes.nad}>
  
  <ol className={classes.list}>
@@ -25,6 +27,8 @@ export const Guilds = () => {
  </div>
  <BlacksmithGuild/>
  <MerchantsGuild/>
+ <GuildTable/>
+ <AppS/>
 </div>
 
 }

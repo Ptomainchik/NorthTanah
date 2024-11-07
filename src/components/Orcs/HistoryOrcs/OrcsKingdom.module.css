@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
+
+
+   
+.bodyHistory {
+    background: rgb(85, 57, 57);
+}
+
+.accordion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url(../../../images/Osnova/Stone.jpg);
+}
+
+.accordionItem {
+    border: 1px solid #ccc;
+    
+  }
+  
+.accordionItem:not(:first-of-type) {
+    border-top: 0;
+  }
+  
+.accordionItemTitle {
+    width: 100%;
+    margin: 0;
+   
+
+  }
+  
+.accordionItemBtn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: 	rgb(47,60,119);
+    border: solid 2px 	rgb(247,189,0);
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+    color: rgb(247,189,0) ;
+    font-family: "Pangolin";
+    
+  }
+  
+.accordionItemBtn::after {
+    content: '';
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.accordionItem.active .accordionItemBtn::after {
+    transform: rotate(-180deg);
+  }
+  
+.accordionItemContainer {
+    transition: height 0.2s ease-in-out;
+    overflow: hidden;
+  }
+  
+.accordionItemContent {
+    border-top: 1px solid #cccccc;
+    padding: 15px 20px;
+  }
+
+.Zaglavie{
+    display: flex;
+    font-family: "Rakkas", serif;
+    color: red;
+    margin-left: 125px;
+}
+
+.Zaglavie h1{
+    width: 700px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.Banner{
+    width: 200px;
+    height: 348px;
+    background-size: cover;
+    filter: drop-shadow(1px 1px 20px rgb(47,60,119) )
+}
+
+.pictures{
+    display: flex;
+}
+
+.KingVid{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 50px 0px 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.scroll{
+    background: url(../../../images/BearPeaks/Scroll.webp) no-repeat;
+    background-size: 60%;
+    background-position: center;
+    text-align: center;
+    filter: drop-shadow( 0px 0px 20px black);
+    font-size: 35%;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 1350px;
+}
+
+.scroll h2 {
+    padding-top: 250px;
+}
+
+.scroll p{
+    font-family: "Pangolin";
+    font-size: large;
+}
+
+.picture{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px black;
+    margin: 50px 25px 50px 75px;
+    width: 550px;
+}
+
+
+
+

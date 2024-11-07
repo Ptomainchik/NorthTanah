@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
-import classes from '../../Styles/Styles.module.css'
-import HeadDwarfBlacksmithMorei from '../../../images/Osnova/HeadDwarfBlacksmithMorei.jpg'
-import DwarfBlacksmithSalgon from '../../../images/Osnova/DwarfBlacksmithSalgon.jpg'
-import DwarfBlacksmithGarkan from '../../../images/Osnova/DwarfBlacksmithGarkan.jpg'
+import classes from '../../../Styles/Styles.module.css'
+import HeadDwarfBlacksmithMorei from '../../../../images/Osnova/HeadDwarfBlacksmithMorei.jpg'
+import DwarfBlacksmithSalgon from '../../../../images/Osnova/DwarfBlacksmithSalgon.jpg'
+import DwarfBlacksmithGarkan from '../../../../images/Osnova/DwarfBlacksmithGarkan.jpg'
 
 export const BlacksmithGuild = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);

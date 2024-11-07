@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
-import classes from '../../Styles/Styles.module.css'
-import HeadDwarfMerchantBarton from '../../../images/Osnova/HeadDwarfMerchantBarton.jpg'
-import DwarfMerchantGarbert from '../../../images/Osnova/DwarfMerchantGarbert.jpg'
+import classes from '../../../Styles/Styles.module.css'
+import HeadDwarfMerchantBarton from '../../../../images/Osnova/HeadDwarfMerchantBarton.jpg'
+import DwarfMerchantGarbert from '../../../../images/Osnova/DwarfMerchantGarbert.jpg'
 
 export const MerchantsGuild = () => {
 const [modalIsOpen, setModalIsOpen] = useState(false);

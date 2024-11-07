@@ -1,4 +1,4 @@
-import classes from '../../Styles/Styles.module.css'
+import classes from '../../../Styles/Styles.module.css'
 
 
 export const GuildTable = () => {
@@ -16,15 +16,15 @@ export const GuildTable = () => {
  </thead>
  <tbody>
  <tr>
-  <td>Гильдия кузнецов</td>
-  <td>Морей Хранитель</td>
-  <td>Кузнечное ремесло</td>
+  <td>Guild war</td>
+  <td>Name</td>
+  <td>war</td>
   <td>500 тонн</td>
  </tr>
  <tr>
-  <td>Гильдия торговцев</td>
-  <td>Бартон Златопалый</td>
-  <td>Торговля</td>
+  <td>Guild yoyo</td>
+  <td>Name</td>
+  <td>Yoyo</td>
   <td>300 тонн</td>
  </tr>
  </tbody>

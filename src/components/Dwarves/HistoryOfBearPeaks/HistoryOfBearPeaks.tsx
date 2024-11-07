@@ -1,5 +1,5 @@
 import classes from './BearPeaks.module.css'
-import BannerOfBearPeaks from '../../images/BearPeaks/BannerOfBearPeaks.webp'
+import BannerOfBearPeaks from '../../../images/BearPeaks/BannerOfBearPeaks.webp'
 import { AccordionState } from './AccordionBearPeaks/AccordionState'
 
 export const HistoryOfBearPeaks = () => {

@@ -1,5 +1,5 @@
-import classes from '../Styles/Styles.module.css'
-import DwarfWithBook from '../../images/Osnova/DwarfWithBook.jpg'
+import classes from '../../Styles/Styles.module.css'
+import DwarfWithBook from '../../../images/Osnova/DwarfWithBook.jpg'
 
 
 export const Header = () => {

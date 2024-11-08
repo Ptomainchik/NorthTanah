@@ -1,15 +1,15 @@
 import { Accordion } from "./Accordion";
-import classes from '../BearPeaks.module.css'
-import KingDwarfs from '../../../../images/BearPeaks/KingDwarfs.jpg'
-import DwarfOnABear from '../../../../images/BearPeaks/DwarfOnABear.jpg'
-import DwarfAngry from '../../../../images/BearPeaks/DwarfAngry.jpg'
-import FloodedMines from '../../../../images/BearPeaks/FloodedMines.jpg'
-import DwarfMines from '../../../../images/BearPeaks/DwarfMines.jpg'
-import Forge from '../../../../images/BearPeaks/Forge.jpg'
-import DwarfExpedition from '../../../../images/BearPeaks/DwarfExpedition.jpg'
-import SapphireMountains from '../../../../images/BearPeaks/SapphireMountains.jpg'
-import DwarvenTunnel from '../../../../images/BearPeaks/DwarvenTunnel.jpg'
-import DwarvenTunnel2 from '../../../../images/BearPeaks/DwarvenTunnel2.jpg'
+import classes from '../../Styles/BearPeaks.module.css'
+import KingDwarfs from '../../../../images/Dwarves/HistoryBearPeaks/KingDwarfs.jpg'
+import DwarfOnABear from '../../../../images/Dwarves/HistoryBearPeaks/DwarfOnABear.jpg'
+import DwarfAngry from '../../../../images/Dwarves/HistoryBearPeaks/DwarfAngry.jpg'
+import FloodedMines from '../../../../images/Dwarves/HistoryBearPeaks/FloodedMines.jpg'
+import DwarfMines from '../../../../images/Dwarves/HistoryBearPeaks/DwarfMines.jpg'
+import Forge from '../../../../images/Dwarves/HistoryBearPeaks/Forge.jpg'
+import DwarfExpedition from '../../../../images/Dwarves/HistoryBearPeaks/DwarfExpedition.jpg'
+import SapphireMountains from '../../../../images/Dwarves/HistoryBearPeaks/SapphireMountains.jpg'
+import DwarvenTunnel from '../../../../images/Dwarves/HistoryBearPeaks/DwarvenTunnel.jpg'
+import DwarvenTunnel2 from '../../../../images/Dwarves/HistoryBearPeaks/DwarvenTunnel2.jpg'
 
 
 

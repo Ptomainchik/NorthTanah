@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import classes from '../OrcsKingdom.module.css'
+import classes from '../../Styles/OrcsKingdom.module.css'
 import { AccordionItem } from './AccordionItem/AccordionItem';
 
 export type AccordionDataType = {

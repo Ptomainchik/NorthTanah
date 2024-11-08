@@ -6,8 +6,8 @@ export const BearPeaks = () => {
     return <div>
         <Header/>
         <div>
-          <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.btncar} >The history of Bear Peaks</Link>
-          <Link to="/guildsbp" title="Гильдии Королевства Медвежьих Вершин" className={classes.btncar} >Guilds of Bear Peaks</Link>
+          <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.historyButton} >The history of Bear Peaks</Link>
+          <Link to="/guildsbp" title="Гильдии Королевства Медвежьих Вершин" className={classes.historyButton} >Guilds of Bear Peaks</Link>
         </div>
     </div>
 }

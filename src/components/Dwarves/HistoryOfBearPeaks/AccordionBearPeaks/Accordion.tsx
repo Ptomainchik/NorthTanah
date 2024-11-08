@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import classes from '../BearPeaks.module.css'
+import classes from '../../Styles/BearPeaks.module.css'
 import { AccordionItem } from './AccordionItem/AccordionItem';
 
 export type AccordionDataType = {

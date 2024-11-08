@@ -26,18 +26,8 @@ a:active{
     color:rgb(235, 0, 0)
 }
 
-a:visited{
-    color: rgb(70, 70, 70);
-}
 
-.ava{
-    margin-left: 20px;
-    margin-top: 65px;
-    width: 300px;
-    height: 300px;
-    border-radius: 12px;
-    box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
-}
+
 
 .Info{
     display: flex;
@@ -82,28 +72,6 @@ a:visited{
   word-spacing: 2px;
 }
 
-.btncar{ 
-    background: url(../../images/Osnova/MountainsBearPeaks.jpg);
-    background-size: cover;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 0px 0px 10px 10px rgb(56, 191, 233);
-    font-size: 55px;
-    font-family: "Rakkas", serif;
-    font-weight: 400;
-    width: 800px;
-    cursor: pointer;
-    display: block;
-    height: 100%;  
-    margin-top: 80px;
-    padding-left: 20px;
-    color: red;
-    
-}
-
-.btncar:hover{
-    opacity: 0.7;
-}
 
 .container{
     max-width: 800px;
@@ -125,7 +93,7 @@ a:visited{
 
 
 .gilkuz{
-    background: url(../../images/Osnova/ShieldBlacksmith.webp);
+    background: url(../../images/Dwarves/Guilds/ShieldBlacksmith.webp);
     background-size:cover;
     border: none;
     filter: drop-shadow(0px 0px 20px rgb(233, 121, 56));
@@ -142,7 +110,7 @@ a:visited{
 .diakuz {
     width: 1000px;
     height: 700px;
-    background: url(../../images/Osnova/Stone.jpg);
+    background: url(../../images/Dwarves/Guilds/Stone.jpg);
     background-size: cover;
     padding: 0;
     margin: 10px 50px 10px 320px;
@@ -211,7 +179,7 @@ a:visited{
   }
 
 .giltor{
-    background: url(../../images/Osnova/SieldMarchant.webp);
+    background: url(../../images/Dwarves/Guilds/SieldMarchant.webp);
     background-size:cover;
     border: none;
     filter: drop-shadow( 0px 0px 20px rgb(245, 231, 44)); 
@@ -228,7 +196,7 @@ a:visited{
 .diator {
     width: 1000px;
     height: 700px;
-    background: url(../../images/Osnova/Stone.jpg);
+    background: url(../../images/Dwarves/Guilds/Stone.jpg);
     background-size: cover;
     padding: 0;
     margin: 10px 50px 10px 320px;
@@ -428,7 +396,7 @@ a:visited{
     font-size: 2rem;
     margin: 50px ;
     margin-top: 0;
-    background: url(../../images/Osnova/Stone.jpg);  
+    background: url(../../images/Dwarves/Guilds/Stone.jpg);  
 }
 
 .table tbody{
@@ -486,7 +454,7 @@ a:visited{
     border-left: solid 5px grey;
     border-right: solid 5px #282a30;
     border-bottom: solid 5px #282a30;
-    background:url(../../images/Osnova/Stone.jpg);
+    background:url(../../images/Dwarves/Guilds/Stone.jpg);
     color: white;
     padding: 15px 0 10px;
     outline:none;
@@ -537,7 +505,7 @@ a:visited{
     position: fixed;
     top: 1%;
     right: 50px;
-    background: url(../../images/BearPeaks/BannerOfBearPeaks.webp);
+    background: url(../../images/Dwarves/HistoryBearPeaks/BannerOfBearPeaks.webp);
     width: 200px;
     height: 348px;
     background-size: 100% ;
@@ -566,8 +534,6 @@ a:visited{
     border-radius: 30px 0px 0px 0px;
 }
 
-
-
 .accordion {
     list-style: none;
     margin: 0;
@@ -576,4 +542,24 @@ a:visited{
 
 .guildsButton {
     display: flex;
+}
+
+.choice {
+    display: flex;
+}
+
+.choiceImg { 
+    display: block;
+    text-align: center;
+}
+.choiceImg img {
+    width: 500px;
+    height: 500px;
+    border: 5px solid darkblue;
+    margin: 20px 40px 5px 50px;
+}
+
+.panoramaChoice {
+    background: url(../../images/HomePageImage/PanoramaChoice.jpg);
+    background-size: cover;
 }

@@ -1,5 +1,5 @@
-import classes from './OrcsKingdom.module.css'
-import BannerOfBearPeaks from '../../../images/BearPeaks/BannerOfBearPeaks.webp'
+import classes from './../Styles/OrcsKingdom.module.css'
+import BannerOfBearPeaks from '../../../images/Dwarves/HistoryBearPeaks/BannerOfBearPeaks.webp'
 import { AccordionState } from './AccordionOrcsKingdom/AccordionState'
 
 export const HistoryOfOrcsKingdom = () => {

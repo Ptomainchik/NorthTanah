@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { AccordionDataType } from "../Accordion";
-import classes from '../../OrcsKingdom.module.css'
+import classes from '../../../Styles/OrcsKingdom.module.css'
 
 export const AccordionItem = ({data, isOpen, btnOnClick,}: { data: AccordionDataType; isOpen: boolean; btnOnClick: () => void;}) => {
     const contentRef = useRef<HTMLDivElement>(null);

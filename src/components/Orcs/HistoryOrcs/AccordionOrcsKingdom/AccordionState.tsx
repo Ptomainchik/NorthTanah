@@ -1,15 +1,6 @@
 import { Accordion } from "./Accordion";
-import classes from '../OrcsKingdom.module.css'
-import KingDwarfs from '../../../../images/BearPeaks/KingDwarfs.jpg'
-import DwarfOnABear from '../../../../images/BearPeaks/DwarfOnABear.jpg'
-import DwarfAngry from '../../../../images/BearPeaks/DwarfAngry.jpg'
-import FloodedMines from '../../../../images/BearPeaks/FloodedMines.jpg'
-import DwarfMines from '../../../../images/BearPeaks/DwarfMines.jpg'
-import Forge from '../../../../images/BearPeaks/Forge.jpg'
-import DwarfExpedition from '../../../../images/BearPeaks/DwarfExpedition.jpg'
-import SapphireMountains from '../../../../images/BearPeaks/SapphireMountains.jpg'
-import DwarvenTunnel from '../../../../images/BearPeaks/DwarvenTunnel.jpg'
-import DwarvenTunnel2 from '../../../../images/BearPeaks/DwarvenTunnel2.jpg'
+import classes from '../../Styles/OrcsKingdom.module.css'
+import OrcForest from "../../../../images/Orcs/OrcsPage/OrcForest.jpg"
 
 
 
@@ -20,8 +11,8 @@ export const AccordionState = () => {
         content: (
           <div>
             <div className={classes.pictures}>
-  <img title="Король" src={KingDwarfs} alt="Король" className={classes.KingVid}/>
-  <img title="???" src={DwarfOnABear} alt="???" className={classes.KingVid}/>
+  <img title="Король" src={OrcForest} alt="Король" className={classes.KingVid}/>
+  <img title="???" src={OrcForest} alt="???" className={classes.KingVid}/>
 </div>
 
  <div className={classes.scroll}>
@@ -40,8 +31,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="???" className={classes.picture} src={DwarfAngry} alt="???"/>
-    <img title="???" className={classes.picture} src={FloodedMines} alt="???"/>
+    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
   <div className={classes.scroll}>
       <h2>???</h2>
@@ -58,8 +49,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="???" className={classes.picture}  src={DwarfMines} alt="???"/>
-   <img title="???" className={classes.picture} src={Forge} alt="???"/>
+   <img title="???" className={classes.picture}  src={OrcForest} alt="???"/>
+   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
 
   <div className={classes.scroll}>
@@ -78,8 +69,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="???" className={classes.picture} src={SapphireMountains} alt="???"/>
-   <img title="???" className={classes.picture} src={DwarfExpedition} alt="???"/>
+   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
 
   <div className={classes.scroll}>
@@ -97,8 +88,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-  <img title="???" className={classes.picture} src={DwarvenTunnel} alt="???"/>
-  <img title="???" className={classes.picture} src={DwarvenTunnel2} alt="???"/>
+  <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+  <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
   <div className={classes.scroll}>
         <h2>???</h2>

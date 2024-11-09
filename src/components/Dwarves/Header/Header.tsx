@@ -9,6 +9,5 @@ export const Header = () => {
   <h3>Альдорх Мудрый</h3>
   <p><strong>Библиотекарь Королевства</strong></p>
 </div>
-
 </div>
 }

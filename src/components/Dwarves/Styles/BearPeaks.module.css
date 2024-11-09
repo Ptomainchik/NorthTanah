@@ -2,21 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
 
-
-   
-.bodyHistory {
-    background: rgb(85, 57, 57);
-}
-
-.dwarfWithBook{
-  margin-left: 20px;
-  margin-top: 65px;
-  width: 300px;
-  height: 300px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
-}
-
+/* -----Accordion----- */
 
 .accordion {
     list-style: none;
@@ -27,7 +13,6 @@
 
 .accordionItem {
     border: 1px solid #ccc;
-    
   }
   
 .accordionItem:not(:first-of-type) {
@@ -37,8 +22,6 @@
 .accordionItemTitle {
     width: 100%;
     margin: 0;
-   
-
   }
   
 .accordionItemBtn {
@@ -82,20 +65,26 @@
     padding: 15px 20px;
   }
 
-.Zaglavie{
+/* -----History----- */
+
+.bodyHistory {
+  background: rgb(85, 57, 57);
+}
+
+.titleHistory{
     display: flex;
     font-family: "Rakkas", serif;
     color: red;
     margin-left: 125px;
 }
 
-.Zaglavie h1{
+.titleHistory h1{
     width: 700px;
     text-align: center;
     margin-top: 0;
 }
 
-.Banner{
+.banner{
     width: 200px;
     height: 348px;
     background-size: cover;
@@ -106,7 +95,7 @@
     display: flex;
 }
 
-.KingVid{
+.kingDwarves{
     border-radius: 30px;
     box-shadow: 0 0 10px 10px black;
     margin: 50px 50px 0px 100px;
@@ -114,7 +103,7 @@
     height: 500px;
 }
 
-.scroll{
+.contentScroll{
     background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
     background-size: 60%;
     background-position: center;
@@ -126,16 +115,16 @@
     height: 1350px;
 }
 
-.scroll h2 {
+.contentScroll h2 {
     padding-top: 250px;
 }
 
-.scroll p{
+.contentScroll p{
     font-family: "Pangolin";
     font-size: large;
 }
 
-.picture{
+.historyPicture{
     border-radius: 30px;
     box-shadow: 0 0 10px 10px black;
     margin: 50px 25px 50px 75px;
@@ -147,7 +136,7 @@
   background-size: cover;
   border-radius: 30px;
   border: none;
-  box-shadow: 0px 0px 10px 10px rgb(56, 191, 233);
+  box-shadow: 0px 0px 10px 10px rgb(128, 188, 206);
   font-size: 55px;
   font-family: "Rakkas", serif;
   font-weight: 400;
@@ -165,5 +154,282 @@
   opacity: 0.7;
 }
 
+/* -----GuildsPage----- */
 
+.dwarvesTable{
+  font-size: 2rem;
+  margin: 50px ;
+  margin-top: 0;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);  
+}
 
+.table tbody{
+font-size: 1.5rem;  
+background-size: cover;
+}
+  
+.dwarvesTable tr th {
+  color: dodgerblue;
+}
+
+.dwarvesTable tr td:nth-child(1){
+  color: khaki;
+}
+
+.dwarvesTable tr td:nth-child(2){
+  color: cyan;
+}
+
+.dwarvesTable tr td:nth-child(3){
+color: coral;
+}
+
+.dwarvesTable tr td:nth-child(4) {
+  color: greenyellow;
+}
+
+.dwarvesTable tr td {
+  padding-left:  10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.shieldBlacksmith{
+  background: url(../../../images/Dwarves/Guilds/ShieldBlacksmith.webp);
+  background-size:cover;
+  border: none;
+  filter: drop-shadow(0px 0px 20px rgb(233, 121, 56));
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin: 30px 50px 0px 50px;
+}
+
+.shieldBlacksmith:hover{
+  opacity: 0.7;
+}
+
+.blacksmithModal {
+  width: 1000px;
+  height: 700px;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 10px 50px 10px 320px;
+  font-size: 2rem;
+}
+
+.blacksmithModal img{
+  border-style:solid;
+  border-color: rgb(233, 121, 56);
+  display: block;
+}
+
+.blacksmithModal span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
+  color: rgb(233, 121, 56);
+}
+
+.imageHeadBlacksmith{
+  width: 230px;
+  height: 230px;
+  margin: 10px 50px 0px 10px;
+}
+
+.imageMemberBlacksmith{
+  width: 180px;
+  height: 180px;
+  margin: 10px 50px 0px 10px;
+}
+
+.buttonCloseBlacksmithModal{
+  margin: 10px 10px 10px 300px;
+  width: 400px;
+  height: 40px;
+  font-size: 2rem;
+  border-style: solid;
+  border-color:black;
+  background:rgb(233, 121, 56);
+  font-family: "Pangolin";
+}
+
+.buttonCloseBlacksmithModal:hover{
+  opacity: 0.7;
+}
+
+.guilds {
+  background-color: darkgreen;
+}
+
+.guildsLists {
+  display: flex;
+  text-align: center;
+  padding-top: 0;
+  color: darkblue;
+} 
+
+.guildsLists p{
+  margin: 30px 0 20px 0;
+  font-size: 2.5rem;
+}
+
+.elemGuildsList{
+  padding: 0px;
+  max-width: 400px; 
+  margin-top: 0px; 
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.elemGuildsList2{
+  padding: 0;
+  max-width: 400px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}  
+
+.guildsLists li{
+  color: rgb(207, 207, 171);
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-right: 50px;
+  font-size: 1.7rem;
+}
+
+.guildsLists li{
+  color: rgb(207, 207, 171);
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-right: 50px;
+  font-size: 1.7rem;
+} 
+
+.guildsShieldsButton{
+  display: flex;
+}
+
+.shieldMerchants{
+  background: url(../../../images/Dwarves/Guilds/SieldMarchant.webp);
+  background-size:cover;
+  border: none;
+  filter: drop-shadow( 0px 0px 20px rgb(245, 231, 44)); 
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin: 30px 50px 0px 50px; 
+}
+
+.shieldMerchants:hover {
+  opacity: 0.7;
+}
+
+.merchantsModal {
+  width: 1000px;
+  height: 700px;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 10px 50px 10px 320px;
+  font-size: 2rem;
+}
+
+.contentModal{
+  display: flex;
+}
+
+.merchantsModal img{
+  border-style:solid;
+  border-color: rgb(245, 231, 44);
+  display: block;
+}
+
+.merchantsModal span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  color:rgb(245, 231, 44) ;
+  font-family: "Pangolin";
+}
+
+.imageHeadMerchants{
+  width: 250px;
+  height: 250px;
+  margin: 10px 50px 0px 10px;
+}
+
+.imageMemberMerchants{
+  width: 200px;
+  height: 200px;
+  margin: 10px 50px 0px 10px;
+}
+
+.buttonCloseMerchantsModal{
+  margin: 130px 10px 10px 300px;
+  width: 400px;
+  height: 40px;
+  font-size: 2rem;
+  border-style: solid;
+  border-color:black;
+  background: #f5e72c;
+  font-family: "Pangolin";
+}
+
+.buttonCloseMerchantsModal:hover{
+  opacity: 0.7;
+}
+
+/* -----DwarvesPage----- */
+
+.dwarfWithBook{
+  margin-left: 20px;
+  margin-top: 65px;
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
+}
+
+.Info{
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+@media (max-width: 700px) {
+  .Info {
+  text-align: center;    
+  display: block;
+}}
+
+.InfoText{
+  margin-left: 70px;
+  margin-top: 60px;
+  background-color: blue;
+  background-size: cover;
+  box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+  border-radius: 30px;
+}
+
+.Info-text h3 {
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Info-text p {
+  font-size: 2rem;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.Info p{
+color: rgb(0, 20, 136);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 3px;
+word-spacing: 2px;
+}

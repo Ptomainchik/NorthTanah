@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Header } from '../Header/Header'
-import classes from '../../Styles/Styles.module.css'
+import classes from '../Styles/BearPeaks.module.css'
 
 export const BearPeaks = () => {
     return <div>

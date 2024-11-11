@@ -5,7 +5,7 @@ import { AccordionState } from './AccordionOrcsKingdom/AccordionState'
 export const HistoryOfOrcsKingdom = () => {
     return (
   <div className={classes.bodyHistory}>
-  <div className={classes.Zaglavie}>
+  <div className={classes.titleHistory}>
   <img title="Знамя "   alt="Герб" src={BannerOfBearPeaks} className={classes.Banner}/>
   <h1>Orcs Kingdom</h1>
   <img title="Знамя"  alt="Герб" src={BannerOfBearPeaks} className={classes.Banner}/>

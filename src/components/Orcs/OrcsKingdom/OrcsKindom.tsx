@@ -7,7 +7,7 @@ export const OrcsKingdom = () => {
         <Header/>
         <div>
           <Link to="/historyok" title="История Королевства Orcs" className={classes.historyButton} >The history of Kingdom Orcs</Link>
-          <Link to="/guildsok" title="История Королевства Orcs" className={classes.historyButton} >Guilds of Kingdom Orcs</Link>
+          <Link to="/organization" title="История Королевства Orcs" className={classes.historyButton} >Guilds of Kingdom Orcs</Link>
         </div>
     </div>
 }

@@ -2,8 +2,6 @@ import { Accordion } from "./Accordion";
 import classes from '../../Styles/OrcsKingdom.module.css'
 import OrcForest from "../../../../images/Orcs/OrcsPage/OrcForest.jpg"
 
-
-
 export const AccordionState = () => {
     const accordionItems = [
       {
@@ -11,8 +9,8 @@ export const AccordionState = () => {
         content: (
           <div>
             <div className={classes.pictures}>
-  <img title="Король" src={OrcForest} alt="Король" className={classes.KingVid}/>
-  <img title="???" src={OrcForest} alt="???" className={classes.KingVid}/>
+  <img title="Король" src={OrcForest} alt="Король" className={classes.kingOrcs}/>
+  <img title="???" src={OrcForest} alt="???" className={classes.kingOrcs}/>
 </div>
 
  <div className={classes.scroll}>

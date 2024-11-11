@@ -1,10 +1,9 @@
 import classes from '../../Styles/BearPeaks.module.css'
 
 
-export const GuildTable = () => {
+export const TableGuilds = () => {
     return (
         <div>
- <h3>Гильдии</h3>
   <table border={5} bgcolor={"grey"} className={classes.dwarvesTable}>
     <thead>
  <tr>

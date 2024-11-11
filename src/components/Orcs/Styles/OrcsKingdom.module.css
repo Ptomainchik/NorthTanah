@@ -2,166 +2,548 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
 
-
-   
-.bodyHistory {
-    background: rgb(85, 57, 57);
-}
-
-.orcShaman{
-  margin-left: 20px;
-  margin-top: 65px;
-  width: 300px;
-  height: 300px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
-}
+/* -----Accordion----- */
 
 .accordion {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
 }
 
 .accordionItem {
-    border: 1px solid #ccc;
-    
-  }
-  
+  border: 1px solid #ccc;
+}
+
 .accordionItem:not(:first-of-type) {
-    border-top: 0;
-  }
-  
+  border-top: 0;
+}
+
 .accordionItemTitle {
-    width: 100%;
-    margin: 0;
-   
+  width: 100%;
+  margin: 0;
+}
 
-  }
-  
 .accordionItemBtn {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: 	rgb(47,60,119);
-    border: solid 2px 	rgb(247,189,0);
-    padding: 15px 20px;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
-    user-select: none;
-    color: rgb(247,189,0) ;
-    font-family: "Pangolin";
-    
-  }
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: 	rgb(47,60,119);
+  border: solid 2px 	rgb(247,189,0);
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+  color: rgb(247,189,0) ;
+  font-family: "Pangolin";
   
+}
+
 .accordionItemBtn::after {
-    content: '';
-    flex-shrink: 0;
-    width: 18px;
-    height: 18px;
-    margin-left: auto;
-    background-repeat: no-repeat;
-    background-size: 18px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
+  content: '';
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  transition: transform 0.2s ease-in-out;
+}
+
 .accordionItem.active .accordionItemBtn::after {
-    transform: rotate(-180deg);
-  }
-  
+  transform: rotate(-180deg);
+}
+
 .accordionItemContainer {
-    transition: height 0.2s ease-in-out;
-    overflow: hidden;
-  }
-  
+  transition: height 0.2s ease-in-out;
+  overflow: hidden;
+}
+
 .accordionItemContent {
-    border-top: 1px solid #cccccc;
-    padding: 15px 20px;
-  }
-
-.Zaglavie{
-    display: flex;
-    font-family: "Rakkas", serif;
-    color: red;
-    margin-left: 125px;
+  border-top: 1px solid #cccccc;
+  padding: 15px 20px;
 }
 
-.Zaglavie h1{
-    width: 700px;
-    text-align: center;
-    margin-top: 0;
+/* -----History----- */
+
+.bodyHistory {
+background: rgb(85, 57, 57);
 }
 
-.Banner{
-    width: 200px;
-    height: 348px;
-    background-size: cover;
-    filter: drop-shadow(1px 1px 20px rgb(47,60,119) )
+.titleHistory{
+  display: flex;
+  font-family: "Rakkas", serif;
+  color: red;
+  margin-left: 125px;
+}
+
+.titleHistory h1{
+  width: 700px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.banner{
+  width: 200px;
+  height: 348px;
+  background-size: cover;
+  filter: drop-shadow(1px 1px 20px rgb(47,60,119) )
 }
 
 .pictures{
-    display: flex;
+  display: flex;
 }
 
-.KingVid{
-    border-radius: 30px;
-    box-shadow: 0 0 10px 10px black;
-    margin: 50px 50px 0px 100px;
-    width: 500px;
-    height: 500px;
+.kingOrcs{
+  border-radius: 30px;
+  box-shadow: 0 0 10px 10px black;
+  margin: 50px 50px 0px 100px;
+  width: 500px;
+  height: 500px;
 }
 
-.scroll{
-    background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
-    background-size: 60%;
-    background-position: center;
-    text-align: center;
-    filter: drop-shadow( 0px 0px 20px black);
-    font-size: 35%;
-    padding-left: 400px;
-    padding-right: 400px;
-    height: 1350px;
+.contentScroll{
+  background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
+  background-size: 60%;
+  background-position: center;
+  text-align: center;
+  filter: drop-shadow( 0px 0px 20px black);
+  font-size: 35%;
+  padding-left: 400px;
+  padding-right: 400px;
+  height: 1350px;
 }
 
-.scroll h2 {
-    padding-top: 250px;
+.contentScroll h2 {
+  padding-top: 250px;
 }
 
-.scroll p{
-    font-family: "Pangolin";
-    font-size: large;
+.contentScroll p{
+  font-family: "Pangolin";
+  font-size: large;
 }
 
-.picture{
-    border-radius: 30px;
-    box-shadow: 0 0 10px 10px black;
-    margin: 50px 25px 50px 75px;
-    width: 550px;
+.historyPicture{
+  border-radius: 30px;
+  box-shadow: 0 0 10px 10px black;
+  margin: 50px 25px 50px 75px;
+  width: 550px;
 }
 
 .historyButton{ 
-  background: url(../../../images/Orcs/OrcsPage/OrcForest.jpg);
-  background-size: cover;
-  border-radius: 30px;
-  border: none;
-  box-shadow: 0px 0px 10px 10px rgb(16, 31, 21);
-  font-size: 55px;
-  font-family: "Rakkas", serif;
-  font-weight: 400;
-  width: 800px;
-  cursor: pointer;
-  display: block;
-  height: 100%;  
-  margin-top: 80px;
-  padding-left: 20px;
-  color: red;
-  
+background: url(../../../images/Orcs/OrcsPage/OrcForest.jpg);
+background-size: cover;
+border-radius: 30px;
+border: none;
+box-shadow: 0px 0px 10px 10px rgb(20, 36, 23);
+font-size: 55px;
+font-family: "Rakkas", serif;
+font-weight: 400;
+width: 800px;
+cursor: pointer;
+display: block;
+height: 100%;  
+margin-top: 80px;
+padding-left: 20px;
+color: red;
+
 }
 
 .historyButton:hover{
-  opacity: 0.7;
+opacity: 0.7;
 }
 
+/* -----GuildsPage----- */
 
+.orcsTable{
+font-size: 2rem;
+margin: 50px ;
+margin-top: 0;
+background: url(../../../images/Dwarves/Guilds/Stone.jpg);  
+}
+
+.table tbody{
+font-size: 1.5rem;  
+background-size: cover;
+}
+
+.orcsTable tr th {
+color: dodgerblue;
+}
+
+.orcsTable tr td:nth-child(1){
+color: khaki;
+}
+
+.orcsTable tr td:nth-child(2){
+color: cyan;
+}
+
+.orcsTable tr td:nth-child(3){
+color: coral;
+}
+
+.orcsTable tr td:nth-child(4) {
+color: greenyellow;
+}
+
+.orcsTable tr td {
+padding-left:  10px;
+padding-right: 25px;
+padding-bottom: 10px;
+}
+
+/* SpiritCatchersModal */
+
+.iconsSpiritCatchersModalOrganizations{
+background: url(../../../images/other/щит.webp);
+background-size:cover;
+border: none;
+filter: drop-shadow(0px 0px 20px rgb(32, 134, 11));
+cursor: pointer;
+height: 300px;
+width: 300px;
+margin: 30px 50px 0px 50px;
+}
+
+.iconsSpiritCatchersModalOrganizations:hover{
+opacity: 0.7;
+}
+
+.spiritCatchersModal {
+width: 1000px;
+height: 700px;
+background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+background-size: cover;
+padding: 0;
+margin: 10px 50px 10px 320px;
+font-size: 2rem;
+}
+
+.spiritCatchersModal img{
+border-style:solid;
+border-color: rgb(32, 134, 11);
+display: block;
+}
+
+.spiritCatchersModal span {
+font-size: 1.9rem;
+margin: 10px 0 0 0;
+font-family: "Pangolin";
+color: rgb(32, 134, 11);
+}
+
+.buttonCloseSpiritCatchersModal{
+margin: 10px 10px 10px 300px;
+width: 400px;
+height: 40px;
+font-size: 2rem;
+border-style: solid;
+border-color:black;
+background:rgb(32, 134, 11);
+font-family: "Pangolin";
+}
+
+.buttonCloseSpiritCatchersModal:hover{
+opacity: 0.7;
+}
+
+/* WorkersModal */
+
+.iconsWorkersModalOrganization{
+  background: url(../../../images/other/щит.webp);
+  background-size:cover;
+  border: none;
+  filter: drop-shadow(0px 0px 20px rgb(36, 50, 110));
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin: 30px 50px 0px 50px;
+  }
+  
+  .iconsWorkersModalOrganization:hover{
+  opacity: 0.7;
+  }
+  
+  .workersModal {
+  width: 1000px;
+  height: 700px;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 10px 50px 10px 320px;
+  font-size: 2rem;
+  }
+  
+  .workersModal img{
+  border-style:solid;
+  border-color: rgb(36, 50, 110);
+  display: block;
+  }
+  
+  .workersModal span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
+  color: rgb(36, 50, 110);
+  }
+  
+  .buttonCloseWorkersModal{
+  margin: 10px 10px 10px 300px;
+  width: 400px;
+  height: 40px;
+  font-size: 2rem;
+  border-style: solid;
+  border-color:black;
+  background:rgb(36, 50, 110);
+  font-family: "Pangolin";
+  }
+  
+  .buttonCloseWorkersModal:hover{
+  opacity: 0.7;
+  }
+
+/* HuntersModal */
+
+.iconsHuntersModalOrganization{
+  background: url(../../../images/other/щит.webp);
+  background-size:cover;
+  border: none;
+  filter: drop-shadow(0px 0px 20px rgb(136, 102, 11));
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  margin: 30px 50px 0px 50px;
+  }
+  
+  .iconsHuntersModalOrganization:hover{
+  opacity: 0.7;
+  }
+  
+  .huntersModal {
+  width: 1000px;
+  height: 700px;
+  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background-size: cover;
+  padding: 0;
+  margin: 10px 50px 10px 320px;
+  font-size: 2rem;
+  }
+  
+  .huntersModal img{
+  border-style:solid;
+  border-color: rgb(136, 102, 11);
+  display: block;
+  }
+  
+  .huntersModal span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
+  color: rgb(136, 102, 11);
+  }
+  
+  .buttonCloseHuntersModal{
+  margin: 10px 10px 10px 300px;
+  width: 400px;
+  height: 40px;
+  font-size: 2rem;
+  border-style: solid;
+  border-color:black;
+  background:rgb(136, 102, 11);
+  font-family: "Pangolin";
+  }
+  
+  .buttonCloseHuntersModal:hover{
+  opacity: 0.7;
+  }
+
+/* GangsModal */
+
+.iconsGangsModalOrganization{
+background: url(../../../images/other/щит.webp);
+background-size:cover;
+border: none;
+filter: drop-shadow(0px 0px 20px rgb(158, 4, 4));
+cursor: pointer;
+height: 300px;
+width: 300px;
+margin: 30px 50px 0px 50px;
+}
+  
+.iconsGangsModalOrganization:hover{
+opacity: 0.7;
+}
+  
+.gangsModal {
+width: 1000px;
+height: 700px;
+background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+background-size: cover;
+padding: 0;
+margin: 10px 50px 10px 320px;
+font-size: 2rem;
+}
+  
+.gangsModal img{
+border-style:solid;
+border-color: rgb(158, 4, 4);
+display: block;
+}
+  
+.gangsModal span {
+font-size: 1.9rem;
+margin: 10px 0 0 0;
+font-family: "Pangolin";
+color: rgb(158, 4, 4);
+}
+  
+.buttonCloseGangsModal{
+margin: 10px 10px 10px 300px;
+width: 400px;
+height: 40px;
+font-size: 2rem;
+border-style: solid;
+border-color:black;
+background:rgb(158, 4, 4);
+font-family: "Pangolin";
+}
+  
+.buttonCloseGangsModal:hover{
+opacity: 0.7;
+}
+
+/* obshie img */
+
+.imageHeadOrganizations{
+  width: 230px;
+  height: 230px;
+  margin: 10px 50px 0px 10px;
+}
+  
+.imageMemberOrganizations{
+  width: 180px;
+  height: 180px;
+  margin: 10px 50px 0px 10px;
+}
+  
+.contentModal{
+  display: flex;
+}
+
+/* Scroll */
+
+.organizations {
+background-color: darkgreen;
+}
+
+.organizationLists {
+display: flex;
+text-align: center;
+padding-top: 0;
+color: darkblue;
+} 
+
+.organizationLists p{
+margin: 30px 0 20px 0;
+font-size: 2.5rem;
+}
+
+.elemOrganizationList{
+padding: 0px;
+max-width: 400px; 
+margin-top: 0px; 
+margin-bottom: 30px;
+margin-left: 40px;
+}
+
+.elemOrganizationList2{
+padding: 0;
+max-width: 400px;
+margin-top: 0;
+margin-bottom: 30px;
+margin-left: 80px;
+}  
+
+.elemOrganizationList3{
+  padding: 0;
+  max-width: 400px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}  
+
+.elemOrganizationList4{
+    padding: 0;
+    max-width: 400px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}  
+
+.organizationsLists li{
+color: rgb(207, 207, 171);
+margin-bottom: 10px;
+margin-left: 50px;
+padding-right: 50px;
+font-size: 1.7rem;
+}
+
+.organizationsIconsButton{
+display: flex;
+}
+
+/* -----OrcsPage----- */
+
+.orcShaman{
+margin-left: 20px;
+margin-top: 65px;
+width: 300px;
+height: 300px;
+border-radius: 12px;
+box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
+}
+
+.Info{
+display: flex;
+margin-bottom: 20px;
+margin-top: 70px;
+}
+
+@media (max-width: 700px) {
+.Info {
+text-align: center;    
+display: block;
+}}
+
+.InfoText{
+margin-left: 70px;
+margin-top: 60px;
+background-color: blue;
+background-size: cover;
+box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
+border-radius: 30px;
+}
+
+.Info-text h3 {
+padding-left: 30px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.Info-text p {
+font-size: 2rem;
+margin-top: 30px;
+padding-left: 30px;
+}
+
+.Info p{
+color: rgb(0, 20, 136);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+letter-spacing: 3px;
+word-spacing: 2px;
+}

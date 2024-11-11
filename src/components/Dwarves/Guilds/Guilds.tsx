@@ -1,12 +1,14 @@
 import { BlacksmithGuild } from "./BlacksmithGuild/BlacksmithGuild"
 import { MerchantsGuild } from "./MerchantsGuild/MerchantsGuild"
 import classes from '../Styles/BearPeaks.module.css'
-import { GuildTable } from "./ GuildTable/GuildTable"
+import { TableGuilds } from "./ TableGuilds/GuildTable"
 
 
-export const GuildsBp = () => {
+
+export const Guilds = () => {
     return <div className={classes.guilds}>
-        <div className={classes.guildsLists}>
+      <h2>Гильдии</h2>
+ <div className={classes.guildsLists}>
  
  <ol className={classes.elemGuildsList}>
   <p><strong>Гильдия кузнецов:</strong></p>
@@ -29,7 +31,7 @@ export const GuildsBp = () => {
  <BlacksmithGuild/>
  <MerchantsGuild/>
  </div>
- <GuildTable/>
+ <TableGuilds/>
 </div>
 
 }

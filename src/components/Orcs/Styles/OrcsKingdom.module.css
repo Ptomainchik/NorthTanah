@@ -8,7 +8,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
 }
 
 .accordionItem {
@@ -160,7 +160,8 @@ opacity: 0.7;
 font-size: 2rem;
 margin: 50px ;
 margin-top: 0;
-background: url(../../../images/Dwarves/Guilds/Stone.jpg);  
+background:  url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+background-size: cover;
 }
 
 .table tbody{
@@ -198,7 +199,7 @@ padding-bottom: 10px;
 
 .iconsSpiritCatchersModalOrganizations{
 background: url(../../../images/other/щит.webp);
-background-size:cover;
+background-size: cover;
 border: none;
 filter: drop-shadow(0px 0px 20px rgb(32, 134, 11));
 cursor: pointer;
@@ -214,7 +215,7 @@ opacity: 0.7;
 .spiritCatchersModal {
 width: 1000px;
 height: 700px;
-background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
 background-size: cover;
 padding: 0;
 margin: 10px 50px 10px 320px;
@@ -269,7 +270,7 @@ opacity: 0.7;
   .workersModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -324,7 +325,7 @@ opacity: 0.7;
   .huntersModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -379,7 +380,7 @@ opacity: 0.7;
 .gangsModal {
 width: 1000px;
 height: 700px;
-background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
 background-size: cover;
 padding: 0;
 margin: 10px 50px 10px 320px;
@@ -438,10 +439,9 @@ opacity: 0.7;
 background-color: darkgreen;
 }
 
-.organizationLists {
+.organizationsLists {
 display: flex;
 text-align: center;
-padding-top: 0;
 color: darkblue;
 } 
 
@@ -450,48 +450,31 @@ margin: 30px 0 20px 0;
 font-size: 2.5rem;
 }
 
+.organizationsLists li{
+  color: rgb(207, 207, 171);
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-right: 50px;
+  font-size: 1.7rem;
+  }
+
 .elemOrganizationList{
-padding: 0px;
-max-width: 400px; 
-margin-top: 0px; 
-margin-bottom: 30px;
-margin-left: 40px;
+  margin-bottom: 100px;
 }
 
-.elemOrganizationList2{
-padding: 0;
-max-width: 400px;
-margin-top: 0;
-margin-bottom: 30px;
-margin-left: 80px;
-}  
+.elemOrganizationList2x{
+  padding-bottom: 100p;
+}
 
 .elemOrganizationList3{
-  padding: 0;
-  max-width: 400px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  margin-left: 80px;
-}  
-
-.elemOrganizationList4{
-    padding: 0;
-    max-width: 400px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    margin-left: 80px;
-}  
-
-.organizationsLists li{
-color: rgb(207, 207, 171);
-margin-bottom: 10px;
-margin-left: 50px;
-padding-right: 50px;
-font-size: 1.7rem;
+ margin-bottom: 0px;
 }
 
-.organizationsIconsButton{
-display: flex;
+
+.organizationBlock {
+  display: block;
+  margin-left: 200px;
+ 
 }
 
 /* -----OrcsPage----- */

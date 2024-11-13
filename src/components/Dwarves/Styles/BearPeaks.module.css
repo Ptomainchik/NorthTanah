@@ -160,7 +160,7 @@
   font-size: 2rem;
   margin: 50px ;
   margin-top: 0;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);  
+  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);  
 }
 
 .table tbody{
@@ -212,7 +212,7 @@ color: coral;
 .blacksmithModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -329,7 +329,7 @@ color: coral;
 .merchantsModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;

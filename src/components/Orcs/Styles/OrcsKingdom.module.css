@@ -85,10 +85,10 @@ background: rgb(85, 57, 57);
 }
 
 .banner{
-  width: 200px;
+  width: 280px;
   height: 348px;
   background-size: cover;
-  filter: drop-shadow(1px 1px 20px rgb(47,60,119) )
+  filter: drop-shadow(1px 1px 20px rgb(14, 59, 5) )
 }
 
 .pictures{
@@ -198,12 +198,12 @@ padding-bottom: 10px;
 /* SpiritCatchersModal */
 
 .iconsSpiritCatchersModalOrganizations{
-background: url(../../../images/other/щит.webp);
+background: url(../../../images/Orcs/OrcsOrganizations/SpriritCatchers.webp);
 background-size: cover;
 border: none;
-filter: drop-shadow(0px 0px 20px rgb(32, 134, 11));
+filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
 cursor: pointer;
-height: 300px;
+height: 350px;
 width: 300px;
 margin: 30px 50px 0px 50px;
 }
@@ -224,7 +224,7 @@ font-size: 2rem;
 
 .spiritCatchersModal img{
 border-style:solid;
-border-color: rgb(32, 134, 11);
+border-color: rgb(84, 230, 55);
 display: block;
 }
 
@@ -232,7 +232,7 @@ display: block;
 font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
-color: rgb(32, 134, 11);
+color: rgb(84, 230, 55);
 }
 
 .buttonCloseSpiritCatchersModal{
@@ -242,7 +242,7 @@ height: 40px;
 font-size: 2rem;
 border-style: solid;
 border-color:black;
-background:rgb(32, 134, 11);
+background:rgb(84, 230, 55);
 font-family: "Pangolin";
 }
 
@@ -253,12 +253,12 @@ opacity: 0.7;
 /* WorkersModal */
 
 .iconsWorkersModalOrganization{
-  background: url(../../../images/other/щит.webp);
+  background: url(../../../images/Orcs/OrcsOrganizations/Workers.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px rgb(36, 50, 110));
+  filter: drop-shadow(0px 0px 20px  rgb(50, 88, 255));
   cursor: pointer;
-  height: 300px;
+  height: 340px;
   width: 300px;
   margin: 30px 50px 0px 50px;
   }
@@ -279,7 +279,7 @@ opacity: 0.7;
   
   .workersModal img{
   border-style:solid;
-  border-color: rgb(36, 50, 110);
+  border-color: rgb(50, 88, 255);
   display: block;
   }
   
@@ -287,7 +287,7 @@ opacity: 0.7;
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
-  color: rgb(36, 50, 110);
+  color:  rgb(50, 88, 255);
   }
   
   .buttonCloseWorkersModal{
@@ -297,7 +297,7 @@ opacity: 0.7;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
-  background:rgb(36, 50, 110);
+  background: rgb(50, 88, 255);
   font-family: "Pangolin";
   }
   
@@ -311,7 +311,7 @@ opacity: 0.7;
   background: url(../../../images/other/щит.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px rgb(136, 102, 11));
+  filter: drop-shadow(0px 0px 20px rgb(255, 193, 21));
   cursor: pointer;
   height: 300px;
   width: 300px;
@@ -334,7 +334,7 @@ opacity: 0.7;
   
   .huntersModal img{
   border-style:solid;
-  border-color: rgb(136, 102, 11);
+  border-color: rgb(255, 193, 21);
   display: block;
   }
   
@@ -342,7 +342,7 @@ opacity: 0.7;
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
-  color: rgb(136, 102, 11);
+  color: rgb(255, 193, 21);
   }
   
   .buttonCloseHuntersModal{
@@ -352,7 +352,7 @@ opacity: 0.7;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
-  background:rgb(136, 102, 11);
+  background:rgb(255, 193, 21);
   font-family: "Pangolin";
   }
   
@@ -366,7 +366,7 @@ opacity: 0.7;
 background: url(../../../images/other/щит.webp);
 background-size:cover;
 border: none;
-filter: drop-shadow(0px 0px 20px rgb(158, 4, 4));
+filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
 cursor: pointer;
 height: 300px;
 width: 300px;
@@ -389,7 +389,7 @@ font-size: 2rem;
   
 .gangsModal img{
 border-style:solid;
-border-color: rgb(158, 4, 4);
+border-color: rgb(190, 4, 4);
 display: block;
 }
   
@@ -397,7 +397,7 @@ display: block;
 font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
-color: rgb(158, 4, 4);
+color: rgb(190, 4, 4);
 }
   
 .buttonCloseGangsModal{
@@ -407,7 +407,7 @@ height: 40px;
 font-size: 2rem;
 border-style: solid;
 border-color:black;
-background:rgb(158, 4, 4);
+background:rgb(190, 4, 4);
 font-family: "Pangolin";
 }
   

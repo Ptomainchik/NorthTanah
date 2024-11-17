@@ -12,20 +12,13 @@ export const Organizations = () => {
  <div className={classes.organizationsLists}>
     <div className={classes.organizationBlock}>
         <ol className={classes.elemOrganizationList}>
-          <p><strong>Ловцы духов:</strong></p>
-          <strong>
-          <li>Норгуз</li>
-          </strong>
+          <p><strong>Ловцы духов</strong></p>
         </ol>
         <SpiritCatchers/>
     </div>
     <div className={classes.organizationBlock}>
         <ol className={classes.elemOrganizationList2}>
-          <p><strong>Охотники:</strong></p>
-          <strong>
-          <li>Малгар</li>
-          <li>Бурзаг</li>
-          </strong>
+          <p><strong>Охотники</strong></p>
         </ol>
         <Hunters/>
     </div>   
@@ -34,21 +27,13 @@ export const Organizations = () => {
  <div className={classes.organizationsLists}>
     <div className={classes.organizationBlock}>
         <ol className={classes.elemOrganizationList}>
-          <p><strong>Работники:</strong></p>
-          <strong>
-          <li>Вакшиг</li>
-          </strong>
+          <p><strong>Работники</strong></p>
         </ol>
         <Workers/>
     </div>
     <div className={classes.organizationBlock}>
         <ol className={classes.elemOrganizationList3}>
-          <p><strong>Банды:</strong></p>
-          <strong>
-          <li>Родзарик</li>
-          <li>Фругеш</li>
-          <li>Хармук</li>
-          </strong>
+          <p><strong>Банды</strong></p>
         </ol>
         <Gangs/>
     </div>

@@ -17,7 +17,7 @@ const closeModal = () => {
 return (
   <div>
     <button onClick={openModal} className={classes.iconsWorkersModalOrganization} title="Рабочие"></button>
-    <Modal style={{ overlay: {backgroundColor: 'rgba(36, 50, 110, 0.7)'}, content: {border: '2px solid black' }}}
+    <Modal style={{ overlay: {backgroundColor: 'rgba(255, 193, 21, 0.7)'}, content: {border: '2px solid black' }}}
     className={classes.workersModal} isOpen={modalIsOpen}>
       {WorkersDescription}
       <button className={classes.buttonCloseWorkersModal} onClick={closeModal}>Закрыть</button>

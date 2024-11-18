@@ -1,4 +1,4 @@
-import classes from '../Styles/OrcsKingdom.module.css'
+import classes from '../Styles/BlackForest.module.css'
 import OrcShaman from '../../../images/Orcs/OrcsPage/OrcShaman.jpg'
 
 

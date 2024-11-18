@@ -18,7 +18,7 @@ export const BlacksmithGuild = () => {
     
     return (
       <div>
-        <button onClick={openModal} className={classes.shieldBlacksmith} title="Гильдия Кузнецов"/>
+        <button onClick={openModal} className={classes.anvilBlacksmith} title="Гильдия Кузнецов"/>
         <Modal  style={{ overlay: {backgroundColor: 'rgba(233, 121, 56, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.blacksmithModal} isOpen={modalIsOpen}>
           {BlacksmithGuildDescription}

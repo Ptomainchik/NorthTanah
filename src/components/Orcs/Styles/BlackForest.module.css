@@ -28,14 +28,14 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: 	rgb(47,60,119);
-  border: solid 2px 	rgb(247,189,0);
+  background-color: 	rgb(14, 59, 5);
+  border: solid 2px 	rgb(168, 165, 155);
   padding: 15px 20px;
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
   user-select: none;
-  color: rgb(247,189,0) ;
+  color: rgb(168, 165, 155) ;
   font-family: "Pangolin";
   
 }
@@ -68,14 +68,15 @@
 /* -----History----- */
 
 .bodyHistory {
-background: rgb(85, 57, 57);
+background: rgb(44, 32, 27);
 }
 
 .titleHistory{
   display: flex;
   font-family: "Rakkas", serif;
   color: red;
-  margin-left: 125px;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .titleHistory h1{
@@ -88,7 +89,9 @@ background: rgb(85, 57, 57);
   width: 280px;
   height: 348px;
   background-size: cover;
-  filter: drop-shadow(1px 1px 20px rgb(14, 59, 5) )
+  filter: drop-shadow(1px 1px 20px rgb(14, 59, 5) );
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .pictures{
@@ -104,7 +107,7 @@ background: rgb(85, 57, 57);
 }
 
 .contentScroll{
-  background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
+  background: url(../../../images/Orcs/HistoryOrcsForest/Scroll.webp) no-repeat;
   background-size: 60%;
   background-position: center;
   text-align: center;
@@ -154,7 +157,7 @@ color: red;
 opacity: 0.7;
 }
 
-/* -----GuildsPage----- */
+/* -----OrganizationsPage----- */
 
 .orcsTable{
 font-size: 2rem;
@@ -203,9 +206,8 @@ background-size: cover;
 border: none;
 filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
 cursor: pointer;
-height: 350px;
-width: 300px;
-margin: 30px 50px 0px 50px;
+height: 400px;
+width: 400px;
 }
 
 .iconsSpiritCatchersModalOrganizations:hover{
@@ -258,9 +260,8 @@ opacity: 0.7;
   border: none;
   filter: drop-shadow(0px 0px 20px  rgb(255, 193, 21));
   cursor: pointer;
-  height: 340px;
-  width: 300px;
-  margin: 30px 50px 0px 50px;
+  height: 400px;
+  width: 400px;
   }
   
   .iconsWorkersModalOrganization:hover{
@@ -314,8 +315,8 @@ opacity: 0.7;
   filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
   cursor: pointer;
   height: 400px;
-  width: 350px;
-  margin: 30px 50px 0px 50px;
+  width: 400px;
+  
   }
   
   .iconsHuntersModalOrganization:hover{
@@ -369,8 +370,7 @@ border: none;
 filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
 cursor: pointer;
 height: 400px;
-width: 380px;
-margin: 30px 50px 0px 50px;
+width: 400px;
 }
   
 .iconsGangsModalOrganization:hover{
@@ -433,10 +433,19 @@ opacity: 0.7;
   display: flex;
 }
 
-/* Scroll */
+/* Button Modal  */
 
 .organizations {
 background-color: rgb(50, 63, 50);
+}
+
+.organizations h1{
+  text-align: center;
+}
+
+.organizations h2{
+  margin-bottom: 150px;
+  margin-top: -10px;
 }
 
 .organizationsLists {
@@ -445,36 +454,10 @@ text-align: center;
 color: darkblue;
 } 
 
-.organizationLists p{
-margin: 30px 0 20px 0;
-font-size: 2.5rem;
-}
-
-.organizationsLists li{
-  color: rgb(207, 207, 171);
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-right: 50px;
-  font-size: 1.7rem;
-  }
-
-.elemOrganizationList{
-  margin-bottom: 100px;
-}
-
-.elemOrganizationList2x{
-  padding-bottom: 100p;
-}
-
-.elemOrganizationList3{
- margin-bottom: 0px;
-}
-
-
 .organizationBlock {
   display: block;
-  margin-left: 200px;
- 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* -----OrcsPage----- */

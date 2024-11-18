@@ -1,5 +1,5 @@
 import { Accordion } from "./Accordion";
-import classes from '../../Styles/OrcsKingdom.module.css'
+import classes from '../../Styles/BlackForest.module.css'
 import OrcForest from "../../../../images/Orcs/OrcsPage/OrcForest.jpg"
 
 export const AccordionState = () => {
@@ -13,7 +13,7 @@ export const AccordionState = () => {
   <img title="???" src={OrcForest} alt="???" className={classes.kingOrcs}/>
 </div>
 
- <div className={classes.scroll}>
+ <div className={classes.contentScroll}>
   <h2>История Орков</h2>
      <p><strong>
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus excepturi corporis labore dignissimos odit et, fuga doloribus numquam adipisci officia neque ut similique voluptatibus consequatur ipsum facere eos amet laudantium.       
@@ -32,7 +32,7 @@ export const AccordionState = () => {
     <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
     <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
-  <div className={classes.scroll}>
+  <div className={classes.contentScroll}>
       <h2>???</h2>
       <p><strong> 
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est quaerat ullam. Odit iure distinctio eligendi commodi deserunt at nam porro laborum natus, nisi enim repudiandae mollitia et cum facilis.
@@ -51,7 +51,7 @@ export const AccordionState = () => {
    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
 
-  <div className={classes.scroll}>
+  <div className={classes.contentScroll}>
         <h2>???</h2>
         <p><strong>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fuga voluptatum illum quidem unde, molestias inventore numquam error, impedit ipsum omnis accusantium esse sit odit assumenda neque, ipsa dolorum officia.
@@ -71,7 +71,7 @@ export const AccordionState = () => {
    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
 
-  <div className={classes.scroll}>
+  <div className={classes.contentScroll}>
         <h2>???</h2>
         <p><strong>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum ut ipsa libero! Delectus repellendus veniam, blanditiis sit laudantium fuga voluptatem, ex quia asperiores necessitatibus sint incidunt! Mollitia, hic illum!
@@ -89,7 +89,7 @@ export const AccordionState = () => {
   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
-  <div className={classes.scroll}>
+  <div className={classes.contentScroll}>
         <h2>???</h2>
         <p><strong>
          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quaerat esse, neque eligendi inventore voluptatum eius quasi delectus earum, cumque facilis quam quidem blanditiis quas perferendis fugiat, consequatur a. Veniam.

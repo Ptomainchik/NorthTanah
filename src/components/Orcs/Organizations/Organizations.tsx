@@ -1,4 +1,4 @@
-import classes from '../Styles/OrcsKingdom.module.css'
+import classes from '../Styles/BlackForest.module.css'
 import { SpiritCatchers } from './SpiritCatchers/SpiritCatchers'
 import { Gangs } from './Gangs/Gangs'
 import { Hunters } from './Hunters/Hunters'
@@ -8,39 +8,37 @@ import { Workers } from './Workers/Workers'
 
 export const Organizations = () => {
     return <div className={classes.organizations}>
-      <h2>Организации</h2>
+      <h1>Organizations</h1>
  <div className={classes.organizationsLists}>
     <div className={classes.organizationBlock}>
-        <ol className={classes.elemOrganizationList}>
-          <p><strong>Ловцы духов</strong></p>
-        </ol>
         <SpiritCatchers/>
+        <h2>Spirit Catchers</h2>  
     </div>
+
     <div className={classes.organizationBlock}>
-        <ol className={classes.elemOrganizationList2}>
-          <p><strong>Охотники</strong></p>
-        </ol>
         <Hunters/>
+        <h2>Hunters</h2>
     </div>   
+
  </div>
 
  <div className={classes.organizationsLists}>
     <div className={classes.organizationBlock}>
-        <ol className={classes.elemOrganizationList}>
-          <p><strong>Работники</strong></p>
-        </ol>
         <Workers/>
+        <h2>Workers</h2>
     </div>
+
     <div className={classes.organizationBlock}>
-        <ol className={classes.elemOrganizationList3}>
-          <p><strong>Банды</strong></p>
-        </ol>
         <Gangs/>
+        <h2>Gangs</h2>
     </div>
+
     </div>
- <div>
-  <TableOrganizations/>
- </div>
+
+    <div>
+        <TableOrganizations/>
+    </div>
+
  </div>
 
 

@@ -7,30 +7,18 @@ import { TableGuilds } from "./ TableGuilds/GuildTable"
 
 export const Guilds = () => {
     return <div className={classes.guilds}>
-      <h2>Гильдии</h2>
- <div className={classes.guildsLists}>
- 
- <ol className={classes.elemGuildsList}>
-  <p><strong>Гильдия кузнецов:</strong></p>
-  <strong>
-  <li>Морей Хранитель</li>
-  <li>Салгон</li>
-  <li>Гаркан</li>
-</strong> 
- </ol>
- 
- <ol className={classes.elemGuildsList2}>
-  <p><strong>Гильдия торговцев:</strong></p>
-  <strong>
-  <li>Бартон Златопалый</li>
-  <li>Гарберт</li>
-  </strong>
- </ol>
- </div>
- <div className={classes.guildsShieldsButton}>
- <BlacksmithGuild/>
- <MerchantsGuild/>
- </div>
+      <h1>Guilds</h1>
+<div className={classes.guildsLists}>
+  <div className={classes.guildBlock}>   
+      <BlacksmithGuild/>
+      <h2>Blacksmith Guilds</h2>
+    </div>
+  
+  <div className={classes.guildBlock}> 
+      <MerchantsGuild/>
+      <h2>Merchant Guild</h2>
+    </div>
+</div>
  <TableGuilds/>
 </div>
 

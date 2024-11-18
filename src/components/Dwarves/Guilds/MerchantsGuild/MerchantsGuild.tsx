@@ -17,7 +17,7 @@ const closeModal = () => {
 
 return (
   <div>
-    <button onClick={openModal} className={classes.shieldMerchants} title="Гильдия Торговцев"></button>
+    <button onClick={openModal} className={classes.scalesMerchants} title="Гильдия Торговцев"></button>
     <Modal style={{ overlay: {backgroundColor: 'rgba(245, 231, 44, 0.7)'}, content: {border: '2px solid black' }}}
     className={classes.merchantsModal} isOpen={modalIsOpen}>
       {MerchantsGuildDescription}

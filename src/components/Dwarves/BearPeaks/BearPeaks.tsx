@@ -7,7 +7,7 @@ export const BearPeaks = () => {
         <Header/>
         <div>
           <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.historyButton} >The history of Bear Peaks</Link>
-          <Link to="/guildsbp" title="Гильдии Королевства Медвежьих Вершин" className={classes.historyButton} >Guilds of Bear Peaks</Link>
+          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.historyButton} >Guilds of Bear Peaks</Link>
         </div>
     </div>
 }

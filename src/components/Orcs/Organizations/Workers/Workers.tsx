@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
-import classes from '../../Styles/OrcsKingdom.module.css'
+import classes from '../../Styles/BlackForest.module.css'
 import OrcShaman from '../../../../images/Orcs/OrcsPage/OrcShaman.jpg'
 
 export const Workers = () => {

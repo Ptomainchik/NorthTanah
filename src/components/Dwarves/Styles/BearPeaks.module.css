@@ -8,7 +8,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background: url(../../../images/Dwarves/Guilds/Stone.jpg);
+    background: url(../../../images/Dwarves/HistoryBearPeaks/Stone.jpg);
 }
 
 .accordionItem {
@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: 	rgb(39, 46, 77);
+    background-color: 	rgb(30, 46, 70);
     border: solid 2px 	rgb(247,189,0);
     padding: 15px 20px;
     font-size: 18px;
@@ -68,7 +68,8 @@
 /* -----History----- */
 
 .bodyHistory {
-  background: rgb(58, 58, 58);
+  background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg);
+  background-size: 1500px;
 }
 
 .titleHistory{
@@ -89,7 +90,7 @@
     width: 300px;
     height: 348px;
     background-size: cover;
-    filter: drop-shadow(1px 1px 20px rgb(0, 95, 236) );
+    filter: drop-shadow(1px 1px 10px rgb(231, 210, 22) );
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -108,23 +109,23 @@
 
 .contentScroll{
     background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center;
     text-align: center;
     filter: drop-shadow( 0px 0px 20px black);
     font-size: 35%;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 450px;  
+    padding-right: 450px;
     height: 1350px;
+    color: rgb(56, 7, 7);
 }
 
 .contentScroll h2 {
-    padding-top: 250px;
+    padding-top: 330px;   
 }
 
 .contentScroll p{
     font-family: "Pangolin";
-    font-size: large;
 }
 
 .historyPicture{
@@ -163,7 +164,7 @@
   font-size: 2rem;
   margin: 50px ;
   margin-top: 0;
-  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);  
+  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg);  
 }
 
 .table tbody{
@@ -201,7 +202,7 @@ color: coral;
   background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px rgb(233, 121, 56));
+  filter: drop-shadow(0px 0px 20px rgb(255, 130, 58));
   cursor: pointer;
   height: 400px;
   width: 400px;
@@ -214,7 +215,7 @@ color: coral;
 .blacksmithModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);
+  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -223,7 +224,7 @@ color: coral;
 
 .blacksmithModal img{
   border-style:solid;
-  border-color: rgb(233, 121, 56);
+  border-color: rgb(255, 130, 58);
   display: block;
 }
 
@@ -231,7 +232,7 @@ color: coral;
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
-  color: rgb(233, 121, 56);
+  color: rgb(255, 130, 58);
 }
 
 .imageHeadBlacksmith{
@@ -303,7 +304,7 @@ width: 400px;
 .merchantsModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Dwarves/Guilds/DarkGrey.jpg);
+  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;

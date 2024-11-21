@@ -102,7 +102,7 @@ background-size: 1400px;
   display: flex;
 }
 
-.kingOrcs{
+.awakingAndExodus{
   border-radius: 30px;
   box-shadow: 0 0 10px 10px black;
   margin: 50px 50px 0px 100px;
@@ -131,7 +131,7 @@ background-size: 1400px;
   font-family: "Pangolin";
 }
 
-.historyPicture{
+.picture{
   border-radius: 30px;
   box-shadow: 0 0 10px 10px black;
   margin: 50px 25px 50px 75px;

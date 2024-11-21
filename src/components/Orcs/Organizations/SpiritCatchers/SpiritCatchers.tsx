@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
 import classes from '../../Styles/BlackForest.module.css'
-import OrcShaman from '../../../../images/Orcs/OrcsPage/OrcShaman.jpg'
+import FirstSpiritCatcher from '../../../../images/Orcs/OrcsOrganizations/FirstSpiritCatcher.jpg'
 
 
 export const SpiritCatchers = () => {
@@ -30,7 +30,7 @@ export const SpiritCatchers = () => {
     const SpiritCathersDescription =  (
         <div>
             <div className={classes.contentModal}>
-                <img title="Норзуг" className={classes.imageHeadOrganizations} src={OrcShaman} alt="Orc spirit catcher"/>
+                <img title="Норзуг" className={classes.imageHeadOrganizations} src={FirstSpiritCatcher} alt="Orc spirit catcher"/>
                 <span>Норзуг - первый ловец духов.</span>
             </div>
         </div>

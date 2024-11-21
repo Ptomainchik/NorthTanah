@@ -1,6 +1,13 @@
 import { Accordion } from "./Accordion";
 import classes from '../../Styles/BlackForest.module.css'
 import OrcForest from "../../../../images/Orcs/OrcsPage/OrcForest.jpg"
+import Awaking from "../../../../images/Orcs/HistoryOrcsForest/Awakening.jpg"
+import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryOrcsForest/ExodusToTheBlackForest.jpg" 
+import BoarValley from "../../../../images/Orcs/HistoryOrcsForest/BoarValley.jpg"
+import Construction from "../../../../images/Orcs/HistoryOrcsForest/Construction.jpg"
+
+
+
 
 export const AccordionState = () => {
     const accordionItems = [
@@ -9,8 +16,8 @@ export const AccordionState = () => {
         content: (
           <div>
             <div className={classes.pictures}>
-  <img title="Король" src={OrcForest} alt="Король" className={classes.kingOrcs}/>
-  <img title="???" src={OrcForest} alt="???" className={classes.kingOrcs}/>
+  <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awakingAndExodus}/>
+  <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.awakingAndExodus}/>
 </div>
 
  <div className={classes.contentScroll}>
@@ -29,8 +36,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
-    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+    <img title="Долина кабанов" className={classes.picture} src={BoarValley} alt="Долина кабанов"/>
+    <img title="Строительство" className={classes.picture} src={Construction} alt="Строительство"/>
   </div>
   <div className={classes.contentScroll}>
       <h2>???</h2>

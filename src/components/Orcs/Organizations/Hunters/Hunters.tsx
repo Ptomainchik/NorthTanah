@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
 import classes from '../../Styles/BlackForest.module.css'
-import OrcShaman from '../../../../images/Orcs/OrcsPage/OrcShaman.jpg'
-
+import SeniorHunter from '../../../../images/Orcs/OrcsOrganizations/SeniorHunter.jpg'
+import TrapMaster from '../../../../images/Orcs/OrcsOrganizations/TrapMaster.jpg'
 
 export const Hunters = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -30,11 +30,11 @@ export const Hunters = () => {
     const HuntersDescription =  (
         <div>
             <div className={classes.contentModal}>
-                <img title="Малгар" className={classes.imageHeadOrganizations} src={OrcShaman} alt="Orc elder hunter"/>
+                <img title="Малгар" className={classes.imageHeadOrganizations} src={SeniorHunter} alt="Orc elder hunter"/>
                 <span>Малгар - старший охотник.</span>
             </div>
             <div className={classes.contentModal}>  
-                <img title="Бурзаг" className={classes.imageMemberOrganizations} src={OrcShaman} alt="Orc trap master"/>
+                <img title="Бурзаг" className={classes.imageMemberOrganizations} src={TrapMaster} alt="Orc trap master"/>
                 <span>Бурзаг - мастер ловушек.</span>
             </div>    
         </div>

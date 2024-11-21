@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
 import classes from '../../Styles/BlackForest.module.css'
-import OrcShaman from '../../../../images/Orcs/OrcsPage/OrcShaman.jpg'
+import Brigadier from '../../../../images/Orcs/OrcsOrganizations/Brigadier.jpg'
 
 export const Workers = () => {
 const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const WorkersDescription =
    (
     <div>
         <div className={classes.contentModal}>
-            <img title="Вакшиг" className={classes.imageHeadOrganizations} src={OrcShaman} alt="Orc Head Brigadier"/>
+            <img title="Вакшиг" className={classes.imageHeadOrganizations} src={Brigadier} alt="Orc Head Brigadier"/>
                 <span>Вакшиг - главный бригадир.</span>
         </div>
     </div>

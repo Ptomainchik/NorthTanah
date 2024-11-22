@@ -1,14 +1,15 @@
 import { Accordion } from "./Accordion";
 import classes from '../../Styles/BlackForest.module.css'
-import OrcForest from "../../../../images/Orcs/OrcsPage/OrcForest.jpg"
 import Awaking from "../../../../images/Orcs/HistoryOrcsForest/Awakening.jpg"
 import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryOrcsForest/ExodusToTheBlackForest.jpg" 
 import BoarValley from "../../../../images/Orcs/HistoryOrcsForest/BoarValley.jpg"
 import Construction from "../../../../images/Orcs/HistoryOrcsForest/Construction.jpg"
-import BlackRock from "../../../../images/Orcs/HistoryOrcsForest/BlackRock.jpg"
+import Council from "../../../../images/Orcs/HistoryOrcsForest/Council.jpg"
 import Solution from "../../../../images/Orcs/HistoryOrcsForest/Solution.jpg"
 import Booty from "../../../../images/Orcs/HistoryOrcsForest/Booty.jpg"
-
+import DwarvenAttack from "../../../../images/Orcs/HistoryOrcsForest/DwarvenAttack.jpg"
+import ScorchedSettlement from "../../../../images/Orcs/HistoryOrcsForest/ScorchedSettlement.jpg"
+import FirstKing from "../../../../images/Orcs/HistoryOrcsForest/FirstKing.jpg"
 
 export const AccordionState = () => {
     const accordionItems = [
@@ -33,7 +34,7 @@ export const AccordionState = () => {
         ),
       },
       {
-        title: '???',
+        title: 'Необходимость',
         content: (
           <div>
            <div className={classes.pictures}>
@@ -51,7 +52,7 @@ export const AccordionState = () => {
         ),
       },
       {
-        title: '???',
+        title: 'Объединение шаек',
         content: (
           <div>
       <div className={classes.pictures}>
@@ -71,16 +72,16 @@ export const AccordionState = () => {
         ),
       },
       {
-        title: '???',
+        title: 'Агрессия дварфов',
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="???" className={classes.picture} src={BlackRock} alt="???"/>
-   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+   <img title="Нападение дварфов" className={classes.picture} src={DwarvenAttack} alt="Нападение дварфов"/>
+   <img title="Выжженное поселение" className={classes.picture} src={ScorchedSettlement} alt="Выжженное поселение"/>
   </div>
 
   <div className={classes.contentScroll}>
-        <h2>Собрание</h2>
+        <h2>Нападение дварфов</h2>
         <p><strong>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum ut ipsa libero! Delectus repellendus veniam, blanditiis sit laudantium fuga voluptatem, ex quia asperiores necessitatibus sint incidunt! Mollitia, hic illum!
           Dolor inventore, facilis quasi optio corporis labore quo nulla esse perspiciatis impedit rerum similique dolorum asperiores voluptas laborum? Corporis, blanditiis? Delectus rerum sunt exercitationem iusto ab omnis veritatis, ipsam laborum.
@@ -90,15 +91,15 @@ export const AccordionState = () => {
         ),
       },
       {
-        title: '???',
+        title: 'Собрание',
         content: (
           <div>
       <div className={classes.pictures}>
-  <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
-  <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+  <img title="Собрание" className={classes.picture} src={Council} alt="Собрание"/>
+  <img title="Первый король" className={classes.picture} src={FirstKing} alt="Первый король"/>
   </div>
   <div className={classes.contentScroll}>
-        <h2>Вражда</h2>
+        <h2>Собрание</h2>
         <p><strong>
          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quaerat esse, neque eligendi inventore voluptatum eius quasi delectus earum, cumque facilis quam quidem blanditiis quas perferendis fugiat, consequatur a. Veniam.
          Perferendis assumenda eius eveniet fugit rem facilis sunt rerum repellat! Porro nostrum recusandae dolor nihil consequatur odio fuga, necessitatibus dolorem soluta consequuntur facilis, maiores eos. Consequuntur dolorum nostrum voluptate ipsam.
@@ -106,31 +107,7 @@ export const AccordionState = () => {
   </div>
           </div>
         ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
+      }
     ];
   
     return (

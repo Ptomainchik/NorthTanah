@@ -125,31 +125,7 @@ export const AccordionState = () => {
   </div>
           </div>
         ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
-      {
-        title: 'Пока не придумал',
-        content: (
-          <div>
-      
-          </div>
-        ),
-      },
+      }
     ];
   
     return (

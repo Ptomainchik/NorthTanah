@@ -5,8 +5,9 @@ import Awaking from "../../../../images/Orcs/HistoryOrcsForest/Awakening.jpg"
 import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryOrcsForest/ExodusToTheBlackForest.jpg" 
 import BoarValley from "../../../../images/Orcs/HistoryOrcsForest/BoarValley.jpg"
 import Construction from "../../../../images/Orcs/HistoryOrcsForest/Construction.jpg"
-
-
+import BlackRock from "../../../../images/Orcs/HistoryOrcsForest/BlackRock.jpg"
+import Solution from "../../../../images/Orcs/HistoryOrcsForest/Solution.jpg"
+import Booty from "../../../../images/Orcs/HistoryOrcsForest/Booty.jpg"
 
 
 export const AccordionState = () => {
@@ -21,7 +22,7 @@ export const AccordionState = () => {
 </div>
 
  <div className={classes.contentScroll}>
-  <h2>История Орков</h2>
+  <h2>Пробуждение и Исход</h2>
      <p><strong>
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus excepturi corporis labore dignissimos odit et, fuga doloribus numquam adipisci officia neque ut similique voluptatibus consequatur ipsum facere eos amet laudantium.       
      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, exercitationem ex rem excepturi doloribus asperiores laudantium illum assumenda, dolorem cupiditate quo, quam cumque quaerat nulla corrupti odit repellendus architecto culpa.
@@ -40,7 +41,7 @@ export const AccordionState = () => {
     <img title="Строительство" className={classes.picture} src={Construction} alt="Строительство"/>
   </div>
   <div className={classes.contentScroll}>
-      <h2>???</h2>
+      <h2>Охота и Стройка</h2>
       <p><strong> 
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est quaerat ullam. Odit iure distinctio eligendi commodi deserunt at nam porro laborum natus, nisi enim repudiandae mollitia et cum facilis.
       Adipisci, nostrum aperiam cumque ipsa explicabo doloremque fuga inventore reprehenderit reiciendis veniam obcaecati. A aliquid modi doloremque dolor natus ea! Modi similique laudantium nesciunt autem velit saepe, dignissimos quos illo.
@@ -54,12 +55,12 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="???" className={classes.picture}  src={OrcForest} alt="???"/>
-   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+   <img title="Решение" className={classes.picture} src={Solution} alt="Решение"/>
+   <img title="Добыча" className={classes.picture} src={Booty} alt="Добыча"/>
   </div>
 
   <div className={classes.contentScroll}>
-        <h2>???</h2>
+        <h2>Объединение</h2>
         <p><strong>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fuga voluptatum illum quidem unde, molestias inventore numquam error, impedit ipsum omnis accusantium esse sit odit assumenda neque, ipsa dolorum officia.
         Dicta ratione consectetur nemo non ducimus dignissimos dolore ipsa beatae labore alias explicabo tenetur quibusdam accusantium iste, eaque ea. Eligendi, dolorem. Velit consequuntur nisi molestiae quis beatae amet officiis hic!   
@@ -74,12 +75,12 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
+   <img title="???" className={classes.picture} src={BlackRock} alt="???"/>
    <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
 
   <div className={classes.contentScroll}>
-        <h2>???</h2>
+        <h2>Собрание</h2>
         <p><strong>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum ut ipsa libero! Delectus repellendus veniam, blanditiis sit laudantium fuga voluptatem, ex quia asperiores necessitatibus sint incidunt! Mollitia, hic illum!
           Dolor inventore, facilis quasi optio corporis labore quo nulla esse perspiciatis impedit rerum similique dolorum asperiores voluptas laborum? Corporis, blanditiis? Delectus rerum sunt exercitationem iusto ab omnis veritatis, ipsam laborum.
@@ -97,7 +98,7 @@ export const AccordionState = () => {
   <img title="???" className={classes.picture} src={OrcForest} alt="???"/>
   </div>
   <div className={classes.contentScroll}>
-        <h2>???</h2>
+        <h2>Вражда</h2>
         <p><strong>
          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quaerat esse, neque eligendi inventore voluptatum eius quasi delectus earum, cumque facilis quam quidem blanditiis quas perferendis fugiat, consequatur a. Veniam.
          Perferendis assumenda eius eveniet fugit rem facilis sunt rerum repellat! Porro nostrum recusandae dolor nihil consequatur odio fuga, necessitatibus dolorem soluta consequuntur facilis, maiores eos. Consequuntur dolorum nostrum voluptate ipsam.

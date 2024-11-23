@@ -18,7 +18,7 @@ export const SpiritCatchers = () => {
     return (
       <div>
         <button onClick={openModal} className={classes.iconsSpiritCatchersModalOrganizations} title="Ловцы духов"/>
-        <Modal  style={{ overlay: {backgroundColor: 'rgba(50, 88, 255, 0.7)'}, content: {border: '2px solid black' }}}
+        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(50, 88, 255, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.spiritCatchersModal} isOpen={modalIsOpen}>
           {SpiritCathersDescription}
           <button className={classes.buttonCloseSpiritCatchersModal} onClick={closeModal}>Закрыть</button>

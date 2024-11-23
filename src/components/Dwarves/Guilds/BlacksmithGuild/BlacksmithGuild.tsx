@@ -19,7 +19,7 @@ export const BlacksmithGuild = () => {
     return (
       <div>
         <button onClick={openModal} className={classes.anvilBlacksmith} title="Гильдия Кузнецов"/>
-        <Modal  style={{ overlay: {backgroundColor: 'rgba(233, 121, 56, 0.7)'}, content: {border: '2px solid black' }}}
+        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(233, 121, 56, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.blacksmithModal} isOpen={modalIsOpen}>
           {BlacksmithGuildDescription}
           <button className={classes.buttonCloseBlacksmithModal} onClick={closeModal}>Закрыть</button>

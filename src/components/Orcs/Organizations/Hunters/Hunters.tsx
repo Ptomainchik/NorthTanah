@@ -18,7 +18,7 @@ export const Hunters = () => {
     return (
       <div>
         <button onClick={openModal} className={classes.iconsHuntersModalOrganization} title="Охотники"/>
-        <Modal  style={{ overlay: {backgroundColor: 'rgba(84, 230, 55, 0.7)'}, content: {border: '2px solid black' }}}
+        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(84, 230, 55, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.huntersModal} isOpen={modalIsOpen}>
           {HuntersDescription}
           <button className={classes.buttonCloseHuntersModal} onClick={closeModal}>Закрыть</button>

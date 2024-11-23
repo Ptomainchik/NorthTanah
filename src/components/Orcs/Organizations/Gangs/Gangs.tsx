@@ -19,7 +19,7 @@ export const Gangs = () => {
     return (
       <div>
         <button onClick={openModal} className={classes.iconsGangsModalOrganization} title="Банды"/>
-        <Modal  style={{ overlay: {backgroundColor: 'rgba(158, 4, 4, 0.7)'}, content: {border: '2px solid black' }}}
+        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(158, 4, 4, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.gangsModal} isOpen={modalIsOpen}>
           {GangsDescription}
           <button className={classes.buttonCloseGangsModal} onClick={closeModal}>Закрыть</button>

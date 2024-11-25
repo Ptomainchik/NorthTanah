@@ -124,11 +124,13 @@ background-size: 1400px;
 }
 
 .contentScroll h2 {
-  padding-top: 400px;
+  padding-top: 310px;
+  margin-bottom: 0px;
 }
 
 .contentScroll p{
   font-family: "Pangolin";
+  margin-top: 0px;
 }
 
 .picture{

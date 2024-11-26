@@ -8,7 +8,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  background: no-repeat url(../../../images/Orcs/HistoryOrcsForest/GreenSkin.jpg);
+  background: no-repeat url(../../../images/Orcs/HistoryBlackForest/GreenSkin.jpg);
   background-size: 1500px;
   background-size: 1700px;
 }
@@ -71,7 +71,7 @@
 /* -----History----- */
 
 .bodyHistory {
-background: url(../../../images/Orcs/HistoryOrcsForest/BlackForest.jpg);
+background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg);
 background-size: 1400px;
 }
 
@@ -111,7 +111,7 @@ background-size: 1400px;
 }
 
 .contentScroll{
-  background: url(../../../images/Orcs/HistoryOrcsForest/Scroll.webp) no-repeat;
+  background: url(../../../images/Orcs/HistoryBlackForest/Scroll.webp) no-repeat;
   background-size: 60%;
   background-position: center;
   text-align: center;
@@ -169,7 +169,7 @@ opacity: 0.7;
 font-size: 2rem;
 margin: 50px ;
 margin-top: 0;
-background:  url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+background:  url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
 background-size: cover;
 }
 
@@ -206,8 +206,8 @@ padding-bottom: 10px;
 
 /* SpiritCatchersModal */
 
-.iconsSpiritCatchersModalOrganizations{
-background: url(../../../images/Orcs/OrcsOrganizations/SpriritCatchers.webp);
+.iconsSpiritCatchersModalCommunity{
+background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp);
 background-size: cover;
 border: none;
 filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
@@ -216,14 +216,14 @@ height: 400px;
 width: 400px;
 }
 
-.iconsSpiritCatchersModalOrganizations:hover{
+.iconsSpiritCatchersModalCommunity:hover{
 opacity: 0.7;
 }
 
 .spiritCatchersModal {
 width: 1000px;
 height: 700px;
-background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+background: url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
 background-size: cover;
 padding: 0;
 margin: 10px 50px 10px 320px;
@@ -260,8 +260,8 @@ opacity: 0.7;
 
 /* WorkersModal */
 
-.iconsWorkersModalOrganization{
-  background: url(../../../images/Orcs/OrcsOrganizations/Workers.webp);
+.iconsWorkersModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/Workers.webp);
   background-size:cover;
   border: none;
   filter: drop-shadow(0px 0px 20px  rgb(255, 193, 21));
@@ -270,14 +270,14 @@ opacity: 0.7;
   width: 400px;
   }
   
-  .iconsWorkersModalOrganization:hover{
+  .iconsWorkersModalCommunity:hover{
   opacity: 0.7;
   }
   
   .workersModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+  background: url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -314,8 +314,8 @@ opacity: 0.7;
 
 /* HuntersModal */
 
-.iconsHuntersModalOrganization{
-  background: url(../../../images/Orcs/OrcsOrganizations/Hunters.webp);
+.iconsHuntersModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/Hunters.webp);
   background-size:cover;
   border: none;
   filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
@@ -325,14 +325,14 @@ opacity: 0.7;
   
   }
   
-  .iconsHuntersModalOrganization:hover{
+  .iconsHuntersModalCommunity:hover{
   opacity: 0.7;
   }
   
   .huntersModal {
   width: 1000px;
   height: 700px;
-  background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+  background: url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
   background-size: cover;
   padding: 0;
   margin: 10px 50px 10px 320px;
@@ -369,8 +369,8 @@ opacity: 0.7;
 
 /* GangsModal */
 
-.iconsGangsModalOrganization{
-background: url(../../../images/Orcs/OrcsOrganizations/Gangs.webp);
+.iconsGangsModalCommunity{
+background: url(../../../images/Orcs/OrcCommunities/Gangs.webp);
 background-size:cover;
 border: none;
 filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
@@ -379,14 +379,14 @@ height: 400px;
 width: 400px;
 }
   
-.iconsGangsModalOrganization:hover{
+.iconsGangsModalCommunity:hover{
 opacity: 0.7;
 }
   
 .gangsModal {
 width: 1000px;
 height: 700px;
-background: url(../../../images/Orcs/OrcsOrganizations/YellowBlack.jpg);
+background: url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
 background-size: cover;
 padding: 0;
 margin: 10px 50px 10px 320px;
@@ -423,13 +423,13 @@ opacity: 0.7;
 
 /* obshie img */
 
-.imageHeadOrganizations{
+.imageHeadCommunities{
   width: 230px;
   height: 230px;
   margin: 10px 50px 0px 10px;
 }
   
-.imageMemberOrganizations{
+.imageMemberCommunities{
   width: 180px;
   height: 180px;
   margin: 10px 50px 0px 10px;
@@ -441,27 +441,27 @@ opacity: 0.7;
 
 /* Button Modal  */
 
-.organizations {
+.communities {
 background-color: rgb(50, 63, 50);
 }
 
-.organizations h1{
+.communities h1{
   text-align: center;
   margin-top: 0;
 }
 
-.organizations h2{
+.communities h2{
   margin-bottom: 150px;
   margin-top: -10px;
 }
 
-.organizationsLists {
+.communitiesLists {
 display: flex;
 text-align: center;
 color: darkblue;
 } 
 
-.organizationBlock {
+.communityBlock {
   display: block;
   margin-left: auto;
   margin-right: auto;

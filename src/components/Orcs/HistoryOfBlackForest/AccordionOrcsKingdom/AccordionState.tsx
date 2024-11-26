@@ -1,15 +1,15 @@
 import { Accordion } from "./Accordion";
 import classes from '../../Styles/BlackForest.module.css'
-import Awaking from "../../../../images/Orcs/HistoryOrcsForest/Awakening.jpg"
-import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryOrcsForest/ExodusToTheBlackForest.jpg" 
-import BoarValley from "../../../../images/Orcs/HistoryOrcsForest/BoarValley.jpg"
-import Construction from "../../../../images/Orcs/HistoryOrcsForest/Construction.jpg"
-import Council from "../../../../images/Orcs/HistoryOrcsForest/Council.jpg"
-import Solution from "../../../../images/Orcs/HistoryOrcsForest/Solution.jpg"
-import Booty from "../../../../images/Orcs/HistoryOrcsForest/Booty.jpg"
-import DwarvenAttack from "../../../../images/Orcs/HistoryOrcsForest/DwarvenAttack.jpg"
-import ScorchedSettlement from "../../../../images/Orcs/HistoryOrcsForest/ScorchedSettlement.jpg"
-import FirstKing from "../../../../images/Orcs/HistoryOrcsForest/FirstKing.jpg"
+import Awaking from "../../../../images/Orcs/HistoryBlackForest/Awakening.jpg"
+import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryBlackForest/ExodusToTheBlackForest.jpg" 
+import BoarValley from "../../../../images/Orcs/HistoryBlackForest/BoarValley.jpg"
+import Construction from "../../../../images/Orcs/HistoryBlackForest/Construction.jpg"
+import Council from "../../../../images/Orcs/HistoryBlackForest/Council.jpg"
+import Solution from "../../../../images/Orcs/HistoryBlackForest/Solution.jpg"
+import Booty from "../../../../images/Orcs/HistoryBlackForest/Booty.jpg"
+import DwarvenAttack from "../../../../images/Orcs/HistoryBlackForest/DwarvenAttack.jpg"
+import ScorchedSettlement from "../../../../images/Orcs/HistoryBlackForest/ScorchedSettlement.jpg"
+import FirstKing from "../../../../images/Orcs/HistoryBlackForest/FirstKing.jpg"
 
 export const AccordionState = () => {
     const accordionItems = [

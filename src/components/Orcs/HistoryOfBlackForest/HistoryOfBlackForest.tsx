@@ -1,5 +1,5 @@
 import classes from './../Styles/BlackForest.module.css'
-import CoatOfArmsOfBlackForest from '../../../images/Orcs/HistoryOrcsForest/CoatOfArmsOfBlackForest.webp'
+import CoatOfArmsOfBlackForest from '../../../images/Orcs/HistoryBlackForest/CoatOfArmsOfBlackForest.webp'
 import { AccordionState } from './AccordionOrcsKingdom/AccordionState'
 
 export const HistoryOfBlackForest = () => {

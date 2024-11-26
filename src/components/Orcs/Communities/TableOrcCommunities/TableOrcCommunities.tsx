@@ -1,13 +1,13 @@
 import classes from '../../Styles/BlackForest.module.css'
 
 
-export const TableOrganizations= () => {
+export const TableOrcCommunities= () => {
     return (
         <div>
   <table border={5} bgcolor={"grey"} className={classes.orcsTable}>
     <thead>
  <tr>
-  <th>Организация</th>
+  <th>Община</th>
   <th>Глава</th>
   <th>Деятельность </th>
   <th>Золото гильдии</th>

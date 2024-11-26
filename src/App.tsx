@@ -8,7 +8,7 @@ import { BlackForest } from './components/Orcs/BlackForest/BlackForest';
 import { HomePage } from './components/HomePage/HomePage';
 import { HistoryOfBlackForest } from './components/Orcs/HistoryOfBlackForest/HistoryOfBlackForest';
 import { Layout } from './components/Layout/Layout';
-import { Organizations } from './components/Orcs/Organizations/Organizations';
+import { Communities } from './components/Orcs/Communities/Communities';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="guilds" element={<Guilds/>} />
           <Route path="orcs" element={<BlackForest/>} />
           <Route path="historybf" element={<HistoryOfBlackForest/>} />
-          <Route path="organizations" element={<Organizations/>} />
+          <Route path="organizations" element={<Communities/>} />
           <Route path="*" element={<NoPage/>} />
         </Route>
       </Routes>

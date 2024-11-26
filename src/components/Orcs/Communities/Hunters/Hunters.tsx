@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
 import classes from '../../Styles/BlackForest.module.css'
-import SeniorHunter from '../../../../images/Orcs/OrcsOrganizations/SeniorHunter.jpg'
-import TrapMaster from '../../../../images/Orcs/OrcsOrganizations/TrapMaster.jpg'
+import SeniorHunter from '../../../../images/Orcs/OrcCommunities/SeniorHunter.jpg'
+import TrapMaster from '../../../../images/Orcs/OrcCommunities/TrapMaster.jpg'
 
 export const Hunters = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -17,7 +17,7 @@ export const Hunters = () => {
     
     return (
       <div>
-        <button onClick={openModal} className={classes.iconsHuntersModalOrganization} title="Охотники"/>
+        <button onClick={openModal} className={classes.iconsHuntersModalCommunity} title="Охотники"/>
         <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(84, 230, 55, 0.7)'}, content: {border: '2px solid black' }}}
         className={classes.huntersModal} isOpen={modalIsOpen}>
           {HuntersDescription}
@@ -30,11 +30,11 @@ export const Hunters = () => {
     const HuntersDescription =  (
         <div>
             <div className={classes.contentModal}>
-                <img title="Малгар" className={classes.imageHeadOrganizations} src={SeniorHunter} alt="Orc elder hunter"/>
+                <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter"/>
                 <span>Малгар - старший охотник.</span>
             </div>
             <div className={classes.contentModal}>  
-                <img title="Бурзаг" className={classes.imageMemberOrganizations} src={TrapMaster} alt="Orc trap master"/>
+                <img title="Бурзаг" className={classes.imageMemberCommunities } src={TrapMaster} alt="Orc trap master"/>
                 <span>Бурзаг - мастер ловушек.</span>
             </div>    
         </div>

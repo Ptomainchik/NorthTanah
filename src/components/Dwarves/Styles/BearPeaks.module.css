@@ -240,11 +240,8 @@ color: coral;
 }
 
 .guilds {
-  background-color: darkgreen;
-}
-
-.guilds h1 {
- text-align: center;
+  background-color: rgb(41, 62, 71);
+  padding-top: 100px;
 }
 
 .guilds h2 {

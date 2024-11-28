@@ -1,9 +1,13 @@
 import classes from './../Styles/BlackForest.module.css'
 import CoatOfArmsOfBlackForest from '../../../images/Orcs/HistoryBlackForest/CoatOfArmsOfBlackForest.webp'
 import { AccordionState } from './AccordionOrcsKingdom/AccordionState'
+import { HomeButton } from '../../Button/HomeButton/HomeButton'
+import { BackButton } from '../../Button/BackButton/BackButton'
+
 
 export const HistoryOfBlackForest = () => {
-    return (
+    return (<div>
+      <div><HomeButton/>History<BackButton/></div>
   <div className={classes.bodyHistory}>
   <div className={classes.titleHistory}>
   <img title="Герб Чёрного Леса" alt="Герб Чёрного Леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
@@ -11,6 +15,7 @@ export const HistoryOfBlackForest = () => {
   <img title="Герб Чёрного Леса" alt="Герб Чёрного Леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
  </div>
  <AccordionState/>
+  </div>
   </div>
   )
 } 

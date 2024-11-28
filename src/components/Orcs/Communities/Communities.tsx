@@ -4,11 +4,15 @@ import { Gangs } from './Gangs/Gangs'
 import { Hunters } from './Hunters/Hunters'
 import { TableOrcCommunities } from './TableOrcCommunities/TableOrcCommunities'
 import { Workers } from './Workers/Workers'
+import { HomeButton } from '../../Button/HomeButton/HomeButton'
+import { BackButton } from '../../Button/BackButton/BackButton'
+
 
 
 export const Communities = () => {
-    return <div className={classes.communities}>
-      <h1>Communities</h1>
+    return <div>
+        <div><HomeButton/>Communities<BackButton/></div>
+        <div className={classes.communities}>
  <div className={classes.communitiesLists}>
     <div className={classes.communityBlock}>
         <SpiritCatchers/>
@@ -40,6 +44,6 @@ export const Communities = () => {
     </div>
 
  </div>
-
+ </div>
 
 }

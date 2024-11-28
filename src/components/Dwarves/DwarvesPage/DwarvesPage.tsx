@@ -1,10 +1,15 @@
 import classes from '../Styles/BearPeaks.module.css'
 import DwarfWithBook from '../../../images/Dwarves/DwarvesPage/DwarfWithBook.jpg'
 import { Link } from 'react-router-dom'
+import { HomeButton } from '../../Button/HomeButton/HomeButton'
+import { BackButton } from '../../Button/BackButton/BackButton'
+
 
 
 export const DwarvesPage = () => {
-    return <div className={classes.info}>
+    return <div>
+      <div><HomeButton/>Dwarves<BackButton/></div>
+    <div className={classes.info}>
     <div className={classes.blockPage}>
       <div className={classes.infoPage}>
              <img title="Альдорх Мудрый" src={DwarfWithBook} alt="Мудрый гном" className={classes.imgPage}/>
@@ -24,5 +29,6 @@ export const DwarvesPage = () => {
   Reiciendis, velit amet quos aliquam reprehenderit magni voluptas optio architecto dolorum assumenda! 
   Ducimus quisquam iusto ratione minima mollitia illo voluptates commodi suscipit!</p></div>
   </div>
+</div>
 </div>
 }

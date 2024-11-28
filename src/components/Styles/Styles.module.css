@@ -9,7 +9,8 @@ font-size: 50px;
 font-family: "Pangolin";
 font-weight: 400;
 font-style: normal;
-background-attachment: fixed;
+background: url(../../images/HomePageImage/PanoramaChoice.jpg);
+background-size: cover;
 }
 
 a{
@@ -23,11 +24,6 @@ a:hover{
 
 a:active{
     color:rgb(235, 0, 0)
-}
-
-.container{
-    max-width: 800px;
-    margin-left: 20px;
 }
 
 .choice {
@@ -45,7 +41,7 @@ a:active{
     margin: 20px 40px 5px 50px;
 }
 
-.panoramaChoice {
-    background: url(../../images/HomePageImage/PanoramaChoice.jpg);
-    background-size: cover;
-}
+/* panoramaChoice {
+   
+} */
+

@@ -135,29 +135,6 @@
     width: 550px;
 }
 
-.historyButton{ 
-  background: url(../../../images/Dwarves/DwarvesPage/MountainsBearPeaks.jpg);
-  background-size: cover;
-  border-radius: 30px;
-  border: none;
-  box-shadow: 0px 0px 10px 10px rgb(128, 188, 206);
-  font-size: 55px;
-  font-family: "Rakkas", serif;
-  font-weight: 400;
-  width: 800px;
-  cursor: pointer;
-  display: block;
-  height: 100%;  
-  margin-top: 80px;
-  padding-left: 20px;
-  color: red;
-  
-}
-
-.historyButton:hover{
-  opacity: 0.7;
-}
-
 /* -----GuildsPage----- */
 
 .dwarvesTable{
@@ -355,56 +332,101 @@ width: 400px;
   opacity: 0.7;
 }
 
-/* -----DwarvesPage----- */
+ /* -----DwarvesPage----- */
 
-.dwarfWithBook{
-  margin-left: 20px;
-  margin-top: 65px;
-  width: 300px;
-  height: 300px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 10px 10px rgb(88, 4, 4);
-}
-
-.Info{
+.info{
   display: flex;
-  margin-bottom: 20px;
-  margin-top: 70px;
 }
 
-@media (max-width: 700px) {
-  .Info {
-  text-align: center;    
+.blockPage{
   display: block;
-}}
+}
 
-.InfoText{
-  margin-left: 70px;
-  margin-top: 60px;
-  background-color: blue;
+ .imgPage{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: rgb(30, 46, 70) 5px solid;
+  }
+    
+  .infoPage{
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 10px rgb(30, 46, 70);
+  margin: 20px ;
+  background: url(../../../images/Dwarves/DwarvesPage/DarkStone.jpg);
   background-size: cover;
-  box-shadow: 0px 0px 10px 10px rgb(173, 173, 173);
-  border-radius: 30px;
-}
+  height: 250px;
+  width: 800px;
+  }
+  
+  .infoTextPage{
+  margin: 20px;
+  background: rgb(221, 221, 221);
+  background-size: cover;
+  height: 200px;
+  border:rgb(30, 46, 70) 5px solid;
+  border-radius: 12px;
+  color: rgb(30, 46, 70);
+  width: 500px;
+  }
+    
+  .infoTextPage h4{
+  margin: 10px 10px 0px 10px;
+  }
+   
+  .infoTextPage p{
+  font-size: 30px;
+  margin: 0px 10px 0px 10px ;
+  }
 
-.Info-text h3 {
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+  .story{
+    margin: 20px;
+    width: 500px;
+    height: 650px;
+    background: url(../../../images/Dwarves/DwarvesPage/DarkStone.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px rgb(30, 46, 70);
+    display: block;
+  }
+  
+  .storyText{
+    font-size: 30px;
+    background: rgb(221, 221, 221);
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+    margin: 20px;
+    border:rgb(30, 46, 70) 5px solid;
+    border-radius: 12px;
+    color: rgb(30, 46, 70);
+  }
+  
+  .storyText p{
+    margin: 20px;
+  }
 
-.Info-text p {
-  font-size: 2rem;
-  margin-top: 30px;
-  padding-left: 30px;
-}
-
-.Info p{
-color: rgb(0, 20, 136);
-margin: 0;
-font-style: italic;
-font-weight: bold;
-text-decoration: none;
-letter-spacing: 3px;
-word-spacing: 2px;
-}
+  .historyButton{ 
+    background: url(../../../images/Dwarves/DwarvesPage/MountainsBearPeaks.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px  rgb(30, 46, 70);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    height: 30px;
+    display: block;
+    height: 100%;  
+    margin: 50px 20px ;
+    text-align: center;
+    color: red;
+  }
+  
+  .historyButton:hover{
+    opacity: 0.7;
+  }
+  

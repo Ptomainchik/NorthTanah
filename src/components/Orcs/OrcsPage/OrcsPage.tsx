@@ -8,7 +8,7 @@ import { HomeButton } from '../../Button/HomeButton/HomeButton'
 
 export const OrcsPage = () => {
     return <div>
-      <div><HomeButton/>Orcs<BackButton/></div>
+      <div className={classes.button}><HomeButton/><span>Orcs</span><BackButton/></div>
     <div className={classes.info}> 
   <div className={classes.blockPage}>
      <div className={classes.infoPage}>

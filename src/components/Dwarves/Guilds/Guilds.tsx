@@ -9,7 +9,7 @@ import { BackButton } from "../../Button/BackButton/BackButton"
 
 export const Guilds = () => {
     return <div>
-      <div><HomeButton/>Guilds<BackButton/></div>
+      <div className={classes.button}><HomeButton/><span>Guilds</span><BackButton/></div>
       <div className={classes.guilds}>
 <div className={classes.guildsLists}>
   <div className={classes.guildBlock}>   

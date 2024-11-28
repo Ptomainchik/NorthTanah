@@ -11,7 +11,7 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 
 export const Communities = () => {
     return <div>
-        <div><HomeButton/>Communities<BackButton/></div>
+        <div className={classes.button}><HomeButton/><span>Communities</span><BackButton/></div>
         <div className={classes.communities}>
  <div className={classes.communitiesLists}>
     <div className={classes.communityBlock}>

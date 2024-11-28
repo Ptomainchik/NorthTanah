@@ -80,7 +80,8 @@ background-size: 1400px;
   font-family: "Rakkas", serif;
   color: red;
   align-items: center;
-  margin-left: 50px;
+  justify-content: center;
+
 }
 
 .titleHistory h1{
@@ -144,7 +145,8 @@ background-size: 1400px;
 
 .orcsTable{
 font-size: 2rem;
-margin: 50px ;
+margin-left: auto;
+margin-right: auto;
 margin-top: 0;
 background:  url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
 background-size: cover;
@@ -419,8 +421,9 @@ opacity: 0.7;
 /* Button Modal  */
 
 .communities {
-background-color: rgb(50, 63, 50);
+background-color: rgb(4, 27, 1);
 padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .communities h2{
@@ -431,7 +434,7 @@ padding-top: 100px;
 .communitiesLists {
 display: flex;
 text-align: center;
-color: darkblue;
+color: rgb(168, 165, 155);
 } 
 
 .communityBlock {
@@ -444,6 +447,7 @@ color: darkblue;
 
 .info{
   display: flex;
+  float: left;
 }
 
 .blockPage{
@@ -538,3 +542,11 @@ color: darkblue;
     opacity: 0.7;
   }
   
+  /* ----Overall----- */
+
+  .button{
+    background: rgb(4, 27, 1);
+    border: solid rgb(168, 165, 155) 2px;
+    text-align: center;
+    font-family: "Rakkas";
+  }

@@ -44,19 +44,51 @@ a:active{
 .homeButton{
     background: url(../../images/Other/Tower.webp);
     background-size: cover;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: none;
-    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
-    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px rgb(201, 201, 201));
+    float: left;
+    margin: 6px 0px 0px 10px;
+}
+
+.homeButton:hover{
+    opacity: 0.5;
 }
 
 .backButton{
     background: url(../../images/Other/Arrow.webp);
     background-size: cover;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: none;
-    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
-    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px rgb(201, 201, 201));
+    float: right;
+    margin: 6px 10px 0px 0px;
+
+}
+
+.backButton:hover{
+    opacity: 0.5;
+}
+
+.buttonErr{
+    background: rgb(51, 51, 51);
+    border: solid #a12435 3px;
+    text-align: center;
+    font-family: "Rakkas";
+  }
+
+.errorPage{
+    background: rgb(51, 51, 51);
+    height: 800px;
+}
+
+.error{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 100px;
 }

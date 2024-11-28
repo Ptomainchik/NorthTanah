@@ -8,7 +8,7 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 
 export const DwarvesPage = () => {
     return <div>
-      <div><HomeButton/>Dwarves<BackButton/></div>
+      <div className={classes.button}><HomeButton/><span>Dwarves</span><BackButton/></div>
     <div className={classes.info}>
     <div className={classes.blockPage}>
       <div className={classes.infoPage}>

@@ -104,7 +104,7 @@
 
 .kingDwarves{
     border-radius: 30px;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 10px 5px black;
     margin: 50px 50px 0px 100px;
     width: 500px;
     height: 500px;
@@ -125,15 +125,18 @@
 
 .contentScroll h2 {
     padding-top: 330px;   
+    margin-top: 0px;
+    font-family: "Pangolin";
 }
 
 .contentScroll p{
     font-family: "Pangolin";
+    margin-top: 0px;
 }
 
 .historyPicture{
     border-radius: 30px;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 10px 5px black;
     margin: 50px 25px 50px 75px;
     width: 550px;
 }
@@ -145,7 +148,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg);  
+  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg); 
+  font-family: "Pangolin"; 
 }
 
 .table tbody{
@@ -183,14 +187,15 @@ color: coral;
   background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px rgb(255, 130, 58));
+  filter: drop-shadow(0px 0px 10px rgb(255, 130, 58));
   cursor: pointer;
   height: 400px;
   width: 400px;
 }
 
 .anvilBlacksmith:hover{
-  opacity: 0.7;
+  filter: drop-shadow(0px 0px 20px rgb(255, 130, 58));
+  opacity: 0.9;
 }
 
 .blacksmithModal {
@@ -270,14 +275,15 @@ color: coral;
 background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp);
 background-size:cover;
 border: none;
-filter: drop-shadow(0px 0px 20px rgb(245, 231, 44));
+filter: drop-shadow(0px 0px 10px rgb(245, 231, 44));
 cursor: pointer;
 height: 400px;
 width: 400px;
 }
 
 .scalesMerchants:hover {
-  opacity: 0.7;
+  filter: drop-shadow(0px 0px 20px rgb(245, 231, 44));
+  opacity: 0.9;
 }
 
 .merchantsModal {
@@ -356,12 +362,13 @@ width: 400px;
   .infoPage{
   display: flex;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 10px rgb(30, 46, 70);
+  box-shadow: 0px 0px 10px 5px rgb(30, 46, 70);
   margin: 20px ;
   background: url(../../../images/Dwarves/DwarvesPage/DarkStone.jpg);
   background-size: cover;
   height: 250px;
   width: 800px;
+  font-family: "Pangolin";
   }
   
   .infoTextPage{
@@ -386,20 +393,21 @@ width: 400px;
 
   .story{
     margin: 20px;
-    width: 500px;
+    width: 540px;
     height: 650px;
     background: url(../../../images/Dwarves/DwarvesPage/DarkStone.jpg);
     background-size: cover;
     border-radius: 12px;
-    box-shadow: 0px 0px 10px 10px rgb(30, 46, 70);
+    box-shadow: 0px 0px 10px 5px rgb(30, 46, 70);
     display: block;
+    font-family: "Pangolin";
   }
   
   .storyText{
     font-size: 30px;
     background: rgb(221, 221, 221);
     background-size: cover;
-    width: 450px;
+    width: 490px;
     height: 600px;
     margin: 20px;
     border:rgb(30, 46, 70) 5px solid;
@@ -416,7 +424,7 @@ width: 400px;
     background-size: cover;
     border-radius: 30px;
     border: none;
-    box-shadow: 0px 0px 10px 10px  rgb(30, 46, 70);
+    box-shadow: 0px 0px 10px 5px  rgb(30, 46, 70);
     font-size: 55px;
     font-family: "Rakkas", serif;
     font-weight: 400;
@@ -431,8 +439,55 @@ width: 400px;
   
   .historyButton:hover{
     opacity: 0.7;
+    box-shadow: 0px 0px 10px 15px  rgb(30, 46, 70);
+  }
+
+  .guildsButton{ 
+    background: url(../../../images/Dwarves/DwarvesPage/MetalAndCoins.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px  rgb(30, 46, 70);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    height: 30px;
+    display: block;
+    height: 100%;  
+    margin: 50px 20px ;
+    text-align: center;
+    color: red;
   }
   
+  .guildsButton:hover{
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px 15px  rgb(30, 46, 70);
+  }
+  
+  .battlefieldButton{ 
+    background: url(../../../images/Dwarves/DwarvesPage/BurningForest.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px  rgb(30, 46, 70);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    height: 30px;
+    display: block;
+    height: 100%;  
+    margin: 50px 20px ;
+    text-align: center;
+    color: red;
+  }
+  
+  .battlefieldButton:hover{
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px 15px  rgb(30, 46, 70);
+  }
+
    /* ----Overall----- */
 
    .button{

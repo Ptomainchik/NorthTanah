@@ -20,8 +20,8 @@ export const OrcsPage = () => {
     </div>
     <div>
           <Link to="/historybf" title="История Чёрного Леса" className={classes.historyButton} >The history of Black Forest</Link>
-          <Link to="/communities" title="История Чёрного Леса" className={classes.historyButton} >Communities of Black Forest</Link>
-          <Link to="/or" title="История Чёрного Леса" className={classes.historyButton} >Battlefield</Link>
+          <Link to="/communities" title="История Чёрного Леса" className={classes.communitiesButton} >Communities of Black Forest</Link>
+          <Link to="/or" title="История Чёрного Леса" className={classes.battlefieldButton} >Battlefield</Link>
     </div>
   </div>   
   <div className={classes.story}>

@@ -20,8 +20,8 @@ export const DwarvesPage = () => {
       </div>
       <div>
           <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.historyButton} >The history of Bear Peaks</Link>
-          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.historyButton} >Guilds of Bear Peaks</Link>
-          <Link to="/guildss" title="Гильдии Королевства Медвежьих Вершин" className={classes.historyButton} >Battlefield</Link>
+          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.guildsButton} >Guilds of Bear Peaks</Link>
+          <Link to="/guildss" title="Гильдии Королевства Медвежьих Вершин" className={classes.battlefieldButton} >Battlefield</Link>
     </div>
 </div>
 <div className={classes.story}>

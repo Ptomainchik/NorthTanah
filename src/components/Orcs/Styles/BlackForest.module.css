@@ -131,6 +131,7 @@ background-size: 1440px;
 }
 
 .contentScroll h2 {
+  font-family: "Pangolin";
   padding-top: 310px;
   margin-bottom: 0px;
 }
@@ -142,7 +143,7 @@ background-size: 1440px;
 
 .picture{
   border-radius: 30px;
-  box-shadow: 0 0 10px 10px black;
+  box-shadow: 0 0 10px 5px black;
   margin: 50px 25px 50px 75px;
   width: 550px;
 }
@@ -156,6 +157,7 @@ margin-right: auto;
 margin-top: 0;
 background:  url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
 background-size: cover;
+font-family: "Pangolin";
 }
 
 .table tbody{
@@ -195,14 +197,15 @@ padding-bottom: 10px;
 background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp);
 background-size: cover;
 border: none;
-filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
+filter: drop-shadow(0px 0px 10px rgb(50, 88, 255));
 cursor: pointer;
 height: 400px;
 width: 400px;
 }
 
 .iconsSpiritCatchersModalCommunity:hover{
-opacity: 0.7;
+opacity: 0.9;
+filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
 }
 
 .spiritCatchersModal {
@@ -249,14 +252,15 @@ opacity: 0.7;
   background: url(../../../images/Orcs/OrcCommunities/Workers.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px  rgb(255, 193, 21));
+  filter: drop-shadow(0px 0px 10px  rgb(255, 193, 21));
   cursor: pointer;
   height: 400px;
   width: 400px;
   }
   
   .iconsWorkersModalCommunity:hover{
-  opacity: 0.7;
+  filter: drop-shadow(0px 0px 20px  rgb(255, 193, 21));
+  opacity: 0.9;
   }
   
   .workersModal {
@@ -303,7 +307,7 @@ opacity: 0.7;
   background: url(../../../images/Orcs/OrcCommunities/Hunters.webp);
   background-size:cover;
   border: none;
-  filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
+  filter: drop-shadow(0px 0px 10px rgb(84, 230, 55));
   cursor: pointer;
   height: 400px;
   width: 400px;
@@ -311,7 +315,8 @@ opacity: 0.7;
   }
   
   .iconsHuntersModalCommunity:hover{
-  opacity: 0.7;
+  filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
+  opacity: 0.9;
   }
   
   .huntersModal {
@@ -358,14 +363,15 @@ opacity: 0.7;
 background: url(../../../images/Orcs/OrcCommunities/Gangs.webp);
 background-size:cover;
 border: none;
-filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
+filter: drop-shadow(0px 0px 10px rgb(190, 4, 4));
 cursor: pointer;
 height: 400px;
 width: 400px;
 }
   
 .iconsGangsModalCommunity:hover{
-opacity: 0.7;
+filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
+opacity: 0.9;
 }
   
 .gangsModal {
@@ -471,12 +477,13 @@ color: rgb(168, 165, 155);
   .infoPage{
   display: flex;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 10px rgb(4, 27, 1);
+  box-shadow: 0px 0px 10px 5px rgb(4, 27, 1);
   margin: 20px ;
   background: url(../../../images/Orcs/OrcsPage/Tree.jpg);
   background-size: cover;
   height: 250px;
   width: 800px;
+  font-family: "Pangolin";
   }
   
   .infoTextPage{
@@ -501,20 +508,21 @@ color: rgb(168, 165, 155);
 
   .story{
     margin: 20px;
-    width: 500px;
+    width: 540px;
     height: 650px;
     background: url(../../../images/Orcs/OrcsPage/Tree.jpg);
     background-size: cover;
     border-radius: 12px;
-    box-shadow: 0px 0px 10px 10px rgb(4, 27, 1);
+    box-shadow: 0px 0px 10px 5px rgb(4, 27, 1);
     display: block;
+    font-family: "Pangolin";
   }
   
   .storyText{
     font-size: 30px;
     background: rgb(221, 221, 221);
     background-size: cover;
-    width: 450px;
+    width: 490px;
     height: 600px;
     margin: 20px;
     border:rgb(4, 27, 1) 5px solid;
@@ -531,7 +539,53 @@ color: rgb(168, 165, 155);
     background-size: cover;
     border-radius: 30px;
     border: none;
-    box-shadow: 0px 0px 10px 10px  rgb(4, 27, 1);
+    box-shadow: 0px 0px 10px 5px  rgb(4, 27, 1);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    height: 30px;
+    display: block;
+    height: 100%;  
+    margin: 50px 20px ;
+    text-align: center;
+    color: red;
+  }
+
+  .historyButton:hover{
+    box-shadow: 0px 0px 10px 15px  rgb(4, 27, 1);
+    opacity: 0.7;
+  }
+
+  .communitiesButton{
+    background: url(../../../images/Orcs/OrcsPage/RopesAndCoins.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px  rgb(4, 27, 1);
+    font-size: 55px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    width: 800px;
+    height: 30px;
+    display: block;
+    height: 100%;  
+    margin: 50px 20px ;
+    text-align: center;
+    color: red;
+  }
+
+  .communitiesButton:hover{
+    box-shadow: 0px 0px 10px 15px  rgb(4, 27, 1);
+    opacity: 0.7;
+  }
+
+  .battlefieldButton{
+    background: url(../../../images/Orcs/OrcsPage/BurningMountains.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px  rgba(27, 11, 1, 0.836);
     font-size: 55px;
     font-family: "Rakkas", serif;
     font-weight: 400;
@@ -544,7 +598,8 @@ color: rgb(168, 165, 155);
     color: red;
   }
   
-  .historyButton:hover{
+  .battlefieldButton:hover{
+    box-shadow: 0px 0px 10px 15px  rgb(4, 27, 1);
     opacity: 0.7;
   }
   

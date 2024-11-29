@@ -67,9 +67,13 @@
 
 /* -----History----- */
 
-.bodyHistory {
+.bodyHistory{
+  position:absolute;
+}
+
+.imageHistory {
   background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg);
-  background-size: 1500px;
+  background-size: 1440px;
 }
 
 .titleHistory{
@@ -83,7 +87,6 @@
 .titleHistory h1{
     width: 700px;
     text-align: center;
-   
 }
 
 .banner{

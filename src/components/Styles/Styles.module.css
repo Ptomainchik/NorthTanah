@@ -6,9 +6,10 @@ background-color:aquamarine;
 background-size: cover;
 color: #a12435;
 font-size: 50px;
-font-family: "Pangolin";
+font-family: "Rakkas";
 font-weight: 400;
 font-style: normal;
+text-align: center;
 background: url(../../images/HomePageImage/PanoramaChoice.jpg);
 background-size: cover;
 }
@@ -24,21 +25,6 @@ a:hover{
 
 a:active{
     color:rgb(235, 0, 0)
-}
-
-.choice {
-    display: flex;
-}
-
-.choiceImg { 
-    display: block;
-    text-align: center;
-}
-.choiceImg img {
-    width: 500px;
-    height: 500px;
-    border: 5px solid darkblue;
-    margin: 20px 40px 5px 50px;
 }
 
 .homeButton{
@@ -65,7 +51,6 @@ a:active{
     filter: drop-shadow(0px 0px 10px rgb(201, 201, 201));
     float: right;
     margin: 6px 10px 0px 0px;
-
 }
 
 .backButton:hover{
@@ -97,67 +82,85 @@ a:active{
     background: url(../../images/HomePageImage/Dwarves.webp);
     background-size: cover;
     width: 400px;
-    height: 700px;
+    height: 450px;
     float: left;
     border: none;
+    filter: drop-shadow(0px 0px 10px rgb(30, 46, 70));
+    position: absolute;
+    left: -150px;
 }
 
 .dwarvesButton:hover{
-    opacity: 0.5;
-    animation: shift 2s ;
+    animation: shift 1s ;
     animation-fill-mode: forwards; 
-    filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
+    filter: drop-shadow(0px 0px 20px rgb(30, 46, 70));
 }
 
 .orcsButton{
     background: url(../../images/HomePageImage/Orcs.webp);
     background-size: cover;
     width: 400px;
-    height: 700px;
+    height: 450px;
     float:right;
     border: none;
+    filter: drop-shadow(0px 0px 10px rgb(4, 27, 1));
+    position: absolute;
+    right: -150px;
 }
 
 .orcsButton:hover{
-   opacity: 0.5;
-   animation: shift1 2s ;
+   animation: shift1 1s ;
    animation-fill-mode: forwards; 
-   filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
+   filter: drop-shadow(0px 0px 20px rgb(4, 27, 1));
 }
 
 @keyframes  shift {
-	0%, 20%, 100% {
-		transform: translateX(0);
-		transform: translateX(0);
-	}
-
-	40% {
+	0%, 100% {
 		transform: translateX(0);
 		transform: translateX(0);
 	}
 
 	100% {
-		transform: translateX(40px);
-		transform: translateX(40px);
+		transform: translateX(70px);
+		transform: translateX(70px);
 	}
 }
 
 @keyframes  shift1 {
-	0%, 20%, 100% {
-		transform: translateX(0);
-		transform: translateX(0);
-	}
-
-	40% {
+	0%, 100% {
 		transform: translateX(0);
 		transform: translateX(0);
 	}
 
 	100% {
-		transform: translateX(-40px);
-		transform: translateX(-40px);
+		transform: translateX(-70px);
+		transform: translateX(-70px);
 	}
-
-
 }
 
+.choice{
+    position:fixed;
+    width: 1400px;
+}
+
+.choiceTitle{
+    color: #2450a1;
+    font-size: 70px;
+    font-family: "Rakkas";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+.choiceTitle p {
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0px;
+    color: black;
+}

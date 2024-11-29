@@ -5,9 +5,9 @@ import { HomeButton } from '../../Button/HomeButton/HomeButton'
 import { BackButton } from '../../Button/BackButton/BackButton'
 
 export const HistoryOfBearPeaks = () => {
-    return (<div>
+    return (<div className={classes.bodyHistory}>
       <div className={classes.button}><HomeButton/><span>History</span><BackButton/></div>
-  <div className={classes.bodyHistory}>
+  <div className={classes.imageHistory}>
   <div className={classes.titleHistory}>
   <img title="Герб Королевства Медвежьих Вершин " src={CoatOfArmsOfBearPeaks} alt="Герб Королевства Медвежьих Вершин" className={classes.banner}/>
   <h1>The Kingdom of Bear Peaks</h1>

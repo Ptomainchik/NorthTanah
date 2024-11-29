@@ -4,9 +4,12 @@ import { OrcsSelectionButton } from "../Button/HomePageButton/ChoiceOfOrcs"
 
 export const HomePage = () => {
     return(
-<div className={classes.panoramaChoice}>
-<DwarvesSelectionButton/>
-<OrcsSelectionButton/>
+<div className={classes.choice}>
+    <div className={classes.choiceTitle}>Tanah <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, commodi quidem. Consequuntur odit aut nihil iusto, vel tenetur. 
+        Tempora perferendis id, quae repellendus veniam molestias fugit error doloremque voluptas! Qui.</p>
+    </div>
+    <DwarvesSelectionButton/>
+    <OrcsSelectionButton/>
 </div>
     )
 }

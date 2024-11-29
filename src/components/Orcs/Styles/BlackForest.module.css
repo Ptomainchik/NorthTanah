@@ -70,9 +70,17 @@
 
 /* -----History----- */
 
-.bodyHistory {
+.bodyHistory{
+position: absolute;
+top: auto;
+left:auto;
+right: auto;
+bottom: auto;
+}
+
+.imageHistory {
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg);
-background-size: 1400px;
+background-size: 1440px;
 }
 
 .titleHistory{
@@ -81,13 +89,11 @@ background-size: 1400px;
   color: red;
   align-items: center;
   justify-content: center;
-
 }
 
 .titleHistory h1{
   width: 700px;
   text-align: center;
-  margin-top: 0;
 }
 
 .banner{

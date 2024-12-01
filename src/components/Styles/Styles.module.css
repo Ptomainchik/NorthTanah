@@ -10,7 +10,7 @@ font-family: "Rakkas";
 font-weight: 400;
 font-style: normal;
 text-align: center;
-background: url(../../images/HomePageImage/PanoramaChoice.jpg);
+background: url(../../images/HomePageImage/Panorama.jpg);
 background-size: cover;
 }
 
@@ -105,7 +105,7 @@ a:active{
     border: none;
     filter: drop-shadow(0px 0px 10px rgb(4, 27, 1));
     position: absolute;
-    right: -150px;
+    right: -200px;
 }
 
 .orcsButton:hover{
@@ -121,8 +121,8 @@ a:active{
 	}
 
 	100% {
-		transform: translateX(70px);
-		transform: translateX(70px);
+		transform: translateX(100px);
+		transform: translateX(100px);
 	}
 }
 
@@ -133,8 +133,8 @@ a:active{
 	}
 
 	100% {
-		transform: translateX(-70px);
-		transform: translateX(-70px);
+		transform: translateX(-100px);
+		transform: translateX(-100px);
 	}
 }
 
@@ -163,4 +163,28 @@ a:active{
     margin-bottom: 0;
     padding: 0px;
     color: black;
+}
+
+.triangles{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.blueTriangle{
+    width: 500px;
+    height: 400px;
+    background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -510px;
+}
+
+.greenTriangle{
+    width: 500px;
+    height: 400px;
+    background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -510px;
+    right: -50px;
 }

@@ -150,57 +150,19 @@ background-size: 1440px;
 
 /* -----CommunitiesPage----- */
 
-.orcsTable{
-font-size: 2rem;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-background:  url(../../../images/Orcs/OrcCommunities/YellowBlack.jpg);
-background-size: cover;
-font-family: "Pangolin";
-}
-
-.table tbody{
-font-size: 1.5rem;  
-background-size: cover;
-}
-
-.orcsTable tr th {
-color: dodgerblue;
-}
-
-.orcsTable tr td:nth-child(1){
-color: khaki;
-}
-
-.orcsTable tr td:nth-child(2){
-color: cyan;
-}
-
-.orcsTable tr td:nth-child(3){
-color: coral;
-}
-
-.orcsTable tr td:nth-child(4) {
-color: greenyellow;
-}
-
-.orcsTable tr td {
-padding-left:  10px;
-padding-right: 25px;
-padding-bottom: 10px;
-}
-
 /* SpiritCatchersModal */
 
 .iconsSpiritCatchersModalCommunity{
-background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp);
-background-size: cover;
+background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat;
+background-size: contain;
 border: none;
 filter: drop-shadow(0px 0px 10px rgb(50, 88, 255));
 cursor: pointer;
-height: 400px;
-width: 400px;
+height: 230px;
+width: 230px;
+position: absolute;
+top: 90px;
+left: 130px;
 }
 
 .iconsSpiritCatchersModalCommunity:hover{
@@ -249,13 +211,16 @@ opacity: 0.7;
 /* WorkersModal */
 
 .iconsWorkersModalCommunity{
-  background: url(../../../images/Orcs/OrcCommunities/Workers.webp);
-  background-size:cover;
+  background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat;
+  background-size:contain;
   border: none;
   filter: drop-shadow(0px 0px 10px  rgb(255, 193, 21));
   cursor: pointer;
-  height: 400px;
-  width: 400px;
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  bottom: -30px;
+  left: 130px;
   }
   
   .iconsWorkersModalCommunity:hover{
@@ -304,14 +269,16 @@ opacity: 0.7;
 /* HuntersModal */
 
 .iconsHuntersModalCommunity{
-  background: url(../../../images/Orcs/OrcCommunities/Hunters.webp);
-  background-size:cover;
+  background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat;
+  background-size: contain;
   border: none;
   filter: drop-shadow(0px 0px 10px rgb(84, 230, 55));
   cursor: pointer;
-  height: 400px;
-  width: 400px;
-  
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: 90px;
+  right: 130px;
   }
   
   .iconsHuntersModalCommunity:hover{
@@ -360,13 +327,18 @@ opacity: 0.7;
 /* GangsModal */
 
 .iconsGangsModalCommunity{
-background: url(../../../images/Orcs/OrcCommunities/Gangs.webp);
-background-size:cover;
+background: url(../../../images/Orcs/OrcCommunities/Gangs.webp) no-repeat;
+background-size: contain;
 border: none;
 filter: drop-shadow(0px 0px 10px rgb(190, 4, 4));
 cursor: pointer;
-height: 400px;
-width: 400px;
+height: 230px;
+width: 230px;
+position: absolute;
+bottom: -30px;
+right: 130px;
+
+
 }
   
 .iconsGangsModalCommunity:hover{
@@ -412,7 +384,9 @@ font-family: "Pangolin";
 opacity: 0.7;
 }
 
-/* obshie img */
+/* OverallContentModal */
+
+
 
 .imageHeadCommunities{
   width: 230px;
@@ -430,31 +404,93 @@ opacity: 0.7;
   display: flex;
 }
 
-/* Button Modal  */
+
+/* OverallCommunities */
+
 
 .communities {
-background-color: rgb(4, 27, 1);
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-.communities h2{
-  margin-bottom: 150px;
-  margin-top: -10px;
+width: 1440px;
+height: 750px;
+position: fixed;
 }
 
 .communitiesLists {
 display: flex;
 text-align: center;
-color: rgb(168, 165, 155);
+justify-content: space-between;
+color: black; 
+-webkit-text-stroke: 1px white;
 } 
 
-.communityBlock {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.titleSpiritCatchers{
+position: absolute;
+top: 20px;
+left: 440px;
+
 }
 
+.titleHunters{
+position: absolute;
+top: 20px;
+right: 440px;
+}
+
+.titleWorkers{
+position: absolute;
+bottom: -80px;
+left: 440px;
+}
+
+.titleGangs{
+position: absolute;
+bottom:-80px;
+right: 440px;
+}
+
+
+.greenTriangleCommuties1{
+  background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 500px;
+  height: 500px;  
+  transform: scaleX(-1) scaleY(-1);
+}
+
+.greenTriangleCommuties2{
+  background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  top: -100px;
+  width: 500px;
+  height: 500px;
+  transform: scaleY(-1)
+}
+
+.greenTriangleCommuties3{
+  background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
+  background-size: contain;
+  position: absolute; 
+  bottom: -220px;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  transform: scaleX(-1)
+}
+
+.greenTriangleCommuties4{
+  background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -220px;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  
+}
 /* -----OrcsPage----- */
 
 .info{
@@ -610,4 +646,8 @@ color: rgb(168, 165, 155);
     border: solid rgb(168, 165, 155) 2px;
     text-align: center;
     font-family: "Rakkas";
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    z-index: 9999;
   }

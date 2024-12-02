@@ -143,54 +143,16 @@
 
 /* -----GuildsPage----- */
 
-.dwarvesTable{
-  font-size: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  background: url(../../../images/Dwarves/Guilds/GreyStone.jpg); 
-  font-family: "Pangolin"; 
-}
-
-.table tbody{
-font-size: 1.5rem;  
-background-size: cover;
-}
-  
-.dwarvesTable tr th {
-  color: dodgerblue;
-}
-
-.dwarvesTable tr td:nth-child(1){
-  color: khaki;
-}
-
-.dwarvesTable tr td:nth-child(2){
-  color: cyan;
-}
-
-.dwarvesTable tr td:nth-child(3){
-color: coral;
-}
-
-.dwarvesTable tr td:nth-child(4) {
-  color: greenyellow;
-}
-
-.dwarvesTable tr td {
-  padding-left:  10px;
-  padding-right: 25px;
-  padding-bottom: 10px;
-}
+/* BlacksmithModal */
 
 .anvilBlacksmith{
-  background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp);
-  background-size:cover;
+  background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat;
+  background-size: contain;
   border: none;
   filter: drop-shadow(0px 0px 10px rgb(255, 130, 58));
   cursor: pointer;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
 }
 
 .anvilBlacksmith:hover{
@@ -248,37 +210,17 @@ color: coral;
   opacity: 0.7;
 }
 
-.guilds {
-  background-color:  rgb(30, 46, 70);
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
-.guilds h2 {
-  margin-bottom: 150px;
-  margin-top: -10px;
-}
-
-.guildsLists {
-  display: flex;
-  text-align: center;
-  color: rgb(247,189,0);
-} 
-   
-.guildBlock {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* MerchantModal */
 
 .scalesMerchants{
-background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp);
-background-size:cover;
+background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat;
+background-size: contain;
 border: none;
 filter: drop-shadow(0px 0px 10px rgb(245, 231, 44));
 cursor: pointer;
-height: 400px;
-width: 400px;
+height: 250px;
+width: 250px;
 }
 
 .scalesMerchants:hover {
@@ -294,10 +236,6 @@ width: 400px;
   padding: 0;
   margin: 10px 50px 10px 320px;
   font-size: 2rem;
-}
-
-.contentModal{
-  display: flex;
 }
 
 .merchantsModal img{
@@ -338,6 +276,35 @@ width: 400px;
 
 .buttonCloseMerchantsModal:hover{
   opacity: 0.7;
+}
+
+/* OverallContentModal */
+
+.contentModal{
+  display: flex;
+}
+
+.guilds {
+  background-color:  rgb(30, 46, 70);
+  padding-top: 120px;
+  padding-bottom: -50px;
+}
+
+.guilds h2 {
+  margin-bottom: 150px;
+  margin-top: -10px;
+}
+
+.guildsLists {
+  display: flex;
+  text-align: center;
+  color: rgb(247,189,0);
+} 
+   
+.guildBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  /* -----DwarvesPage----- */
@@ -495,4 +462,7 @@ width: 400px;
     border: solid rgb(247,189,0) 3px;
     text-align: center;
     font-family: "Rakkas";
+    display: flex;
+    justify-content: space-between; 
+   
   }

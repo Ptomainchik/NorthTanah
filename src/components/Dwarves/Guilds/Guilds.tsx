@@ -1,7 +1,6 @@
 import { BlacksmithGuild } from "./BlacksmithGuild/BlacksmithGuild"
 import { MerchantsGuild } from "./MerchantsGuild/MerchantsGuild"
 import classes from '../Styles/BearPeaks.module.css'
-import { TableGuilds } from "./ TableGuilds/GuildTable"
 import { HomeButton } from "../../Button/HomeButton/HomeButton"
 import { BackButton } from "../../Button/BackButton/BackButton"
 
@@ -22,7 +21,7 @@ export const Guilds = () => {
       <h2>Merchant Guild</h2>
     </div>
 </div>
- <TableGuilds/>
+ 
 </div>
 </div>
 }

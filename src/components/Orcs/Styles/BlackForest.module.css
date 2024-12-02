@@ -165,6 +165,8 @@ left: 130px;
 .iconsSpiritCatchersModalCommunity:hover{
 opacity: 0.9;
 filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
 }
 
 .spiritCatchersModal {
@@ -222,6 +224,8 @@ opacity: 0.7;
   .iconsWorkersModalCommunity:hover{
   filter: drop-shadow(0px 0px 20px  rgb(255, 193, 21));
   opacity: 0.9;
+  animation: shifting 0.7s infinite;
+  animation-fill-mode: forwards; 
   }
   
   .workersModal {
@@ -279,6 +283,8 @@ opacity: 0.7;
   .iconsHuntersModalCommunity:hover{
   filter: drop-shadow(0px 0px 20px rgb(84, 230, 55));
   opacity: 0.9;
+  animation: shifting 0.7s infinite;
+  animation-fill-mode: forwards; 
   }
   
   .huntersModal {
@@ -331,13 +337,13 @@ width: 230px;
 position: absolute;
 bottom: -30px;
 right: 130px;
-
-
 }
   
 .iconsGangsModalCommunity:hover{
 filter: drop-shadow(0px 0px 20px rgb(190, 4, 4));
 opacity: 0.9;
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
 }
   
 .gangsModal {
@@ -375,6 +381,44 @@ font-family: "Pangolin";
   
 .buttonCloseGangsModal:hover{
 opacity: 0.7;
+}
+
+@keyframes  shifting {
+	0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+		transform: translateX(0);
+		transform: translateX(0);
+	}
+
+  10% {
+		transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+  20% {
+		transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+  30% {
+		transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+  40% {
+		transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+  50% {
+		transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+ 
+	100% {
+		transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
 }
 
 /* OverallContentModal */

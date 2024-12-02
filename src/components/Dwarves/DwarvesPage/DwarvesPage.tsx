@@ -14,14 +14,14 @@ export const DwarvesPage = () => {
       <div className={classes.infoPage}>
              <img title="Альдорх Мудрый" src={DwarfWithBook} alt="Мудрый гном" className={classes.imgPage}/>
           <div className={classes.infoTextPage}>
-          <h4>Альдорх Мудрый</h4>
+          <h5>Альдорх Мудрый</h5>
          <p>Библиотекарь Королевства</p>
          </div>
       </div>
       <div>
-          <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.historyButton} >The history of Bear Peaks</Link>
-          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.guildsButton} >Guilds of Bear Peaks</Link>
-          <Link to="/guildss" title="Гильдии Королевства Медвежьих Вершин" className={classes.battlefieldButton} >Battlefield</Link>
+          <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
+          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
+          <Link to="/guildss" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
     </div>
 </div>
 <div className={classes.story}>

@@ -5,7 +5,7 @@ import { HomeButton } from '../../Button/HomeButton/HomeButton'
 import { BackButton } from '../../Button/BackButton/BackButton'
 
 export const HistoryOfBearPeaks = () => {
-    return (<div className={classes.bodyHistory}>
+    return (<div>
       <div className={classes.button}><HomeButton/><span>History</span><BackButton/></div>
   <div className={classes.imageHistory}>
   <div className={classes.titleHistory}>

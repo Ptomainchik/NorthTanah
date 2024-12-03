@@ -1,25 +1,24 @@
 import { Accordion } from "./Accordion";
 import classes from '../../Styles/BlackForest.module.css'
-import Awaking from "../../../../images/Orcs/HistoryBlackForest/Awakening.jpg"
-import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryBlackForest/ExodusToTheBlackForest.jpg" 
-import BoarValley from "../../../../images/Orcs/HistoryBlackForest/BoarValley.jpg"
-import Construction from "../../../../images/Orcs/HistoryBlackForest/Construction.jpg"
-import Council from "../../../../images/Orcs/HistoryBlackForest/Council.jpg"
-import Solution from "../../../../images/Orcs/HistoryBlackForest/Solution.jpg"
-import Booty from "../../../../images/Orcs/HistoryBlackForest/Booty.jpg"
-import DwarvenAttack from "../../../../images/Orcs/HistoryBlackForest/DwarvenAttack.jpg"
-import ScorchedSettlement from "../../../../images/Orcs/HistoryBlackForest/ScorchedSettlement.jpg"
-import FirstKing from "../../../../images/Orcs/HistoryBlackForest/FirstKing.jpg"
+import Awaking from "../../../../images/Orcs/HistoryBlackForest/Awakening.webp"
+import ExodusToTheBlackForest from "../../../../images/Orcs/HistoryBlackForest/ExodusToTheBlackForest.webp" 
+import BoarValley from "../../../../images/Orcs/HistoryBlackForest/BoarValley.webp"
+import Construction from "../../../../images/Orcs/HistoryBlackForest/Construction.webp"
+import Council from "../../../../images/Orcs/HistoryBlackForest/Council.webp"
+import Solution from "../../../../images/Orcs/HistoryBlackForest/Solution.webp"
+import Booty from "../../../../images/Orcs/HistoryBlackForest/Booty.webp"
+import DwarvenAttack from "../../../../images/Orcs/HistoryBlackForest/DwarvenAttack.webp"
+import ScorchedSettlement from "../../../../images/Orcs/HistoryBlackForest/ScorchedSettlement.webp"
+import FirstKing from "../../../../images/Orcs/HistoryBlackForest/FirstKing.webp"
 
 export const AccordionState = () => {
     const accordionItems = [
       {
         title: 'История Чёрного леса',
-        content: (
-          <div>
+        content: (<div>
             <div className={classes.pictures}>
-  <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awakingAndExodus}/>
-  <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.awakingAndExodus}/>
+  <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awaking}/>
+  <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.exodus}/>
 </div>
 
  <div className={classes.contentScroll}>
@@ -42,8 +41,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="Долина кабанов" className={classes.picture} src={BoarValley} alt="Долина кабанов"/>
-    <img title="Строительство" className={classes.picture} src={Construction} alt="Строительство"/>
+    <img title="Долина кабанов" className={classes.pictureLeft} src={BoarValley} alt="Долина кабанов"/>
+    <img title="Строительство" className={classes.pictureRight} src={Construction} alt="Строительство"/>
   </div>
   <div className={classes.contentScroll}>
       <h2>Первые Общины</h2>
@@ -65,8 +64,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Решение" className={classes.picture} src={Solution} alt="Решение"/>
-   <img title="Добыча" className={classes.picture} src={Booty} alt="Добыча"/>
+   <img title="Решение" className={classes.pictureLeft} src={Solution} alt="Решение"/>
+   <img title="Добыча" className={classes.pictureRight} src={Booty} alt="Добыча"/>
   </div>
 
   <div className={classes.contentScroll}>
@@ -91,8 +90,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Нападение гномов" className={classes.picture} src={DwarvenAttack} alt="Нападение гномов"/>
-   <img title="Выжженное поселение" className={classes.picture} src={ScorchedSettlement} alt="Выжженное поселение"/>
+   <img title="Нападение гномов" className={classes.pictureLeft} src={DwarvenAttack} alt="Нападение гномов"/>
+   <img title="Выжженное поселение" className={classes.pictureRight} src={ScorchedSettlement} alt="Выжженное поселение"/>
   </div>
 
   <div className={classes.contentScroll}>
@@ -117,8 +116,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-  <img title="Собрание" className={classes.picture} src={Council} alt="Собрание"/>
-  <img title="Первый король" className={classes.picture} src={FirstKing} alt="Первый король"/>
+  <img title="Собрание" className={classes.pictureLeft} src={Council} alt="Собрание"/>
+  <img title="Первый король" className={classes.pictureRight} src={FirstKing} alt="Первый король"/>
   </div>
   <div className={classes.contentScroll}>
         <h2>Первый король</h2>

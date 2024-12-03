@@ -1,15 +1,15 @@
 import { Accordion } from "./Accordion";
 import classes from '../../Styles/BearPeaks.module.css'
-import KingDwarves from '../../../../images/Dwarves/HistoryBearPeaks/KingDwarves.jpg'
-import DwarfOnABear from '../../../../images/Dwarves/HistoryBearPeaks/DwarfOnABear.jpg'
-import DwarfAngry from '../../../../images/Dwarves/HistoryBearPeaks/DwarfAngry.jpg'
-import FloodedMines from '../../../../images/Dwarves/HistoryBearPeaks/FloodedMines.jpg'
-import DwarfMines from '../../../../images/Dwarves/HistoryBearPeaks/DwarfMines.jpg'
-import Forge from '../../../../images/Dwarves/HistoryBearPeaks/Forge.jpg'
-import DwarfExpedition from '../../../../images/Dwarves/HistoryBearPeaks/DwarfExpedition.jpg'
-import SapphireMountains from '../../../../images/Dwarves/HistoryBearPeaks/SapphireMountains.jpg'
-import OrcAttack from '../../../../images/Dwarves/HistoryBearPeaks/OrcAttack.jpg'
-import RowsOfDwarves from '../../../../images/Dwarves/HistoryBearPeaks/RowsOfDwarves.jpg'
+import KingDwarves from '../../../../images/Dwarves/HistoryBearPeaks/KingDwarves.webp'
+import DwarfOnABear from '../../../../images/Dwarves/HistoryBearPeaks/DwarfOnABear.webp'
+import DwarfAngry from '../../../../images/Dwarves/HistoryBearPeaks/DwarfAngry.webp'
+import FloodedMines from '../../../../images/Dwarves/HistoryBearPeaks/FloodedMines.webp'
+import DwarfMines from '../../../../images/Dwarves/HistoryBearPeaks/DwarfMines.webp'
+import Forge from '../../../../images/Dwarves/HistoryBearPeaks/Forge.webp'
+import DwarfExpedition from '../../../../images/Dwarves/HistoryBearPeaks/DwarfExpedition.webp'
+import SapphireMountains from '../../../../images/Dwarves/HistoryBearPeaks/SapphireMountains.webp'
+import OrcAttack from '../../../../images/Dwarves/HistoryBearPeaks/OrcAttack.webp'
+import RowsOfDwarves from '../../../../images/Dwarves/HistoryBearPeaks/RowsOfDwarves.webp'
 
 
 
@@ -19,9 +19,9 @@ export const AccordionState = () => {
         title: 'История Королевства Медвежьих Вершин',
         content: (
           <div>
-            <div className={classes.historyPictures}>
+            <div className={classes.pictures}>
   <img title="Король Доронг Сапфир" src={KingDwarves} alt="Король Доронг Сапфир " className={classes.kingDwarves}/>
-  <img title="Медвежьи Вершины" src={DwarfOnABear} alt="Вид на Горы где бродят медведи" className={classes.kingDwarves}/>
+  <img title="Медвежьи Вершины" src={DwarfOnABear} alt="Вид на Горы где бродят медведи" className={classes.dwarvesKingdom}/>
 </div>
 
  <div className={classes.contentScroll}><h2>История Королевства Медвежьих Вершин</h2>
@@ -42,9 +42,9 @@ export const AccordionState = () => {
         title: 'Ночь Золотой паники',
         content: (
           <div>
-           <div className={classes.historyPictures}>
-    <img title="Гном из экспедиции кричит в гневе" className={classes.historyPicture} src={DwarfAngry} alt="Гном из экспедиции кричит в гневе"/>
-    <img title="Разрушенное предместье Медвежьих Вершин" className={classes.historyPicture} src={FloodedMines} alt="Озеро после Ночи Золотой паники"/>
+           <div className={classes.pictures}>
+    <img title="Гном из экспедиции кричит в гневе" className={classes.pictureLeft} src={DwarfAngry} alt="Гном из экспедиции кричит в гневе"/>
+    <img title="Разрушенное предместье Медвежьих Вершин" className={classes.pictureRight} src={FloodedMines} alt="Озеро после Ночи Золотой паники"/>
   </div>
   <div className={classes.contentScroll}>
       <h2>Ночь Золотой паники</h2>
@@ -65,9 +65,9 @@ export const AccordionState = () => {
         title: 'Ремесло',
         content: (
           <div>
-      <div className={classes.historyPictures}>
-   <img title="Рудники Королевства Медвежьих Вершин" className={classes.historyPicture}  src={DwarfMines} alt="Рудники гномов"/>
-   <img title="Кузница Королевства Медвежьих Вершин" className={classes.historyPicture} src={Forge} alt="Гном работает в кузнице"/>
+      <div className={classes.pictures}>
+   <img title="Рудники Королевства Медвежьих Вершин" className={classes.pictureLeft}  src={DwarfMines} alt="Рудники гномов"/>
+   <img title="Кузница Королевства Медвежьих Вершин" className={classes.pictureRight} src={Forge} alt="Гном работает в кузнице"/>
   </div>
 
   <div className={classes.contentScroll}>
@@ -90,9 +90,9 @@ export const AccordionState = () => {
         title: 'Королевский камень',
         content: (
           <div>
-      <div className={classes.historyPictures}>
-   <img title="Сапфировые озёра" className={classes.historyPicture} src={SapphireMountains} alt="В горах виднеется синее свечение"/>
-   <img title="Экспедиция гномов" className={classes.historyPicture} src={DwarfExpedition} alt="Экспедиция гномов"/>
+      <div className={classes.pictures}>
+   <img title="Сапфировые озёра" className={classes.pictureLeft} src={SapphireMountains} alt="В горах виднеется синее свечение"/>
+   <img title="Экспедиция гномов" className={classes.pictureRight} src={DwarfExpedition} alt="Экспедиция гномов"/>
   </div>
 
   <div className={classes.contentScroll}>
@@ -113,9 +113,9 @@ export const AccordionState = () => {
         title: 'Усмирение',
         content: (
           <div>
-      <div className={classes.historyPictures}>
-  <img title="Орк в тоннеле" className={classes.historyPicture} src={OrcAttack} alt="Орк в тоннеле"/>
-  <img title="Строй гномов" className={classes.historyPicture} src={RowsOfDwarves} alt="Строй гномов"/>
+      <div className={classes.pictures}>
+  <img title="Орк в тоннеле" className={classes.pictureLeft} src={OrcAttack} alt="Орк в тоннеле"/>
+  <img title="Строй гномов" className={classes.pictureRight} src={RowsOfDwarves} alt="Строй гномов"/>
   </div>
   <div className={classes.contentScroll}>
         <h2>Тоннели</h2>

@@ -21,7 +21,7 @@ export const DwarvesPage = () => {
       <div>
           <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
           <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
-          <Link to="/guildss" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
+          <Link to="/battlefielddw" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
     </div>
 </div>
 <div className={classes.story}>

@@ -10,22 +10,22 @@ export const DwarvesBattlefieldLwl3 = () => {
     return (
     <div className={classes.dwarvesBattlefield}>
         <div className={classes.buttonDwarvesBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
-        <div>
-            <OrcsUnitLwl4/>
-        </div>
-        <div className={classes.unitsFlex}>
-            <OrcsUnitLwl3/>
-            <OrcsUnitLwl3/>
-            <OrcsUnitLwl3/>
-            <OrcsUnitLwl3/>
-            <OrcsUnitLwl3/>
-        </div>
-        <div className={classes.unitsFlex}>
-            <DwarvesUnitLwl3/>
-            <DwarvesUnitLwl3/>
-            <DwarvesUnitLwl3/>
-            <DwarvesUnitLwl3/>
-            <DwarvesUnitLwl3/>
+            <div className={classes.unitsFlex}>
+                <div className={classes.unitsBlock}>
+                <DwarvesUnitLwl3/>
+                <DwarvesUnitLwl3/>
+                <DwarvesUnitLwl3/>
+                <DwarvesUnitLwl3/>
+                </div>
+                <div className={classes.unitsBlock}>
+                <OrcsUnitLwl3/>
+                <OrcsUnitLwl3/>
+                <OrcsUnitLwl3/>
+                <OrcsUnitLwl3/>
+                </div>
+                <div className={classes.unitsBlock}>
+                <OrcsUnitLwl4/>
+                </div>
         </div>
     </div>)
-}
+    }

@@ -240,7 +240,7 @@ opacity: 0.7;
   height: 230px;
   width: 230px;
   position: absolute;
-  bottom: -30px;
+  bottom: 10px;
   left: 130px;
   }
   
@@ -358,7 +358,7 @@ cursor: pointer;
 height: 230px;
 width: 230px;
 position: absolute;
-bottom: -30px;
+bottom: 10px;
 right: 130px;
 }
   
@@ -491,13 +491,13 @@ right: 440px;
 
 .titleWorkers{
 position: absolute;
-bottom: -80px;
+bottom: -60px;
 left: 440px;
 }
 
 .titleGangs{
 position: absolute;
-bottom:-80px;
+bottom:-60px;
 right: 440px;
 }
 
@@ -507,7 +507,7 @@ right: 440px;
   background-size: contain;
   position: absolute;
   left: 0;
-  top: -100px;
+  top: -80px;
   width: 500px;
   height: 500px;  
   transform: scaleX(-1) scaleY(-1);
@@ -518,7 +518,7 @@ right: 440px;
   background-size: contain;
   position: absolute;
   right: 0;
-  top: -100px;
+  top: -80px;
   width: 500px;
   height: 500px;
   transform: scaleY(-1)
@@ -528,7 +528,7 @@ right: 440px;
   background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
   background-size: contain;
   position: absolute; 
-  bottom: -220px;
+  bottom: -170px;
   left: 0;
   width: 500px;
   height: 500px;
@@ -539,7 +539,7 @@ right: 440px;
   background: url(../../../images/HomePageImage/GreenTriangle.webp) no-repeat;
   background-size: contain;
   position: absolute;
-  bottom: -220px;
+  bottom: -170px;
   right: 0;
   width: 500px;
   height: 500px;

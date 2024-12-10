@@ -22,7 +22,7 @@
 .dwarfLwl2{
     width: 150px;
     height: 150px;   
-    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -34,7 +34,7 @@
 .dwarfLwl3{
     width: 150px;
     height: 150px;   
-    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -46,7 +46,7 @@
 .dwarfLwl4{
     width: 250px;
     height: 250px;   
-    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -79,7 +79,7 @@
 .orcLwl1{
     width: 150px;
     height: 150px;   
-    background: url(../../images/Battlefields/OrcsUnits/OrcsUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl1.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -91,7 +91,7 @@
 .orcLwl2{
     width: 150px;
     height: 150px;   
-    background: url(../../images/Battlefields/OrcsUnits/OrcsUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -103,7 +103,7 @@
 .orcLwl3{
     width: 150px;
     height: 150px;   
-    background: url(../../images/Battlefields/OrcsUnits/OrcsUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
@@ -115,7 +115,7 @@
 .orcLwl4{
     width: 250px;
     height: 250px;   
-    background: url(../../images/Battlefields/OrcsUnits/OrcsUnitLwl1.webp) no-repeat; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
 }

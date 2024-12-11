@@ -7,15 +7,27 @@
     background: rgb(63, 102, 76);
 }
 
-.dwarvesBattlefield .dwarfLwl123{
+.dwarvesBattlefield .dwarfLwl3{
     position: relative;
     left: 100px;
     top: 25%;
 }
 
-.dwarvesBattlefield .orcLwl123{
+.dwarvesBattlefield .orcLwl3{
     position: relative;
     right: 0;
+    top: 25%;
+}
+
+.dwarvesBattlefield .dwarfLwl12{
+    position: relative;
+    left: 500px;
+    top: 25%;
+}
+
+.dwarvesBattlefield .orcLwl12{
+    position: relative;
+    right: 200px;
     top: 25%;
 }
 
@@ -98,15 +110,27 @@
     background: rgb(186, 229, 241);
 }
 
-.orcsBattlefield .dwarfLwl123{
+.orcsBattlefield .dwarfLwl3{
     position: relative;
     right: 100px;
     top: 25%;
 }
 
-.orcsBattlefield .orcLwl123{
+.orcsBattlefield .orcLwl3{
     position: relative;
     right: 200px;
+    top: 25%;
+}
+
+.orcsBattlefield .dwarfLwl12{
+    position: relative;
+    left: 100px;
+    top: 25%;
+}
+
+.orcsBattlefield .orcLwl12{
+    position: relative;
+    right: 700px;
     top: 25%;
 }
 

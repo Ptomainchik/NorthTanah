@@ -17,7 +17,7 @@ export const OrcsBattlefieldLwl3 = () => {
                     </div>
                 </div>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLwl123}>
+                    <div className={classes.dwarfLwl3}>
                         <DwarvesUnitLwl3/>
                         <DwarvesUnitLwl3/>
                         <DwarvesUnitLwl3/>
@@ -25,7 +25,7 @@ export const OrcsBattlefieldLwl3 = () => {
                     </div>
                 </div>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.orcLwl123}>
+                    <div className={classes.orcLwl3}>
                         <OrcsUnitLwl3/>
                         <OrcsUnitLwl3/>
                         <OrcsUnitLwl3/>

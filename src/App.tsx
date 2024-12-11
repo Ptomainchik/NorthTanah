@@ -8,12 +8,8 @@ import { BlackForest } from './components/Orcs/BlackForest/BlackForest';
 import { HomePage } from './components/HomePage/HomePage';
 import { HistoryOfBlackForest } from './components/Orcs/HistoryOfBlackForest/HistoryOfBlackForest';
 import { Communities } from './components/Orcs/Communities/Communities';
-import { DwarvesBattlefieldLwl3 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl3';
-import { OrcsBattlefieldLwl3 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl3';
 import { OrcsBattlefieldLwl1 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl1';
 import { DwarvesBattlefieldLwl1 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl1';
-import { OrcsBattlefieldLwl2 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl2';
-import { DwarvesBattlefieldLwl2 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl2';
 
 function App() {
   return (
@@ -27,8 +23,8 @@ function App() {
           <Route path="orcs" element={<BlackForest/>} />
           <Route path="historybf" element={<HistoryOfBlackForest/>} />
           <Route path="communities" element={<Communities/>} />
-          <Route path="battlefielddw" element={<DwarvesBattlefieldLwl3/>}/>
-          <Route path="battlefieldor" element={<OrcsBattlefieldLwl3/>}/>
+          <Route path="battlefielddw" element={<DwarvesBattlefieldLwl1/>}/>
+          <Route path="battlefieldor" element={<OrcsBattlefieldLwl1/>}/>
           <Route path="*" element={<NoPage/>} />
       </Routes>
     </BrowserRouter>

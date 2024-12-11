@@ -8,7 +8,7 @@ import { OrcsUnitLwl1 } from "../Units/OrcsUnits/OrcsUnitLwl1";
 export const OrcsBattlefieldLwl1 = () => {
     return (
     <div className={classes.orcsBattlefield}>
-        <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefieldss</span><BackButton/></div>
+        <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
         <div className={classes.unitsFlex}>
             <div className={classes.unitsBlock}>
                 <div className={classes.dwarfLwl12}>

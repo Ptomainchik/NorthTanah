@@ -8,20 +8,24 @@ import { BackButton } from "../../Button/BackButton/BackButton";
 export const DwarvesBattlefieldLwl2 = () => {
     return (
         <div className={classes.dwarvesBattlefield}>
-        <div className={classes.buttonDwarvesBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
-            <div className={classes.unitsFlex}>
-                <div className={classes.unitsBlock}>
-                <DwarvesUnitLwl2/>
-                <DwarvesUnitLwl2/>
-                <DwarvesUnitLwl2/>
-                <DwarvesUnitLwl2/>
-                </div>
-                <div className={classes.unitsBlock}>
-                <OrcsUnitLwl2/>
-                <OrcsUnitLwl2/>
-                <OrcsUnitLwl2/>
-                <OrcsUnitLwl2/>
-                </div>
-        </div>
-    </div>)
+            <div className={classes.buttonDwarvesBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
+                <div className={classes.unitsFlex}>
+                    <div className={classes.unitsBlock}>
+                        <div className={classes.dwarfLwl123}>
+                            <DwarvesUnitLwl2/>
+                            <DwarvesUnitLwl2/>
+                            <DwarvesUnitLwl2/>
+                            <DwarvesUnitLwl2/>
+                        </div>
+                    </div>
+                    <div className={classes.unitsBlock}>
+                        <div className={classes.orcLwl123}>
+                            <OrcsUnitLwl2/>
+                            <OrcsUnitLwl2/>
+                            <OrcsUnitLwl2/>
+                            <OrcsUnitLwl2/>
+                        </div>                
+                    </div>
+            </div>
+        </div>)
 }

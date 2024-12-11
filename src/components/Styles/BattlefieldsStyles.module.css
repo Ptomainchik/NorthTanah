@@ -7,51 +7,73 @@
     background: rgb(63, 102, 76);
 }
 
-.dwarfLwl1{
-    width: 150px;
-    height: 150px;   
+.dwarvesBattlefield .dwarfLwl123{
+    position: relative;
+    left: 100px;
+    top: 25%;
+}
+
+.dwarvesBattlefield .orcLwl123{
+    position: relative;
+    right: 0;
+    top: 25%;
+}
+
+.dwarvesBattlefield .orcLwl4{
+    position: relative;
+    right: 400px;
+    top: 50%;
+}
+
+
+.buttonDwarfLwl1{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl1.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.dwarfLwl1:focus{
+.buttonDwarfLwl1:focus{
     filter: drop-shadow(1px 1px 12px red);
 }
 
-.dwarfLwl2{
-    width: 150px;
-    height: 150px;   
+.buttonDwarfLwl2{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
+    position: relative;
+    left: 0;
+    top: 25%;
 }
 
-.dwarfLwl2:focus{
+.buttonDwarfLwl2:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
-.dwarfLwl3{
-    width: 150px;
-    height: 150px;   
+.buttonDwarfLwl3{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.dwarfLwl3:focus{
+.buttonDwarfLwl3:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
-.dwarfLwl4{
-    width: 250px;
-    height: 250px;   
+.buttonDwarfLwl4{
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.dwarfLwl4:focus{
+.buttonDwarfLwl4:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
@@ -76,51 +98,69 @@
     background: rgb(186, 229, 241);
 }
 
-.orcLwl1{
-    width: 150px;
-    height: 150px;   
+.orcsBattlefield .dwarfLwl123{
+    position: relative;
+    right: 100px;
+    top: 25%;
+}
+
+.orcsBattlefield .orcLwl123{
+    position: relative;
+    right: 200px;
+    top: 25%;
+}
+
+.orcsBattlefield .dwarfLwl4{
+    position: relative;
+    left: 200px;
+    top: 50%;
+}
+
+.buttonOrcLwl1{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl1.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.orcLwl1:focus{
+.buttonOrcLwl1:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
-.orcLwl2{
-    width: 150px;
-    height: 150px;   
+.buttonOrcLwl2{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.orcLwl2:focus{
+.buttonOrcLwl2:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
-.orcLwl3{
-    width: 150px;
-    height: 150px;   
+.buttonOrcLwl3{
+    width: 120px;
+    height: 120px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.orcLwl3:focus{
+.buttonOrcLwl3:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
-.orcLwl4{
-    width: 250px;
-    height: 250px;   
+.buttonOrcLwl4{
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
-.orcLwl4:focus{
+.buttonOrcLwl4:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
@@ -137,13 +177,12 @@
 
   /* -----OverallBattlefield----- */
 
-  .unitsFlex {
+.unitsFlex {
     display: flex;
     justify-content: space-between;
-  
 }
 
 .unitsBlock {
-    width: 200px;
+    width: 0px;
     display: block;
 }

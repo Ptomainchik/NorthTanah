@@ -12,19 +12,25 @@ export const OrcsBattlefieldLwl3 = () => {
         <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
-                    <DwarvesUnitLwl4/>
+                    <div className={classes.dwarfLwl4}>
+                        <DwarvesUnitLwl4/>
+                    </div>
                 </div>
                 <div className={classes.unitsBlock}>
-                    <DwarvesUnitLwl3/>
-                    <DwarvesUnitLwl3/>
-                    <DwarvesUnitLwl3/>
-                    <DwarvesUnitLwl3/>
+                    <div className={classes.dwarfLwl123}>
+                        <DwarvesUnitLwl3/>
+                        <DwarvesUnitLwl3/>
+                        <DwarvesUnitLwl3/>
+                        <DwarvesUnitLwl3/>
+                    </div>
                 </div>
                 <div className={classes.unitsBlock}>
-                    <OrcsUnitLwl3/>
-                    <OrcsUnitLwl3/>
-                    <OrcsUnitLwl3/>
-                    <OrcsUnitLwl3/>
+                    <div className={classes.orcLwl123}>
+                        <OrcsUnitLwl3/>
+                        <OrcsUnitLwl3/>
+                        <OrcsUnitLwl3/>
+                        <OrcsUnitLwl3/>
+                    </div>
                 </div>
             </div>
     </div>)

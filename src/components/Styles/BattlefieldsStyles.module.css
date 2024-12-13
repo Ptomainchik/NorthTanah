@@ -11,25 +11,25 @@
 .dwarvesBattlefield .dwarfLwl3{
     position: relative;
     left: 100px;
-    top: 25%;
+    top: 50%;
 }
 
 .dwarvesBattlefield .orcLwl3{
     position: relative;
     right: 0;
-    top: 25%;
+    top: 50%;
 }
 
 .dwarvesBattlefield .dwarfLwl12{
     position: relative;
     left: 500px;
-    top: 25%;
+    top: 50%;
 }
 
 .dwarvesBattlefield .orcLwl12{
     position: relative;
     right: 200px;
-    top: 25%;
+    top: 50%;
 }
 
 .dwarvesBattlefield .orcLwl4{
@@ -40,8 +40,8 @@
 
 
 .buttonDwarfLwl1{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl1.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -52,14 +52,11 @@
 }
 
 .buttonDwarfLwl2{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
-    position: relative;
-    left: 0;
-    top: 25%;
 }
 
 .buttonDwarfLwl2:focus{
@@ -67,8 +64,8 @@
 }
 
 .buttonDwarfLwl3{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -79,8 +76,8 @@
 }
 
 .buttonDwarfLwl4{
-    width: 200px;
-    height: 200px;   
+    width: 300px;
+    height: 300px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -115,25 +112,25 @@
 .orcsBattlefield .dwarfLwl3{
     position: relative;
     right: 100px;
-    top: 25%;
+    top: 50%;
 }
 
 .orcsBattlefield .orcLwl3{
     position: relative;
     right: 200px;
-    top: 25%;
+    top: 50%;
 }
 
 .orcsBattlefield .dwarfLwl12{
     position: relative;
     left: 100px;
-    top: 25%;
+    top: 50%;
 }
 
 .orcsBattlefield .orcLwl12{
     position: relative;
     right: 700px;
-    top: 25%;
+    top: 50%;
 }
 
 .orcsBattlefield .dwarfLwl4{
@@ -142,9 +139,15 @@
     top: 50%;
 }
 
+.orcsBattlefield .orcLwl4{
+    position: relative;
+    right: 400px;
+    top: 50%;
+}
+
 .buttonOrcLwl1{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl1.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -155,8 +158,8 @@
 }
 
 .buttonOrcLwl2{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl2.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -167,8 +170,8 @@
 }
 
 .buttonOrcLwl3{
-    width: 120px;
-    height: 120px;   
+    width: 200px;
+    height: 200px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl3.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -179,8 +182,8 @@
 }
 
 .buttonOrcLwl4{
-    width: 200px;
-    height: 200px;   
+    width: 300px;
+    height: 300px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -211,4 +214,10 @@
 .unitsBlock {
     width: 0px;
     display: block;
+}
+
+.poultice{
+    width: 40px;
+    height: 40px;
+    background: red;
 }

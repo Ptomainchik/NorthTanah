@@ -1,37 +1,69 @@
 import classes from "../../Styles/BattlefieldsStyles.module.css";
-import { DwarvesUnitLwl4 } from "../Units/DwarvesUnits/DwarvesUnitLwl4";
-import { OrcsUnitLwl3 } from "../Units/OrcsUnits/OrcsUnitLwl3";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import { BackButton } from "../../Button/BackButton/BackButton";
-import { DwarvesUnitLwl3 } from "../Units/DwarvesUnits/DwarvesUnitLwl3";
+import { useState } from "react";
 
+
+const randomIntegerFromInterval = (min: number, max: number): number => {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
 
 export const OrcsBattlefieldLwl3 = () => {
+    const [dwarfHealth, setDwarfHealth] = useState(1000);
+    const [orcHealth, setOrcHealth] = useState(1000);
+    const [diceRoll, setDiceRoll] = useState(0);
+    const [poultice, setPoultice] = useState(1)
+
+
+    const handlePoultice = () => {
+        if (poultice === -1) { 
+        } else {
+            setPoultice( -1);
+            setOrcHealth(orcHealth + 100);
+            return
+        }
+    };
+
+    const rollDice = () => {
+        setDiceRoll(randomIntegerFromInterval(1, 2));
+    };
+
+    const handleOrcAttack = () => {
+        rollDice();
+        if (dwarfHealth > 0 && diceRoll !== null) {
+            setDwarfHealth(dwarfHealth - diceRoll * 10);
+            setTimeout(() => {
+                setOrcHealth(orcHealth - 10);
+            }, 100);
+        }
+        if (dwarfHealth < 200 && diceRoll !== null) {
+            setTimeout(() => {
+                setOrcHealth(orcHealth - 40)
+            }, 100)
+        }
+        if (dwarfHealth <= 10){
+            window.location.href = "battlefieldorlwl4";
+        }
+    };
+
     return (
-    <div className={classes.orcsBattlefield}>
-        <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
+        <div className={classes.orcsBattlefield}>
+            <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLwl4}>
-                        <DwarvesUnitLwl4/>
+                    <div className={classes.dwarfLwl12}>
+                        {dwarfHealth}<button className={classes.buttonDwarfLwl3} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
+                <div>{diceRoll}</div>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLwl3}>
-                        <DwarvesUnitLwl3/>
-                        <DwarvesUnitLwl3/>
-                        <DwarvesUnitLwl3/>
-                        <DwarvesUnitLwl3/>
-                    </div>
-                </div>
-                <div className={classes.unitsBlock}>
-                    <div className={classes.orcLwl3}>
-                        <OrcsUnitLwl3/>
-                        <OrcsUnitLwl3/>
-                        <OrcsUnitLwl3/>
-                        <OrcsUnitLwl3/>
+                    <div className={classes.orcLwl12}>
+                        {orcHealth}<button className={classes.buttonOrcLwl3}></button>
+                        <button className={classes.poultice} onClick={handlePoultice}>{poultice}</button>
                     </div>
                 </div>
             </div>
-    </div>)
-}
+        
+        </div>
+    );
+};

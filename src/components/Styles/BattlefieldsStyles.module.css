@@ -221,3 +221,48 @@
     height: 40px;
     background: red;
 }
+
+.bite{
+    width: 40px;
+    height: 40px;
+    background: forestgreen;
+}
+ 
+ progress {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 300px;
+    transform: skewX(30deg) ;
+    
+}
+  
+.healthIndicatorOrc::-webkit-progress-inner-element {
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+.healthIndicatorOrc::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    
+}
+  
+.healthIndicatorOrc::-webkit-progress-value {
+    background-color: rgb(4, 27, 1);
+    
+}
+
+.healthIndicatorDwarf::-webkit-progress-inner-element {
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+.healthIndicatorDwarf::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+}
+  
+.healthIndicatorDwarf::-webkit-progress-value {
+    background-color: rgb(30, 46, 70); 
+}
+
+
+   
+
+

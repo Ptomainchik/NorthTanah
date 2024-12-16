@@ -182,6 +182,21 @@
 
   /* -----OverallBattlefield----- */
 
+.textMessage{
+   background: url(../../images/Battlefields/Overall/textMessage.webp) no-repeat;
+   background-size: contain;
+   width: 300px;
+   height: 200px;
+   position: relative;
+   bottom: -250px;
+   left: -300px;
+}
+
+.textMessage span{
+    font-size: 22px;
+    padding-left: 30px;
+}
+
 .unitsFlex {
     display: flex;
     justify-content: space-between;
@@ -190,20 +205,6 @@
 .unitsBlock {
     width: 0px;
     display: block;
-}
-
-.orcPoultice{
-    width: 100px;
-    height: 100px;
-    background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
-    background-size: contain;
-}
-
-.contagiousBite{
-    width: 100px;
-    height: 100px;
-    background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
-    background-size: contain;
 }
  
  progress {
@@ -240,17 +241,17 @@
     background-color: rgb(30, 46, 70); 
 }
 
-/* -----OrcSkils----- */
+/* -----SkilsOrcs----- */
 
-.flexSkils{
+.flexSkilsOrcs{
     display: flex;
     border: black solid 3px;
     width: 400px;
     height: 150px;
     justify-content: space-between;
     position: absolute;
-    bottom: -250px;
-    right: -650px ;
+    bottom: 250px;
+    right: 50px;
     background: rgb(189, 189, 189) ;
 }
 
@@ -260,14 +261,50 @@
 }
 
 .titleSkils{
-    font-size: 15px;
+    font-size: 30% ;
 }
 
 .damageMultiplier{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: black solid 3px;
     background: rgb(189, 189, 189);
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
 
+.orcPoultice{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
+    background-size: contain;
+}
 
+.contagiousBite{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
+    background-size: contain;
+}
+
+.flexSkilsDwarves{
+    display: flex;
+    border: black solid 3px;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    background: rgb(189, 189, 189) ;
+}
+
+/* -----SkilsDwarves----- */
+
+.angryDwarf{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
+    background-size: contain;
 }

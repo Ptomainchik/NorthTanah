@@ -8,25 +8,13 @@
     background-size: contain; 
 }
 
-.dwarvesBattlefield .dwarfLwl3{
-    position: relative;
-    left: 100px;
-    top: 50%;
-}
-
-.dwarvesBattlefield .orcLwl3{
-    position: relative;
-    right: 0;
-    top: 50%;
-}
-
-.dwarvesBattlefield .dwarfLwl12{
+.dwarvesBattlefield .dwarfLwl123{
     position: relative;
     left: 500px;
     top: 50%;
 }
 
-.dwarvesBattlefield .orcLwl12{
+.dwarvesBattlefield .orcLwl123{
     position: relative;
     right: 200px;
     top: 50%;
@@ -109,25 +97,13 @@
     background-size: contain;
 }
 
-.orcsBattlefield .dwarfLwl3{
-    position: relative;
-    right: 100px;
-    top: 50%;
-}
-
-.orcsBattlefield .orcLwl3{
-    position: relative;
-    right: 200px;
-    top: 50%;
-}
-
-.orcsBattlefield .dwarfLwl12{
+.orcsBattlefield .dwarfLwl123{
     position: relative;
     left: 100px;
     top: 50%;
 }
 
-.orcsBattlefield .orcLwl12{
+.orcsBattlefield .orcLwl123{
     position: relative;
     right: 700px;
     top: 50%;
@@ -216,16 +192,18 @@
     display: block;
 }
 
-.poultice{
-    width: 40px;
-    height: 40px;
-    background: red;
+.orcPoultice{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
+    background-size: contain;
 }
 
-.bite{
-    width: 40px;
-    height: 40px;
-    background: forestgreen;
+.contagiousBite{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
+    background-size: contain;
 }
  
  progress {
@@ -262,7 +240,34 @@
     background-color: rgb(30, 46, 70); 
 }
 
+/* -----OrcSkils----- */
 
-   
+.flexSkils{
+    display: flex;
+    border: black solid 3px;
+    width: 400px;
+    height: 150px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -250px;
+    right: -650px ;
+    background: rgb(189, 189, 189) ;
+}
+
+.blockSkils{
+    display: block;
+    margin: 5px;
+}
+
+.titleSkils{
+    font-size: 15px;
+}
+
+.damageMultiplier{
+    width: 100px;
+    height: 100px;
+    border: black solid 3px;
+    background: rgb(189, 189, 189);
 
 
+}

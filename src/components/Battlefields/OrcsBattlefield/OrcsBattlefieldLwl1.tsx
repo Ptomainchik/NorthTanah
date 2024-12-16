@@ -12,13 +12,13 @@ export const OrcsBattlefieldLwl1 = () => {
     const [dwarfHealth, setDwarfHealth] = useState(1000);
     const [orcHealth, setOrcHealth] = useState(1000);
     const [diceRoll, setDiceRoll] = useState(0);
-    const [poultice, setPoultice] = useState(1)
+    const [orcPoultice, setOrcPoultice] = useState(1)
     const [contagiousBite, setContagiousBite] = useState(1)
 
     const handlePoultice = () => {
-        if (poultice === -1) { 
+        if (orcPoultice === -1) { 
         } else {
-            setPoultice( -1);
+            setOrcPoultice( -1);
             setOrcHealth(orcHealth + 100);
             return
         }
@@ -95,18 +95,28 @@ export const OrcsBattlefieldLwl1 = () => {
             <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLwl12}>
+                    <div className={classes.dwarfLwl123}>
                     <progress className={classes.healthIndicatorDwarf} max="1000" value={dwarfHealth} ></progress>
                         <button className={classes.buttonDwarfLwl1} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                <div>{diceRoll}</div>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.orcLwl12}>
+                    <div className={classes.orcLwl123}>
                         <progress className={classes.healthIndicatorOrc} max="1000" value={orcHealth} ></progress>
                         <button className={classes.buttonOrcLwl1}></button>
-                        <button className={classes.poultice} onClick={handlePoultice}>{poultice}</button>
-                        <button className={classes.bite} onClick={handleContagiousBite}>{contagiousBite}</button>
+                        <div className={classes.flexSkils}>
+                            <div className={classes.blockSkils}>
+                                <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - востанавливает 100 едениц здоровья.">{orcPoultice}</button>
+                                <div className={classes.titleSkils}>Лечебный гриб</div>
+                            </div>
+                                <div className={classes.blockSkils}>{diceRoll}
+                                <div className={classes.titleSkils}>Множитель урона</div> 
+                            </div>
+                            <div className={classes.blockSkils}>
+                                <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит слабый урон противнику.">{contagiousBite}</button>
+                                <div className={classes.titleSkils}>Заразный укус</div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

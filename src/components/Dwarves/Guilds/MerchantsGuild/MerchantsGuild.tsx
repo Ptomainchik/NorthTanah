@@ -18,7 +18,7 @@ const closeModal = () => {
 return (
   <div>
     <button onClick={openModal} className={classes.scalesMerchants} title="Гильдия Торговцев"></button>
-    <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(255, 130, 58, 0.7)'}, content: {border: '2px solid black' }}}
+    <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(245, 231, 44, 0.7)'}, content: {border: '2px solid black' }}}
     className={classes.merchantsModal} isOpen={modalIsOpen}>
       {MerchantsGuildDescription}
       <button className={classes.buttonCloseMerchantsModal} onClick={closeModal}>Закрыть</button>

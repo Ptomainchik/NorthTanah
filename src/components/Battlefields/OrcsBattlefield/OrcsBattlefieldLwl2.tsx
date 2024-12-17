@@ -48,10 +48,14 @@ export const OrcsBattlefieldLwl2 = () => {
         if (fetters === -1) { 
         } else {
             setFetters( -1);
-            setDwarfHealth(dwarfHealth - 100);
-            setFettersImg(false)
-            return
-        }
+        const intervalId = setInterval(() => {
+            setDwarfHealth(prevHealth => prevHealth - 20);
+        }, 1000);
+        setTimeout(() => {
+            clearInterval(intervalId);
+        }, 5000);
+        setFettersImg(false)
+    }
     };
 
     const multiplier = () => {
@@ -81,16 +85,16 @@ export const OrcsBattlefieldLwl2 = () => {
             }, 100) 
             setShowSkilsFrozenGround(true)
         }
-        else if (dwarfHealth <= 720 && dwarfHealth >= 600 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 720 && dwarfHealth >= 580 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)    
         }
         if (dwarfHealth <= 1000 && dwarfHealth >= 920 && damageMultiplier !== null) {
             setTimeout(() => {
-                setOrcHealth(orcHealth - 100)
+                setOrcHealth(orcHealth - 70)
             }, 100) 
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth <= 920 && dwarfHealth >= 880 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 920 && dwarfHealth >= 800 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         }
         if (dwarfHealth <= 1000 && dwarfHealth >= 960 && damageMultiplier !== null) {
@@ -102,7 +106,7 @@ export const OrcsBattlefieldLwl2 = () => {
             }, 100)
             setShowSkilsFrozenGround(true)
         } 
-        else if (dwarfHealth <= 1420 && dwarfHealth >= 1300 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1420 && dwarfHealth >= 1280 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)
         } 
         if (dwarfHealth <= 1800 && dwarfHealth >= 1720 && damageMultiplier !== null) {
@@ -111,7 +115,7 @@ export const OrcsBattlefieldLwl2 = () => {
             }, 100)
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth <= 1720 && dwarfHealth >= 1680 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1720 && dwarfHealth >= 1600 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         } 
         if (dwarfHealth <= 1800 && dwarfHealth >= 1760 && damageMultiplier !== null) {
@@ -174,25 +178,25 @@ export const OrcsBattlefieldLwl2 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
-                    {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает 100 единиц здоровья."></button>}
+                    {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
                     {orcPoulticeImg && <div className={classes.titleSkils}>Лечебный гриб</div>}
                 </div>
                 <div className={classes.blockSkils}>
-                    {fettersImg && <button className={classes.fetters} onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику."></button>}
+                    {fettersImg && <button className={classes.fetters} onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
                     {fettersImg && <div className={classes.titleSkils}>Охотничьи путы</div>}
                 </div>
                 <div className={classes.blockSkils}>
-                    {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит слабый урон противнику."></button>}
+                    {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
                     {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
                 </div>
             </div>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
-                    {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - отнимает увеличенное количество здоровья."></button>}
+                    {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
                     {showSkilsAngryDwarf && <div className={classes.titleSkils}>Гнев гнома</div>}
                 </div>
                 <div className={classes.blockSkils}>
-                    {showSkilsFrozenGround && <button className={classes.frozenGround} title="Мёрзлая земля - вай вай вай."></button>}
+                    {showSkilsFrozenGround && <button className={classes.frozenGround} title="Мёрзлая земля - даёт неуязвимость к обычным атакам."></button>}
                     {showSkilsFrozenGround && <div className={classes.titleSkils}>Мёрзлая земля</div>}
                 </div>
             </div>

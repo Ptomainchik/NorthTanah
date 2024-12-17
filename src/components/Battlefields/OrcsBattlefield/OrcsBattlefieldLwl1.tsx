@@ -59,70 +59,28 @@ export const OrcsBattlefieldLwl1 = () => {
             }, 100) 
             setShowSkilsAngryDwarf(true)
         }
-        if (dwarfHealth === 200 && damageMultiplier !== null) {
+        if (dwarfHealth <= 200 && dwarfHealth >= 180 && damageMultiplier !== null) {
             setShowMessage3(true);
-            setShowSkilsAngryDwarf(true)
-        } 
-        else if (dwarfHealth === 190 && damageMultiplier !== null) {
-            setShowMessage3(true);
-        }
-        else if (dwarfHealth === 180 && damageMultiplier !== null) {
-            setShowMessage3(true);
-        }
-        if (dwarfHealth === 500 && damageMultiplier !== null) {
+        }       
+        if (dwarfHealth <= 500 && dwarfHealth >= 480 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth - 50)
             }, 100) 
             setShowMessage2(true)
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth === 490 && damageMultiplier !== null) {
-            setTimeout(() => {
-                setOrcHealth(orcHealth - 50)
-            }, 100) 
-            setShowMessage2(true)
-            setShowSkilsAngryDwarf(true)
-        }
-        else if (dwarfHealth === 480 && damageMultiplier !== null) {
-            setTimeout(() => {
-                setOrcHealth(orcHealth - 50)
-            }, 100) 
-            setShowMessage2(true)
-            setShowSkilsAngryDwarf(true)
-            setShowSkilsAngryDwarf(false)
-        }
-        else if (dwarfHealth === 470 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 480 && dwarfHealth >= 410 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         } 
-        else if (dwarfHealth === 460 && damageMultiplier !== null) {
-            setShowSkilsAngryDwarf(false)
-        } 
-        if (dwarfHealth === 800 && damageMultiplier !== null) {
+       
+        if (dwarfHealth <= 800 && dwarfHealth >= 780 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth - 50)
             }, 100) 
             setShowMessage(true)
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth === 790 && damageMultiplier !== null) {
-            setTimeout(() => {
-                setOrcHealth(orcHealth - 50)
-            }, 100) 
-            setShowMessage(true)
-            setShowSkilsAngryDwarf(true)
-        }
-        else if (dwarfHealth === 780 && damageMultiplier !== null) {
-            setTimeout(() => {
-                setOrcHealth(orcHealth - 50)
-            }, 100) 
-            setShowMessage(true)
-            setShowSkilsAngryDwarf(true)
-            setShowSkilsAngryDwarf(false)
-        }
-        else if (dwarfHealth === 770 && damageMultiplier !== null) {
-            setShowSkilsAngryDwarf(false)
-        } 
-        else if (dwarfHealth === 760 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 780 && dwarfHealth >= 720 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         } 
         if (dwarfHealth < 10){
@@ -182,17 +140,17 @@ export const OrcsBattlefieldLwl1 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
-                    {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает 100 единиц здоровья."></button>}
+                    {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
                     {orcPoulticeImg && <div className={classes.titleSkils}>Лечебный гриб</div>}
                 </div>
                 <div className={classes.blockSkils}>
-                    {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит слабый урон противнику."></button>}
+                    {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
                     {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
                 </div>
             </div>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
-                  {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - отнимает увеличенное количество здоровья."></button>}
+                  {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
                   {showSkilsAngryDwarf && <div className={classes.titleSkils}>Гнев гнома</div>}
                 </div>
             </div>

@@ -288,6 +288,20 @@
     background-size: contain;
 }
 
+.fetters{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/Fetters.jpg) no-repeat;
+    background-size: contain;
+}
+
+.frozenGround{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
+    background-size: contain;
+}
+
 .flexSkilsDwarves{
     display: flex;
     border: black solid 3px;

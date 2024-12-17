@@ -41,12 +41,12 @@ export const OrcsBattlefieldLwl1 = () => {
         }
     };
 
-    const rollDice = () => {
+    const multiplier = () => {
         setDamageMultiplier(randomIntegerFromInterval(1, 2));
     };
     
     const handleOrcAttack = () => {
-        rollDice();
+        multiplier();
         if (dwarfHealth > 0 && damageMultiplier !== null) {
             setDwarfHealth(dwarfHealth - damageMultiplier * 10);
             setTimeout(() => {

@@ -246,7 +246,7 @@
 .flexSkilsOrcs{
     display: flex;
     border: black solid 3px;
-    width: 400px;
+    width: 600px;
     height: 150px;
     justify-content: space-between;
     position: absolute;
@@ -295,24 +295,14 @@
     background-size: contain;
 }
 
-.frozenGround{
+.orcStamina{
     width: 100px;
     height: 100px;
-    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
-    background-size: contain;
+    background: url(../../images/Battlefields/OrcSkils/OrcFerocity.jpg) no-repeat;
+    background-size: contain; 
 }
 
-.flexSkilsDwarves{
-    display: flex;
-    border: black solid 3px;
-    width: 400px;
-    height: 150px;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 250px;
-    left: 50px;
-    background: rgb(189, 189, 189) ;
-}
+
 
 /* -----SkilsDwarves----- */
 
@@ -321,4 +311,30 @@
     height: 100px;
     background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
     background-size: contain;
+}
+
+.frozenGround{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
+    background-size: contain;
+}
+
+.bearHug{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
+    background-size: contain;
+}
+
+.flexSkilsDwarves{
+    display: flex;
+    border: black solid 3px;
+    width: 600px;
+    height: 150px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    background: rgb(189, 189, 189) ;
 }

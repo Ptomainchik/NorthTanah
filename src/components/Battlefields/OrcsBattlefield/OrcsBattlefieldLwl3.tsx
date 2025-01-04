@@ -248,7 +248,7 @@ export const OrcsBattlefieldLwl3 = () => {
                     {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
                 </div>
                 <div className={classes.blockSkils}>
-                    {orcFerocityImg && <button className={classes.orcStamina} onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - увеличивает урон от обычных атак на три раунда."></button>}
+                    {orcFerocityImg && <button className={classes.orcFerocity} onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - увеличивает урон от обычных атак на три раунда."></button>}
                     {orcFerocityImg &&<div className={classes.titleSkils}>Свирепость орка</div>} 
                 </div>
             </div>

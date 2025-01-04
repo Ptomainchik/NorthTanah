@@ -64,8 +64,8 @@
 }
 
 .buttonDwarfLwl4{
-    width: 300px;
-    height: 300px;   
+    width: 250px;
+    height: 250px;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
@@ -121,6 +121,8 @@
     top: 50%;
 }
 
+
+
 .buttonOrcLwl1{
     width: 200px;
     height: 200px;   
@@ -158,14 +160,29 @@
 }
 
 .buttonOrcLwl4{
-    width: 300px;
-    height: 300px;   
+    width: 250px;
+    height: 250px;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLwl4.webp) no-repeat; 
     background-size: contain;
     border: none;
 }
 
 .buttonOrcLwl4:focus{
+    filter: drop-shadow(1px 1px 12px red); 
+}
+
+.buttonOrcLwlUnic{
+    width: 250px;
+    height: 250px;   
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrower.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: relative;
+    right: -600px;
+    bottom: 100px;
+}
+
+.buttonOrcLwlUnic:focus{
     filter: drop-shadow(1px 1px 12px red); 
 }
 
@@ -295,7 +312,7 @@
     background-size: contain;
 }
 
-.orcStamina{
+.orcFerocity{
     width: 100px;
     height: 100px;
     background: url(../../images/Battlefields/OrcSkils/OrcFerocity.jpg) no-repeat;

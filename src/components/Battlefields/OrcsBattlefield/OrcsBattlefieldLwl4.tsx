@@ -8,8 +8,8 @@ const randomIntegerFromInterval = (min: number, max: number): number => {
 };
 
 export const OrcsBattlefieldLwl4 = () => {
-    const [dwarfHealth, setDwarfHealth] = useState(4000);
-    const [orcHealth, setOrcHealth] = useState(4000);
+    const [dwarfHealth, setDwarfHealth] = useState(10000);
+    const [orcHealth, setOrcHealth] = useState(10000);
     const [damageMultiplier, setDamageMultiplier] = useState(0);
     const [orcPoultice, setOrcPoultice] = useState(1);
     const [contagiousBite, setContagiousBite] = useState(1);
@@ -27,18 +27,40 @@ export const OrcsBattlefieldLwl4 = () => {
     const [showBearHug, setShowBearHug] = useState(false);
     const [ferocityActive, setFerocityActive] = useState(false);
     const [ferocityCount, setFerocityCount] = useState(0);
+    const [spearThrower, setSpearThrower] = useState(3)
 
     const handlePoultice = () => {
         if (orcPoultice === -1) { 
         } 
         else {
-            setOrcPoultice( -1)
+            setOrcPoultice(-1)
             setOrcHealth(orcHealth + 100)
             setOrcPoulticeImg(false)
             return
         }
     }
+    
+    const handleSpearThrower = () => {
+        if (spearThrower > 0)  {
+            setSpearThrower(spearThrower - 1)
+            setDwarfHealth(dwarfHealth - 2000)
+            setOrcHealth(orcHealth - 200)
+        }}
 
+    let buttonClass 
+        if (spearThrower === 3) {
+            buttonClass = classes.buttonOrcLwlUnic3
+        }
+        else if (spearThrower === 2) {
+            buttonClass = classes.buttonOrcLwlUnic2
+        }
+        else if (spearThrower === 1) {
+            buttonClass = classes.buttonOrcLwlUnic1
+        } 
+        else if (spearThrower === 0) {
+            buttonClass = classes.buttonOrcLwlUnic
+        }
+    
     const handleContagiousBite = () => {
         if (contagiousBite === -1) { 
         } else {
@@ -49,7 +71,7 @@ export const OrcsBattlefieldLwl4 = () => {
         }
     }
 
-   const handleOrcFerocity = () => {
+    const handleOrcFerocity = () => {
         if (orcFerocity === -1 || ferocityActive) {
             return
         } else {
@@ -179,6 +201,10 @@ export const OrcsBattlefieldLwl4 = () => {
         if (dwarfHealth <= 3600 && dwarfHealth >= 3440 && damageMultiplier !== null) {
             setShowMessage(true)
         }  
+
+        if (dwarfHealth > 0 && damageMultiplier !== null) {
+          
+        }
         if (dwarfHealth < 10){
             window.location.href = "battlefieldorlwl4";
         }
@@ -234,7 +260,9 @@ export const OrcsBattlefieldLwl4 = () => {
                     </div>
                 </div>
             </div>
-            <button className={classes.buttonOrcLwlUnic}></button>
+           
+            <button className={buttonClass} onClick={handleSpearThrower} ></button>
+          
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
                     {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}

@@ -35,8 +35,16 @@
     border: none;
 }
 
-.buttonDwarfLwl1:focus{
-    filter: drop-shadow(1px 1px 12px red);
+.buttonDwarfLwl1:hover{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLwl1:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonDwarfLwl2{
@@ -47,8 +55,16 @@
     border: none;
 }
 
-.buttonDwarfLwl2:focus{
+.buttonDwarfLwl2:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLwl2:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonDwarfLwl3{
@@ -59,8 +75,16 @@
     border: none;
 }
 
-.buttonDwarfLwl3:focus{
+.buttonDwarfLwl3:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLwl3:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonDwarfLwl4{
@@ -71,8 +95,16 @@
     border: none;
 }
 
-.buttonDwarfLwl4:focus{
+.buttonDwarfLwl4:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLwl4:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonDwarvesBattlefield{
@@ -86,6 +118,64 @@
     z-index: 9999;
   }
 
+@keyframes  backingDwarf {
+    0%,  100% {
+        transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes  attackingDwarf {
+    0%,  100% {
+        transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+    }
+}
+
+/* -----SkilsDwarves----- */
+
+.angryDwarf{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
+    background-size: contain;
+}
+
+.frozenGround{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
+    background-size: contain;
+}
+
+.bearHug{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
+    background-size: contain;
+}
+
+.flexSkilsDwarves{
+    display: flex;
+    border: black solid 3px;
+    width: 600px;
+    height: 150px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    background: rgb(189, 189, 189) ;
+}
 
 /* -----OrcsBattlefield----- */
 
@@ -129,8 +219,10 @@
     border: none;
 }
 
-.buttonOrcLwl1:focus{
+.buttonOrcLwl1:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwl2{
@@ -141,8 +233,10 @@
     border: none;
 }
 
-.buttonOrcLwl2:focus{
+.buttonOrcLwl2:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwl3{
@@ -153,8 +247,10 @@
     border: none;
 }
 
-.buttonOrcLwl3:focus{
+.buttonOrcLwl3:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwl4{
@@ -165,8 +261,10 @@
     border: none;
 }
 
-.buttonOrcLwl4:focus{
+.buttonOrcLwl4:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwlUnic{
@@ -180,10 +278,6 @@
     bottom: 100px;
 }
 
-.buttonOrcLwlUnic:focus{
-    filter: drop-shadow(1px 1px 12px red); 
-}
-
 .buttonOrcLwlUnic1{
     width: 250px;
     height: 250px;   
@@ -195,8 +289,16 @@
     bottom: 100px;
 }
 
-.buttonOrcLwlUnic1:focus{
+.buttonOrcLwlUnic1:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonOrcLwlUnic1:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwlUnic2{
@@ -210,8 +312,16 @@
     bottom: 100px;
 }
 
-.buttonOrcLwlUnic2:focus{
+.buttonOrcLwlUnic2:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonOrcLwlUnic2:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcLwlUnic3{
@@ -225,8 +335,16 @@
     bottom: 100px;
 }
 
-.buttonOrcLwlUnic3:focus{
+.buttonOrcLwlUnic3:hover{
     filter: drop-shadow(1px 1px 12px red); 
+    animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonOrcLwlUnic3:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
+    animation-fill-mode: forwards; 
 }
 
 .buttonOrcsBattlefield{
@@ -238,67 +356,30 @@
     justify-content: space-between; 
     position: relative;
     z-index: 9999;
-  }
-
-  /* -----OverallBattlefield----- */
-
-.textMessage{
-   background: url(../../images/Battlefields/Overall/textMessage.webp) no-repeat;
-   background-size: contain;
-   width: 300px;
-   height: 200px;
-   position: relative;
-   bottom: -250px;
-   left: -300px;
 }
 
-.textMessage span{
-    font-size: 22px;
-    padding-left: 30px;
+@keyframes  backingOrc {
+    0%,  100% {
+        transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+        transform: translateX(10px);
+    }
 }
 
-.unitsFlex {
-    display: flex;
-    justify-content: space-between;
-}
+@keyframes  attackingOrc {
+    0%,  100% {
+        transform: translateX(0);
+        transform: translateX(0);
+    }
 
-.unitsBlock {
-    width: 0px;
-    display: block;
-}
- 
- progress {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 300px;
-    transform: skewX(30deg) ;
-    
-}
-  
-.healthIndicatorOrc::-webkit-progress-inner-element {
-    border: 2px solid rgb(0, 0, 0);
-}
-  
-.healthIndicatorOrc::-webkit-progress-bar {
-    background-color: rgb(189, 189, 189);
-    
-}
-  
-.healthIndicatorOrc::-webkit-progress-value {
-    background-color: rgb(4, 27, 1);
-    
-}
-
-.healthIndicatorDwarf::-webkit-progress-inner-element {
-    border: 2px solid rgb(0, 0, 0);
-}
-  
-.healthIndicatorDwarf::-webkit-progress-bar {
-    background-color: rgb(189, 189, 189);
-}
-  
-.healthIndicatorDwarf::-webkit-progress-value {
-    background-color: rgb(30, 46, 70); 
+    100% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
 }
 
 /* -----SkilsOrcs----- */
@@ -362,39 +443,65 @@
     background-size: contain; 
 }
 
+  /* -----OverallBattlefield----- */
 
-
-/* -----SkilsDwarves----- */
-
-.angryDwarf{
-    width: 100px;
-    height: 100px;
-    background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
-    background-size: contain;
+.textMessage{
+   background: url(../../images/Battlefields/Overall/textMessage.webp) no-repeat;
+   background-size: contain;
+   width: 300px;
+   height: 200px;
+   position: relative;
+   bottom: -250px;
+   left: -300px;
 }
 
-.frozenGround{
-    width: 100px;
-    height: 100px;
-    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
-    background-size: contain;
+.textMessage span{
+    font-size: 22px;
+    padding-left: 30px;
 }
 
-.bearHug{
-    width: 100px;
-    height: 100px;
-    background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
-    background-size: contain;
-}
-
-.flexSkilsDwarves{
+.unitsFlex {
     display: flex;
-    border: black solid 3px;
-    width: 600px;
-    height: 150px;
     justify-content: space-between;
-    position: absolute;
-    bottom: 250px;
-    left: 50px;
-    background: rgb(189, 189, 189) ;
 }
+
+.unitsBlock {
+    width: 0px;
+    display: block;
+}
+ 
+ progress {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 300px;
+    transform: skewX(30deg) ;
+}
+  
+.healthIndicatorOrc::-webkit-progress-inner-element {
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+.healthIndicatorOrc::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    
+}
+  
+.healthIndicatorOrc::-webkit-progress-value {
+    background-color: rgb(4, 27, 1);
+    
+}
+
+.healthIndicatorDwarf::-webkit-progress-inner-element {
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+.healthIndicatorDwarf::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+}
+  
+.healthIndicatorDwarf::-webkit-progress-value {
+    background-color: rgb(30, 46, 70); 
+}
+
+
+

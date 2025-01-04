@@ -8,8 +8,8 @@ const randomIntegerFromInterval = (min: number, max: number): number => {
 };
 
 export const OrcsBattlefieldLwl4 = () => {
-    const [dwarfHealth, setDwarfHealth] = useState(10000);
-    const [orcHealth, setOrcHealth] = useState(10000);
+    const [dwarfHealth, setDwarfHealth] = useState(8000);
+    const [orcHealth, setOrcHealth] = useState(8000);
     const [damageMultiplier, setDamageMultiplier] = useState(0);
     const [orcPoultice, setOrcPoultice] = useState(1);
     const [contagiousBite, setContagiousBite] = useState(1);
@@ -43,8 +43,20 @@ export const OrcsBattlefieldLwl4 = () => {
     const handleSpearThrower = () => {
         if (spearThrower > 0)  {
             setSpearThrower(spearThrower - 1)
-            setDwarfHealth(dwarfHealth - 2000)
-            setOrcHealth(orcHealth - 200)
+            setDwarfHealth(dwarfHealth - 100)
+            const intervalId1 = setInterval(() => {
+                setDwarfHealth(prevHealth => prevHealth - 20)
+            }, 1000)
+            setTimeout(() => {
+                clearInterval(intervalId1)
+            }, 3000)
+            setOrcHealth(orcHealth - 100)
+            const intervalId = setInterval(() => {
+                setOrcHealth(prevHealth => prevHealth - 10)
+            }, 1000)
+            setTimeout(() => {
+                clearInterval(intervalId)
+            }, 8000)
         }}
 
     let buttonClass 
@@ -65,7 +77,7 @@ export const OrcsBattlefieldLwl4 = () => {
         if (contagiousBite === -1) { 
         } else {
             setContagiousBite( -1)
-            setDwarfHealth(dwarfHealth - 100)
+            setDwarfHealth(dwarfHealth - 160)
             setContagiousBiteImg(false)
             return
         }
@@ -86,7 +98,7 @@ export const OrcsBattlefieldLwl4 = () => {
         } else {
             setFetters( -1)
         const intervalId = setInterval(() => {
-            setDwarfHealth(prevHealth => prevHealth - 40)
+            setDwarfHealth(prevHealth => prevHealth - 80)
         }, 1000)
         setTimeout(() => {
             clearInterval(intervalId)
@@ -103,7 +115,7 @@ export const OrcsBattlefieldLwl4 = () => {
         multiplier()
         if (dwarfHealth > 0 && damageMultiplier !== null) {
             if (ferocityActive) {
-                setDwarfHealth(dwarfHealth - damageMultiplier * 80);
+                setDwarfHealth(dwarfHealth - damageMultiplier * 160);
                 setFerocityCount(ferocityCount + 1)
             if (ferocityCount >= 3) {
                     setFerocityActive(false)
@@ -111,16 +123,16 @@ export const OrcsBattlefieldLwl4 = () => {
                 }
             } 
             else {
-                setDwarfHealth(dwarfHealth - damageMultiplier * 40)
+                setDwarfHealth(dwarfHealth - damageMultiplier * 80)
             }
             setTimeout(() => {
-                setOrcHealth(orcHealth - 40)
+                setOrcHealth(orcHealth - 80)
             }, 100);
         }
 
-        if (dwarfHealth < 800 && damageMultiplier !== null) {
+        if (dwarfHealth < 1200 && damageMultiplier !== null) {
             setTimeout(() => {
-                setOrcHealth(orcHealth - 80)
+                setOrcHealth(orcHealth - 160)
             }, 100) 
             setShowSkilsAngryDwarf(true)
         }
@@ -129,76 +141,72 @@ export const OrcsBattlefieldLwl4 = () => {
             setShowMessage3(true)
         } 
 
-        if (dwarfHealth <= 1200 && dwarfHealth >= 1120 && damageMultiplier !== null) {
+        if (dwarfHealth <= 2000 && dwarfHealth >= 1840 && damageMultiplier !== null) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth + 10)
             }, 100) 
             setShowSkilsFrozenGround(true)
         }
-        else if (dwarfHealth <= 1120 && dwarfHealth >= 960 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1840 && dwarfHealth >= 1300 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)    
         }
 
-        if (dwarfHealth <= 1600 && dwarfHealth >= 1440 && damageMultiplier !== null) {
+        if (dwarfHealth <= 3000 && dwarfHealth >= 2680 && damageMultiplier !== null) {
             setShowBearHug(true)
             const intervalId = setInterval(() => {
-                setOrcHealth(prevHealth => prevHealth - 30)
+                setOrcHealth(prevHealth => prevHealth - 80)
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
+                setShowBearHug(false)
             }, 5000);
         }
-        else if (dwarfHealth <= 1440 && dwarfHealth >= 1280 && damageMultiplier !== null){
-            setShowBearHug(false)
-        }
 
-        if (dwarfHealth <= 2000 && dwarfHealth >= 1840 && damageMultiplier !== null) {
+        if (dwarfHealth <= 4000 && dwarfHealth >= 3600 && damageMultiplier !== null) {
             setTimeout(() => {
-                setOrcHealth(orcHealth - 70)
+                setOrcHealth(orcHealth - 80)
             }, 100) 
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth <= 1840 && dwarfHealth >= 1680 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 3600 && dwarfHealth >= 3280 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         }
 
-        if (dwarfHealth <= 2000 && dwarfHealth >= 1840 && damageMultiplier !== null) {
+        if (dwarfHealth <= 4000 && dwarfHealth >= 3840 && damageMultiplier !== null) {
             setShowMessage2(true)
         }
 
-        if (dwarfHealth <= 2400 && dwarfHealth >= 2320 && damageMultiplier !== null) {
+        if (dwarfHealth <= 5000 && dwarfHealth >= 4840 && damageMultiplier !== null) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth + 10)
             }, 100)
             setShowSkilsFrozenGround(true)
         } 
-        else if (dwarfHealth <= 2320 && dwarfHealth >= 2160 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 4840 && dwarfHealth >= 4300 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)
         } 
 
-        if (dwarfHealth <= 3000 && dwarfHealth >= 2840 && damageMultiplier !== null) {
+        if (dwarfHealth <= 6000 && dwarfHealth >= 5680 && damageMultiplier !== null) {
             setShowBearHug(true)
             const intervalId = setInterval(() => {
-                setOrcHealth(prevHealth => prevHealth - 30)
+                setOrcHealth(prevHealth => prevHealth - 80)
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
+                setShowBearHug(false)
             }, 5000);
         }
-        else if (dwarfHealth <= 2840 && dwarfHealth >= 2680 && damageMultiplier !== null){
-            setShowBearHug(false)
-        }
-
-        if (dwarfHealth <= 3600 && dwarfHealth >= 3440 && damageMultiplier !== null) {
+    
+        if (dwarfHealth <= 7000 && dwarfHealth >= 6600 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth - 100)
             }, 100)
             setShowSkilsAngryDwarf(true)
         }
-        else if (dwarfHealth <= 3440 && dwarfHealth >= 3280 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 6600 && dwarfHealth >= 6280 && damageMultiplier !== null) {
             setShowSkilsAngryDwarf(false)
         } 
-        if (dwarfHealth <= 3600 && dwarfHealth >= 3440 && damageMultiplier !== null) {
+        if (dwarfHealth <= 7000 && dwarfHealth >= 6840 && damageMultiplier !== null) {
             setShowMessage(true)
         }  
 
@@ -246,7 +254,7 @@ export const OrcsBattlefieldLwl4 = () => {
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLwl123}>
-                    <progress className={classes.healthIndicatorDwarf} max="10000" value={dwarfHealth} ></progress>
+                    <progress className={classes.healthIndicatorDwarf} max="8000" value={dwarfHealth} ></progress>
                         <button className={classes.buttonDwarfLwl4} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
@@ -255,7 +263,7 @@ export const OrcsBattlefieldLwl4 = () => {
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLwl123}>
-                        <progress className={classes.healthIndicatorOrc} max="10000" value={orcHealth} ></progress>
+                        <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>
                         <button className={classes.buttonOrcLwl4}></button>
                     </div>
                 </div>

@@ -124,12 +124,10 @@ export const OrcsBattlefieldLwl3 = () => {
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
+                setShowBearHug(false)
             }, 5000);
         }
-        else if (dwarfHealth <= 1440 && dwarfHealth >= 1280 && damageMultiplier !== null){
-            setShowBearHug(false)
-        }
-
+      
         if (dwarfHealth <= 2000 && dwarfHealth >= 1840 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth - 70)
@@ -161,12 +159,10 @@ export const OrcsBattlefieldLwl3 = () => {
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
+                setShowBearHug(false)
             }, 5000);
         }
-        else if (dwarfHealth <= 2840 && dwarfHealth >= 2680 && damageMultiplier !== null){
-            setShowBearHug(false)
-        }
-
+       
         if (dwarfHealth <= 3600 && dwarfHealth >= 3440 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth - 100)

@@ -141,22 +141,22 @@ export const OrcsBattlefieldLwl1 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
                     {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {orcPoulticeImg && <div className={classes.titleSkils}>Лечебный гриб</div>}
+                    {orcPoulticeImg && <div className={classes.titleSkilsPoultice}>Лечебный гриб</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
-                    {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
+                    {contagiousBiteImg &&<div className={classes.titleSkilsContagiousBite}>Заразный укус</div>} 
                 </div>
             </div>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
-                  {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                  {showSkilsAngryDwarf && <div className={classes.titleSkils}>Гнев гнома</div>}
+                    {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
+                    {showSkilsAngryDwarf && <div className={classes.titleSkilsAngryDwarf}>Гнев гнома</div>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
                     {damageMultiplier}x
-                    <div className={classes.titleSkils}>Множитель урона</div> 
+                    <div className={classes.titleSkilsMultiplier}>Множитель урона</div> 
             </div>
         </div>
     );

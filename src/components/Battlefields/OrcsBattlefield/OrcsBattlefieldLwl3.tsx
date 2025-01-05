@@ -33,7 +33,7 @@ export const OrcsBattlefieldLwl3 = () => {
         } 
         else {
             setOrcPoultice( -1)
-            setOrcHealth(orcHealth + 100)
+            setOrcHealth(orcHealth + 120)
             setOrcPoulticeImg(false)
             return
         }
@@ -233,38 +233,38 @@ export const OrcsBattlefieldLwl3 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
                     {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {orcPoulticeImg && <div className={classes.titleSkils}>Лечебный гриб</div>}
+                    {orcPoulticeImg && <div className={classes.titleSkilsPoultice}>Лечебный гриб</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {fettersImg && <button className={classes.fetters} onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
-                    {fettersImg && <div className={classes.titleSkils}>Охотничьи путы</div>}
+                    {fettersImg && <div className={classes.titleSkilsFetters}>Охотничьи путы</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
-                    {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
+                    {contagiousBiteImg &&<div className={classes.titleSkilsContagiousBite}>Заразный укус</div>} 
                 </div>
                 <div className={classes.blockSkils}>
                     {orcFerocityImg && <button className={classes.orcFerocity} onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - увеличивает урон от обычных атак на три раунда."></button>}
-                    {orcFerocityImg &&<div className={classes.titleSkils}>Свирепость орка</div>} 
+                    {orcFerocityImg &&<div className={classes.titleSkilsFerocity}>Свирепость орка</div>} 
                 </div>
             </div>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
                     {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {showSkilsAngryDwarf && <div className={classes.titleSkils}>Гнев гнома</div>}
+                    {showSkilsAngryDwarf && <div className={classes.titleSkilsAngryDwarf}>Гнев гнома</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {showSkilsFrozenGround && <button className={classes.frozenGround} title="Мёрзлая земля - даёт неуязвимость к обычным атакам."></button>}
-                    {showSkilsFrozenGround && <div className={classes.titleSkils}>Мёрзлая земля</div>}
+                    {showSkilsFrozenGround && <div className={classes.titleSkilsFrozenGround}>Мёрзлая земля</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {showBearHug && <button className={classes.bearHug} title="Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени."></button>}
-                    {showBearHug && <div className={classes.titleSkils}>Медвежьи объятия</div>}
+                    {showBearHug && <div className={classes.titleSkilsBearHug}>Медвежьи объятия</div>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
                     {damageMultiplier}x
-                    <div className={classes.titleSkils}>Множитель урона</div> 
+                    <div className={classes.titleSkilsMultiplier}>Множитель урона</div> 
             </div>
         </div>
     );

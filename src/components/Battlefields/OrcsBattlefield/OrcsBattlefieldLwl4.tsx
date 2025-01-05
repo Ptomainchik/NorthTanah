@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
-import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
+import classes from "../../Styles/BattlefieldsStyles.module.css";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -22,6 +22,7 @@ export const OrcsBattlefieldLwl4 = () => {
     const [showMessage, setShowMessage] = useState(false);
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
+    const [showMessageSpearThrower, setShowMessageSpearThrower] = useState(true);
     const [showSkilsAngryDwarf, setShowSkilsAngryDwarf] = useState(false);
     const [showSkilsFrozenGround, setShowSkilsFrozenGround] = useState(false);
     const [showBearHug, setShowBearHug] = useState(false);
@@ -251,6 +252,14 @@ export const OrcsBattlefieldLwl4 = () => {
         }
     }, [showMessage3])
 
+    useEffect(() => {
+        const timeoutID = setTimeout(() => {
+            setShowMessageSpearThrower(false)
+        }, 7000);
+
+        return () => clearTimeout(timeoutID)
+    }, [showMessageSpearThrower])
+
     return (
         <div className={classes.orcsBattlefield}>
             <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
@@ -264,6 +273,7 @@ export const OrcsBattlefieldLwl4 = () => {
                 {showMessage && <div className={classes.textMessage}><span>Жалкие орки.</span></div>}
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
+                {showMessageSpearThrower && <div className={classes.textMessageSpearThrower}><span>Я пришёл на подмогу!</span></div>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLwl123}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>
@@ -272,47 +282,47 @@ export const OrcsBattlefieldLwl4 = () => {
                 </div>
             </div>
            
-            <button className={buttonClass} onClick={handleSpearThrower} ></button>
+            <button className={buttonClass} onClick={handleSpearThrower} title="Метатель - наносит слабый урон противнику, а затем малый урон в течение некоторого времени." ></button>
           
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
                     {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {orcPoulticeImg && <div className={classes.titleSkils}>Лечебный гриб</div>}
+                    {orcPoulticeImg && <div className={classes.titleSkilsPoultice}>Лечебный гриб</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {fettersImg && <button className={classes.fetters} onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
-                    {fettersImg && <div className={classes.titleSkils}>Охотничьи путы</div>}
+                    {fettersImg && <div className={classes.titleSkilsFetters}>Охотничьи путы</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {contagiousBiteImg && <button className={classes.contagiousBite} onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
-                    {contagiousBiteImg &&<div className={classes.titleSkils}>Заразный укус</div>} 
+                    {contagiousBiteImg &&<div className={classes.titleSkilsContagiousBite}>Заразный укус</div>} 
                 </div>
                 <div className={classes.blockSkils}>
                     {orcFerocityImg && <button className={classes.orcFerocity} onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - увеличивает урон от обычных атак на три раунда."></button>}
-                    {orcFerocityImg &&<div className={classes.titleSkils}>Свирепость орка</div>} 
+                    {orcFerocityImg &&<div className={classes.titleSkilsFerocity}>Свирепость орка</div>} 
                 </div>
             </div>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
                     {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {showSkilsAngryDwarf && <div className={classes.titleSkils}>Гнев гнома</div>}
+                    {showSkilsAngryDwarf && <div className={classes.titleSkilsAngryDwarf}>Гнев гнома</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {showSkilsFrozenGround && <button className={classes.frozenGround} title="Мёрзлая земля - даёт неуязвимость к обычным атакам."></button>}
-                    {showSkilsFrozenGround && <div className={classes.titleSkils}>Мёрзлая земля</div>}
+                    {showSkilsFrozenGround && <div className={classes.titleSkilsFrozenGround}>Мёрзлая земля</div>}
                 </div>
                 <div className={classes.blockSkils}>
                     {showBearHug && <button className={classes.bearHug} title="Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени."></button>}
-                    {showBearHug && <div className={classes.titleSkils}>Медвежьи объятия</div>}
+                    {showBearHug && <div className={classes.titleSkilsBearHug}>Медвежьи объятия</div>}
                 </div>
                 <div className={classes.blockSkils}>
-                    {showDwarvesBolts && <button className={classes.dwarvesBolts} title="Арбалетные болты - наносит слабый урон противнику, а затем малый урон в течение некоторого времени."></button>}
-                    {showDwarvesBolts && <div className={classes.titleSkils}>Арбалетные болты</div>}
+                    {showDwarvesBolts && <button className={classes.dwarvesBolts} title="Арбалетные болты - наносят слабый урон противнику, а затем малый урон в течение некоторого времени."></button>}
+                    {showDwarvesBolts && <div className={classes.titleSkilsDwarvesBolts}>Арбалетные болты</div>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
                     {damageMultiplier}x
-                    <div className={classes.titleSkils}>Множитель урона</div> 
+                    <div className={classes.titleSkilsMultiplier}>Множитель урона</div> 
             </div>
         </div>
     );

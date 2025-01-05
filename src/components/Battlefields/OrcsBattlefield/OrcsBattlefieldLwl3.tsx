@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { BackButton } from "../../Button/BackButton/BackButton";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
+import { RestartButton } from "../../Button/RestartButton/RestartButton";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -113,7 +113,7 @@ export const OrcsBattlefieldLwl3 = () => {
             }, 100) 
             setShowSkilsFrozenGround(true)
         }
-        else if (dwarfHealth <= 1120 && dwarfHealth >= 960 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1120 && dwarfHealth >= 700 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)    
         }
 
@@ -148,7 +148,7 @@ export const OrcsBattlefieldLwl3 = () => {
             }, 100)
             setShowSkilsFrozenGround(true)
         } 
-        else if (dwarfHealth <= 2320 && dwarfHealth >= 2160 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 2320 && dwarfHealth >= 2000 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)
         } 
 
@@ -212,7 +212,7 @@ export const OrcsBattlefieldLwl3 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
+            <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLwl123}>

@@ -26,7 +26,6 @@
     top: 50%;
 }
 
-
 .buttonDwarfLwl1{
     width: 200px;
     height: 200px;   
@@ -162,6 +161,13 @@
     width: 100px;
     height: 100px;
     background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
+    background-size: contain;
+}
+
+.dwarvesBolts{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/DwarfSkils/Bolt.jpg) no-repeat;
     background-size: contain;
 }
 

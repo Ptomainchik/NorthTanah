@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { BackButton } from "../../Button/BackButton/BackButton";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
+import { RestartButton } from "../../Button/RestartButton/RestartButton";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -25,6 +25,7 @@ export const OrcsBattlefieldLwl4 = () => {
     const [showSkilsAngryDwarf, setShowSkilsAngryDwarf] = useState(false);
     const [showSkilsFrozenGround, setShowSkilsFrozenGround] = useState(false);
     const [showBearHug, setShowBearHug] = useState(false);
+    const [showDwarvesBolts, setShowDwarvesBolts] = useState(false);
     const [ferocityActive, setFerocityActive] = useState(false);
     const [ferocityCount, setFerocityCount] = useState(0);
     const [spearThrower, setSpearThrower] = useState(3)
@@ -42,6 +43,7 @@ export const OrcsBattlefieldLwl4 = () => {
     
     const handleSpearThrower = () => {
         if (spearThrower > 0)  {
+            setShowDwarvesBolts(true)
             setSpearThrower(spearThrower - 1)
             setDwarfHealth(dwarfHealth - 100)
             const intervalId1 = setInterval(() => {
@@ -56,6 +58,7 @@ export const OrcsBattlefieldLwl4 = () => {
             }, 1000)
             setTimeout(() => {
                 clearInterval(intervalId)
+                setShowDwarvesBolts(false)
             }, 8000)
         }}
 
@@ -250,7 +253,7 @@ export const OrcsBattlefieldLwl4 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
+            <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLwl123}>
@@ -301,6 +304,10 @@ export const OrcsBattlefieldLwl4 = () => {
                 <div className={classes.blockSkils}>
                     {showBearHug && <button className={classes.bearHug} title="Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени."></button>}
                     {showBearHug && <div className={classes.titleSkils}>Медвежьи объятия</div>}
+                </div>
+                <div className={classes.blockSkils}>
+                    {showDwarvesBolts && <button className={classes.dwarvesBolts} title="Арбалетные болты - наносит слабый урон противнику, а затем малый урон в течение некоторого времени."></button>}
+                    {showDwarvesBolts && <div className={classes.titleSkils}>Арбалетные болты</div>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

@@ -423,6 +423,70 @@
     }
 }
 
+
+/* -----ModalRulesOrc----- */
+
+.buttonModalRulesOrc{
+    width: 8%;
+    height: 11%;
+    background: url(../../images/Battlefields/Overall/RulesBook.webp);
+    background-size: cover;
+    border: none;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 1%;
+    top: 10%;
+}
+
+.buttonModalRulesOrc:hover{
+    filter: drop-shadow(1px 1px 12px red); 
+}
+
+.modalRulesOrc{
+  width: 1200px;
+  height: 700px;
+  background: green;
+}
+
+.modalRules{
+    display: flex;
+}
+
+.rules{
+    display: block;
+}
+
+.rule{
+    display: flex;
+    width: 600px;
+}
+
+.rule span{
+    font-size: 15px;
+    margin: 2%;
+}
+
+.imgRules{
+    width: 15%;
+    margin: 2%;
+    border: solid grey 2px;
+}
+.buttonCloseModalRulesOrc{
+    width: 70%;
+    height: 8%;
+    font-size: 2rem;
+    border-style: solid;
+    border-color:black;
+    background:rgb(190, 4, 4);
+    font-family: "Pangolin";
+}
+
+.buttonCloseModalRulesOrc:hover{
+    opacity: 0.7;
+}
+        
+
+
 /* -----SkilsOrcs----- */
 
 .flexSkilsOrcs{
@@ -508,8 +572,8 @@
   /* -----OverallBattlefield----- */
 
   .damageMultiplier{
-    width: 120px;
-    height: 120px;
+    width: 8%;
+    height: 11%;
     border: black solid 3px;
     background: rgb(189, 189, 189);
     position: absolute;

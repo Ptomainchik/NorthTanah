@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
+import Modal from 'react-modal';
 import classes from "../../Styles/BattlefieldsStyles.module.css";
+import AngryDwarf from "../../../images/Battlefields/DwarfSkils/AngryDwarf.jpg"
+import FrozenGround from "../../../images/Battlefields/DwarfSkils/Boot.jpg"
+import BearHug from "../../../images/Battlefields/DwarfSkils/BearHug.jpg"
+import DwarvesBolts from "../../../images/Battlefields/DwarfSkils/Bolt.jpg"
+import Poultice from "../../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg"
+import ContagiousBite from "../../../images/Battlefields/OrcSkils/OrcBite.jpg"
+import Fetters from "../../../images/Battlefields/OrcSkils/Fetters.jpg"
+import Ferocity from "../../../images/Battlefields/OrcSkils/OrcFerocity.jpg"
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -30,7 +39,70 @@ export const OrcsBattlefieldLwl4 = () => {
     const [ferocityActive, setFerocityActive] = useState(false);
     const [ferocityCount, setFerocityCount] = useState(0);
     const [spearThrower, setSpearThrower] = useState(3)
+    
+    
+    const ModalRulesOrc = () =>{
+        const [modalIsOpen, setModalIsOpen] = useState(false)
+        const openModal = () => {
+            setModalIsOpen(true)
+        };
+          
+        const closeModal = () => {
+            setModalIsOpen(false)
+        };
+        return (
+            <div>
+            <button onClick={openModal} className={classes.buttonModalRulesOrc} title="Ловцы духов"/>
+               <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(50, 88, 255, 0.7)'}, content: {border: '2px solid black' }}}
+                   className={classes.modalRulesOrc} isOpen={modalIsOpen}>
+                   {Rules}
+                   <button className={classes.buttonCloseModalRulesOrc} onClick={closeModal}>Закрыть</button>
+               </Modal>
+           </div>
+        )
+    }
 
+    const Rules = (
+        <div className={classes.modalRules}>
+          <div className={classes.rules}>
+            <div className={classes.rule}>
+                <img className={classes.imgRules} src={AngryDwarf}/>
+                <span>Гнев гнома - увеличивает урон от обычных атак.</span>
+            </div>
+            <div className={classes.rule}>
+                <img className={classes.imgRules} src={FrozenGround}/>
+                <span>Мёрзлая земля - даёт неуязвимость к обычным атакам.</span>
+            </div>
+            <div className={classes.rule}>
+            <img className={classes.imgRules} src={BearHug}/>
+                <span>Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени.</span>
+            </div>
+            <div className={classes.rule}> 
+                <img className={classes.imgRules} src={DwarvesBolts}/>
+                <span>Арбалетные болты - наносят слабый урон противнику, а затем малый урон в течение некоторого времени.</span>
+            </div>
+          </div>
+          <div className={classes.rules}>
+            <div className={classes.rule}>
+                <img className={classes.imgRules} src={Poultice}/>
+                <span>Лечебный гриб - восстанавливает здоровье.</span>
+            </div>
+            <div className={classes.rule}>
+                <img className={classes.imgRules} src={ContagiousBite}/>
+                <span>Заразный укус - наносит средний урон противнику.</span>
+            </div>
+            <div className={classes.rule}>
+            <img className={classes.imgRules} src={Fetters}/>
+                <span>Охотничьи путы - наносит слабый урон противнику в течение 5 секунд.</span>
+            </div>
+            <div className={classes.rule}> 
+                <img className={classes.imgRules} src={Ferocity}/>
+                <span>Свирепость орка - увеличивает урон от обычных атак на три раунда.</span>
+            </div>
+          </div>
+        </div>
+    )
+      
     const handlePoultice = () => {
         if (orcPoultice === -1) { 
         } 
@@ -283,7 +355,7 @@ export const OrcsBattlefieldLwl4 = () => {
             </div>
            
             <button className={buttonClass} onClick={handleSpearThrower} title="Метатель - наносит слабый урон противнику, а затем малый урон в течение некоторого времени." ></button>
-          
+            <ModalRulesOrc/>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkils}>
                     {orcPoulticeImg && <button className={classes.orcPoultice} onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}

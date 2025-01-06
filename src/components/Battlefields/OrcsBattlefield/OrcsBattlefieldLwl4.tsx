@@ -3,6 +3,7 @@ import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import Modal from 'react-modal';
 import classes from "../../Styles/BattlefieldsStyles.module.css";
+import Phial from "../../../images/Battlefields/DwarfSkils/Phial.jpg"
 import AngryDwarf from "../../../images/Battlefields/DwarfSkils/AngryDwarf.jpg"
 import FrozenGround from "../../../images/Battlefields/DwarfSkils/Boot.jpg"
 import BearHug from "../../../images/Battlefields/DwarfSkils/BearHug.jpg"
@@ -11,6 +12,7 @@ import Poultice from "../../../images/Battlefields/OrcSkils/MedicinalMushroom.jp
 import ContagiousBite from "../../../images/Battlefields/OrcSkils/OrcBite.jpg"
 import Fetters from "../../../images/Battlefields/OrcSkils/Fetters.jpg"
 import Ferocity from "../../../images/Battlefields/OrcSkils/OrcFerocity.jpg"
+import Log from "../../../images/Battlefields/OrcSkils/Log.jpg"
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -52,8 +54,8 @@ export const OrcsBattlefieldLwl4 = () => {
         };
         return (
             <div>
-            <button onClick={openModal} className={classes.buttonModalRulesOrc} title="Ловцы духов"/>
-               <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(50, 88, 255, 0.7)'}, content: {border: '2px solid black' }}}
+            <button onClick={openModal} className={classes.buttonModalRulesOrc} title="Правила"/>
+               <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(4, 27, 1, 0.7)'}, content: {border: '2px solid black' }}}
                    className={classes.modalRulesOrc} isOpen={modalIsOpen}>
                    {Rules}
                    <button className={classes.buttonCloseModalRulesOrc} onClick={closeModal}>Закрыть</button>
@@ -65,6 +67,10 @@ export const OrcsBattlefieldLwl4 = () => {
     const Rules = (
         <div className={classes.modalRules}>
           <div className={classes.rules}>
+            <div className={classes.rule}>
+                <img className={classes.imgRules} src={Phial}/>
+                <span>Фиал с горной водой - восстанавливает здоровье.</span>
+            </div>
             <div className={classes.rule}>
                 <img className={classes.imgRules} src={AngryDwarf}/>
                 <span>Гнев гнома - увеличивает урон от обычных атак.</span>
@@ -80,6 +86,9 @@ export const OrcsBattlefieldLwl4 = () => {
             <div className={classes.rule}> 
                 <img className={classes.imgRules} src={DwarvesBolts}/>
                 <span>Арбалетные болты - наносят слабый урон противнику, а затем малый урон в течение некоторого времени.</span>
+            </div>
+            <div className={classes.rule}> 
+                <span><h1 className={classes.imgRulesDamageMultiplier}>{damageMultiplier}x</h1>Множитель урона - умножает урон от обычных атак.</span>
             </div>
           </div>
           <div className={classes.rules}>
@@ -98,6 +107,10 @@ export const OrcsBattlefieldLwl4 = () => {
             <div className={classes.rule}> 
                 <img className={classes.imgRules} src={Ferocity}/>
                 <span>Свирепость орка - увеличивает урон от обычных атак на три раунда.</span>
+            </div>
+            <div className={classes.rule}> 
+                <img className={classes.imgRules} src={Log}/>
+                <span>Орочьи колья - наносит слабый урон противнику, а затем малый урон в течение некоторого времени.</span>
             </div>
           </div>
         </div>

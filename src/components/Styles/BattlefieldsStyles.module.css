@@ -423,6 +423,31 @@
     }
 }
 
+.orcsLose{
+    width: 70rem;
+    height: 35rem;
+    background: rgb(4, 27, 1);
+    border: solid black 2px;
+    z-index: 999;
+    margin-top: 7%; 
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.orcsLose img{
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+}
+
+.orcsLose h2{
+    margin: 0;
+}
+
+.orcsLose h5{
+    margin: 0;
+}
 
 /* -----ModalRulesOrc----- */
 

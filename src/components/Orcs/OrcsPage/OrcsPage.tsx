@@ -21,7 +21,7 @@ export const OrcsPage = () => {
     <div>
           <Link to="/historybf" title="История Чёрного Леса" className={classes.orcsPageButton} ><h5>The history of Black Forest</h5></Link>
           <Link to="/communities" title="Общины Чёрного Леса" className={classes.orcsPageButton} ><h5>Communities of Black Forest</h5></Link>
-          <Link to="/battlefieldorlwl1" title="Боевое поле" className={classes.orcsPageButton} ><h5>Battlefield</h5></Link>
+          <Link to="/battlefieldorlvl1" title="Боевое поле" className={classes.orcsPageButton} ><h5>Battlefield</h5></Link>
     </div>
   </div>   
   <div className={classes.story}>

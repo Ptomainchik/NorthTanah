@@ -3,6 +3,7 @@ import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import { ModalRules } from "../OverallBattlefield/ModalRules";
+import { ModalOrcsLose } from "../OverallBattlefield/ModalOrcsLose";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -23,6 +24,7 @@ export const OrcsBattlefieldLvl3 = () => {
     const [showMessage, setShowMessage] = useState(false);
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
+    const [showLoseOcrsMessage, setShowLoseOrcsMessage] = useState(false);
     const [showSkilsAngryDwarf, setShowSkilsAngryDwarf] = useState(false);
     const [showSkilsFrozenGround, setShowSkilsFrozenGround] = useState(false);
     const [showBearHug, setShowBearHug] = useState(false);
@@ -177,10 +179,10 @@ export const OrcsBattlefieldLvl3 = () => {
             setShowMessage(true)
         }  
         if (dwarfHealth < 10){
-            window.location.href = "battlefieldorlwl4";
+            window.location.href = "battlefieldorlvl4";
         }
         if (orcHealth < 10){
-            window.location.href = "*";
+            setShowLoseOrcsMessage(true)
         }   
     };
 
@@ -224,6 +226,7 @@ export const OrcsBattlefieldLvl3 = () => {
                 {showMessage && <div className={classes.textMessage}><span>Жалкие орки.</span></div>}
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
+                {showLoseOcrsMessage && <ModalOrcsLose/>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl123}>
                         <progress className={classes.healthIndicatorOrc} max="4000" value={orcHealth} ></progress>

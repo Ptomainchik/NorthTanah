@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
+import { ModalRules } from "../OverallBattlefield/ModalRules";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-export const OrcsBattlefieldLwl1 = () => {
+export const OrcsBattlefieldLvl1 = () => {
     const [dwarfHealth, setDwarfHealth] = useState(1000);
     const [orcHealth, setOrcHealth] = useState(1000);
     const [damageMultiplier, setDamageMultiplier] = useState(0);
@@ -123,18 +124,18 @@ export const OrcsBattlefieldLwl1 = () => {
             <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLwl123}>
+                    <div className={classes.dwarfLvl123}>
                     <progress className={classes.healthIndicatorDwarf} max="1000" value={dwarfHealth} ></progress>
-                        <button className={classes.buttonDwarfLwl1} onClick={handleOrcAttack} ></button>
+                        <button className={classes.buttonDwarfLvl1} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
                 {showMessage && <div className={classes.textMessage}><span>Жалкие орки.</span></div>}
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
                 <div className={classes.unitsBlock}>
-                    <div className={classes.orcLwl123}>
+                    <div className={classes.orcLvl123}>
                         <progress className={classes.healthIndicatorOrc} max="1000" value={orcHealth} ></progress>
-                        <button className={classes.buttonOrcLwl1}></button>
+                        <button className={classes.buttonOrcLvl1}></button>
                     </div>
                 </div>
             </div>
@@ -148,6 +149,7 @@ export const OrcsBattlefieldLwl1 = () => {
                     {contagiousBiteImg &&<div className={classes.titleSkilsContagiousBite}>Заразный укус</div>} 
                 </div>
             </div>
+            <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkils}>
                     {showSkilsAngryDwarf && <button className={classes.angryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}

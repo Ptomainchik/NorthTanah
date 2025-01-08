@@ -3,21 +3,28 @@ import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import { BackButton } from "../../Button/BackButton/BackButton";
 
 
-export const DwarvesBattlefieldLwl2 = () => {
+export const DwarvesBattlefieldLvl3 = () => {
     return (
         <div className={classes.dwarvesBattlefield}>
             <div className={classes.buttonDwarvesBattlefield}><HomeButton/><span>Battlefield</span><BackButton/></div>
                 <div className={classes.unitsFlex}>
                     <div className={classes.unitsBlock}>
-                        <div className={classes.dwarfLwl12}>
-
+                        <div className={classes.dwarfLvl3}>
+                        
                         </div>
                     </div>
                     <div className={classes.unitsBlock}>
-                        <div className={classes.orcLwl12}>
-
-                        </div>                
+                        <div className={classes.orcLvl3}>
+                          
+                        </div>   
+                                   
                     </div>
+                    <div className={classes.unitsBlock}>
+                        <div className={classes.orcLvl4}>
+             
+                        </div>  
+                    </div>
+                    
             </div>
         </div>)
-}
+    }

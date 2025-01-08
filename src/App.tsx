@@ -8,13 +8,13 @@ import { BlackForest } from './components/Orcs/BlackForest/BlackForest';
 import { HomePage } from './components/HomePage/HomePage';
 import { HistoryOfBlackForest } from './components/Orcs/HistoryOfBlackForest/HistoryOfBlackForest';
 import { Communities } from './components/Orcs/Communities/Communities';
-import { DwarvesBattlefieldLwl1 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl1';
-import { DwarvesBattlefieldLwl3 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl3';
-import { DwarvesBattlefieldLwl2 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLwl2';
-import { OrcsBattlefieldLwl1 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl1';
-import { OrcsBattlefieldLwl2 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl2';
-import { OrcsBattlefieldLwl3 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl3';
-import { OrcsBattlefieldLwl4 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLwl4';
+import { DwarvesBattlefieldLvl1 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLvl1';
+import { DwarvesBattlefieldLvl3 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLvl3';
+import { DwarvesBattlefieldLvl2 } from './components/Battlefields/DwarvesBattlefield/DwarvesBattlefieldLvl2';
+import { OrcsBattlefieldLvl1 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl1';
+import { OrcsBattlefieldLvl2 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl2';
+import { OrcsBattlefieldLvl3 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl3';
+import { OrcsBattlefieldLvl4 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl4';
 
 
 function App() {
@@ -29,13 +29,13 @@ function App() {
           <Route path="orcs" element={<BlackForest/>} />
           <Route path="historybf" element={<HistoryOfBlackForest/>} />
           <Route path="communities" element={<Communities/>} />
-          <Route path="battlefielddwlwl1" element={<DwarvesBattlefieldLwl1/>}/>
-          <Route path="battlefielddwlwl2" element={<DwarvesBattlefieldLwl2/>}/>
-          <Route path="battlefielddwlwl3" element={<DwarvesBattlefieldLwl3/>}/>
-          <Route path="battlefieldorlwl1" element={<OrcsBattlefieldLwl1/>}/>
-          <Route path="battlefieldorlwl2" element={<OrcsBattlefieldLwl2/>}/>
-          <Route path="battlefieldorlwl3" element={<OrcsBattlefieldLwl3/>}/>
-          <Route path="battlefieldorlwl4" element={<OrcsBattlefieldLwl4/>}/>
+          <Route path="battlefielddwlwl1" element={<DwarvesBattlefieldLvl1/>}/>
+          <Route path="battlefielddwlwl2" element={<DwarvesBattlefieldLvl2/>}/>
+          <Route path="battlefielddwlwl3" element={<DwarvesBattlefieldLvl3/>}/>
+          <Route path="battlefieldorlwl1" element={<OrcsBattlefieldLvl1/>}/>
+          <Route path="battlefieldorlwl2" element={<OrcsBattlefieldLvl2/>}/>
+          <Route path="battlefieldorlwl3" element={<OrcsBattlefieldLvl3/>}/>
+          <Route path="battlefieldorlwl4" element={<OrcsBattlefieldLvl4/>}/>
           <Route path="*" element={<NoPage/>} />
       </Routes>
     </BrowserRouter>

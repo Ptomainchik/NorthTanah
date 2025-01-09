@@ -449,6 +449,35 @@
     margin: 0;
 }
 
+.orcsWin123Lvl{
+    display: flex;
+    width: 70rem;
+    height: 35rem;
+    background: rgb(4, 27, 1);
+    border: solid black 2px;
+    z-index: 999;
+    margin-top: 7%; 
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: space-between;
+}
+
+.orcsWin123Lvl h2{
+    margin: 0;
+    margin-top: 60%;
+}
+
+.orcsWin123Lvl h5{
+    margin: 0;
+    color: rgb(168, 165, 155);  
+}
+
+.blockModalWinOrcs123Lvl{
+    display: block;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 /* -----ModalRulesOrc----- */
 
 .buttonModalRules{

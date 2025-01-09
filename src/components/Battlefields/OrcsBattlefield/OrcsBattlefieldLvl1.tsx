@@ -4,6 +4,7 @@ import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import { ModalRules } from "../OverallBattlefield/ModalRules";
 import { ModalOrcsLose } from "../OverallBattlefield/ModalOrcsLose";
+import { ModalOrcsWin123Lvl } from "../OverallBattlefield/ModalOrcsWin123Lvl";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -22,6 +23,7 @@ export const OrcsBattlefieldLvl1 = () => {
     const [showMessage3, setShowMessage3] = useState(false);
     const [showSkilsAngryDwarf, setShowSkilsAngryDwarf] = useState(false);
     const [showLoseOcrsMessage, setShowLoseOrcsMessage] = useState(false);
+    const [showWinOcrs123LvlMessage, setShowWinOcrs123LvlMessage] = useState(false);
 
     const handlePoultice = () => {
         if (orcPoultice === -1) { 
@@ -87,7 +89,7 @@ export const OrcsBattlefieldLvl1 = () => {
             setShowSkilsAngryDwarf(false)
         } 
         if (dwarfHealth < 10){
-            window.location.href = "battlefieldorlvl2";
+            setShowWinOcrs123LvlMessage(true)
         }
         if (orcHealth < 10){
             setShowLoseOrcsMessage(true)
@@ -135,6 +137,7 @@ export const OrcsBattlefieldLvl1 = () => {
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
+                {showWinOcrs123LvlMessage && <ModalOrcsWin123Lvl/>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl123}>
                         <progress className={classes.healthIndicatorOrc} max="1000" value={orcHealth} ></progress>

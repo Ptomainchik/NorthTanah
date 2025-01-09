@@ -4,6 +4,7 @@ import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { ModalRules } from "../OverallBattlefield/ModalRules";
 import { ModalOrcsLose } from "../OverallBattlefield/ModalOrcsLose";
+import { ModalOrcsVictory } from "../OverallBattlefield/ModalOrcsVictory";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -25,6 +26,7 @@ export const OrcsBattlefieldLvl4 = () => {
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
     const [showLoseOcrsMessage, setShowLoseOrcsMessage] = useState(false);
+    const [showOrcsVictoryMessage, setShowOrcsVictoryMessage] = useState(false);
     const [showMessageSpearThrower, setShowMessageSpearThrower] = useState(true);
     const [showMessageSpearThrowerNoLog, setShowMessageSpearThrowerNoLog] = useState(false);
     const [showSkilsAngryDwarf, setShowSkilsAngryDwarf] = useState(false);
@@ -229,7 +231,7 @@ export const OrcsBattlefieldLvl4 = () => {
           
         }
         if (dwarfHealth < 10){
-            window.location.href = "battlefieldorlvl4";
+            setShowOrcsVictoryMessage(true)
         }
         if (orcHealth < 10){
             setShowLoseOrcsMessage(true)
@@ -285,6 +287,7 @@ export const OrcsBattlefieldLvl4 = () => {
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
+                {showOrcsVictoryMessage && <ModalOrcsVictory/>}
                 {showMessageSpearThrower && <div className={classes.textMessageSpearThrower}><span>Я пришёл на подмогу!</span></div>}
                 {showMessageSpearThrowerNoLog && <div className={classes.textMessageSpearThrower}><span>Закончились колы!</span></div>}
                 <div className={classes.unitsBlock}>

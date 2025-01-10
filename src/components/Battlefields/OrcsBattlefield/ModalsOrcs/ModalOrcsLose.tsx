@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
-import classes from "../../Styles/BattlefieldsStyles.module.css";
-import OrcSkull from "../../../images/Battlefields/OrcsBattlefield/OrcSkull.webp"
-import { RestartLevelButton } from '../../Button/RestartLevelButton/RestartLevelButton';
+import classes from "../../../Styles/BattlefieldsStyles.module.css";
+import OrcSkull from "../../../../images/Battlefields/OrcsBattlefield/OrcSkull.webp"
+import { RestartLevelButton } from '../../../Button/RestartLevelButton/RestartLevelButton';
 
 export const ModalOrcsLose = () =>{
 

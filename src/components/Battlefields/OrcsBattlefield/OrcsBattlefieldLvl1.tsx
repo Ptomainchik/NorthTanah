@@ -3,8 +3,8 @@ import { HomeButton } from "../../Button/HomeButton/HomeButton";
 import classes from "../../Styles/BattlefieldsStyles.module.css";
 import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import { ModalRules } from "../OverallBattlefield/ModalRules";
-import { ModalOrcsLose } from "../OverallBattlefield/ModalOrcsLose";
-import { ModalOrcsWin123Lvl } from "../OverallBattlefield/ModalOrcsWin123Lvl";
+import { ModalOrcsLose } from "./ModalsOrcs/ModalOrcsLose";
+import { ModalOrcsWin123Lvl } from "./ModalsOrcs/ModalOrcsWin123Lvl";
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);

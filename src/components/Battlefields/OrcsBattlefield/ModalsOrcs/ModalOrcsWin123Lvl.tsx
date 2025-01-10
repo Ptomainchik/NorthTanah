@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
-import classes from "../../Styles/BattlefieldsStyles.module.css";
-import OrcsWin from "../../../images/Battlefields/OrcsBattlefield/OrcsWin.webp"
-import { NextLevelButton } from '../../Button/NextLevelButton/NextLevelButton';
+import classes from "../../../Styles/BattlefieldsStyles.module.css";
+import OrcsWin from "../../../../images/Battlefields/OrcsBattlefield/OrcsWin.webp"
+import { NextLevelButton } from "../../../Button/NextLevelButton/NextLevelButton";
 
 export const ModalOrcsWin123Lvl = () =>{
 

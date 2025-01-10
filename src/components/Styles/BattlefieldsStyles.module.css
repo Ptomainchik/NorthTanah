@@ -142,6 +142,98 @@
     }
 }
 
+/* -----ModalLoseAndWinOrcs----- */
+
+.dwarvesLose{
+    width: 70rem;
+    height: 35rem;
+    background: rgb(30, 46, 70);
+    border: solid black 2px;
+    z-index: 999;
+    margin-top: 7%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.dwarvesLose img{
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+}
+
+.dwarvesLose h2{
+    margin: 0;
+}
+
+.dwarvesLose h5{
+    margin: 0;
+}
+
+.dwarvesWin123Lvl{
+    display: flex;
+    width: 70rem;
+    height: 35rem;
+    background: rgb(30, 46, 70);
+    border: solid black 2px;
+    z-index: 999;
+    margin-top: 7%; 
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: space-between;
+}
+
+.dwarvesWin123Lvl h2{
+    margin: 0;
+    margin-top: 60%;
+}
+
+.dwarvesWin123Lvl h5{
+    margin: 0;
+    color: rgb(247,189,0);  
+}
+
+.blockModalWinDwarves123Lvl{
+    display: block;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.dwarvesVictory{
+    display: flex;
+    width: 70rem;
+    height: 35rem;
+    background: rgb(30, 46, 70);
+    border: solid black 2px;
+    z-index: 999;
+    margin-top: 7%; 
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: space-between;
+}
+
+.dwarvesVictory h2{
+    margin: 0;
+    margin-top: 10%;
+}
+
+.dwarvesVictory h5{
+    margin: 0;
+    color: rgb(247,189,0);  
+}
+
+.dwarvesVictory p{
+    margin: 6%;
+    color: rgb(247,189,0); 
+    font-size: 1rem; 
+    padding: 0;
+}
+
+.blockModalDwarvesVictory{
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 /* -----MessageDwarvesBattlefields----- */
 
 .textMessageThrower{
@@ -539,7 +631,7 @@
     left: 7%;
 }
 
-/* -----ModalLoseAndWin----- */
+/* -----ModalLoseAndWinOrcs----- */
 
 .orcsLose{
     width: 70rem;

@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
-import classes from "../../Styles/BattlefieldsStyles.module.css";
-import OrcsVictory from "../../../images/Battlefields/OrcsBattlefield/OrcsVictory.webp"
-import { HomeButtonVictory } from '../../Button/HomeButtonVictory/HomeButtonVictory';
+import classes from "../../../Styles/BattlefieldsStyles.module.css";
+import OrcsVictory from "../../../../images/Battlefields/OrcsBattlefield/OrcsVictory.webp"
+import { HomeButtonVictory } from "../../../Button/HomeButtonVictory/HomeButtonVictory";
 
 export const ModalOrcsVictory = () =>{
 

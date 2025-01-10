@@ -135,7 +135,7 @@ export const OrcsBattlefieldLvl1 = () => {
                 </div>
                 {showMessage && <div className={classes.textMessage}><span>Жалкие орки.</span></div>}
                 {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
+                {showMessage3 && <div className={classes.textMessage}><span>Мы вас уничтожим!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showWinOcrs123LvlMessage && <ModalOrcsWin123Lvl/>}
                 <div className={classes.unitsBlock}>

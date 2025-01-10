@@ -164,7 +164,7 @@ export const OrcsBattlefieldLvl4 = () => {
             }, 100) 
             setShowSkilsFrozenGround(true)
         }
-        else if (dwarfHealth <= 1840 && dwarfHealth >= 1300 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1840 && dwarfHealth >= 1000 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)    
         }
 
@@ -199,7 +199,7 @@ export const OrcsBattlefieldLvl4 = () => {
             }, 100)
             setShowSkilsFrozenGround(true)
         } 
-        else if (dwarfHealth <= 4840 && dwarfHealth >= 4300 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 4840 && dwarfHealth >= 4000 && damageMultiplier !== null) {
             setShowSkilsFrozenGround(false)
         } 
 
@@ -278,20 +278,20 @@ export const OrcsBattlefieldLvl4 = () => {
             <div className={classes.buttonOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
-                    <div className={classes.dwarfLvl123}>
+                    <div className={classes.dwarfLvl4}>
                     <progress className={classes.healthIndicatorDwarf} max="8000" value={dwarfHealth} ></progress>
                         <button className={classes.buttonDwarfLvl4} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessage}><span>Жалкие орки.</span></div>}
-                {showMessage2 && <div className={classes.textMessage}><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessage}><span>Я тебя уничтожу!</span></div>}
+                {showMessage && <div className={classes.textMessage}><span>Зеленокожие тупицы.</span></div>}
+                {showMessage2 && <div className={classes.textMessage}><span>Мерзкие твари!</span></div>}
+                {showMessage3 && <div className={classes.textMessage}><span>Будьте прокляты!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showOrcsVictoryMessage && <ModalOrcsVictory/>}
                 {showMessageSpearThrower && <div className={classes.textMessageSpearThrower}><span>Я пришёл на подмогу!</span></div>}
                 {showMessageSpearThrowerNoLog && <div className={classes.textMessageSpearThrower}><span>Закончились колы!</span></div>}
                 <div className={classes.unitsBlock}>
-                    <div className={classes.orcLvl123}>
+                    <div className={classes.orcLvl4}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>
                         <button className={classes.buttonOrcLvl4}></button>
                     </div>

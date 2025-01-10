@@ -230,25 +230,25 @@
 
 .orcsBattlefield .dwarfLvl123{
     position: relative;
-    left: 100px;
-    top: 50%;
+    left: 7rem;
+    top: 70%;
 }
 
 .orcsBattlefield .orcLvl123{
     position: relative;
-    right: 700px;
-    top: 50%;
+    right: 40rem;
+    top: 70%;
 }
 
 .orcsBattlefield .dwarfLvl4{
     position: relative;
-    left: 200px;
+    left: 5rem;
     top: 50%;
 }
 
 .orcsBattlefield .orcLvl4{
     position: relative;
-    right: 400px;
+    right: 42rem;
     top: 50%;
 }
 

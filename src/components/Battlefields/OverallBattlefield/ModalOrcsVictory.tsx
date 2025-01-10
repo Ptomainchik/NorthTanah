@@ -11,7 +11,7 @@ export const ModalOrcsVictory = () =>{
                className={classes.orcsVictory} isOpen={true}>
                 <div className={classes.blockModalOrcsVictory}>
                     <h2>Victory</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolorum, ea aliquid eligendi odit nam est quo, commodi fuga debitis consequatur explicabo dignissimos odio repudiandae dolores quas nihil mollitia inventore.</p>
+                    <p>Эта победа принесёт мир и порядок в Чёрный Лес. Королевство Медвежьих вершин, заплатило кровью за свою вероломность. Поверженные гномы ещё долго не смогут представлять угрозы!</p>
                     <HomeButtonVictory/>
                     <h5>Home</h5>
                 </div>

@@ -325,7 +325,7 @@ export const OrcsBattlefieldLvl4 = () => {
                     {showSkilsAngryDwarf && <p>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
-                    {showSkilsFrozenGround && <button title="Мёрзлая земля - даёт неуязвимость к обычным атакам."></button>}
+                    {showSkilsFrozenGround && <button title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда."></button>}
                     {showSkilsFrozenGround && <p>Мёрзлая земля</p>}
                 </div>
                 <div className={classes.blockSkilBearHug}>

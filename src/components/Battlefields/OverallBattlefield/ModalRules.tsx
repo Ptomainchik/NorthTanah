@@ -46,7 +46,7 @@ const Rules = (
         </div>
         <div className={classes.ruleDwarves}>
             <img className={classes.imgRules} src={FrozenGround} alt="Мёрзлая земля"/>
-            <p>Мёрзлая земля - даёт неуязвимость к обычным атакам.</p>
+            <p>Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда.</p>
         </div>
         <div className={classes.ruleDwarves}>
         <img className={classes.imgRules} src={BearHug} alt="Медвежьи объятия"/>

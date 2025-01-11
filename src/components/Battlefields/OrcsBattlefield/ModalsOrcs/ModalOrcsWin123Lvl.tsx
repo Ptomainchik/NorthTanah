@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
 import classes from "../../../Styles/BattlefieldsStyles.module.css";
 import OrcsWin from "../../../../images/Battlefields/OrcsBattlefield/OrcsWin.webp"
-import { NextLevelButton } from "../../../Button/NextLevelButton/NextLevelButton";
+import { NextOrcsLevelButton } from "../../../Button/NextOrcsLevelButton/NextOrcsLevelButton"
 
 export const ModalOrcsWin123Lvl = () =>{
 
@@ -11,7 +11,7 @@ export const ModalOrcsWin123Lvl = () =>{
                className={classes.orcsWin123Lvl} isOpen={true}>
                 <div className={classes.blockModalWinOrcs123Lvl}>
                     <h2>Victory</h2>
-                    <NextLevelButton/>
+                    <NextOrcsLevelButton/>
                     <h5>Next Level</h5>
                 </div>
                 <img className={classes.blockModalWinOrcs123Lvl} src={OrcsWin} alt="Win" />

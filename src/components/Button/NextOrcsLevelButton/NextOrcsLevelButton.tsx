@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import classes from '../../Styles/Styles.module.css'
 
-export function NextLevelButton() {
+export function NextOrcsLevelButton() {
   let navigate = useNavigate();
   
   const handleClick = () => {

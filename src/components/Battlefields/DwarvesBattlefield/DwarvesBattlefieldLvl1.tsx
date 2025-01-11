@@ -5,8 +5,6 @@ import { RestartButton } from "../../Button/RestartButton/RestartButton";
 import { ModalRules } from "../OverallBattlefield/ModalRules";
 import { ModalDwarvesLose } from "./ModalsDwarves/ModalDwarvesLose";
 import { ModalDwarvesWin123Lvl } from "./ModalsDwarves/ModalDwarvesWin123Lvl";
-import { ModalDwarvesVictory } from "./ModalsDwarves/ModalDwarvesVictory";
-
 
 const randomIntegerFromInterval = (min: number, max: number): number => {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -139,7 +137,7 @@ export const DwarvesBattlefieldLvl1 = () => {
                 {showMessage2 && <div className={classes.textMessageOrcs}><span>Это было больно.</span></div>}
                 {showMessage3 && <div className={classes.textMessageOrcs}><span>Мы вас уничтожим!</span></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
-                {showWinDwarves123LvlMessage && <ModalDwarvesVictory/>}
+                {showWinDwarves123LvlMessage && <ModalDwarvesWin123Lvl/>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl123}>
                         <progress className={classes.healthIndicatorOrc} max="1000" value={orcHealth} ></progress>

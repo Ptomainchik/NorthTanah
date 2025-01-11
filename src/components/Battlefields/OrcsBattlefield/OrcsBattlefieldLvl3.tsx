@@ -266,8 +266,8 @@ export const OrcsBattlefieldLvl3 = () => {
                     {showSkilsFrozenGround && <p>Мёрзлая земля</p>}
                 </div>
                 <div className={classes.blockSkilBearHug}>
-                    {showBearHug && <button title="Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени."></button>}
-                    {showBearHug && <p>Медвежьи объятия</p>}
+                    {showBearHug && <button title="Объятия севера - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showBearHug && <p>Объятия севера</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

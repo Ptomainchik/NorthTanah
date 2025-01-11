@@ -49,8 +49,8 @@ const Rules = (
             <p>Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда.</p>
         </div>
         <div className={classes.ruleDwarves}>
-        <img className={classes.imgRules} src={BearHug} alt="Медвежьи объятия"/>
-            <p>Медвежьи объятия - наносит слабый урон противнику в течение некоторого времени.</p>
+        <img className={classes.imgRules} src={BearHug} alt="Объятия севера"/>
+            <p>Объятия севера - наносит слабый урон противнику в течение 5 секунд.</p>
         </div>
         <div className={classes.ruleDwarves}> 
             <img className={classes.imgRules} src={DwarvesBolts} alt="Арбалетные болты"/>

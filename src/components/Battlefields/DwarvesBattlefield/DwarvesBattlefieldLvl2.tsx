@@ -17,8 +17,8 @@ export const DwarvesBattlefieldLvl2 = () => {
     const [dwarvesPoultice, setDwarvesPoultice] = useState(1);
     const [angryDwarf, setAngryDwarf] = useState(1);
     const [frozenGround, setFrozenGround] = useState(1);
-    const [frozenGroundActive, setFrozenGroundActive] = useState(false);
     const [frozenGroundCount, setFrozenGroundCount] = useState(0);
+    const [frozenGroundActive, setFrozenGroundActive] = useState(false);
     const [dwarvesPoulticeImg, setDwarvesPoulticeImg] = useState(true);
     const [skilAndryDwarfImg, setSkilAngryDwarfImg] = useState(true);
     const [skilFrozenGroundImg, setSkilFrozenGroundImg] = useState(true)
@@ -52,12 +52,12 @@ export const DwarvesBattlefieldLvl2 = () => {
     };
 
     const handleFrozenGround = () => {
-        if (frozenGround === -1 || frozenGroundActive) {
+        if (frozenGround === -1) {
             return
-        } else {
-            setFrozenGround(-1)
-            setFrozenGroundActive(true)
-            setFrozenGroundCount(0);
+        }else{
+            setFrozenGround(-1);
+            setFrozenGroundActive(true);
+            setFrozenGroundCount(0)
         }
     }
 
@@ -67,24 +67,25 @@ export const DwarvesBattlefieldLvl2 = () => {
     
     const handleDwarfAttack = () => {
         multiplier();
-        if (orcHealth > 0 && damageMultiplier !== null) {
-            if (frozenGroundActive) {
-                setOrcHealth(orcHealth - damageMultiplier * 20)
-                setDwarfHealth(dwarfHealth + 20)
-                setFrozenGroundCount(frozenGroundCount + 1)
-            if (frozenGroundCount >= 3) {
-                    setFrozenGroundActive(false)
-                    setSkilFrozenGroundImg(false)
-                }
-            } 
-            else {
-                setOrcHealth(orcHealth - damageMultiplier * 20)
-            }
+        if (orcHealth > 0 && damageMultiplier !== null && frozenGroundActive === true) {
+            setOrcHealth(orcHealth - damageMultiplier * 20)
+            setFrozenGroundCount(frozenGroundCount + 1)
+        }
+        if (frozenGroundCount >= 2) {
+            setSkilFrozenGroundImg(false)
+            setFrozenGroundActive(false)
+        }
+        if (orcHealth > 0 && damageMultiplier !== null && frozenGroundActive === false) {
+            setOrcHealth(orcHealth - damageMultiplier * 20)
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 20)
             }, 100);
         }
-        if (orcHealth < 400 && damageMultiplier !== null) {
+
+        if (orcHealth < 400 && damageMultiplier !== null && frozenGroundActive === true) {
+            setShowSkilContagiousBite(true)
+        }
+        else if (orcHealth < 400 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 50)
             }, 100) 
@@ -93,9 +94,12 @@ export const DwarvesBattlefieldLvl2 = () => {
 
         if (orcHealth <= 400 && orcHealth >= 360 && damageMultiplier !== null) {
             setShowMessage3(true);
-        }    
-        
-        if (orcHealth <= 800 && orcHealth >= 720 && damageMultiplier !== null) {
+        }   
+
+        if (orcHealth <= 800 && orcHealth >= 720 && damageMultiplier !== null && frozenGroundActive === true) {
+            setShowSkilFetters(true)
+        }
+        if (orcHealth <= 800 && orcHealth >= 720 && damageMultiplier !== null && frozenGroundActive === false) {
             setShowSkilFetters(true)
             const intervalId = setInterval(() => {
                 setDwarfHealth(prevHealth => prevHealth - 15)
@@ -106,9 +110,12 @@ export const DwarvesBattlefieldLvl2 = () => {
             }, 5000);
         }
 
-        if (orcHealth <= 1000 && orcHealth >= 920 && damageMultiplier !== null) {
+        if (orcHealth <= 1000 && orcHealth >= 920 && damageMultiplier !== null && frozenGroundActive === true) {
+            setShowSkilContagiousBite(true)
+        }
+        else if (orcHealth <= 1000 && orcHealth >= 920 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
-                setDwarfHealth(dwarfHealth - 60)
+                setDwarfHealth(dwarfHealth - 50)
             }, 100) 
             setShowMessage2(true)
             setShowSkilContagiousBite(true)
@@ -117,7 +124,10 @@ export const DwarvesBattlefieldLvl2 = () => {
             setShowSkilContagiousBite(false)
         } 
 
-        if (orcHealth <= 1500 && orcHealth >= 1420 && damageMultiplier !== null) {
+        if (orcHealth <= 1500 && orcHealth >= 1420 && damageMultiplier !== null && frozenGroundActive === true) {
+            setShowSkilFetters(true)
+        }
+        else if (orcHealth <= 1500 && orcHealth >= 1420 && damageMultiplier !== null && frozenGroundActive === false) {
             setShowSkilFetters(true)
             const intervalId = setInterval(() => {
                 setDwarfHealth(prevHealth => prevHealth - 15)
@@ -128,7 +138,10 @@ export const DwarvesBattlefieldLvl2 = () => {
             }, 5000);
         }
        
-        if (orcHealth <= 1800 && orcHealth >= 1720 && damageMultiplier !== null) {
+        if (orcHealth <= 1800 && orcHealth >= 1720 && damageMultiplier !== null && frozenGroundActive === true) {
+            setShowSkilContagiousBite(true)
+        }
+        else if (orcHealth <= 1800 && orcHealth >= 1720 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 60)
             }, 100) 

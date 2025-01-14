@@ -168,7 +168,7 @@ export const OrcsBattlefieldLvl2 = () => {
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>
                     <progress className={classes.healthIndicatorDwarf} max="2000" value={dwarfHealth} ></progress>
-                        <button className={classes.buttonDwarfLvl2} onClick={handleOrcAttack} ></button>
+                        <button className={classes.buttonDwarfLvl2} onClick={handleOrcAttack}></button>
                     </div>
                 </div>
                 {showMessage && <div className={classes.textMessageDwarves}><span>Ха-ха! Слабаки.</span></div>}

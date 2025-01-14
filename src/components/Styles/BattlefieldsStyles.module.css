@@ -14,7 +14,6 @@
     top: 70%;
     display: block;
     width: 400px;
-
 }
 
 .dwarvesBattlefield .orcLvl123{
@@ -25,9 +24,17 @@
     width: 400px;
 }
 
+.dwarvesBattlefield .dwarfLvl4{
+    position: relative;
+    left: 22rem;
+    top: 50%;
+    display: block;
+    width: 400px;
+}
+
 .dwarvesBattlefield .orcLvl4{
     position: relative;
-    right: 400px;
+    right: 28rem;
     top: 50%;
     display: block;
     width: 400px;
@@ -441,6 +448,12 @@
     animation-fill-mode: forwards; 
 }
 
+.buttonOrcLvl1:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
+    animation-fill-mode: forwards; 
+}
+
 .buttonOrcLvl2{
     width: 200px;
     height: 200px;   
@@ -454,6 +467,12 @@
 .buttonOrcLvl2:hover{
     filter: drop-shadow(1px 1px 12px red); 
     animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonOrcLvl2:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
     animation-fill-mode: forwards; 
 }
 
@@ -473,6 +492,12 @@
     animation-fill-mode: forwards; 
 }
 
+.buttonOrcLvl3:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
+    animation-fill-mode: forwards; 
+}
+
 .buttonOrcLvl4{
     width: 250px;
     height: 250px;   
@@ -486,6 +511,12 @@
 .buttonOrcLvl4:hover{
     filter: drop-shadow(1px 1px 12px red); 
     animation: backingOrc 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonOrcLvl4:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingOrc 0.3s;
     animation-fill-mode: forwards; 
 }
 
@@ -570,6 +601,7 @@
     animation: attackingOrc 0.3s;
     animation-fill-mode: forwards; 
 }
+
 
 @keyframes  backingOrc {
     0%,  100% {

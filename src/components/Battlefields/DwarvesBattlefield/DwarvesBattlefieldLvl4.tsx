@@ -20,6 +20,7 @@ export const DwarvesBattlefieldLvl4 = () => {
     const [frozenGroundCount, setFrozenGroundCount] = useState(0);
     const [frozenGroundActive, setFrozenGroundActive] = useState(false);
     const [bearHug, setBearHug] = useState(1);
+    const [crossbowman, setCrossbowman] = useState(3);
     const [dwarvesPoulticeImg, setDwarvesPoulticeImg] = useState(true);
     const [skilAndryDwarfImg, setSkilAngryDwarfImg] = useState(true);
     const [skilFrozenGroundImg, setSkilFrozenGroundImg] = useState(true)
@@ -27,11 +28,15 @@ export const DwarvesBattlefieldLvl4 = () => {
     const [showMessage, setShowMessage] = useState(false);
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
+    const [showMessageCrossbowman, setShowMessageCrossbowman] = useState(true);
+    const [showMessageCrossbowmanNoBolts, setShowMessageCrossbowmanNoBolts] = useState(false);
     const [showSkilContagiousBite, setShowSkilContagiousBite] = useState(false);
     const [showSkilFetters, setShowSkilFetters] = useState(false);
     const [showSkilOrcFerocity, setShowSkilOrcFerocity] = useState(false);
+    const [showOrcsSpear,setShowOrcsSpear] = useState(false)
     const [showLoseDwarvesMessage, setShowLoseDwarvesMessage] = useState(false);
     const [showWinDwarves123LvlMessage, setShowWinDwarves123LvlMessage] = useState(false);
+   
 
     const handlePoultice = () => {
         if (dwarvesPoultice === -1) { 
@@ -76,6 +81,48 @@ export const DwarvesBattlefieldLvl4 = () => {
         }, 5000)
         setSkilBearHugImg(false)
     }
+    }
+
+    const handleCrossbowman = () => {
+        if (crossbowman > 0)  {
+            setShowOrcsSpear(true)
+            setCrossbowman(crossbowman - 1)
+            setOrcHealth(orcHealth - 100)
+            const intervalId1 = setInterval(() => {
+                setOrcHealth(prevHealth => prevHealth - 20)
+            }, 1000)
+            setTimeout(() => {
+                clearInterval(intervalId1)
+            }, 3000)
+            setDwarfHealth(dwarfHealth - 100)
+            const intervalId = setInterval(() => {
+                setDwarfHealth(prevHealth => prevHealth - 10)
+            }, 1000)
+            setTimeout(() => {
+                clearInterval(intervalId)
+                setShowOrcsSpear(false)
+            }, 8000)
+        }
+        if (crossbowman === 0) {
+            setShowMessageCrossbowmanNoBolts(true)
+            setTimeout(() => {
+                setShowMessageCrossbowmanNoBolts(false)
+            }, 3000)
+        }
+    }
+
+    let buttonClass 
+    if (crossbowman === 3) {
+        buttonClass = classes.buttonDwarfLvlUnic3
+    }
+    else if (crossbowman === 2) {
+        buttonClass = classes.buttonDwarfLvlUnic2
+    }
+    else if (crossbowman === 1) {
+        buttonClass = classes.buttonDwarfLvlUnic1
+    } 
+    else if (crossbowman === 0) {
+        buttonClass = classes.buttonDwarfLvlUnic           
     }
 
     const multiplier = () => {
@@ -231,6 +278,14 @@ export const DwarvesBattlefieldLvl4 = () => {
         }
     }, [showMessage3]);
 
+    useEffect(() => {
+        const timeoutID = setTimeout(() => {
+            setShowMessageCrossbowman(false)
+        }, 7000);
+
+        return () => clearTimeout(timeoutID)
+    }, [showMessageCrossbowman])
+
     return (
         <div className={classes.dwarvesBattlefield}>
             <div className={classes.buttonsBattlefields} style={{backgroundColor: "rgb(30, 46, 70)", border: "solid rgb(247,189,0) 2px"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
@@ -246,6 +301,8 @@ export const DwarvesBattlefieldLvl4 = () => {
                 {showMessage3 && <div className={classes.textMessageOrcs}><span>Мы вас уничтожим!</span></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
                 {showWinDwarves123LvlMessage && <ModalDwarvesVictory/>}
+                {showMessageCrossbowman && <div className={classes.textMessageCrossbowman}><span>Я пришёл на подмогу!</span></div>}
+                {showMessageCrossbowmanNoBolts && <div className={classes.textMessageCrossbowman}><span>Закончились болты!</span></div>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl4}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>
@@ -266,7 +323,13 @@ export const DwarvesBattlefieldLvl4 = () => {
                     {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе увеличивает урон от обычных атак на три раунда."></button>}
                     {showSkilOrcFerocity  && <p>Свирепость орка</p>} 
                 </div>
+                <div className={classes.blockSkilOrcsSpear}>
+                    {showOrcsSpear && <button title="Орочьи колы - наносят слабый урон противнику, а затем малый урон в течение некоторого времени."></button>}
+                    {showOrcsSpear && <p>Орочьи колы</p>}
+                </div>
             </div>
+
+            <button className={buttonClass} onClick={handleCrossbowman} title="Арбалетчик - наносит слабый урон противнику, а затем малый урон в течение некоторого времени."></button>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>

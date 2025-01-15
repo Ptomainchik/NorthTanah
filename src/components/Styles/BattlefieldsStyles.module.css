@@ -125,6 +125,86 @@
     animation-fill-mode: forwards; 
 }
 
+.buttonDwarfLvlUnic{
+    width: 250px;
+    height: 250px;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowman.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: relative;
+    right: 37rem;
+    bottom: 10%;
+}
+
+.buttonDwarfLvlUnic1{
+    width: 250px;
+    height: 250px;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanOneBolt.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: relative;
+    right: 37rem;
+    bottom: 10%;
+}
+
+.buttonDwarfLvlUnic1:hover{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLvlUnic1:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLvlUnic2{
+    width: 250px;
+    height: 250px;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanTwoBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: relative;
+    right: 37rem;
+    bottom: 10%;
+}
+
+.buttonDwarfLvlUnic2:hover{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLvlUnic2:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLvlUnic3{
+    width: 250px;
+    height: 250px;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanThreeBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: relative;
+    right: 37rem;
+    bottom: 10%;
+}
+
+.buttonDwarfLvlUnic3:hover{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: backingDwarf 0.7s;
+    animation-fill-mode: forwards; 
+}
+
+.buttonDwarfLvlUnic3:active{
+    filter: drop-shadow(1px 1px 12px red); 
+    animation: attackingDwarf 0.3s;
+    animation-fill-mode: forwards; 
+}
+
 @keyframes  backingDwarf {
     0%,  100% {
         transform: translateX(0);
@@ -243,21 +323,21 @@
 
 /* -----MessageDwarvesBattlefields----- */
 
-.textMessageThrower{
-    background: url(../../images/Battlefields/Overall/textMessageRight.webp) no-repeat;
+.textMessageCrossbowman{
+    background: url(../../images/Battlefields/Overall/textMessageLeft.webp) no-repeat;
     background-size: contain;
     width: 20%;
     height: 30%;
     position: absolute;
     top: 35%;
-    left: 67%;
+    left: 13%;
 }
 
-.textMessageThrower span{
+.textMessageCrossbowman span{
     font-size: 40%;
     text-align: center;
     position: relative;
-    right: 8%;
+    left: 8%;
 }
 
 .textMessageOrcs{
@@ -527,8 +607,8 @@
     background-size: contain;
     border: none;
     position: relative;
-    right: -600px;
-    bottom: 100px;
+    right: -37rem;
+    bottom: 10%;
 }
 
 .buttonOrcLvlUnic1{
@@ -538,8 +618,8 @@
     background-size: contain;
     border: none;
     position: relative;
-    right: -600px;
-    bottom: 100px;
+    right: -37rem;
+    bottom: 10%;
 }
 
 .buttonOrcLvlUnic1:hover{
@@ -561,8 +641,8 @@
     background-size: contain;
     border: none;
     position: relative;
-    right: -600px;
-    bottom: 100px;
+    right: -37rem;
+    bottom: 10%;
 }
 
 .buttonOrcLvlUnic2:hover{
@@ -580,14 +660,12 @@
 .buttonOrcLvlUnic3{
     width: 250px;
     height: 250px;   
-    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerTreeS.webp) no-repeat; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerThreeS.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
-    right: -600px;
-    bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    right: -37rem;
+    bottom: 10%;
 }
 
 .buttonOrcLvlUnic3:hover{
@@ -933,6 +1011,26 @@
 }
 
 .blockSkilOrcFerocity p{
+    font-size: 30% ;
+    margin: 0;
+}
+
+.blockSkilOrcsSpear{
+    display: block;
+    margin: 5px;
+    position: absolute;
+    left: 5%;
+}
+
+.blockSkilOrcsSpear button{
+    width: 100px;
+    height: 100px;
+    background: url(../../images/Battlefields/OrcSkils/Log.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+}
+
+.blockSkilOrcsSpear p{
     font-size: 30% ;
     margin: 0;
 }

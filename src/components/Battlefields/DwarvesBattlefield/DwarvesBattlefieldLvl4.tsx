@@ -21,18 +21,18 @@ export const DwarvesBattlefieldLvl4 = () => {
     const [frozenGroundActive, setFrozenGroundActive] = useState(false);
     const [bearHug, setBearHug] = useState(1);
     const [crossbowman, setCrossbowman] = useState(3);
-    const [dwarvesPoulticeImg, setDwarvesPoulticeImg] = useState(true);
-    const [skilAndryDwarfImg, setSkilAngryDwarfImg] = useState(true);
-    const [skilFrozenGroundImg, setSkilFrozenGroundImg] = useState(true)
-    const [skilBearHugImg, setSkilBearHugImg] = useState(true)
+    const [showSkilDwarvesPoulticeImg, setShowSkilDwarvesPoulticeImg] = useState(true);
+    const [showSkilAndryDwarfImg, setShowSkilAngryDwarfImg] = useState(true);
+    const [showSkilFrozenGroundImg, setShowSkilFrozenGroundImg] = useState(true)
+    const [showSkilBearHugImg, setShowSkilBearHugImg] = useState(true)
     const [showMessage, setShowMessage] = useState(false);
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
     const [showMessageCrossbowman, setShowMessageCrossbowman] = useState(true);
     const [showMessageCrossbowmanNoBolts, setShowMessageCrossbowmanNoBolts] = useState(false);
-    const [showSkilContagiousBite, setShowSkilContagiousBite] = useState(false);
-    const [showSkilFetters, setShowSkilFetters] = useState(false);
-    const [showSkilOrcFerocity, setShowSkilOrcFerocity] = useState(false);
+    const [showSkilContagiousBiteImg, setShowSkilContagiousBiteImg] = useState(false);
+    const [showSkilFettersImg, setShowSkilFettersImg] = useState(false);
+    const [showSkilOrcFerocityImg, setShowSkilOrcFerocityImg] = useState(false);
     const [showOrcsSpear,setShowOrcsSpear] = useState(false)
     const [showLoseDwarvesMessage, setShowLoseDwarvesMessage] = useState(false);
     const [showWinDwarves123LvlMessage, setShowWinDwarves123LvlMessage] = useState(false);
@@ -44,7 +44,7 @@ export const DwarvesBattlefieldLvl4 = () => {
         else {
             setDwarvesPoultice( -1);
             setDwarfHealth(dwarfHealth + 100);
-            setDwarvesPoulticeImg(false);
+            setShowSkilDwarvesPoulticeImg(false);
             return
         }
     };
@@ -54,7 +54,7 @@ export const DwarvesBattlefieldLvl4 = () => {
         } else {
             setAngryDwarf( -1);
             setOrcHealth(orcHealth - 160);
-            setSkilAngryDwarfImg(false);
+            setShowSkilAngryDwarfImg(false);
             return
         }
     };
@@ -79,7 +79,7 @@ export const DwarvesBattlefieldLvl4 = () => {
         setTimeout(() => {
             clearInterval(intervalId)
         }, 5000)
-        setSkilBearHugImg(false)
+        setShowSkilBearHugImg(false)
     }
     }
 
@@ -136,7 +136,7 @@ export const DwarvesBattlefieldLvl4 = () => {
             setFrozenGroundCount(frozenGroundCount + 1)
         }
         if (frozenGroundCount >= 2) {
-            setSkilFrozenGroundImg(false)
+            setShowSkilFrozenGroundImg(false)
             setFrozenGroundActive(false)
         }
 
@@ -148,13 +148,13 @@ export const DwarvesBattlefieldLvl4 = () => {
         }
 
         if (orcHealth < 1200 && damageMultiplier !== null && frozenGroundActive === true) { 
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth < 1200 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 160)
             }, 100) 
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
 
         if (orcHealth <= 1200 && orcHealth >= 1040 && damageMultiplier !== null) {
@@ -164,39 +164,39 @@ export const DwarvesBattlefieldLvl4 = () => {
         if (orcHealth <= 2000 && orcHealth >= 1840 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth + 10)
-                setShowSkilOrcFerocity(true)
+                setShowSkilOrcFerocityImg(true)
             },100)
         }
         else if (orcHealth <= 1840 && orcHealth >= 1000 && damageMultiplier !== null) {
-            setShowSkilOrcFerocity(false)    
+            setShowSkilOrcFerocityImg(false)    
         }
         
         if (orcHealth <= 3000 && orcHealth >= 2680 && damageMultiplier !== null && frozenGroundActive === true) {
-            setShowSkilFetters(true)
+            setShowSkilFettersImg(true)
         }
         else if (orcHealth <= 3000 && orcHealth >= 2680 && damageMultiplier !== null && frozenGroundActive === false) {
-            setShowSkilFetters(true)
+            setShowSkilFettersImg(true)
             const intervalId = setInterval(() => {
                 setDwarfHealth(prevHealth => prevHealth - 80)
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
-                setShowSkilFetters(false)
+                setShowSkilFettersImg(false)
             }, 5000);
         }
         
         if (orcHealth <= 4000 && orcHealth >= 3600 && damageMultiplier !== null && frozenGroundActive === true) {
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth <= 4000 && orcHealth >= 3600 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 80)
             }, 100) 
             
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth <= 3600 && orcHealth >= 3280 && damageMultiplier !== null) {
-            setShowSkilContagiousBite(false)
+            setShowSkilContagiousBiteImg(false)
         } 
 
         if (orcHealth <= 4000 && orcHealth >= 3840 && damageMultiplier !== null) {
@@ -206,38 +206,38 @@ export const DwarvesBattlefieldLvl4 = () => {
         if (orcHealth <= 5000 && orcHealth >= 4840 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth + 10)
-                setShowSkilOrcFerocity(true)
+                setShowSkilOrcFerocityImg(true)
             },100)
         }
         else if (orcHealth <= 4840 && orcHealth >= 4000 && damageMultiplier !== null) {
-            setShowSkilOrcFerocity(false)    
+            setShowSkilOrcFerocityImg(false)    
         }
 
         if (orcHealth <= 6000 && orcHealth >= 5680 && damageMultiplier !== null && frozenGroundActive === true) {
-            setShowSkilFetters(true)
+            setShowSkilFettersImg(true)
         }
         if (orcHealth <= 6000 && orcHealth >= 5680 && damageMultiplier !== null && frozenGroundActive === false) {
-            setShowSkilFetters(true)
+            setShowSkilFettersImg(true)
             const intervalId = setInterval(() => {
                 setDwarfHealth(prevHealth => prevHealth - 80)
             }, 1000);
             setTimeout(() => {
                 clearInterval(intervalId)
-                setShowSkilFetters(false)
+                setShowSkilFettersImg(false)
             }, 5000);
         }
        
         if (orcHealth <= 7000 && orcHealth >= 6600 && damageMultiplier !== null && frozenGroundActive === true) {
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         if (orcHealth <= 7000 && orcHealth >= 6600 && damageMultiplier !== null && frozenGroundActive === false) {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 100)
             }, 100) 
-            setShowSkilContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth <= 6600 && orcHealth >= 6280 && damageMultiplier !== null) {
-            setShowSkilContagiousBite(false)
+            setShowSkilContagiousBiteImg(false)
         } 
         if (orcHealth <= 7000 && orcHealth >= 6840 && damageMultiplier !== null) {
             setShowMessage(true)
@@ -312,16 +312,16 @@ export const DwarvesBattlefieldLvl4 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBite && <button title="Заразный укус - наносит средний урон противнику."></button>}
-                    {showSkilContagiousBite && <p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <button title="Заразный укус - наносит средний урон противнику."></button>}
+                    {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
                 </div>
                 <div className={classes.blockSkilFetters}>
-                    {showSkilFetters && <button title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
-                    {showSkilFetters && <p>Охотничьи путы</p>}
+                    {showSkilFettersImg && <button title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showSkilFettersImg && <p>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
-                    {showSkilOrcFerocity  && <p>Свирепость орка</p>} 
+                    {showSkilOrcFerocityImg && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
+                    {showSkilOrcFerocityImg  && <p>Свирепость орка</p>} 
                 </div>
                 <div className={classes.blockSkilOrcsSpear}>
                     {showOrcsSpear && <button title="Орочьи колы - наносят слабый урон противнику, а затем малый урон в течение некоторого времени."></button>}
@@ -333,20 +333,20 @@ export const DwarvesBattlefieldLvl4 = () => {
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
-                    {dwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {dwarvesPoulticeImg && <p>Фиал с водой</p>}
+                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
+                    {showSkilDwarvesPoulticeImg && <p>Фиал с водой</p>}
                 </div>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {skilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {skilAndryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
+                    {showSkilAndryDwarfImg && <p>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
-                    {skilFrozenGroundImg && <button onClick={handleFrozenGround} disabled={frozenGround === -1 || frozenGroundActive} title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда."></button>}
-                    {skilFrozenGroundImg && <p>Мёрзлая земля</p>}
+                    {showSkilFrozenGroundImg && <button onClick={handleFrozenGround} disabled={frozenGround === -1 || frozenGroundActive} title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда."></button>}
+                    {showSkilFrozenGroundImg && <p>Мёрзлая земля</p>}
                 </div>
                 <div className={classes.blockSkilBearHug}>
-                    {skilBearHugImg && <button onClick={handleBearHug} title="Объятия севера - наносит слабый урон противнику в течение 5 секунд."></button>}
-                    {skilBearHugImg && <p>Объятия севера</p>}
+                    {showSkilBearHugImg && <button onClick={handleBearHug} title="Объятия севера - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showSkilBearHugImg && <p>Объятия севера</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

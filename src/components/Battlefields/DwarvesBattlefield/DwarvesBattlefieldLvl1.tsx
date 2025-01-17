@@ -16,12 +16,12 @@ export const DwarvesBattlefieldLvl1 = () => {
     const [damageMultiplier, setDamageMultiplier] = useState(0);
     const [dwarvesPoultice, setDwarvesPoultice] = useState(1);
     const [angryDwarf, setAngryDwarf] = useState(1);
-    const [dwarvesPoulticeImg, setDwarvesPoulticeImg] = useState(true);
-    const [skilAndryDwarfImg, setSkilAngryDwarfImg] = useState(true);
+    const [showSkilDwarvesPoulticeImg, setShowSkilDwarvesPoulticeImg] = useState(true);
+    const [showSkilAndryDwarfImg, setShowSkilAngryDwarfImg] = useState(true);
     const [showMessage, setShowMessage] = useState(false);
     const [showMessage2, setShowMessage2] = useState(false);
     const [showMessage3, setShowMessage3] = useState(false);
-    const [showSkilsContagiousBite, setShowSkilsContagiousBite] = useState(false);
+    const [showSkilContagiousBiteImg, setShowSkilContagiousBiteImg] = useState(false);
     const [showLoseDwarvesMessage, setShowLoseDwarvesMessage] = useState(false);
     const [showWinDwarves123LvlMessage, setShowWinDwarves123LvlMessage] = useState(false);
 
@@ -31,7 +31,7 @@ export const DwarvesBattlefieldLvl1 = () => {
         else {
             setDwarvesPoultice( -1);
             setDwarfHealth(dwarfHealth + 100);
-            setDwarvesPoulticeImg(false);
+            setShowSkilDwarvesPoulticeImg(false);
             return
         }
     };
@@ -41,7 +41,7 @@ export const DwarvesBattlefieldLvl1 = () => {
         } else {
             setAngryDwarf( -1);
             setOrcHealth(orcHealth - 50);
-            setSkilAngryDwarfImg(false)
+            setShowSkilAngryDwarfImg(false)
             return
         }
     };
@@ -62,7 +62,7 @@ export const DwarvesBattlefieldLvl1 = () => {
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 35)
             }, 100) 
-            setShowSkilsContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         if (orcHealth <= 200 && orcHealth >= 180 && damageMultiplier !== null) {
             setShowMessage3(true);
@@ -72,10 +72,10 @@ export const DwarvesBattlefieldLvl1 = () => {
                 setDwarfHealth(dwarfHealth - 50)
             }, 100) 
             setShowMessage2(true)
-            setShowSkilsContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth <= 480 && orcHealth >= 410 && damageMultiplier !== null) {
-            setShowSkilsContagiousBite(false)
+            setShowSkilContagiousBiteImg(false)
         } 
        
         if (orcHealth <= 800 && orcHealth >= 780 && damageMultiplier !== null) {
@@ -83,10 +83,10 @@ export const DwarvesBattlefieldLvl1 = () => {
                 setDwarfHealth(dwarfHealth - 50)
             }, 100) 
             setShowMessage(true)
-            setShowSkilsContagiousBite(true)
+            setShowSkilContagiousBiteImg(true)
         }
         else if (orcHealth <= 780 && orcHealth >= 720 && damageMultiplier !== null) {
-            setShowSkilsContagiousBite(false)
+            setShowSkilContagiousBiteImg(false)
         } 
         if (orcHealth < 10){
             setShowWinDwarves123LvlMessage(true)
@@ -147,19 +147,19 @@ export const DwarvesBattlefieldLvl1 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilsContagiousBite && <button title="Заразный укус - наносит средний урон противнику."></button>}
-                    {showSkilsContagiousBite && <p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <button title="Заразный укус - наносит средний урон противнику."></button>}
+                    {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
-                    {dwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {dwarvesPoulticeImg && <p>Фиал с водой</p>}
+                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
+                    {showSkilDwarvesPoulticeImg && <p>Фиал с водой</p>}
                 </div>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {skilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {skilAndryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
+                    {showSkilAndryDwarfImg && <p>Гнев гнома</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

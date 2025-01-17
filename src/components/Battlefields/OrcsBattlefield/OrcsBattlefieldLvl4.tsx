@@ -314,7 +314,7 @@ export const OrcsBattlefieldLvl4 = () => {
                     {contagiousBiteImg && <p>Заразный укус</p>} 
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {orcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе увеличивает урон от обычных атак на три раунда."></button>}
+                    {orcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
                     {orcFerocityImg && <p>Свирепость орка</p>} 
                 </div>
             </div>

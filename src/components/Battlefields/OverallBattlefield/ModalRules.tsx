@@ -72,7 +72,7 @@ const Rules = (
         </div>
         <div className={classes.ruleOrcs}> 
             <img className={classes.imgRules} src={Ferocity} alt="Свирепость орка"/>
-            <p>Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе увеличивает урон от обычных атак на три раунда.</p>
+            <p>Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда.</p>
         </div>
         <div className={classes.ruleOrcs}> 
             <img className={classes.imgRules} src={Log} alt="Орочьи колы"/>

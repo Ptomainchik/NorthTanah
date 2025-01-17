@@ -241,9 +241,9 @@ export const DwarvesBattlefieldLvl3 = () => {
                         <button className={classes.buttonDwarfLvl3}></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageOrcs}><span>Жалкие орки.</span></div>}
-                {showMessage2 && <div className={classes.textMessageOrcs}><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessageOrcs}><span>Мы вас уничтожим!</span></div>}
+                {showMessage && <div className={classes.textMessageOrcs}><span>Бегите!</span></div>}
+                {showMessage2 && <div className={classes.textMessageOrcs}><span>Горное стадо!</span></div>}
+                {showMessage3 && <div className={classes.textMessageOrcs}><span>Мы вас раздавим!</span></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
                 {showWinDwarves123LvlMessage && <ModalDwarvesWin123Lvl/>}
                 <div className={classes.unitsBlock}>
@@ -263,7 +263,7 @@ export const DwarvesBattlefieldLvl3 = () => {
                     {showSkilFetters && <p>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе увеличивает урон от обычных атак на три раунда."></button>}
+                    {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
                     {showSkilOrcFerocity  && <p>Свирепость орка</p>} 
                 </div>
             </div>

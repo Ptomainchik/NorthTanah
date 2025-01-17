@@ -296,13 +296,13 @@ export const DwarvesBattlefieldLvl4 = () => {
                         <button className={classes.buttonDwarfLvl4}></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageOrcs}><span>Жалкие орки.</span></div>}
-                {showMessage2 && <div className={classes.textMessageOrcs}><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessageOrcs}><span>Мы вас уничтожим!</span></div>}
+                {showMessage && <div className={classes.textMessageOrcs}><span>Глупая мелочь.</span></div>}
+                {showMessage2 && <div className={classes.textMessageOrcs}><span>Недомерки!</span></div>}
+                {showMessage3 && <div className={classes.textMessageOrcs}><span>Север падёт!</span></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
                 {showWinDwarves123LvlMessage && <ModalDwarvesVictory/>}
-                {showMessageCrossbowman && <div className={classes.textMessageCrossbowman}><span>Я пришёл на подмогу!</span></div>}
-                {showMessageCrossbowmanNoBolts && <div className={classes.textMessageCrossbowman}><span>Закончились болты!</span></div>}
+                {showMessageCrossbowman && <div className={classes.textMessageCrossbowman}><span>Арбалетчик прибыл!</span></div>}
+                {showMessageCrossbowmanNoBolts && <div className={classes.textMessageCrossbowman}><span>Закончились болты.</span></div>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl4}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>
@@ -320,7 +320,7 @@ export const DwarvesBattlefieldLvl4 = () => {
                     {showSkilFetters && <p>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе увеличивает урон от обычных атак на три раунда."></button>}
+                    {showSkilOrcFerocity && <button title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
                     {showSkilOrcFerocity  && <p>Свирепость орка</p>} 
                 </div>
                 <div className={classes.blockSkilOrcsSpear}>

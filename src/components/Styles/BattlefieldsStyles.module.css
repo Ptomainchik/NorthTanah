@@ -13,7 +13,7 @@
     left: 22rem;
     top: 70%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .dwarvesBattlefield .orcLvl123{
@@ -21,34 +21,32 @@
     right: 28rem;
     top: 70%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .dwarvesBattlefield .dwarfLvl4{
     position: relative;
     left: 22rem;
-    top: 50%;
+    top: 56%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .dwarvesBattlefield .orcLvl4{
     position: relative;
     right: 28rem;
-    top: 50%;
+    top: 56%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .buttonDwarfLvl1{
-    width: 200px;
-    height: 200px;   
+    width: 12rem;
+    height: 12rem;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl1.webp) no-repeat; 
     background-size: contain;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
-   
+    margin-top: 1rem;
 }
 
 .buttonDwarfLvl1:hover{
@@ -66,11 +64,12 @@
 }
 
 .buttonDwarfLvl2{
-    width: 200px;
-    height: 200px;   
+    width: 12rem;
+    height: 12rem;  
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl2.webp) no-repeat; 
     background-size: contain;
     border: none;
+    margin-top: 1rem;
 }
 
 .buttonDwarfLvl2:hover{
@@ -86,11 +85,12 @@
 }
 
 .buttonDwarfLvl3{
-    width: 200px;
-    height: 200px;   
+    width: 12rem;
+    height: 12rem;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl3.webp) no-repeat; 
     background-size: contain;
     border: none;
+    margin-top: 1rem;
 }
 
 .buttonDwarfLvl3:hover{
@@ -106,11 +106,12 @@
 }
 
 .buttonDwarfLvl4{
-    width: 250px;
-    height: 250px;   
+    width: 13rem;
+    height: 13rem;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl4.webp) no-repeat; 
     background-size: contain;
     border: none;
+    margin-top: 1.7rem;
 }
 
 .buttonDwarfLvl4:hover{
@@ -126,25 +127,25 @@
 }
 
 .buttonDwarfLvlUnic{
-    width: 250px;
-    height: 250px;   
+    width: 12.5rem;
+    height: 12.5rem;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowman.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: 37rem;
-    bottom: 10%;
+    bottom: 3.9%;
 }
 
 .buttonDwarfLvlUnic1{
-    width: 250px;
-    height: 250px;   
+    width: 12.5rem;
+    height: 12.5rem;    
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanOneBolt.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: 37rem;
-    bottom: 10%;
+    bottom: 3.9%;
 }
 
 .buttonDwarfLvlUnic1:hover{
@@ -160,14 +161,14 @@
 }
 
 .buttonDwarfLvlUnic2{
-    width: 250px;
-    height: 250px;   
+    width: 12.5rem;
+    height: 12.5rem;     
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanTwoBolts.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: 37rem;
-    bottom: 10%;
+    bottom: 3.9%;
 }
 
 .buttonDwarfLvlUnic2:hover{
@@ -183,14 +184,14 @@
 }
 
 .buttonDwarfLvlUnic3{
-    width: 250px;
-    height: 250px;   
+    width: 12.5rem;
+    height: 12.5rem;   
     background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanThreeBolts.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: 37rem;
-    bottom: 10%;
+    bottom: 3.9%;
 }
 
 .buttonDwarfLvlUnic3:hover{
@@ -485,7 +486,7 @@
     left: 3rem;
     top: 70%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .orcsBattlefield .orcLvl123{
@@ -493,33 +494,31 @@
     right: 47rem;
     top: 70%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .orcsBattlefield .dwarfLvl4{
     position: relative;
     left: 3rem;
-    top: 50%;
+    top: 56%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .orcsBattlefield .orcLvl4{
     position: relative;
     right: 47rem;
-    top: 50%;
+    top: 56%;
     display: block;
-    width: 400px;
+    width: 25rem;
 }
 
 .buttonOrcLvl1{
-    width: 200px;
-    height: 200px;   
+    width: 13rem;
+    height: 13rem;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl1.webp) no-repeat; 
     background-size: contain;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .buttonOrcLvl1:hover{
@@ -535,13 +534,11 @@
 }
 
 .buttonOrcLvl2{
-    width: 200px;
-    height: 200px;   
+    width: 13rem;
+    height: 13rem;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl2.webp) no-repeat; 
     background-size: contain;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .buttonOrcLvl2:hover{
@@ -557,13 +554,11 @@
 }
 
 .buttonOrcLvl3{
-    width: 200px;
-    height: 200px;   
+    width: 13rem;
+    height: 13rem;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl3.webp) no-repeat; 
     background-size: contain;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .buttonOrcLvl3:hover{
@@ -579,13 +574,11 @@
 }
 
 .buttonOrcLvl4{
-    width: 250px;
-    height: 250px;   
+    width: 15rem;
+    height: 15rem;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl4.webp) no-repeat; 
     background-size: contain;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .buttonOrcLvl4:hover{
@@ -601,25 +594,25 @@
 }
 
 .buttonOrcLvlUnic{
-    width: 250px;
-    height: 250px;   
+    width: 15rem;
+    height: 15rem;
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrower.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: -37rem;
-    bottom: 10%;
+    bottom: 7.7%;
 }
 
 .buttonOrcLvlUnic1{
-    width: 250px;
-    height: 250px;   
+    width: 15rem;
+    height: 15rem;  
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerOneS.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: -37rem;
-    bottom: 10%;
+    bottom: 7.7%;
 }
 
 .buttonOrcLvlUnic1:hover{
@@ -635,14 +628,14 @@
 }
 
 .buttonOrcLvlUnic2{
-    width: 250px;
-    height: 250px;   
+    width: 15rem;
+    height: 15rem; 
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerTwoS.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: -37rem;
-    bottom: 10%;
+    bottom: 7.7%;
 }
 
 .buttonOrcLvlUnic2:hover{
@@ -658,14 +651,14 @@
 }
 
 .buttonOrcLvlUnic3{
-    width: 250px;
-    height: 250px;   
+    width: 15rem;
+    height: 15rem;   
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerThreeS.webp) no-repeat; 
     background-size: contain;
     border: none;
     position: relative;
     right: -37rem;
-    bottom: 10%;
+    bottom: 7.7%;
 }
 
 .buttonOrcLvlUnic3:hover{

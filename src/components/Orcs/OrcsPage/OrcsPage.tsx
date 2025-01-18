@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 import { BackButton } from '../../Button/BackButton/BackButton'
 import { HomeButton } from '../../Button/HomeButton/HomeButton'
 
-
-
 export const OrcsPage = () => {
     return <div>
       <div className={classes.button}><HomeButton/><span>Orcs</span><BackButton/></div>
@@ -14,7 +12,7 @@ export const OrcsPage = () => {
      <div className={classes.infoPage}>
            <img title="Бурзульг" src={OrcShaman} alt="Орк хранитель знаний" className={classes.imgPage}/>
          <div className={classes.infoTextPage}>
-           <h4>Барзульг</h4>
+           <h4>Бурзульг</h4>
            <p>Хранитель знаний</p>
         </div>
     </div>

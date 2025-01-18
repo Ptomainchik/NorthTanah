@@ -31,11 +31,17 @@ export const Hunters = () => {
         <div>
             <div className={classes.contentModal}>
                 <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter"/>
-                <span>Малгар - старший охотник.</span>
+                <span>
+                  Малгар - старший охотник. Каждый думал только о себе и своих ближних. Добыча просто-напросто не доходила до всех сородичей.
+                  Тогда ещё молодой Малгар, собрал группу охотников, которая стала разрастаться стремительными темпами и приносить пропитания вдоволь для всех.   
+                </span>
             </div>
             <div className={classes.contentModal}>  
                 <img title="Бурзаг" className={classes.imageMemberCommunities } src={TrapMaster} alt="Orc trap master"/>
-                <span>Бурзаг - мастер ловушек.</span>
+                <span>
+                  Бурзаг - мастер ловушек. Всё своё время он тратил на то, чтобы улучшить способы охоты. Все силки, капканы, разнообразные ловушки для дичи и не только,
+                  всё это придумал именно он.
+                </span>
             </div>    
         </div>
       

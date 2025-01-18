@@ -1,5 +1,5 @@
 import classes from '../Styles/BlackForest.module.css'
-import { SpiritCatchers } from './SpiritCatchers/SpiritCatchers'
+import { GuardiansOfSpirits } from './GuardiansOfSpirits/GuardiansOfSpirits'
 import { Gangs } from './Gangs/Gangs'
 import { Hunters } from './Hunters/Hunters'
 import { Workers } from './Workers/Workers'
@@ -15,8 +15,8 @@ export const Communities = () => {
  <div className={classes.communitiesLists}>
     
         <div className={classes.greenTriangleCommuties1}></div>
-        <SpiritCatchers/>
-        <h5 className={classes.titleSpiritCatchers}>Spirit Catchers</h5>  
+        <GuardiansOfSpirits/>
+        <h5 className={classes.titleGuardiansOfSpirits}>Guardians of spirits</h5>  
     
         <div className={classes.greenTriangleCommuties2}></div>
         <h5 className={classes.titleHunters}>Hunters</h5>

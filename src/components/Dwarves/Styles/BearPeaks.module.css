@@ -81,11 +81,10 @@
     display: flex;
     font-family: "Rakkas", serif;
     color: rgb(30, 46, 70); 
-    -webkit-text-stroke: 2px rgb(247,189,0);
+    -webkit-text-stroke: 0.1px rgb(247,189,0);
     align-items: center;
     justify-content: center;
     font-size: 45px;
-    
 }
 
 .titleHistory h1{
@@ -214,6 +213,7 @@
   margin: 10px 0 0 0;
   font-family: "Pangolin";
   color: rgb(255, 130, 58);
+  text-align: start;
 }
 
 .imageHeadBlacksmith{
@@ -287,6 +287,7 @@
   margin: 10px 0 0 0;
   color:rgb(245, 231, 44) ;
   font-family: "Pangolin";
+  text-align: start;
 }
 
 .buttonCloseMerchantsModal{
@@ -372,7 +373,7 @@
   text-align: center;
   justify-content: space-between;
   color: black; 
-  -webkit-text-stroke: 1px rgb(247,189,0);
+  -webkit-text-stroke: 0.1px rgb(247,189,0);
 } 
 
 .titleBlacksmith{
@@ -491,7 +492,7 @@
     height: 100%;  
     margin: 50px 50px;
     color: black;
-    -webkit-text-stroke: 1px  rgb(247,189,0);
+    -webkit-text-stroke: 0.1px  rgb(247,189,0);
   }
   
   .dwarvesPageButton h5{

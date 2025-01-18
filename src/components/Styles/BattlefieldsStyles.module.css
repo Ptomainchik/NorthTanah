@@ -332,6 +332,7 @@
     position: absolute;
     top: 35%;
     left: 13%;
+    font-family: "Pangolin";
 }
 
 .textMessageCrossbowman span{
@@ -349,6 +350,7 @@
    position: absolute;
    top: 35%;
    left: 55%;
+   font-family: "Pangolin";
 }
 
 .textMessageOrcs span{
@@ -368,7 +370,8 @@
     position: fixed;
     bottom: 5%;
     left: 5%;
-    background: rgb(189, 189, 189) ;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
 }
 
 .blockSkilDwarfPoultice{
@@ -708,6 +711,7 @@
     position: absolute;
     top: 35%;
     left: 67%;
+    font-family: "Pangolin";
 }
 
 .textMessageSpearThrower span{
@@ -725,6 +729,7 @@
    position: absolute;
    top: 35%;
    left: 25%;
+   font-family: "Pangolin";
 }
 
 .textMessageDwarves span{
@@ -819,6 +824,7 @@
     color: rgb(168, 165, 155); 
     font-size: 1rem; 
     padding: 0;
+    font-family: "Pangolin";
 }
 
 .blockModalOrcsVictory{
@@ -849,7 +855,7 @@
   width: 1200px;
   margin: auto;
   margin-top: 5%;
-  
+  font-family: "Pangolin";
 }
 
 .modalRule{
@@ -923,7 +929,8 @@
     position: fixed;
     bottom: 5%;
     right: 5%;
-    background: rgb(189, 189, 189) ;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
 }
 
 .blockSkilOrcPoultice{
@@ -1045,6 +1052,7 @@
     position: absolute;
     left: 0%;
     bottom: 0%;
+    font-family: "Pangolin";
 }
 
 .unitsFlex {

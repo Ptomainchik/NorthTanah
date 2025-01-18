@@ -83,7 +83,7 @@ background-size: contain;
   color: rgb(4, 27, 1);
   align-items: center;
   justify-content: center;
-  -webkit-text-stroke: rgb(168, 165, 155) 2px;
+  -webkit-text-stroke: rgb(168, 165, 155) 0.1px;
   font-size: 45px;
 }
 
@@ -172,7 +172,7 @@ background-size: contain;
 
 /* SpiritCatchersModal */
 
-.iconsSpiritCatchersModalCommunity{
+.iconsGuardiansOfSpiritsModalCommunity{
 background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat;
 background-size: contain;
 border: none;
@@ -185,14 +185,14 @@ top: 90px;
 left: 130px;
 }
 
-.iconsSpiritCatchersModalCommunity:hover{
+.iconsGuardiansOfSpiritsModalCommunity:hover{
 opacity: 0.9;
 filter: drop-shadow(0px 0px 20px rgb(50, 88, 255));
 animation: shifting 0.7s infinite;
 animation-fill-mode: forwards; 
 }
 
-.spiritCatchersModal {
+.guardiansOfSpiritsModal {
 width: 1000px;
 height: 700px;
 background: rgb(4, 27, 1);
@@ -201,20 +201,21 @@ margin: 10px 50px 10px 320px;
 font-size: 2rem;
 }
 
-.spiritCatchersModal img{
+.guardiansOfSpiritsModal img{
 border-style:solid;
 border-color: rgb(50, 88, 255);
 display: block;
 }
 
-.spiritCatchersModal span {
+.guardiansOfSpiritsModal span {
 font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
 color: rgb(50, 88, 255);
+text-align: start;
 }
 
-.buttonCloseSpiritCatchersModal{
+.buttonCloseGuardiansOfSpiritsModal{
 margin: 10px 10px 10px 300px;
 width: 400px;
 height: 40px;
@@ -225,7 +226,7 @@ background:rgb(50, 88, 255);
 font-family: "Pangolin";
 }
 
-.buttonCloseSpiritCatchersModal:hover{
+.buttonCloseGuardiansOfSpiritsModal:hover{
 opacity: 0.7;
 }
 
@@ -271,6 +272,7 @@ opacity: 0.7;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
   color:  rgb(255, 193, 21);
+  text-align: start;
   }
   
   .buttonCloseWorkersModal{
@@ -330,6 +332,7 @@ opacity: 0.7;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
   color: rgb(84, 230, 55);
+  text-align: start;
   }
   
   .buttonCloseHuntersModal{
@@ -389,6 +392,7 @@ font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
 color: rgb(190, 4, 4);
+text-align: start;
 }
   
 .buttonCloseGangsModal{
@@ -474,10 +478,10 @@ display: flex;
 text-align: center;
 justify-content: space-between;
 color: black; 
--webkit-text-stroke: 1px rgb(221, 221, 221);
+-webkit-text-stroke: 0.3px rgb(221, 221, 221);
 } 
 
-.titleSpiritCatchers{
+.titleGuardiansOfSpirits{
 position: absolute;
 top: 20px;
 left: 440px;
@@ -627,7 +631,7 @@ right: 440px;
     height: 100%;  
     margin: 50px 50px;
     color: black;
-    -webkit-text-stroke: 1px  rgb(221, 221, 221) ;
+    -webkit-text-stroke: 0.1px  rgb(221, 221, 221) ;
   }
   
   .orcsPageButton h5{

@@ -15,7 +15,7 @@
 }
 
 .accordionItem {
-  border: 1px solid #ccc;
+  border: 1px solid rgb(168, 165, 155);
   position: fixed;
 }
 
@@ -42,7 +42,6 @@
   user-select: none;
   color: rgb(168, 165, 155) ;
   font-family: "Pangolin";
-  
 }
 
 .accordionItemBtn::after {
@@ -66,7 +65,7 @@
 }
 
 .accordionItemContent {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid rgb(168, 165, 155);
   padding: 15px 20px;
 }
 
@@ -197,8 +196,9 @@ width: 1000px;
 height: 700px;
 background: rgb(4, 27, 1);
 padding: 0;
-margin: 10px 50px 10px 320px;
-font-size: 2rem;
+position: fixed;
+left: 20%;
+top:5%;
 }
 
 .guardiansOfSpiritsModal img{
@@ -211,14 +211,24 @@ display: block;
 font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
-color: rgb(50, 88, 255);
+color: rgb(189, 189, 189);
 text-align: start;
 }
 
+.guardiansOfSpiritsModal span span{
+font-size: 1.9rem;
+margin: 10px 0 0 0;
+font-family: "Pangolin";
+color: rgb(50, 88, 255);
+text-align: start;
+font-weight: bolder;
+}
+
 .buttonCloseGuardiansOfSpiritsModal{
-margin: 10px 10px 10px 300px;
-width: 400px;
-height: 40px;
+position: absolute;
+bottom: 1%;
+width: 20rem;
+height: 2.7rem;
 font-size: 2rem;
 border-style: solid;
 border-color:black;
@@ -257,8 +267,9 @@ opacity: 0.7;
   height: 700px;
   background: rgb(4, 27, 1);
   padding: 0;
-  margin: 10px 50px 10px 320px;
-  font-size: 2rem;
+  position: fixed;
+  left: 20%;
+  top:5%;
   }
   
   .workersModal img{
@@ -271,14 +282,24 @@ opacity: 0.7;
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
+  color: rgb(189, 189, 189);
+  text-align: start;
+  }
+
+  .workersModal span span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
   color:  rgb(255, 193, 21);
   text-align: start;
+  font-weight: bolder;
   }
   
   .buttonCloseWorkersModal{
-  margin: 10px 10px 10px 300px;
-  width: 400px;
-  height: 40px;
+  position: absolute;
+  bottom: 1%;
+  width: 20rem;
+  height: 2.7rem;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
@@ -317,8 +338,9 @@ opacity: 0.7;
   height: 700px;
   background: rgb(4, 27, 1);
   padding: 0;
-  margin: 10px 50px 10px 320px;
-  font-size: 2rem;
+  position: fixed;
+  left: 20%;
+  top:5%;
   }
   
   .huntersModal img{
@@ -331,14 +353,24 @@ opacity: 0.7;
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
+  color: rgb(189, 189, 189);
+  text-align: start;
+  }
+
+  .huntersModal span span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
   color: rgb(84, 230, 55);
   text-align: start;
+  font-weight: bolder;
   }
   
   .buttonCloseHuntersModal{
-  margin: 10px 10px 10px 300px;
-  width: 400px;
-  height: 40px;
+  position: absolute;
+  bottom: 1%;
+  width: 20rem;
+  height: 2.7rem;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
@@ -377,8 +409,9 @@ width: 1000px;
 height: 700px;
 background: rgb(4, 27, 1);
 padding: 0;
-margin: 10px 50px 10px 320px;
-font-size: 2rem;
+position: fixed;
+left: 20%;
+top:5%;
 }
   
 .gangsModal img{
@@ -391,14 +424,24 @@ display: block;
 font-size: 1.9rem;
 margin: 10px 0 0 0;
 font-family: "Pangolin";
+color: rgb(189, 189, 189);
+text-align: start;
+}
+
+.gangsModal span span {
+font-size: 1.9rem;
+margin: 10px 0 0 0;
+font-family: "Pangolin";
 color: rgb(190, 4, 4);
 text-align: start;
+font-weight: bolder;
 }
   
 .buttonCloseGangsModal{
-margin: 10px 10px 10px 300px;
-width: 400px;
-height: 40px;
+position: absolute;
+bottom: 1%;
+width: 20rem;
+height: 2.7rem;
 font-size: 2rem;
 border-style: solid;
 border-color:black;
@@ -477,8 +520,8 @@ position: fixed;
 display: flex;
 text-align: center;
 justify-content: space-between;
-color: black; 
--webkit-text-stroke: 0.3px rgb(221, 221, 221);
+color: rgb(168, 165, 155); 
+-webkit-text-stroke: 0.1px black;
 } 
 
 .titleGuardiansOfSpirits{
@@ -567,7 +610,7 @@ right: 440px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border:rgb(221, 221, 221) 10px solid;
+  border: rgb(189, 189, 189) 10px solid;
   transform: skewX(-20deg)
   }
     
@@ -583,7 +626,7 @@ right: 440px;
   
   .infoTextPage{
   margin: 20px;
-  background: rgb(221, 221, 221);
+  background: rgb(189, 189, 189);
   height: 200px;
   color: rgb(4, 27, 1);
   width: 350px;
@@ -610,7 +653,7 @@ right: 440px;
   
   .storyText{
     font-size: 30px;
-    background: rgb(221, 221, 221);
+    background: rgb(189, 189, 189);
     width: 490px;
     height: 600px;
     margin: 25px;
@@ -631,7 +674,7 @@ right: 440px;
     height: 100%;  
     margin: 50px 50px;
     color: black;
-    -webkit-text-stroke: 0.1px  rgb(221, 221, 221) ;
+    -webkit-text-stroke: 0.1px  rgb(168, 165, 155) ;
   }
   
   .orcsPageButton h5{

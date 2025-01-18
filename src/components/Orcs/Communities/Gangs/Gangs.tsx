@@ -32,15 +32,24 @@ export const Gangs = () => {
         <div>
             <div className={classes.contentModal}>
                 <img title="Родзарик" className={classes.imageHeadCommunities} src={LeaderOfTheBandits} alt="Orc leader of the bandits"/>
-                <span>Родзарик - вождь разбойников и всех банд.</span>
+                <span>
+                  <span>Родзарик - вождь разбойников и всех банд.</span> Разбойники грабили и убивали десятками, а то и сотнями, тех у кого можно было хоть чем нибудь поживится.
+                  Но самым опасным и непредсказуемым из них был Родзарик, за что и стал вождём. А позже был провозглашён первым королём Чёрного леса.
+                </span>
             </div>
             <div className={classes.contentModal}>  
                 <img title="Фругеш" className={classes.imageMemberCommunities} src={MasterOfTheMarauders} alt="Orc master of marauders"/>
-                <span>Фругеш - хозяин мародёров.</span>
+                <span>
+                  <span>Фругеш - хозяин мародёров.</span> Места, где полыхали сражения, проходили стихийные бедствия, оставленные жилища и брошенное впопыхах имущество. Именно там появлялись
+                  банды мародёров, которыми заправлял жадный и ненасытный к чужому добру Фругеш.
+                </span>
             </div>    
             <div className={classes.contentModal}>
                 <img title="Хармук" className={classes.imageMemberCommunities} src={ChiefOfThieves} alt="Orc chief of thieves"/>
-                <span>Хармук - глава воров.</span>
+                <span>
+                  <span>Хармук - глава воров.</span> Ловкости и скрытности у Хармука было в достатке, а ещё проницательный ум. Он проворачивал дела,
+                  как заправский стратег, а не просто щупал карманы. Созданию казны в Чернолесье и объединению банд, все должны быть обязаны ему.   
+                </span>
             </div>
         </div>
       

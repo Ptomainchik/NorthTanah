@@ -14,7 +14,7 @@
   }
 
 .accordionItem {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(247,189,0);
     position: fixed;
   }
   
@@ -64,7 +64,7 @@
   }
   
 .accordionItemContent {
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid rgb(247,189,0);
     padding: 15px 20px;
   }
 
@@ -198,8 +198,10 @@
   height: 700px;
   background: rgb(30, 46, 70);
   padding: 0;
-  margin: 10px 50px 10px 320px;
   font-size: 2rem;
+  position: fixed;
+  left: 20%;
+  top:5%;
 }
 
 .blacksmithModal img{
@@ -212,8 +214,17 @@
   font-size: 1.9rem;
   margin: 10px 0 0 0;
   font-family: "Pangolin";
+  color: rgb(189, 189, 189);
+  text-align: start;
+}
+
+.blacksmithModal span span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  font-family: "Pangolin";
   color: rgb(255, 130, 58);
   text-align: start;
+  font-weight: bolder;
 }
 
 .imageHeadBlacksmith{
@@ -229,9 +240,10 @@
 }
 
 .buttonCloseBlacksmithModal{
-  margin: 10px 10px 10px 300px;
-  width: 400px;
-  height: 40px;
+  position: absolute;
+  bottom: 1%;
+  width: 20rem;
+  height: 2.7rem;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
@@ -272,8 +284,10 @@
   height: 700px;
   background: rgb(30, 46, 70);
   padding: 0;
-  margin: 10px 50px 10px 320px;
   font-size: 2rem;
+  position: fixed;
+  left: 20%;
+  top:5%;
 }
 
 .merchantsModal img{
@@ -285,15 +299,25 @@
 .merchantsModal span {
   font-size: 1.9rem;
   margin: 10px 0 0 0;
-  color:rgb(245, 231, 44) ;
+  color: rgb(189, 189, 189);
   font-family: "Pangolin";
   text-align: start;
 }
 
+.merchantsModal span span {
+  font-size: 1.9rem;
+  margin: 10px 0 0 0;
+  color: rgb(245, 231, 44);
+  font-family: "Pangolin";
+  text-align: start;
+  font-weight: bolder;
+}
+
 .buttonCloseMerchantsModal{
-  margin: 130px 10px 10px 300px;
-  width: 400px;
-  height: 40px;
+  position: absolute;
+  bottom: 1%;
+  width: 20rem;
+  height: 2.7rem;
   font-size: 2rem;
   border-style: solid;
   border-color:black;
@@ -372,8 +396,8 @@
   display: flex;
   text-align: center;
   justify-content: space-between;
-  color: black; 
-  -webkit-text-stroke: 0.1px rgb(247,189,0);
+  color: rgb(247,189,0); 
+  -webkit-text-stroke: 0.1px black;
 } 
 
 .titleBlacksmith{
@@ -428,7 +452,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border:rgb(221, 221, 221) 10px solid;
+  border: rgb(189, 189, 189) 10px solid;
   transform: skewX(-20deg)
   }
     
@@ -444,7 +468,7 @@
   
   .infoTextPage{
     margin: 20px;
-    background: rgb(221, 221, 221);
+    background: rgb(189, 189, 189);
     height: 200px;
     color: rgb(30, 46, 70);
     width: 350px;
@@ -471,7 +495,7 @@
   
   .storyText{
     font-size: 30px;
-    background: rgb(221, 221, 221);
+    background: rgb(189, 189, 189);
     width: 490px;
     height: 600px;
     margin: 25px;

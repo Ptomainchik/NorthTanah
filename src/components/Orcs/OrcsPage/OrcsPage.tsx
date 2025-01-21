@@ -10,10 +10,10 @@ export const OrcsPage = () => {
     <div className={classes.info}> 
   <div className={classes.blockPage}>
      <div className={classes.infoPage}>
-           <img title="Бурзульг" src={OrcShaman} alt="Орк хранитель знаний" className={classes.imgPage}/>
+           <img title="Орк" src={OrcShaman} alt="Орк" className={classes.imgPage}/>
          <div className={classes.infoTextPage}>
-           <h4>Бурзульг</h4>
-           <p>Хранитель знаний</p>
+           <h2>Орки</h2>
+           <h6>Чёрный лес</h6>
         </div>
     </div>
     <div>
@@ -23,8 +23,16 @@ export const OrcsPage = () => {
     </div>
   </div>   
   <div className={classes.story}>
-    <div className={classes.storyText}><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia praesentium sint non unde laboriosam repudiandae quam esse nam possimus accusamus tenetur, assumenda labo
-  re iure deserunt eaque quas architecto laborum quis!</p></div>
+    <div className={classes.storyText}>
+      <p>
+        Раса орков представляет собой - зеленокожих существ среднего роста, крепкого телосложения. Они отнюдь не глупые, а даже очень смекалистые.
+        Ведь только у них получилось выжить и создать королевство в дремучем, мрачном Чёрном лесу.
+        Религия орков не связана с богами, они молятся духам предкам.
+        Так в случае смерти тела, дух орка некуда не исчезает, а лишь ждёт момента когда его поймает хранитель духов, для того чтобы даровать жизнь новорождённому.
+        Сама природа не подразумевает ни какой души у них. Дух матери поддерживает жизнь плода в утробе, в момент отделения пуповины младенец умирает. Но оживает вновь, после дарования ему духа предка от хранителя.
+        Лишь несколько раз в году, рождаются орки с собственным духом, случается это только если духов родителей так же влечёт друг к другу!
+      </p>
+    </div>
   </div>
 </div></div>
 }

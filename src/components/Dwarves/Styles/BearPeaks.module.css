@@ -531,9 +531,10 @@
 
   .button{
     background: rgb(30, 46, 70);
-    border: solid  rgb(247,189,0) 2px;
+    border: solid  rgb(247,189,0) 0.3rem;
     text-align: center;
     font-family: "Rakkas";
+    font-size: 4rem;
     display: flex;
     justify-content: space-between; 
     position: relative;

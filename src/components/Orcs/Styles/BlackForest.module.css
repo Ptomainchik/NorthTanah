@@ -690,8 +690,9 @@ right: 440px;
 
   .button{
     background: rgb(4, 27, 1);
-    border: solid rgb(168, 165, 155) 2px;
+    border: solid rgb(168, 165, 155) 0.3rem;
     text-align: center;
+    font-size: 4rem;
     font-family: "Rakkas";
     display: flex;
     justify-content: space-between; 

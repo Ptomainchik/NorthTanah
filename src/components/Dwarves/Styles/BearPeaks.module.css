@@ -475,35 +475,36 @@
     transform: skewX(-20deg)
   }
     
-  .infoTextPage h5{
+  .infoTextPage h2{
   margin: 10px 10px 0px 10px;
   }
    
-  .infoTextPage p{
-  font-size: 30px;
-  margin: 0px 10px 0px 10px ;
+  .infoTextPage h6{
+  margin: 20px 10px 0px 10px ;
   }
 
   .story{
     margin: 20px;
     width: 540px;
-    height: 650px;
+    height: 42rem;
     background: rgb(30, 46, 70);
     display: block;
     font-family: "Pangolin";
   }
   
   .storyText{
-    font-size: 30px;
+    font-size: 1.5rem ;
+    font-weight: bold;
     background: rgb(189, 189, 189);
     width: 490px;
-    height: 600px;
+    height: 39rem;
     margin: 25px;
     color: rgb(30, 46, 70);
   }
   
   .storyText p{
-    margin: 20px;
+    margin: 1rem;
+    padding-top: 0.3rem;
   }
 
   .dwarvesPageButton{

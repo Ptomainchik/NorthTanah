@@ -12,22 +12,29 @@ export const DwarvesPage = () => {
     <div className={classes.info}>
     <div className={classes.blockPage}>
       <div className={classes.infoPage}>
-             <img title="Альдорх Мудрый" src={DwarfWithBook} alt="Мудрый гном" className={classes.imgPage}/>
+             <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage}/>
           <div className={classes.infoTextPage}>
-          <h5>Альдорх Мудрый</h5>
-         <p>Библиотекарь Королевства</p>
+          <h2>Гномы</h2>
+         <h6>Медвежьи вершины</h6>
          </div>
       </div>
       <div>
-          <Link to="/historybp" title="История Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
-          <Link to="/guilds" title="Гильдии Королевства Медвежьих Вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
+          <Link to="/historybp" title="История королевства Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
+          <Link to="/guilds" title="Гильдии королевства Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
           <Link to="/battlefielddwlvl1" title="Боевое поле" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
     </div>
 </div>
 <div className={classes.story}>
-  <div className={classes.storyText}><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-  Reiciendis, velit amet quos aliquam reprehenderit magni voluptas optio architecto dolorum assumenda! 
-  Ducimus quisquam iusto ratione minima mollitia illo voluptates commodi suscipit!</p></div>
+  <div className={classes.storyText}>
+    <p>
+      Раса гномов представляет собой - низкорослых существ, коренастого телосложения. Особенностью их характера является предприимчивость.
+      Они могут извлечь выгоду, там где другие народы не увидели бы ничего, кроме убытков. Торговцы королевства Медвежьих вершин славятся по всему Танаху.
+      Так же они очень талантливые ремесленники, способные произвести что угодно, наивысшего качества.
+      Богами у них являются праотцы гномы, те кто совершал великие дела, будь то победы в битвах, изменение жизненного уклада и спасение королевства от упадка.
+      Так количество божеств измеряется десятками, а то и сотнями. Большинство из которых уже никто не помнит. 
+      Но есть два самых почитаемых, это прародитель Кунок Укротитель и сам король Доронг Сапфир, являющийся его потомком. А значит праотцом во плоти.
+    </p>
+  </div>
   </div>
 </div>
 </div>

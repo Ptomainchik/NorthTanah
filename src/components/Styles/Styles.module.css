@@ -4,7 +4,7 @@
 
 body {
 color: #a80016;
-font-size: 5rem;
+font-size: 3vw;
 font-family: "Rakkas";  
 font-style: normal;
 text-align: center;
@@ -22,7 +22,7 @@ text-decoration: none;
 }
 
 a:active{
-color: #a80016;
+color: rgb(32, 32, 32);
 }
 
 .choice{

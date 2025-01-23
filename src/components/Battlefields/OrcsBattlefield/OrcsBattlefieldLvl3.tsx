@@ -219,7 +219,7 @@ export const OrcsBattlefieldLvl3 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonsBattlefields} style={{backgroundColor: 'rgb(4, 27, 1)', border: "solid rgb(168, 165, 155) 0.3vw"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+            <div className={classes.buttonsBattlefields} style={{backgroundColor: 'rgb(4, 27, 1)', borderTop: "solid rgb(180, 60, 20) 0.3vw", borderBottom: "solid rgb(180, 60, 20) 0.3vw", WebkitTextStroke: "0.1vw rgb(180, 60, 20)", WebkitTextFillColor: "black"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>

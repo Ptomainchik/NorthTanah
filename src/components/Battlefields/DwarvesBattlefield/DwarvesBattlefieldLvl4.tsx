@@ -288,7 +288,7 @@ export const DwarvesBattlefieldLvl4 = () => {
 
     return (
         <div className={classes.dwarvesBattlefield}>
-            <div className={classes.buttonsBattlefields} style={{backgroundColor: "rgb(30, 46, 70)", border: "solid rgb(247,189,0) 0.3vw"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+            <div className={classes.buttonsBattlefields} style={{backgroundColor: "rgb(30, 46, 70)",  borderBottom: "solid  rgb(247,189,0) 0.3vw", borderTop: "solid  rgb(247,189,0) 0.3vw", WebkitTextStroke: "0.1vw rgb(247,189,0)", WebkitTextFillColor: "black"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl4}>

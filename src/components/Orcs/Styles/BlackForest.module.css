@@ -596,84 +596,92 @@ right: 440px;
 
 .info{
  position: fixed;
+ top: 10%;
  display: flex;
  width: 100%;
  height: 100%;
 }
 
 .blockPage{
-  display: block;
+ position:absolute;
+ display: block;
+ margin: 1% 4% 1% 4%; 
 }
 
  .imgPage{
-  margin: 20px;
-  width: 200px;
-  height: 200px;
+  position: absolute;
+  margin: 4%;
+  width: 10rem;
   border-radius: 50%;
-  border: rgb(189, 189, 189) 10px solid;
+  border: rgb(189, 189, 189) 0.5rem solid;
   transform: skewX(-20deg)
   }
     
   .infoPage{
+  position: absolute;
+  left: 0;
   display: flex;
   background: rgb(4, 27, 1) ;
-  height: 250px;
-  width: 700px;
-  margin: 10px 70px;
+  height: 30%;
+  width: 100%;
   font-family: "Pangolin";
   transform: skewX(20deg)
   }
   
   .infoTextPage{
-  margin: 20px;
+  position: absolute;
+  left: 40%;
+  margin: 4%;
   background: rgb(189, 189, 189);
-  height: 200px;
+  width: 50%;
+  height: 80%;
   color: rgb(4, 27, 1);
-  width: 350px;
-  transform: skewX(-20deg)
   }
     
-  .infoTextPage h2{
-  margin: 10px 10px 0px 10px;
+  .infoTextPage h6{
+  margin: 1%;
+  padding: 0;
+  transform: skewX(-20deg)
   }
    
-  .infoTextPage h6{
-  margin: 20px 10px 0px 10px ;
+  .infoTextPage p{
+  margin: 1% ;
+  font-size: 40%;
+  transform: skewX(-20deg)
   }
 
   .story{
-    margin: 20px;
-    width: 540px;
-    height: 42rem;
-    background: rgb(4, 27, 1);
+    position: absolute;
+    right: 0;
+    margin: 1% 1%;
+    width: 50%;
+    height: 75%;
+    background: rgb(189, 189, 189);
     display: block;
     font-family: "Pangolin";
-  }
-  
-  .storyText{
-    font-size: 1.5rem ;
+    font-size: 35%;
     font-weight: bold;
-    background: rgb(189, 189, 189);
-    width: 490px;
-    height: 39rem;
-    margin: 25px;
     color: rgb(4, 27, 1);
+    border: 2rem solid rgb(4, 27, 1);
   }
-  
-  .storyText p{
-    margin: 1rem;
-    padding-top: 0.3rem;
+   
+  .story p {
+    margin: 1%;
+    padding-top: 0.3%;
+  }
+
+  .blockLink{
+    padding-top: 50%;
   }
 
   .orcsPageButton{
     background: rgb(4, 27, 1);
 	  transform: skewX(30deg) ;
     font-family: "Rakkas", serif;
-    width: 750px;
-    height: 30px;
+    font-size: 60%;
+    width: 100%;
     display: block;
-    height: 100%;  
-    margin: 50px 50px;
+    margin: 1rem 1rem;
     color: black;
     -webkit-text-stroke: 0.1px  rgb(168, 165, 155) ;
   }
@@ -690,12 +698,13 @@ right: 440px;
 
   .button{
     background: rgb(4, 27, 1);
-    border: solid rgb(168, 165, 155) 0.3rem;
+    border: solid rgb(168, 165, 155) 0.2rem;
     text-align: center;
-    font-size: 4rem;
+    font-size: 60%;
     font-family: "Rakkas";
     display: flex;
     justify-content: space-between; 
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 9999;
   }

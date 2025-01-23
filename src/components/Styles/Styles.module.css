@@ -17,6 +17,14 @@ padding: 0;
 position: fixed;
 }
 
+a{
+text-decoration: none;
+}
+
+a:active{
+color: #a80016;
+}
+
 .choice{
 position:fixed;
 width: 100%;
@@ -24,6 +32,7 @@ height: 100%;
 }
 
 .choiceTitle{
+position: relative;
 width: 100%;
 height: 40%;
 clip-path: polygon(100% 0, 100% 30%, 50% 100%, 0 30%, 0 0);
@@ -31,21 +40,29 @@ background: black;
 }
 
 .choiceTitle span{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
 color: #a12435;
 -webkit-text-stroke: 0.1rem  rgb(189, 189, 189) ;
-font-size: 5rem;
+font-size: 90%;
 font-family: "Rakkas";
 text-align: center;
 }
 
 .choiceTitle p {
-width: 60%;
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+width: 50%;
 height: 20%;
-font-size: 1.5rem;
+font-size: 25%;
 font-family: "Pangolin";
-margin-left: auto;
-margin-right: auto;
 margin-bottom: 0;
+margin-top: 0;
 padding: 0;
 color: rgb(189, 189, 189);
 }
@@ -54,6 +71,7 @@ color: rgb(189, 189, 189);
 width: 100%;
 height: 60%;
 position: absolute;
+bottom: 0;
 }
 
 .blueTriangle{
@@ -140,8 +158,8 @@ filter: drop-shadow(0 0 1.7rem rgb(4, 27, 1));
 .homeButton{
 background: url(../../images/Other/Tower.webp);
 background-size: cover;
-width: 5rem;
-height: 5rem;
+width: 3.5rem;
+height: 3.5rem;
 border: none;
 filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
 float: left;
@@ -156,8 +174,8 @@ filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
 .backButton{
 background: url(../../images/Other/Arrow.webp);
 background-size: cover;
-width: 5rem;
-height: 5rem;
+width: 3.5rem;
+height: 3.5rem;
 border: none;
 filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
 float: right;
@@ -172,8 +190,8 @@ filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
 .restartButton{
 background: url(../../images/Other/Hourglass.webp);
 background-size: cover;
-width: 5rem;
-height: 5rem;
+width: 3.5rem;
+height: 3.5rem;
 border: none;
 filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
 float: right;
@@ -186,8 +204,8 @@ filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
 }
 
 .restartLevelButton{
-width: 7rem;
-height: 7rem;
+width: 5rem;
+height: 5rem;
 margin: 0;
 background: url(../../images/Other/Hourglass.webp) no-repeat;
 background-size: cover;
@@ -203,8 +221,8 @@ opacity: 0.8;
 background: url(../../images/Other/Arrow.webp) no-repeat;
 background-size: cover;
 transform: scaleX(-1);
-width: 10rem;
-height: 10rem;
+width: 5rem;
+height: 5rem;
 margin: 0;
 border: none;
 }
@@ -217,8 +235,8 @@ opacity: 0.8;
 .homeButtonVictory{
 background: url(../../images/Other/Tower.webp) no-repeat;
 background-size: cover;
-width: 10rem;
-height: 10rem;
+width: 5rem;
+height: 5rem;
 margin: 0;
 border: none;
 }
@@ -230,10 +248,10 @@ opacity: 0.8;
 
 .buttonErr{
 background: rgb(51, 51, 51);
-border: solid #a12435 0.3rem;
+border: solid #a12435 0.2rem;
 text-align: center;
 font-family: "Rakkas";
-font-size: 4rem;
+font-size: 60%;
 display: flex;
 justify-content: space-between; 
 position: relative; 

@@ -7,25 +7,26 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 
 
 export const DwarvesPage = () => {
-    return <div>
+    return (
+    <div>
       <div className={classes.button}><HomeButton/><span>Dwarves</span><BackButton/></div>
     <div className={classes.info}>
-    <div className={classes.blockPage}>
       <div className={classes.infoPage}>
              <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage}/>
           <div className={classes.infoTextPage}>
-          <h2>Гномы</h2>
-         <h6>Медвежьи вершины</h6>
+          <h6>Гномы</h6>
+          <p>Медвежьи вершины</p>
          </div>
       </div>
-      <div>
+
+      <div className={classes.blockLink}>
           <Link to="/historybp" title="История королевства Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
           <Link to="/guilds" title="Гильдии королевства Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
           <Link to="/battlefielddwlvl1" title="Боевое поле" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
-    </div>
-</div>
-<div className={classes.story}>
-  <div className={classes.storyText}>
+      </div>
+
+<div className={classes.storyBlock}>
+  <div className={classes.story}>
     <p>
       Раса гномов представляет собой - низкорослых существ, коренастого телосложения. Особенностью их характера является предприимчивость.
       Они могут извлечь выгоду, там где другие народы не увидели бы ничего, кроме убытков. Торговцы королевства Медвежьих вершин славятся по всему Танаху.
@@ -38,4 +39,5 @@ export const DwarvesPage = () => {
   </div>
 </div>
 </div>
+)
 }

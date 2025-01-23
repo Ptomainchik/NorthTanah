@@ -594,14 +594,8 @@ right: 440px;
 
 /* -----OrcsPage----- */
 
-.orcsPage{
-position: absolute;
-width: 100%;
-height: 100%;
-}
-
 .info{
-position: absolute;
+position: fixed;
 top: 10%;
 width: 100%;
 height: 100%;
@@ -717,7 +711,6 @@ border: solid rgb(168, 165, 155) 0.3vw;
 text-align: center;
 font-size: 3.5vw;
 font-family: "Rakkas";
-display: flex;
 justify-content: space-between; 
 position: fixed;
 width: 100%;

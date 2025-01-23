@@ -45,8 +45,8 @@ left: 50%;
 transform: translateX(-50%);
 text-align: center;
 color: #a12435;
--webkit-text-stroke: 0.1rem  rgb(189, 189, 189) ;
-font-size: 90%;
+-webkit-text-stroke: 0.1vw  rgb(189, 189, 189) ;
+font-size: 5vw;
 font-family: "Rakkas";
 text-align: center;
 }
@@ -59,7 +59,7 @@ transform: translateX(-50%);
 text-align: center;
 width: 50%;
 height: 20%;
-font-size: 25%;
+font-size: 1.5vw;
 font-family: "Pangolin";
 margin-bottom: 0;
 margin-top: 0;
@@ -99,7 +99,7 @@ background-size: contain;
 width: 60%;
 height: 200%;
 border: none;
-filter: drop-shadow(0 0 1rem rgb(30, 46, 70));
+filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
 position: absolute;
 left: -20%;
 bottom: -70%;
@@ -108,7 +108,7 @@ bottom: -70%;
 .dwarvesButton:hover{
 animation: shift 1s ;
 animation-fill-mode: forwards; 
-filter: drop-shadow(0 0 1.7rem rgb(30, 46, 70));
+filter: drop-shadow(0 0 1.7vw rgb(30, 46, 70));
 }
 
 .orcsButton{
@@ -117,7 +117,7 @@ background-size: contain;
 width: 60%;
 height: 200%;
 border: none;
-filter: drop-shadow(0 0 1rem rgb(4, 27, 1));
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
 position: absolute;
 right: -20%;
 bottom: -70%;
@@ -126,7 +126,7 @@ bottom: -70%;
 .orcsButton:hover{
 animation: shift1 1s ;
 animation-fill-mode: forwards; 
-filter: drop-shadow(0 0 1.7rem rgb(4, 27, 1));
+filter: drop-shadow(0 0 1.7vw rgb(4, 27, 1));
 }
 
 @keyframes  shift {
@@ -158,54 +158,54 @@ filter: drop-shadow(0 0 1.7rem rgb(4, 27, 1));
 .homeButton{
 background: url(../../images/Other/Tower.webp);
 background-size: cover;
-width: 3.5rem;
-height: 3.5rem;
+width: 4vw;
+height: 4vw;
 border: none;
-filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: left;
-margin: 0.5rem 0 0 1rem;
+margin: 0.5vw 0 0 1vw;
 }
 
 .homeButton:hover{
 opacity: 0.8;
-filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 }
 
 .backButton{
 background: url(../../images/Other/Arrow.webp);
 background-size: cover;
-width: 3.5rem;
-height: 3.5rem;
+width: 4vw;
+height: 4vw;
 border: none;
-filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: right;
-margin: 0.5rem 1rem 0 0;
+margin: 0.5vw 1vw 0 0;
 }
 
 .backButton:hover{
 opacity: 0.8;
-filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 }
 
 .restartButton{
 background: url(../../images/Other/Hourglass.webp);
 background-size: cover;
-width: 3.5rem;
-height: 3.5rem;
+width: 4vw;
+height: 4vw;
 border: none;
-filter: drop-shadow(0 0 1rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: right;
-margin: 0.5rem 1rem 0 0;
+margin: 0.5vw 1vw 0 0;
 }
 
 .restartButton:hover{
 opacity: 0.8;
-filter: drop-shadow(0 0 1.3rem rgb(201, 201, 201));
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 }
 
 .restartLevelButton{
-width: 5rem;
-height: 5rem;
+width: 5vw;
+height: 5vw;
 margin: 0;
 background: url(../../images/Other/Hourglass.webp) no-repeat;
 background-size: cover;
@@ -213,7 +213,7 @@ border: none;
 }
 
 .restartLevelButton:hover{
-filter: drop-shadow(0.1rem 0.1rem 1.2rem #a12435); 
+filter: drop-shadow(0.1vw 0.1vw 1.3vw #a12435); 
 opacity: 0.8;
 }
 
@@ -221,34 +221,34 @@ opacity: 0.8;
 background: url(../../images/Other/Arrow.webp) no-repeat;
 background-size: cover;
 transform: scaleX(-1);
-width: 5rem;
-height: 5rem;
+width: 5vw;
+height: 5vw;
 margin: 0;
 border: none;
 }
 
 .nextLevelButton:hover{
-filter: drop-shadow(0.1rem 0.1rem 1.2rem #a12435); 
+filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
 opacity: 0.8;
 }
 
 .homeButtonVictory{
 background: url(../../images/Other/Tower.webp) no-repeat;
 background-size: cover;
-width: 5rem;
-height: 5rem;
+width: 5vw;
+height: 5vw;
 margin: 0;
 border: none;
 }
 
 .homeButtonVictory:hover{
-filter: drop-shadow(0.1rem 0.1rem 1.2rem #a12435); 
+filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
 opacity: 0.8;
 }
 
 .buttonErr{
 background: rgb(51, 51, 51);
-border: solid #a12435 0.2rem;
+border: solid #a12435 0.2vw;
 text-align: center;
 font-family: "Rakkas";
 font-size: 60%;

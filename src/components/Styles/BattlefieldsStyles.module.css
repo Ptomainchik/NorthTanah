@@ -1102,7 +1102,7 @@
     text-align: center;
     font-family: "Rakkas";
     display: flex;
-    font-size: 60%;
+    font-size: 3.5vw;
     justify-content: space-between; 
     position: relative;
     z-index: 9999;

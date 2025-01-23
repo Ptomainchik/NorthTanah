@@ -438,105 +438,125 @@
  /* -----DwarvesPage----- */
 
 .info{
-  display: flex;
-  position: fixed;
-  width: 100%;
+position: absolute;
+top: 10%;
+width: 100%;
+height: 100%;
 }
 
-.blockPage{
-  display: block;
+.infoPage{
+position: absolute;
+left: 5%;
+top: 5%;
+display: flex;
+background: rgb(30, 46, 70);
+height: 25%;
+width: 30%;
+font-family: "Pangolin";
+transform: skewX(20deg)
 }
 
- .imgPage{
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: rgb(189, 189, 189) 10px solid;
-  transform: skewX(-20deg)
-  }
+.infoPage img {
+margin: 5%;
+width: 30%;
+border-radius: 50%;
+border: 0.5vw solid rgb(189, 189, 189);
+}
+  
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+  
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: rgb(30, 46, 70);
+}
     
-  .infoPage{
-    display: flex;
-    background: rgb(30, 46, 70) ;
-    height: 250px;
-    width: 700px;
-    font-family: "Pangolin";
-    transform: skewX(20deg);
-    margin: 10px 70px;
-  }
+.infoTextPage h6{
+font-size: 4vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+     
+.infoTextPage p{
+font-size: 2vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
   
-  .infoTextPage{
-    margin: 20px;
-    background: rgb(189, 189, 189);
-    height: 200px;
-    color: rgb(30, 46, 70);
-    width: 350px;
-    transform: skewX(-20deg)
-  }
-    
-  .infoTextPage h2{
-  margin: 10px 10px 0px 10px;
-  }
-   
-  .infoTextPage h6{
-  margin: 20px 10px 0px 10px ;
-  }
+.storyBlock{
+position: absolute;
+top: 5%;
+right: 2%;
+width: 50%;
+height: 80%;
+background: rgb(30, 46, 70);
+}
+  
+.story{
+position: absolute;
+right: 5%;
+top: 5%;
+width: 90%;
+height: 90%;
+background: rgb(189, 189, 189);
+}
+     
+.story p {
+font-family: "Pangolin";
+font-size: 1.8vw;
+font-weight: bold;
+color: rgb(30, 46, 70);
+margin: 1%;
+padding-top: 2%;
+}
+  
+.blockLink{
+position: absolute;
+top: 30%;
+left: 5%;
+}
 
-  .story{
-    margin: 20px;
-    width: 540px;
-    height: 42rem;
-    background: rgb(30, 46, 70);
-    display: block;
-    font-family: "Pangolin";
-  }
+.dwarvesPageButton{
+background: rgb(30, 46, 70);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+font-size: 60%;
+width: 110%;
+display: block; 
+color: black;
+-webkit-text-stroke: 0.1px  rgb(247,189,0) ;
+}
   
-  .storyText{
-    font-size: 1.5rem ;
-    font-weight: bold;
-    background: rgb(189, 189, 189);
-    width: 490px;
-    height: 39rem;
-    margin: 25px;
-    color: rgb(30, 46, 70);
-  }
-  
-  .storyText p{
-    margin: 1rem;
-    padding-top: 0.3rem;
-  }
+.dwarvesPageButton h5{
+transform: skewX(-30deg);
+font-size: 3vw;
+}
 
-  .dwarvesPageButton{
-    background: rgb(30, 46, 70);
-	  transform: skewX(30deg) ;
-    font-family: "Rakkas", serif;
-    width: 750px;
-    height: 30px;
-    display: block;
-    height: 100%;  
-    margin: 50px 50px;
-    color: black;
-    -webkit-text-stroke: 0.1px  rgb(247,189,0);
-  }
-  
-  .dwarvesPageButton h5{
-    transform: skewX(-30deg) ;
-  }
+.dwarvesPageButton:hover{
+opacity: 0.9;
+}
 
-  .dwarvesPageButton:hover{
-    opacity: 0.9;
-  }
    /* ----Overall----- */
 
-  .button{
-    background: rgb(30, 46, 70);
-    border: solid  rgb(247,189,0) 0.2rem;
-    text-align: center;
-    font-family: "Rakkas";
-    font-size: 60%;
-    display: flex;
-    justify-content: space-between; 
-    position: relative;
-    z-index: 9999;
-  }
+.button{
+background: rgb(30, 46, 70);
+border: solid  rgb(247,189,0) 0.3vw;
+text-align: center;
+font-size: 3.5vw;
+font-family: "Rakkas";
+display: flex;
+justify-content: space-between; 
+position: fixed;
+width: 100%;
+z-index: 9999;
+}

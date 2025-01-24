@@ -18,10 +18,10 @@ export const Hunters = () => {
     return (
       <div>
         <button onClick={openModal} className={classes.iconsHuntersModalCommunity} title="Охотники"/>
-        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(84, 230, 55, 0.7)'}, content: {border: '2px solid black' }}}
+        <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(84, 230, 55, 0.7)'}, content: {border: '0.2vw solid black' }}}
         className={classes.huntersModal} isOpen={modalIsOpen}>
           {HuntersDescription}
-          <button className={classes.buttonCloseHuntersModal} onClick={closeModal}>Закрыть</button>
+          <button className={classes.closeModal} onClick={closeModal} style={{background: "rgb(84, 230, 55)"}}>Закрыть</button>
         </Modal>
       </div>
     )}
@@ -29,17 +29,19 @@ export const Hunters = () => {
 
     const HuntersDescription =  (
         <div>
-            <div className={classes.contentModal}>
-                <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter"/>
+            <div className={classes.contentModal1}>
+                <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
+                <h3 style={{color: "rgb(84, 230, 55)"}}>Малгар - старший охотник.</h3>
                 <span>
-                  <span>Малгар - старший охотник.</span> Каждый думал только о себе и своих ближних. Добыча просто-напросто не доходила до всех сородичей.
+                  Каждый думал только о себе и своих ближних. Добыча просто-напросто не доходила до всех сородичей.
                   Тогда ещё молодой Малгар, собрал группу охотников, которая стала разрастаться стремительными темпами и приносить пропитания вдоволь для всех.   
                 </span>
             </div>
-            <div className={classes.contentModal}>  
-                <img title="Бурзаг" className={classes.imageMemberCommunities } src={TrapMaster} alt="Orc trap master"/>
+            <div className={classes.contentModal2}>  
+                <img title="Бурзаг" className={classes.imageMemberCommunities1} src={TrapMaster} alt="Orc trap master" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
+                <h3 style={{color: "rgb(84, 230, 55)"}}>Бурзаг - мастер ловушек.</h3>
                 <span>
-                  <span>Бурзаг - мастер ловушек.</span> Всё своё время он тратил на то, чтобы улучшить способы охоты. Все силки, капканы, разнообразные ловушки для дичи и не только,
+                  Всё своё время он тратил на то, чтобы улучшить способы охоты. Все силки, капканы, разнообразные ловушки для дичи и не только,
                   всё это придумал именно он.
                 </span>
             </div>    

@@ -5,123 +5,102 @@
 /* -----Accordion----- */
 
 .accordion {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background: no-repeat url(../../../images/Orcs/HistoryBlackForest/GreenSkin.jpg);
-  background-size: 100%;
-  background-size: 1700px;
-}
-
-.accordionItem {
-  border: 1px solid rgb(180, 60, 20);
-  position: fixed;
-}
-
-.accordionItem:not(:first-of-type) {
-  border-top: 0;
+position: absolute;
+list-style: none;
+margin: 0;
+padding: 0;
+background: no-repeat url(../../../images/Orcs/HistoryBlackForest/GreenSkin.jpg);
+background-size: 100%;
+background-size: 1700px;
 }
 
 .accordionItemTitle {
-  width: 100%;
-  margin: 0;
+width: 100%;
+margin: 0;
 }
 
 .accordionItemBtn {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background:	rgb(4, 27, 1);
-  background-size:cover;
-  border: solid 2px rgb(180, 60, 20);
-  padding: 15px 20px;
-  font-size: 18px;
-  font-weight: 400;
-  cursor: pointer;
-  user-select: none;
-  color: rgb(180, 60, 20);
-  font-family: "Pangolin";
-}
-
-.accordionItemBtn::after {
-  content: '';
-  flex-shrink: 0;
-  width: 18px;
-  height: 18px;
-  margin-left: auto;
-  background-repeat: no-repeat;
-  background-size: 18px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.accordionItem.active .accordionItemBtn::after {
-  transform: rotate(-180deg);
+display: flex;
+align-items: center;
+width: 100%;
+background:	rgb(4, 27, 1);
+background-size:cover;
+border: solid 0.2vw rgb(180, 60, 20);
+padding: 1vw 2vw;
+font-size: 1.8vw;
+cursor: pointer;
+user-select: none;
+color: rgb(180, 60, 20);
+font-family: "Pangolin";
 }
 
 .accordionItemContainer {
-  transition: height 0.2s ease-in-out;
-  overflow: hidden;
-}
-
-.accordionItemContent {
-  border-top: 1px solid rgb(180, 60, 20);
-  padding: 15px 20px;
+transition: height 0.3s ease-in-out;
+overflow: hidden;
 }
 
 /* -----History----- */
 
+.historyOrcs{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
 .imageHistory {
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
 background-size: contain;
+width: 100%; 
+height: 100%;
 }
 
 .titleHistory{
-  display: flex;
-  font-family: "Rakkas", serif;
-  color: rgb(4, 27, 1);
-  align-items: center;
-  justify-content: center;
-  -webkit-text-stroke: rgb(180, 60, 20) 0.1px;
-  font-size: 45px;
+display: flex;
+font-family: "Rakkas", serif;
+color: rgb(4, 27, 1);
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
+font-size: 4vw;
 }
 
 .titleHistory h1{
-  width: 700px;
-  text-align: center;
+width: 50%;
+text-align: center;
 }
 
 .banner{
-  width: 280px;
-  height: 358px;
-  background-size: cover;
-  filter: drop-shadow(1px 1px 10px rgb(4, 27, 1) );
-  margin-top: 30px;
-  margin-bottom: 30px;
+width: 20%;
+height: 30%;
+background-size: cover;
+background-repeat: no-repeat;
+filter: drop-shadow(0 0 2vw rgb(4, 27, 1) );
+margin-top: 8%;
 }
 
 .pictures{
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .awaking{
-  width: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -20px;
-  top: -20px;
+width: 35%;
+height: 35%;
+margin: 0;
+padding: 0;
+position: static;
+left: -1%;
+top: -1%;
 }
 
 .exodus{
-  width: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  right: -20px;
-  top: -20px;
+width: 35%;
+height: 35%;
+margin: 0;
+padding: 0;
+position: relative;
+right: -1%;
+top: -1%;
 }
 
 .contentScroll{
@@ -191,196 +170,80 @@ animation-fill-mode: forwards;
 }
 
 .guardiansOfSpiritsModal {
-width: 1000px;
-height: 700px;
+width: 70%;
+height: 90%;
 background: rgb(4, 27, 1);
-padding: 0;
-position: fixed;
+font-family: "Pangolin";
+position: absolute;
 left: 20%;
 top:5%;
-}
-
-.guardiansOfSpiritsModal img{
-border-style:solid;
-border-color: rgb(50, 88, 255);
-display: block;
-}
-
-.guardiansOfSpiritsModal span {
-font-size: 1.9rem;
-margin: 10px 0 0 0;
-font-family: "Pangolin";
-color: rgb(189, 189, 189);
-text-align: start;
-}
-
-.guardiansOfSpiritsModal span span{
-font-size: 1.9rem;
-margin: 10px 0 0 0;
-font-family: "Pangolin";
-color: rgb(50, 88, 255);
-text-align: start;
-font-weight: bolder;
-}
-
-.buttonCloseGuardiansOfSpiritsModal{
-position: absolute;
-bottom: 1%;
-width: 20rem;
-height: 2.7rem;
-font-size: 2rem;
-border-style: solid;
-border-color:black;
-background:rgb(50, 88, 255);
-font-family: "Pangolin";
-}
-
-.buttonCloseGuardiansOfSpiritsModal:hover{
-opacity: 0.7;
 }
 
 /* WorkersModal */
 
 .iconsWorkersModalCommunity{
-  background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat;
-  background-size:contain;
-  border: none;
-  filter: drop-shadow(0 0 0.5vw  rgb(255, 193, 21));
-  cursor: pointer;
-  height: 30%;
- width: 30%;
-  position: absolute;
-  bottom: 2%;
-  left: 9%;
-  }
+background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 0.5vw rgb(255, 193, 21));
+cursor: pointer;
+height: 30%;
+width: 30%;
+position: absolute;
+bottom: 2%;
+left: 9%;
+}
   
-  .iconsWorkersModalCommunity:hover{
-  filter: drop-shadow(0 0 1.5vw  rgb(255, 193, 21));
-  opacity: 0.9;
-  animation: shifting 0.7s infinite;
-  animation-fill-mode: forwards; 
-  }
+.iconsWorkersModalCommunity:hover{
+filter: drop-shadow(0 0 1.5vw  rgb(255, 193, 21));
+opacity: 0.9;
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
+}
   
-  .workersModal {
-  width: 1000px;
-  height: 700px;
-  background: rgb(4, 27, 1);
-  padding: 0;
-  position: fixed;
-  left: 20%;
-  top:5%;
-  }
+.workersModal {
+width: 70%;
+height: 90%;
+background: rgb(4, 27, 1);
+position: absolute;
+font-family: "Pangolin";
+left: 20%;
+top:5%;
+}
   
-  .workersModal img{
-  border-style:solid;
-  border-color: rgb(255, 193, 21);
-  display: block;
-  }
-  
-  .workersModal span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color: rgb(189, 189, 189);
-  text-align: start;
-  }
-
-  .workersModal span span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color:  rgb(255, 193, 21);
-  text-align: start;
-  font-weight: bolder;
-  }
-  
-  .buttonCloseWorkersModal{
-  position: absolute;
-  bottom: 1%;
-  width: 20rem;
-  height: 2.7rem;
-  font-size: 2rem;
-  border-style: solid;
-  border-color:black;
-  background: rgb(255, 193, 21);
-  font-family: "Pangolin";
-  }
-  
-  .buttonCloseWorkersModal:hover{
-  opacity: 0.7;
-  }
-
 /* HuntersModal */
 
 .iconsHuntersModalCommunity{
-  background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat;
-  background-size: contain;
-  border: none;
-  filter: drop-shadow(0 0 0.5vw rgb(84, 230, 55));
-  cursor: pointer;
-  height: 30%;
+background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 0.5vw rgb(84, 230, 55));
+cursor: pointer;
+height: 30%;
 width: 30%;
-  position: absolute;
-  top: 12%;
-  right: -5%;
-  }
+position: absolute;
+top: 12%;
+right: -5%;
+}
   
-  .iconsHuntersModalCommunity:hover{
-  filter: drop-shadow(0 0 1.5vw rgb(84, 230, 55));
-  opacity: 0.9;
-  animation: shifting 0.7s infinite;
-  animation-fill-mode: forwards; 
-  }
+.iconsHuntersModalCommunity:hover{
+filter: drop-shadow(0 0 1.5vw rgb(84, 230, 55));
+opacity: 0.9;
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
+}
   
-  .huntersModal {
-  width: 1000px;
-  height: 700px;
-  background: rgb(4, 27, 1);
-  padding: 0;
-  position: fixed;
-  left: 20%;
-  top:5%;
-  }
-  
-  .huntersModal img{
-  border-style:solid;
-  border-color: rgb(84, 230, 55);
-  display: block;
-  }
-  
-  .huntersModal span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color: rgb(189, 189, 189);
-  text-align: start;
-  }
-
-  .huntersModal span span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color: rgb(84, 230, 55);
-  text-align: start;
-  font-weight: bolder;
-  }
-  
-  .buttonCloseHuntersModal{
-  position: absolute;
-  bottom: 1%;
-  width: 20rem;
-  height: 2.7rem;
-  font-size: 2rem;
-  border-style: solid;
-  border-color:black;
-  background:rgb(84, 230, 55);
-  font-family: "Pangolin";
-  }
-  
-  .buttonCloseHuntersModal:hover{
-  opacity: 0.7;
-  }
-
+.huntersModal {
+width: 70%;
+height: 90%;
+background: rgb(4, 27, 1);
+padding: 0;
+position: fixed;
+left: 20%;
+top:5%;
+font-family: "Pangolin";
+}
+    
 /* GangsModal */
 
 .iconsGangsModalCommunity{
@@ -404,54 +267,16 @@ animation-fill-mode: forwards;
 }
   
 .gangsModal {
-width: 1000px;
-height: 700px;
+width: 70%;
+height: 90%;
 background: rgb(4, 27, 1);
 padding: 0;
 position: fixed;
 left: 20%;
 top:5%;
-}
-  
-.gangsModal img{
-border-style:solid;
-border-color: rgb(190, 4, 4);
-display: block;
-}
-  
-.gangsModal span {
-font-size: 1.9rem;
-margin: 10px 0 0 0;
-font-family: "Pangolin";
-color: rgb(189, 189, 189);
-text-align: start;
-}
-
-.gangsModal span span {
-font-size: 1.9rem;
-margin: 10px 0 0 0;
-font-family: "Pangolin";
-color: rgb(190, 4, 4);
-text-align: start;
-font-weight: bolder;
-}
-  
-.buttonCloseGangsModal{
-position: absolute;
-bottom: 1%;
-width: 20rem;
-height: 2.7rem;
-font-size: 2rem;
-border-style: solid;
-border-color:black;
-background:rgb(190, 4, 4);
 font-family: "Pangolin";
 }
-  
-.buttonCloseGangsModal:hover{
-opacity: 0.7;
-}
-
+    
 @keyframes  shifting {
 	0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
 		transform: translateX(0);
@@ -492,21 +317,103 @@ opacity: 0.7;
 /* OverallContentModal */
 
 .imageHeadCommunities{
-  width: 230px;
-  height: 230px;
-  margin: 10px 50px 0px 10px;
+width: 14vw;
+height: 14vw;
+margin: 1vw;
+position: absolute;
+top: 0;
+left: 0;
 }
   
-.imageMemberCommunities{
-  width: 180px;
-  height: 180px;
-  margin: 10px 50px 0px 10px;
-}
-  
-.contentModal{
-  display: flex;
+.imageMemberCommunities1{
+width: 12vw;
+height: 12vw;
+margin: 1vw;
+position: absolute;
+top: 32%;
+left: 0;
 }
 
+.imageMemberCommunities2{
+width: 12vw;
+height: 12vw;
+margin: 1vw;
+position: absolute;
+top: 60%;
+left: 0;
+}
+
+.contentModal1 h3 {
+position: absolute;
+left: 25%;
+top: -2%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+
+.contentModal1 span {
+width: 73%;
+position: absolute;
+left: 25%;
+top: 10%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+
+.contentModal2 h3 {
+position: absolute;
+left: 22%;
+top: 30%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+  
+.contentModal2 span {
+width: 70%;
+position: absolute;
+left: 22%;
+top: 40%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+ 
+.contentModal3 h3 {
+position: absolute;
+left: 22%;
+top: 58%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+
+.contentModal3 span {
+width: 70%;
+position: absolute;
+left: 22%;
+top: 68%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+        
+.closeModal{
+position: absolute;
+bottom: 1%;
+width: 20vw;
+height: 2.7vw;
+font-size: 2vw;
+border:solid black 0.2vw;
+font-family: "Pangolin";
+}
+  
+.closeModal:hover{
+opacity: 0.7;
+}
+  
 /* OverallCommunities */
 
 .communities {
@@ -521,7 +428,7 @@ text-align: center;
 justify-content: space-between;
 color: rgb(180, 60, 20); 
 -webkit-text-stroke: 0.1vw black;
-font-size: 3vw;
+font-size: 3.5vw;
 } 
 
 .titleGuardiansOfSpirits{
@@ -549,38 +456,38 @@ right: 31%;
 }
 
 .greenTriangleCommuties1{
-  position: absolute;
-  left: 0;
-  top: 10%;
-  width: 35%;
-  height: 40%;  
-  transform: scaleX(-1) scaleY(-1);
+position: absolute;
+left: 0;
+top: 9%;
+width: 35%;
+height: 40%;  
+transform: scaleX(-1) scaleY(-1);
 }
 
 .greenTriangleCommuties2{
-  position: absolute;
-  right: 0;
-  top: 10%;
-  width: 35%;
-  height: 40%;  
-  transform: scaleY(-1);
+position: absolute;
+right: 0;
+top: 9%;
+width: 35%;
+height: 40%;  
+transform: scaleY(-1);
 }
 
 .greenTriangleCommuties3{
-  position: absolute; 
-  bottom: 0;
-  left: 0;
-  width: 35%;
-  height: 40%;  
-  transform: scaleX(-1);
+position: absolute; 
+bottom: -1%;
+left: 0;
+width: 35%;
+height: 40%;  
+transform: scaleX(-1);
 }
 
 .greenTriangleCommuties4{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 35%;
-  height: 40%;  
+position: absolute;
+bottom: -1%;
+right: 0;
+width: 35%;
+height: 40%;  
 }
 
 /* -----OrcsPage----- */

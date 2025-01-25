@@ -32,7 +32,7 @@ export const Gangs = () => {
         <div>
             <div className={classes.contentModal1}>
                 <img title="Родзарик" className={classes.imageHeadCommunities} src={LeaderOfTheBandits} alt="Orc leader of the bandits" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
-                <h3 style={{color: "rgb(158, 4, 4)"}}>Родзарик - вождь разбойников и всех банд.</h3>
+                <h3 style={{color: "rgb(158, 4, 4)"}}>Родзарик - вождь разбойников и банд.</h3>
                 <span>
                   Разбойники грабили и убивали десятками, а то и сотнями, тех у кого можно было хоть чем нибудь поживится.
                   Но самым опасным и непредсказуемым из них был Родзарик, за что и стал вождём. А позже был провозглашён первым королём Чёрного леса.

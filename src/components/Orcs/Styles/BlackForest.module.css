@@ -609,7 +609,7 @@ font-size: 3vw;
 opacity: 0.9;
 }
   
-/* OrcsPageMedia */
+/* @@@OrcsPageMedia@@@ */
 
 @media (max-width: 1050px) {
 
@@ -711,8 +711,8 @@ font-size: 5vw;
 .orcsPage .buttons{
 width: 100%;
 background: rgb(4, 27, 1);
-border-bottom: solid rgb(180, 60, 20) 0.3vw;
-border-top: solid rgb(180, 60, 20) 0.3vw;
+border-bottom: solid rgb(180, 60, 20) 0.5vw;
+border-top: solid rgb(180, 60, 20) 0.5vw;
 text-align: center;
 font-size: 7vw;
 font-family: "Rakkas";
@@ -824,8 +824,8 @@ font-size: 5.5vw;
 .orcsPage .buttons{
 width: 100%;
 background: rgb(4, 27, 1);
-border-bottom: solid rgb(180, 60, 20) 1vw;
-border-top: solid rgb(180, 60, 20) 1vw;
+border-bottom: solid rgb(180, 60, 20) 0.7vw;
+border-top: solid rgb(180, 60, 20) 0.7vw;
 text-align: center;
 font-size: 7vw;
 font-family: "Rakkas";
@@ -949,6 +949,1038 @@ color: rgb(180, 60, 20);
   -webkit-text-stroke: 0.1vw black;
   }     
 }
+
+/* @@@CommunitiesPageMedia@@@ */
+
+@media (max-width: 440px) {
+/* SpiritCatchersModal */
+
+.iconsGuardiansOfSpiritsModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat left;
+  background-size: contain;
+  border: none;
+  filter: drop-shadow(0 0 1.5vw rgb(50, 88, 255));
+  cursor: pointer;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  left: 1%;
+  }
+   
+  .guardiansOfSpiritsModal {
+    width: 90%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    position: absolute;
+    font-family: "Pangolin";
+    left: 5%;
+    top: 1%;
+  }
+  
+  /* WorkersModal */
+  
+  .iconsWorkersModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat left;
+  background-size: contain;
+  border: none;
+  filter: drop-shadow(0 0 1.5vw rgb(255, 193, 21));
+  cursor: pointer;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  bottom: -2%;
+  left: 1%;
+  }
+       
+  .workersModal {
+  width: 90%;
+  height: 90%;
+  background: rgb(4, 27, 1);
+  position: absolute;
+  font-family: "Pangolin";
+  left: 5%;
+  top: 1%;
+  }
+    
+  /* HuntersModal */
+  
+  .iconsHuntersModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat right;
+  background-size: contain;
+  border: none;
+  filter: drop-shadow(0 0 1.5vw rgb(84, 230, 55));
+  cursor: pointer;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  right: 1%;
+  }
+       
+  .huntersModal {
+  width: 90%;
+  height: 90%;
+  background: rgb(4, 27, 1);
+  padding: 0;
+  position: fixed;
+  left: 5%;
+  top: 1%;
+  font-family: "Pangolin";
+  }
+      
+  /* GangsModal */
+  
+  .iconsGangsModalCommunity{
+  background: url(../../../images/Orcs/OrcCommunities/Gangs.webp) no-repeat right;
+  background-size: contain;
+  border: none;
+  filter: drop-shadow(0 0 1.5vw rgb(190, 4, 4));
+  cursor: pointer;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  bottom: -2%;
+  right: 1%;
+  }
+       
+  .gangsModal {
+  width: 90%;
+  height: 95%;
+  background: rgb(4, 27, 1);
+  padding: 0;
+  position: fixed;
+  left: 5%;
+  top: 1%;
+  font-family: "Pangolin";
+  }
+      
+  @keyframes  shifting {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: translateX(0);
+      transform: translateX(0);
+    }
+  
+    10% {
+      transform: translateX(5px);
+      transform: translateX(5px);
+    }
+  
+    20% {
+      transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+  
+    30% {
+      transform: translateX(5px);
+      transform: translateX(5px);
+    }
+  
+    40% {
+      transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+  
+    50% {
+      transform: translateX(5px);
+      transform: translateX(5px);
+    }
+  
+    100% {
+      transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+  }
+  
+  /* OverallContentModal */
+  
+  .imageHeadCommunities{
+  width: 38vw;
+  height: 38vw;
+  margin: 2vw;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+    
+  .imageMemberCommunities1{
+  width: 28vw;
+  height: 28vw;
+  margin: 2vw;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
+  .imageMemberCommunities2{
+    width: 28vw;
+    height: 28vw;
+    margin: 2vw;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .contentModal1 h3 {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bolder; 
+  }
+  
+  .contentModal1 span {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+  font-size: 3.4vw;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  }
+  
+  .contentModal2 h3 {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bolder; 
+  }
+    
+  .contentModal2 span {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translateX(-50%);
+  font-size: 3.4vw;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  }
+   
+  .contentModal3 h3 {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bolder; 
+  }
+  
+  .contentModal3 span {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translateX(-50%);
+  font-size: 3.4vw;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  }
+          
+  .closeModal{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 6vw;
+  font-size: 4vw;
+  border:solid black 0.2vw;
+  font-family: "Pangolin";
+  }
+    
+  .closeModal:hover{
+  opacity: 0.7;
+  }
+    
+  /* OverallCommunities */
+  
+  .communities {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  }
+  
+  .communitiesLists {
+  height: 50%;
+  text-align: center;
+  justify-content: space-between;
+  color: rgb(180, 60, 20); 
+  font-size: 7vw;
+  } 
+  
+  .titleGuardiansOfSpirits{
+  width: 30%;
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  }
+  
+  .titleHunters{
+  position: absolute;
+  top: 4%;
+  right: 11%;
+  }
+  
+  .titleWorkers{
+  position: absolute;
+  bottom: -2%;
+  left: 11%;
+  }
+  
+  .titleGangs{
+  position: absolute;
+  bottom: -2%;
+  right: 13%;
+  }
+  
+  .greenTriangleCommuties1{
+  position: absolute;
+  left: 0;
+  top: 6%;
+  width: 47%;
+  height: 45%;  
+  transform: scaleX(-1) scaleY(-1);
+  }
+  
+  .greenTriangleCommuties2{
+  position: absolute;
+  right: 0;
+  top: 6%;
+  width: 47%;
+  height: 45%;  
+  transform: scaleY(-1);
+  }
+  
+  .greenTriangleCommuties3{
+  position: absolute; 
+  bottom: -1%;
+  left: 0;
+  width: 47%;
+  height: 45%;  
+  transform: scaleX(-1);
+  }
+  
+  .greenTriangleCommuties4{
+  position: absolute;
+  bottom: -1%;
+  right: 0;
+  width: 47%;
+  height: 45%;  
+  }
+
+  .communities .buttons{
+    width: 100%;
+    background: rgb(4, 27, 1);
+    border-bottom: solid rgb(180, 60, 20) 1vw;
+    border-top: solid rgb(180, 60, 20) 1vw;
+    text-align: center;
+    font-size: 9vw;
+    font-family: "Rakkas";
+    justify-content: space-between; 
+    position: absolute;
+    z-index: 9999;
+    color: rgb(180, 60, 20);
+    -webkit-text-stroke: 0.1vw black;
+    }   
+}
+
+@media (max-width: 700px) {
+
+  .iconsGuardiansOfSpiritsModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat left;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(50, 88, 255));
+    cursor: pointer;
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    }
+     
+    .guardiansOfSpiritsModal {
+      width: 90%;
+      height: 98%;
+      background: rgb(4, 27, 1);
+      position: absolute;
+      font-family: "Pangolin";
+      left: 5%;
+      top: 1%;
+    }
+    
+    /* WorkersModal */
+    
+    .iconsWorkersModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat left;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(255, 193, 21));
+    cursor: pointer;
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    bottom: 7%;
+    left: 1%;
+    }
+         
+    .workersModal {
+    width: 90%;
+    height: 98%;
+    background: rgb(4, 27, 1);
+    position: absolute;
+    font-family: "Pangolin";
+    left: 5%;
+    top: 1%;
+    }
+      
+    /* HuntersModal */
+    
+    .iconsHuntersModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat right;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(84, 230, 55));
+    cursor: pointer;
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    }
+         
+    .huntersModal {
+    width: 90%;
+    height: 98%;
+    background: rgb(4, 27, 1);
+    padding: 0;
+    position: fixed;
+    left: 5%;
+    top: 1%;
+    font-family: "Pangolin";
+    }
+        
+    /* GangsModal */
+    
+    .iconsGangsModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Gangs.webp) no-repeat right;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(190, 4, 4));
+    cursor: pointer;
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    bottom: 7%;
+    right: 1%;
+    }
+         
+    .gangsModal {
+    width: 90%;
+    height: 98%;
+    background: rgb(4, 27, 1);
+    padding: 0;
+    position: fixed;
+    left: 5%;
+    top: 1%;
+    font-family: "Pangolin";
+    }
+        
+    @keyframes  shifting {
+      0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+        transform: translateX(0);
+        transform: translateX(0);
+      }
+    
+      10% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      20% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    
+      30% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      40% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    
+      50% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      100% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    }
+    
+    /* OverallContentModal */
+    
+    .imageHeadCommunities{
+    width: 35vw;
+    height: 35vw;
+    margin: 1vw;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+      
+    .imageMemberCommunities1{
+    width: 26vw;
+    height: 26vw;
+    margin: 1vw;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .imageMemberCommunities2{
+      width: 26vw;
+      height: 26vw;
+      margin: 1vw;
+      position: absolute;
+      top: 66%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .contentModal1 h3 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translateX(-50%);
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+    
+    .contentModal1 span {
+    width: 96%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 27%;
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+    
+    .contentModal2 h3 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translateX(-50%);
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+      
+    .contentModal2 span {
+    width: 96%;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translateX(-50%);
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+     
+    .contentModal3 h3 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 82%;
+    transform: translateX(-50%);
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+    
+    .contentModal3 span {
+    width: 96%;
+    position: absolute;
+    left: 50%;
+    top: 87%;
+    transform: translateX(-50%);
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+            
+    .closeModal{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 5vw;
+    font-size: 3.7vw;
+    border:solid black 0.2vw;
+    font-family: "Pangolin";
+    }
+      
+    .closeModal:hover{
+    opacity: 0.7;
+    }
+      
+    /* OverallCommunities */
+    
+    .communities {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    }
+    
+    .communitiesLists {
+    height: 50%;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(180, 60, 20); 
+    font-size: 7vw;
+    } 
+    
+    .titleGuardiansOfSpirits{
+    width: 30%;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    }
+    
+    .titleHunters{
+    position: absolute;
+    top: 4%;
+    right: 9%;
+    }
+    
+    .titleWorkers{
+    position: absolute;
+    bottom: -2%;
+    left: 9%;
+    }
+    
+    .titleGangs{
+    position: absolute;
+    bottom: -2%;
+    right: 11%;
+    }
+    
+    .greenTriangleCommuties1{
+    position: absolute;
+    left: 0;
+    top: 6%;
+    width: 47%;
+    height: 45%;  
+    transform: scaleX(-1) scaleY(-1);
+    }
+    
+    .greenTriangleCommuties2{
+    position: absolute;
+    right: 0;
+    top: 6%;
+    width: 47%;
+    height: 45%;  
+    transform: scaleY(-1);
+    }
+    
+    .greenTriangleCommuties3{
+    position: absolute; 
+    bottom: -1%;
+    left: 0;
+    width: 47%;
+    height: 45%;  
+    transform: scaleX(-1);
+    }
+    
+    .greenTriangleCommuties4{
+    position: absolute;
+    bottom: -1%;
+    right: 0;
+    width: 47%;
+    height: 45%;  
+    }
+  
+    .communities .buttons{
+      width: 100%;
+      background: rgb(4, 27, 1);
+      border-bottom: solid rgb(180, 60, 20) 0.7vw;
+      border-top: solid rgb(180, 60, 20) 0.7vw;
+      text-align: center;
+      font-size: 7vw;
+      font-family: "Rakkas";
+      justify-content: space-between; 
+      position: absolute;
+      z-index: 9999;
+      color: rgb(180, 60, 20);
+      -webkit-text-stroke: 0.1vw black;
+}  
+  
+}
+
+@media (max-width: 1050px) {
+  
+  .iconsGuardiansOfSpiritsModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat left;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(50, 88, 255));
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    }
+     
+    .guardiansOfSpiritsModal {
+      width: 90%;
+      height: 80%;
+      background: rgb(4, 27, 1);
+      position: absolute;
+      font-family: "Pangolin";
+      left: 5%;
+      top: 10%;
+    }
+    
+    /* WorkersModal */
+    
+    .iconsWorkersModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Workers.webp) no-repeat left;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(255, 193, 21));
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    }
+         
+    .workersModal {
+    width: 90%;
+    height: 80%;
+    background: rgb(4, 27, 1);
+    position: absolute;
+    font-family: "Pangolin";
+    left: 5%;
+    top: 10%;
+    }
+      
+    /* HuntersModal */
+    
+    .iconsHuntersModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Hunters.webp) no-repeat right;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(84, 230, 55));
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    }
+         
+    .huntersModal {
+    width: 90%;
+    height: 80%;
+    background: rgb(4, 27, 1);
+    padding: 0;
+    position: fixed;
+    left: 5%;
+    top: 10%;
+    font-family: "Pangolin";
+    }
+        
+    /* GangsModal */
+    
+    .iconsGangsModalCommunity{
+    background: url(../../../images/Orcs/OrcCommunities/Gangs.webp) no-repeat right;
+    background-size: contain;
+    border: none;
+    filter: drop-shadow(0 0 1.5vw rgb(190, 4, 4));
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    }
+         
+    .gangsModal {
+    width: 90%;
+    height: 80%;
+    background: rgb(4, 27, 1);
+    padding: 0;
+    position: fixed;
+    left: 5%;
+    top: 10%;
+    font-family: "Pangolin";
+    }
+        
+    @keyframes  shifting {
+      0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+        transform: translateX(0);
+        transform: translateX(0);
+      }
+    
+      10% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      20% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    
+      30% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      40% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    
+      50% {
+        transform: translateX(5px);
+        transform: translateX(5px);
+      }
+    
+      100% {
+        transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+    }
+    
+    /* OverallContentModal */
+    
+    .imageHeadCommunities{
+    width: 35vw;
+    height: 35vw;
+    margin: 1vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    }
+      
+    .imageMemberCommunities1{
+    width: 26vw;
+    height: 26vw;
+    margin: 1vw;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    }
+    
+    .imageMemberCommunities2{
+      width: 26vw;
+      height: 26vw;
+      margin: 1vw;
+      position: absolute;
+      top: 62%;
+      left: 0;
+    }
+    
+    .contentModal1 h3 {
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    font-size: 3.1vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+    
+    .contentModal1 span {
+    width: 55%;
+    position: absolute;
+    left: 42%;
+    top: 7%;
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+    
+    .contentModal2 h3 {
+    width: 60%;
+    position: absolute;
+    left: 35%;
+    top: 34%;
+    font-size: 3.1vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+      
+    .contentModal2 span {
+    width: 67%;
+    position: absolute;
+    left: 32%;
+    top: 41%;
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+     
+    .contentModal3 h3 {
+    width: 60%;
+    position: absolute;
+    left: 35%;
+    top: 61%;
+    font-size: 3.1vw;
+    text-align: center;
+    font-weight: bolder; 
+    }
+    
+    .contentModal3 span {
+    width: 67%;
+    position: absolute;
+    left: 32%;
+    top: 68%;
+    font-size: 2.7vw;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    }
+            
+    .closeModal{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 8vw;
+    font-size: 4vw;
+    border:solid black 0.2vw;
+    font-family: "Pangolin";
+    }
+      
+    .closeModal:hover{
+    opacity: 0.7;
+    }
+      
+    /* OverallCommunities */
+    
+    .communities {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    }
+    
+    .communitiesLists {
+    height: 50%;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(180, 60, 20); 
+    font-size: 6vw;
+    } 
+    
+    .titleGuardiansOfSpirits{
+    width: 30%;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    }
+    
+    .titleHunters{
+    position: absolute;
+    top: 4%;
+    right: 12%;
+    }
+    
+    .titleWorkers{
+    position: absolute;
+    bottom: -2%;
+    left: 11%;
+    }
+    
+    .titleGangs{
+    position: absolute;
+    bottom: -2%;
+    right: 13%;
+    }
+    
+    .greenTriangleCommuties1{
+    position: absolute;
+    left: 0;
+    top: 6%;
+    width: 47%;
+    height: 45%;  
+    transform: scaleX(-1) scaleY(-1);
+    }
+    
+    .greenTriangleCommuties2{
+    position: absolute;
+    right: 0;
+    top: 6%;
+    width: 47%;
+    height: 45%;  
+    transform: scaleY(-1);
+    }
+    
+    .greenTriangleCommuties3{
+    position: absolute; 
+    bottom: -1%;
+    left: 0;
+    width: 47%;
+    height: 45%;  
+    transform: scaleX(-1);
+    }
+    
+    .greenTriangleCommuties4{
+    position: absolute;
+    bottom: -1%;
+    right: 0;
+    width: 47%;
+    height: 45%;  
+    }
+  
+    .communities .buttons{
+      width: 100%;
+      background: rgb(4, 27, 1);
+      border-bottom: solid rgb(180, 60, 20) 0.5vw;
+      border-top: solid rgb(180, 60, 20) 0.5vw;
+      text-align: center;
+      font-size: 7vw;
+      font-family: "Rakkas";
+      justify-content: space-between; 
+      position: absolute;
+      z-index: 9999;
+      color: rgb(180, 60, 20);
+      -webkit-text-stroke: 0.1vw black;
+}  
+}
+
   /* ----Overall----- */
 
 .buttons{

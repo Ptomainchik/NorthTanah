@@ -12,7 +12,7 @@ export const Communities = () => {
     return (
     <div>
 <div className={classes.communities}>
-        <div className={classes.button}><HomeButton/><span>Communities</span><BackButton/></div>
+        <div className={classes.buttons}><HomeButton/><span>Communities</span><BackButton/></div>
  
  <div className={classes.communitiesLists}>
     

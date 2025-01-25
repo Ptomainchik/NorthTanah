@@ -15,15 +15,16 @@ export const AccordionState = () => {
     const accordionItems = [
       {
         title: 'История Чёрного леса',
-        content: (<div>
-            <div className={classes.pictures}>
-  <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awaking}/>
-  <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.exodus}/>
-</div>
+        content: (
+<div className={classes.accordionItemContent}>
+  <div className={classes.pictures}>
+    <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awaking}/>
+    <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.exodus}/>
+  </div>
 
- <div className={classes.contentScroll}>
-  <h2>Пробуждение и новый дом</h2>
-     <p><strong>
+    <div className={classes.contentScroll}>
+      <h2>Пробуждение и новый дом</h2>
+      <p><strong>
        В далёкие тысячелетия, когда Танах стал оттаивать от эпохи зимы. Под пригорьем Медвежьих вершин, в недрах земли,
        стали образовываться пустоты, на месте вечной мерзлоты. Там в пещерных залах, начали пробуждаться орочьи хранители духов,
        погружённые в вековой транс. Сбросив оковы сна, они приступили к возвращению духов в тела своих сородичей.
@@ -31,9 +32,9 @@ export const AccordionState = () => {
        Где орки вышли на поверхность, увидев пред собой древние леса. Непроглядный мрак и туман,
        окутывал огромные стволы чащобы. Лишь те немногие прорывавшиеся лучи солнца, сквозь кроны деревьев,
        давали рассмотреть очертания местности. Это был тот самый Чёрный лес, ставший для орков их новым домом.  
-     </strong></p> 
+      </strong></p> 
+    </div>
 </div>
-          </div>
         ),
       },
       {
@@ -44,7 +45,7 @@ export const AccordionState = () => {
     <img title="Долина кабанов" className={classes.pictureLeft} src={BoarValley} alt="Долина кабанов"/>
     <img title="Строительство" className={classes.pictureRight} src={Construction} alt="Строительство"/>
   </div>
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
       <h2>Первые Общины</h2>
       <p><strong> 
         По своей природе орки охотники, а не собиратели. И это первое чем они начали заниматься.
@@ -68,7 +69,7 @@ export const AccordionState = () => {
    <img title="Добыча" className={classes.pictureRight} src={Booty} alt="Добыча"/>
   </div>
 
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Объединение</h2>
         <p><strong>
           Помимо охоты и ремёсел, у орков процветала тёмная сторона их натуры. Воровство у сородичей было повсеместным явлением,
@@ -94,7 +95,7 @@ export const AccordionState = () => {
    <img title="Выжженное поселение" className={classes.pictureRight} src={ScorchedSettlement} alt="Выжженное поселение"/>
   </div>
 
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Агрессия гномов</h2>
         <p><strong>
           Дела в Чёрном Лесу стали налаживаться. Охотники - снабжали дичью, рабочие - отстраивали поселения, банды - приносили прибыль,
@@ -119,7 +120,7 @@ export const AccordionState = () => {
   <img title="Собрание" className={classes.pictureLeft} src={Council} alt="Собрание"/>
   <img title="Первый король" className={classes.pictureRight} src={FirstKing} alt="Первый король"/>
   </div>
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Первый король</h2>
         <p><strong>
           У орков никогда не было предводителя. Все вопросы по управлению жизнедеятельности страны,
@@ -138,7 +139,7 @@ export const AccordionState = () => {
     ];
   
     return (
-      <div className={classes.containerAcc}>
+      <div>
         <Accordion items={accordionItems} />
       </div>
     );

@@ -8,7 +8,9 @@ export function HomeButton() {
   }
 
   return (
+    <div className={classes.button}>
     <button className={classes.homeButton} type="button" title="Home" onClick={handleClick}>
     </button>
+    </div>
   );
 }

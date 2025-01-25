@@ -8,7 +8,7 @@ font-size: 3vw;
 font-family: "Rakkas";  
 font-style: normal;
 text-align: center;
-background: url(../../images/HomePageImage/Panorama.jpg) no-repeat;
+background: grey;
 background-size: cover;
 width: 100%;
 height: 100%;
@@ -77,24 +77,24 @@ bottom: 0;
 .blueTriangle{
 width: 50%;
 height: 80%;
-background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat left;
+background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat left bottom;
 background-size: contain;
 position: absolute;
-bottom: -10%;
+bottom: -1%;
 }
 
 .greenTriangle{
 width: 50%;
 height: 80%;
-background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat right;
+background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat right bottom;
 background-size: contain;
 position: absolute;
-bottom: -10%;
+bottom: -1%;
 right: 0;
 }
 
 .dwarvesButton{
-background: url(../../images/HomePageImage/Dwarves.webp) no-repeat left;
+background: url(../../images/HomePageImage/Dwarves.webp) no-repeat left bottom;
 background-size: contain;
 width: 60%;
 height: 200%;
@@ -102,7 +102,7 @@ border: none;
 filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
 position: absolute;
 left: -20%;
-bottom: -70%;
+bottom: -50%;
 }
 
 .dwarvesButton:hover{
@@ -112,7 +112,7 @@ filter: drop-shadow(0 0 1.7vw rgb(30, 46, 70));
 }
 
 .orcsButton{
-background: url(../../images/HomePageImage/Orcs.webp) no-repeat right;
+background: url(../../images/HomePageImage/Orcs.webp) no-repeat right bottom;
 background-size: contain;
 width: 60%;
 height: 200%;
@@ -120,7 +120,7 @@ border: none;
 filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
 position: absolute;
 right: -20%;
-bottom: -70%;
+bottom: -50%;
 }
 
 .orcsButton:hover{
@@ -153,11 +153,538 @@ filter: drop-shadow(0 0 1.7vw rgb(4, 27, 1));
 	}
 }
 
+/* HomePageMedia */
+
+@media (max-width: 1050px) {
+
+.choiceTitle{
+position: absolute;
+width: 100%;
+height: 70%;
+clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
+background: black;
+}	
+		
+.choiceTitle span{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+color: #a12435;
+-webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
+font-size: 13vw;
+font-family: "Rakkas";
+text-align: center;
+}
+			
+.choiceTitle p {
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+width: 50%;
+height: 20%;
+font-size: 3vw;
+font-family: "Pangolin";
+margin-bottom: 0;
+margin-top: 0;
+padding: 0;
+color: rgb(189, 189, 189);
+}
+		
+.blueTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat left bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+}
+			
+.greenTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat right bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+right: 0;
+}
+		
+.orcsButton{
+background: url(../../images/HomePageImage/Orcs.webp) no-repeat right bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+position: absolute;
+right: -20%;
+bottom: -10%;
+}
+			
+.dwarvesButton{
+background: url(../../images/HomePageImage/Dwarves.webp) no-repeat left bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
+position: absolute;
+left: -20%;
+bottom: -10%;
+}
+	
+/* Button */
+	
+.button .homeButton{
+background: url(../../images/Other/Tower.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 8vw;
+height: 8vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .backButton{
+background: url(../../images/Other/Arrow.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 8vw;
+height: 8vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .restartButton{
+background: url(../../images/Other/Hourglass.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 8vw;
+height: 8vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .restartLevelButton{
+width: 5vw;
+height: 5vw;
+margin: 0;
+background: url(../../images/Other/Hourglass.webp) no-repeat;
+background-size: cover;
+border: none;
+}
+			
+.button .nextLevelButton{
+background: url(../../images/Other/Arrow.webp) no-repeat;
+background-size: cover;
+transform: scaleX(-1);
+width: 5vw;
+height: 5vw;
+margin: 0;
+border: none;
+}
+		
+.button .homeButtonVictory{
+background: url(../../images/Other/Tower.webp) no-repeat;
+background-size: cover;
+width: 5vw;
+height: 5vw;
+margin: 0;
+border: none;
+}
+		
+.buttonErr{
+background: rgb(51, 51, 51);
+border: solid #a12435 0.2vw;
+text-align: center;
+font-family: "Rakkas";
+font-size: 60%;
+display: flex;
+justify-content: space-between; 
+position: relative; 
+}
+		
+.errorPage{
+background: rgb(51, 51, 51);
+height:100%;
+width: 100%;
+position: fixed  ;
+}
+		
+.error{
+width: 30%;
+height: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 10%;
+}
+}
+
+@media (max-width: 700px) {
+
+.choiceTitle{
+position: absolute;
+width: 100%;
+height: 70%;
+clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
+background: black;
+}	
+	
+.choiceTitle span{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+color: #a12435;
+-webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
+font-size: 15vw;
+font-family: "Rakkas";
+text-align: center;
+}
+		
+.choiceTitle p {
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+width: 50%;
+height: 20%;
+font-size: 3.8vw;
+font-family: "Pangolin";
+margin-bottom: 0;
+margin-top: 0;
+padding: 0;
+color: rgb(189, 189, 189);
+}
+	
+.blueTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat left bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+}
+		
+.greenTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat right bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+right: 0;
+}
+	
+.orcsButton{
+background: url(../../images/HomePageImage/Orcs.webp) no-repeat right bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+position: absolute;
+right: -20%;
+bottom: -10%;
+}
+		
+.dwarvesButton{
+background: url(../../images/HomePageImage/Dwarves.webp) no-repeat left bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
+position: absolute;
+left: -20%;
+bottom: -10%;
+}
+
+/* Button */
+	
+.button .homeButton{
+	background: url(../../images/Other/Tower.webp);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 8vw;
+	height: 8vw;
+	border: none;
+	filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+	margin: 1vw;
+	}
+			
+	.button .backButton{
+	background: url(../../images/Other/Arrow.webp);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8vw;
+	height: 8vw;
+	border: none;
+	filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+	margin: 1vw;
+	}
+			
+	.button .restartButton{
+	background: url(../../images/Other/Hourglass.webp);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8vw;
+	height: 8vw;
+	border: none;
+	filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+	margin: 1vw;
+	}
+			
+	.button .restartLevelButton{
+	width: 5vw;
+	height: 5vw;
+	margin: 0;
+	background: url(../../images/Other/Hourglass.webp) no-repeat;
+	background-size: cover;
+	border: none;
+	}
+				
+	.button .nextLevelButton{
+	background: url(../../images/Other/Arrow.webp) no-repeat;
+	background-size: cover;
+	transform: scaleX(-1);
+	width: 5vw;
+	height: 5vw;
+	margin: 0;
+	border: none;
+	}
+			
+	.button .homeButtonVictory{
+	background: url(../../images/Other/Tower.webp) no-repeat;
+	background-size: cover;
+	width: 5vw;
+	height: 5vw;
+	margin: 0;
+	border: none;
+	}
+			
+	.buttonErr{
+	background: rgb(51, 51, 51);
+	border: solid #a12435 0.2vw;
+	text-align: center;
+	font-family: "Rakkas";
+	font-size: 60%;
+	display: flex;
+	justify-content: space-between; 
+	position: relative; 
+	}
+			
+	.errorPage{
+	background: rgb(51, 51, 51);
+	height:100%;
+	width: 100%;
+	position: fixed  ;
+	}
+			
+	.error{
+	width: 30%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 10%;
+	}
+}
+
+@media (max-width: 440px) {
+
+.choiceTitle{
+position: absolute;
+width: 100%;
+height: 70%;
+clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
+background: black;
+}	
+
+.choiceTitle span{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+color: #a12435;
+-webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
+font-size: 15vw;
+font-family: "Rakkas";
+text-align: center;
+}
+	
+.choiceTitle p {
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+width: 50%;
+height: 20%;
+font-size: 4vw;
+font-family: "Pangolin";
+margin-bottom: 0;
+margin-top: 0;
+padding: 0;
+color: rgb(189, 189, 189);
+}
+
+.blueTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/BlueTriangle.webp) no-repeat left bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+}
+	
+.greenTriangle{
+width: 45%;
+height: 80%;
+background: url(../../images/HomePageImage/GreenTriangle.webp) no-repeat right bottom;
+background-size: contain;
+position: absolute;
+bottom: -1%;
+right: 0;
+}
+
+.orcsButton{
+background: url(../../images/HomePageImage/Orcs.webp) no-repeat right bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+position: absolute;
+right: -20%;
+bottom: -10%;
+}
+	
+.dwarvesButton{
+background: url(../../images/HomePageImage/Dwarves.webp) no-repeat left bottom;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
+position: absolute;
+left: -20%;
+bottom: -10%;
+}
+
+/* Button */
+	
+.button .homeButton{
+background: url(../../images/Other/Tower.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 11vw;
+height: 11vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .backButton{
+background: url(../../images/Other/Arrow.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 11vw;
+height: 11vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .restartButton{
+background: url(../../images/Other/Hourglass.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 11vw;
+height: 11vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+margin: 1vw;
+}
+		
+.button .restartLevelButton{
+width: 5vw;
+height: 5vw;
+margin: 0;
+background: url(../../images/Other/Hourglass.webp) no-repeat;
+background-size: cover;
+border: none;
+}
+			
+.button .nextLevelButton{
+background: url(../../images/Other/Arrow.webp) no-repeat;
+background-size: cover;
+transform: scaleX(-1);
+width: 5vw;
+height: 5vw;
+margin: 0;
+border: none;
+}
+		
+.button .homeButtonVictory{
+background: url(../../images/Other/Tower.webp) no-repeat;
+background-size: cover;
+width: 5vw;
+height: 5vw;
+margin: 0;
+border: none;
+}
+		
+.buttonErr{
+background: rgb(51, 51, 51);
+border: solid #a12435 0.2vw;
+text-align: center;
+font-family: "Rakkas";
+font-size: 60%;
+display: flex;
+justify-content: space-between; 
+position: relative; 
+}
+		
+.errorPage{
+background: rgb(51, 51, 51);
+height:100%;
+width: 100%;
+position: fixed  ;
+}
+		
+.error{
+width: 30%;
+height: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 10%;
+}
+}
+
 /* -----OverallButtons----- */
 
 .homeButton{
 background: url(../../images/Other/Tower.webp);
 background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
 width: 4vw;
 height: 4vw;
 border: none;
@@ -174,6 +701,9 @@ filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 .backButton{
 background: url(../../images/Other/Arrow.webp);
 background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
 width: 4vw;
 height: 4vw;
 border: none;
@@ -190,6 +720,9 @@ filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 .restartButton{
 background: url(../../images/Other/Hourglass.webp);
 background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
 width: 4vw;
 height: 4vw;
 border: none;

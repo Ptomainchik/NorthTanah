@@ -8,7 +8,9 @@ export function RestartButton() {
   }
 
   return (
+    <div className={classes.button}>
     <button className={classes.restartButton} type="button" title="Restart" onClick={handleClick}>
     </button>
+    </div>
   );
 }

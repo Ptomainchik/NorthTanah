@@ -564,22 +564,14 @@ margin: 1% ;
 transform: skewX(-20deg)
 }
 
-.storyBlock{
-position: absolute;
-top: 5%;
-right: 2%;
-width: 50%;
-height: 80%;
-background: rgb(4, 27, 1);
-}
-
 .story{
 position: absolute;
-right: 5%;
+right: 2%;
 top: 5%;
-width: 90%;
-height: 90%;
+width: 48%;
+height: 70%;
 background: rgb(189, 189, 189);
+border: solid rgb(4, 27, 1) 2vw;
 }
    
 .story p {
@@ -617,9 +609,349 @@ font-size: 3vw;
 opacity: 0.9;
 }
   
+/* OrcsPageMedia */
+
+@media (max-width: 1050px) {
+
+.info{
+position: fixed;
+top: 10%;
+width: 100%;
+height: 100%;
+}
+    
+.infoPage{
+position: absolute;
+left: 10%;
+top: 0;
+display: flex;
+background: rgb(4, 27, 1) ;
+height: 20%;
+width: 80%;
+font-family: "Pangolin";
+transform: skewX(20deg)
+}
+    
+.infoPage img {
+margin: 3%;
+margin-left: 8%;
+width: 25%;
+border-radius: 50%;
+border: 0.5vw solid rgb(180, 60, 20);
+}
+    
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+    
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: black;
+}
+        
+.infoTextPage h6{
+font-size: 9vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+       
+.infoTextPage p{
+font-size: 5vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
+    
+.story{
+position: absolute;
+right: 2%;
+top: 52%;
+width: 90%;
+height: 32%;
+background: rgb(189, 189, 189);
+border: solid rgb(4, 27, 1) 3vw;
+}
+       
+.story p {
+font-family: "Pangolin";
+font-size: 2.6vw;
+font-weight: bold;
+color: black;
+}
+    
+.blockLink{
+position: absolute;
+top: 15%;
+left: 4%;
+}
+    
+.orcsPageButton{
+background: rgb(4, 27, 1);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+width: 160%;
+display: block; 
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1px  black;
+}
+      
+.orcsPageButton h5{
+transform: skewX(-30deg);
+font-size: 5vw;
+}
+  
+.orcsPage .buttons{
+width: 100%;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 0.3vw;
+border-top: solid rgb(180, 60, 20) 0.3vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw black;
+}   
+}
+
+@media (max-width: 700px) {
+
+.info{
+position: fixed;
+top: 10%;
+width: 100%;
+height: 100%;
+}
+      
+.infoPage{
+position: absolute;
+left: 10%;
+top: 0;
+display: flex;
+background: rgb(4, 27, 1) ;
+height: 20%;
+width: 80%;
+font-family: "Pangolin";
+transform: skewX(20deg)
+}
+      
+.infoPage img {
+margin-top: 5%;
+margin-left: 8%;
+width: 25%;
+border-radius: 50%;
+border: 1vw solid rgb(180, 60, 20);
+}
+      
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+      
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: black;
+}
+          
+.infoTextPage h6{
+font-size: 10vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+         
+.infoTextPage p{
+font-size: 6vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
+      
+.story{
+position: absolute;
+right: 2%;
+top: 53%;
+width: 90%;
+height: 32%;
+background: rgb(189, 189, 189);
+border: solid rgb(4, 27, 1) 3vw;
+}
+         
+.story p {
+font-family: "Pangolin";
+font-size: 2.8vw;
+font-weight: bold;
+color: black;
+}
+      
+.blockLink{
+position: absolute;
+top: 16%;
+left: 4%;
+}
+      
+.orcsPageButton{
+background: rgb(4, 27, 1);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+width: 147%;
+display: block; 
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1px  black;
+}
+        
+.orcsPageButton h5{
+transform: skewX(-30deg);
+font-size: 5.5vw;
+}
+    
+.orcsPage .buttons{
+width: 100%;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 1vw;
+border-top: solid rgb(180, 60, 20) 1vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw black;
+}      
+}
+
+@media (max-width: 440px) {
+
+  .info{
+  position: fixed;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  }
+        
+  .infoPage{
+  position: absolute;
+  left: 10%;
+  top: 0;
+  display: flex;
+  background: rgb(4, 27, 1) ;
+  height: 15%;
+  width: 80%;
+  font-family: "Pangolin";
+  transform: skewX(20deg)
+  }
+        
+  .infoPage img {
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 25%;
+  border-radius: 50%;
+  border: 1vw solid rgb(180, 60, 20);
+  }
+        
+  .imgPage{
+  position: absolute;
+  margin: 4%;
+  width: 30%;
+  transform: skewX(-20deg)
+  }
+        
+  .infoTextPage{
+  position: absolute;
+  left: 40%;
+  margin: 4%;
+  background: rgb(189, 189, 189);
+  width: 50%;
+  height: 80%;
+  color: black;
+  }
+            
+  .infoTextPage h6{
+  font-size: 10vw;
+  margin: 1%;
+  padding: 0;
+  transform: skewX(-20deg)
+  }
+           
+  .infoTextPage p{
+  font-size: 6vw;
+  margin: 1% ;
+  transform: skewX(-20deg)
+  }
+        
+  .story{
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  width: 90%;
+  height: 40%;
+  background: rgb(189, 189, 189);
+  border: solid rgb(4, 27, 1) 3vw;
+  }
+           
+  .story p {
+  font-family: "Pangolin";
+  font-size: 3.7vw;
+  font-weight: bold;
+  color: black;
+  }
+        
+  .blockLink{
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  }
+        
+  .orcsPageButton{
+  background: rgb(4, 27, 1);
+  transform: skewX(30deg) ;
+  font-family: "Rakkas", serif;
+  width: 131%;
+  display: block; 
+  color: rgb(180, 60, 20);
+  -webkit-text-stroke: 0.1px  black;
+  }
+          
+  .orcsPageButton h5{
+  transform: skewX(-30deg);
+  font-size: 6vw;
+  }
+      
+  .orcsPage .buttons{
+  width: 100%;
+  background: rgb(4, 27, 1);
+  border-bottom: solid rgb(180, 60, 20) 1vw;
+  border-top: solid rgb(180, 60, 20) 1vw;
+  text-align: center;
+  font-size: 9vw;
+  font-family: "Rakkas";
+  justify-content: space-between; 
+  position: absolute;
+  z-index: 9999;
+  color: rgb(180, 60, 20);
+  -webkit-text-stroke: 0.1vw black;
+  }     
+}
   /* ----Overall----- */
 
-.button{
+.buttons{
 width: 100%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 0.3vw;
@@ -628,7 +960,7 @@ text-align: center;
 font-size: 3.5vw;
 font-family: "Rakkas";
 justify-content: space-between; 
-position: fixed;
+position: absolute;
 z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw  rgb(180, 60, 20);

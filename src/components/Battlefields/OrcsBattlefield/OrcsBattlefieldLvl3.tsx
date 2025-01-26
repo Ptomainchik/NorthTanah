@@ -241,34 +241,34 @@ export const OrcsBattlefieldLvl3 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
-                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
+                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
                     {showSkilOrcPoulticeImg && <p>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilFetters}>
-                    {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы"></button>}
                     {showSkilFettersImg && <p>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
+                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
                     {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда."></button>}
+                    {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>}
                     {showSkilOrcFerocityImg && <p>Свирепость орка</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {showSkilAngryDwarfImg && <button title="Гнев гнома - увеличивает урон от обычных атак."></button>}
+                    {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
                     {showSkilAngryDwarfImg && <p>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
-                    {showSkilFrozenGroundImg && <button title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда."></button>}
+                    {showSkilFrozenGroundImg && <button title="Мёрзлая земля"></button>}
                     {showSkilFrozenGroundImg && <p>Мёрзлая земля</p>}
                 </div>
                 <div className={classes.blockSkilBearHug}>
-                    {showSkilBearHugImg && <button title="Объятия севера - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showSkilBearHugImg && <button title="Объятия севера"></button>}
                     {showSkilBearHugImg && <p>Объятия севера</p>}
                 </div>
             </div>

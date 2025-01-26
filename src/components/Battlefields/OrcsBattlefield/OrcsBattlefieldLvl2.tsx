@@ -189,26 +189,26 @@ export const OrcsBattlefieldLvl2 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
-                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
+                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
                     {showSkilOrcPoulticeImg && <p>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilFetters}>
-                    {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
+                    {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы"></button>}
                     {showSkilFettersImg && <p>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус - наносит средний урон противнику."></button>}
+                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
                     {showSkilContagiousBiteImg &&<p>Заразный укус</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {showSkilAngryDwarfImg && <button title="Гнев гнома - увеличивает урон от обычных атак."></button>}
+                    {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
                     {showSkilAngryDwarfImg && <p>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
-                    {showSkilFrozenGroundImg && <button title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе даёт её на 3 раунда."></button>}
+                    {showSkilFrozenGroundImg && <button title="Мёрзлая земля"></button>}
                     {showSkilFrozenGroundImg && <p>Мёрзлая земля</p>}
                 </div>
             </div>

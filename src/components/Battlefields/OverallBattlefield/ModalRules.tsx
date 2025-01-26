@@ -24,7 +24,7 @@ export const ModalRules = () =>{
     return (
         <div>
         <button onClick={openModal} className={classes.buttonModalRules} title="Правила"/>
-           <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(221, 221, 221, 0.7)'}, content: {border: '2px solid black' }}}
+           <Modal ariaHideApp={false} style={{ overlay: {backgroundColor: 'rgba(221, 221, 221, 0.7)'}}}
                className={classes.modalRules} isOpen={modalIsOpen}>
                {Rules}
                <button className={classes.buttonCloseModalRules} onClick={closeModal}>Закрыть</button>

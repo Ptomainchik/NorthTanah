@@ -719,8 +719,8 @@ filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
 }
 
 .restartLevelButton{
-width: 5vw;
-height: 5vw;
+width: 9vw;
+height: 9vw;
 margin: 0;
 background: url(../../images/Other/Hourglass.webp) no-repeat;
 background-size: cover;
@@ -736,8 +736,8 @@ opacity: 0.8;
 background: url(../../images/Other/Arrow.webp) no-repeat;
 background-size: cover;
 transform: scaleX(-1);
-width: 5vw;
-height: 5vw;
+width: 9vw;
+height: 9vw;
 margin: 0;
 border: none;
 }
@@ -750,8 +750,8 @@ opacity: 0.8;
 .homeButtonVictory{
 background: url(../../images/Other/Tower.webp) no-repeat;
 background-size: cover;
-width: 5vw;
-height: 5vw;
+width: 9vw;
+height: 9vw;
 margin: 0;
 border: none;
 }

@@ -8,9 +8,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background: url(../../../images/Dwarves/HistoryBearPeaks/Stone.jpg) no-repeat;
-    background-size: 100%;
-    background-size: 1950px;
+    background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+    background-size: contain;
+    background-size: 15%;
   }
 
 .accordionItem {
@@ -387,9 +387,12 @@
 /* OverallContentModal */
 
 .guilds {
-  width: 100%;
-  height: 750px;
   position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+  background-size: contain;
+  background-size: 15%;
 }
 
 .guildsLists {
@@ -437,8 +440,17 @@
    
  /* -----DwarvesPage----- */
 
-.info{
+.dwarvesPage{
 position: absolute;
+width: 100%;
+height: 100%;
+background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background-size: contain;
+background-size: 15%;
+}
+
+.info{
+position: fixed;
 top: 10%;
 width: 100%;
 height: 100%;

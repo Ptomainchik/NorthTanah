@@ -17,7 +17,9 @@ height: 100%;
 list-style: none;
 margin: 0;
 padding: 0;
-background: green;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 15%;
 }
 
 .accordionItemTitle {
@@ -433,9 +435,12 @@ opacity: 0.7;
 /* OverallCommunities */
 
 .communities {
-width: 100%;
-height: 100%;
-position: fixed;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+  background-size: contain;
+  background-size: 15%;
 }
 
 .communitiesLists {
@@ -507,6 +512,15 @@ height: 40%;
 }
 
 /* -----OrcsPage----- */
+
+.orcsPage{
+position: absolute;
+width: 100%;
+height: 100%;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 14% ;
+}
 
 .info{
 position: fixed;

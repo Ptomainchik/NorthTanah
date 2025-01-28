@@ -17,7 +17,8 @@ export function NextDwarvesLevelButton() {
   }  
 
   return (
-    <button className={classes.nextLevelButton} type="button" title="Next Level" onClick={handleClick}>
-    </button>
+    <div className={classes.button}>
+      <button className={classes.nextLevelButton} type="button" title="Next Level" onClick={handleClick}></button>
+    </div>
   );
 }

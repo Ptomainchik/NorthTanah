@@ -610,8 +610,8 @@ margin: 1vw;
 }
 		
 .button .restartLevelButton{
-width: 5vw;
-height: 5vw;
+width: 25vw;
+height: 25vw;
 margin: 0;
 background: url(../../images/Other/Hourglass.webp) no-repeat;
 background-size: cover;
@@ -622,8 +622,8 @@ border: none;
 background: url(../../images/Other/Arrow.webp) no-repeat;
 background-size: cover;
 transform: scaleX(-1);
-width: 5vw;
-height: 5vw;
+width: 25vw;
+height: 25vw;
 margin: 0;
 border: none;
 }
@@ -631,8 +631,8 @@ border: none;
 .button .homeButtonVictory{
 background: url(../../images/Other/Tower.webp) no-repeat;
 background-size: cover;
-width: 5vw;
-height: 5vw;
+width: 25vw;
+height: 25vw;
 margin: 0;
 border: none;
 }

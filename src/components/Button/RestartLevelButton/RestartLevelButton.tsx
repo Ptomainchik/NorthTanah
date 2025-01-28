@@ -8,7 +8,8 @@ export function RestartLevelButton() {
   }
 
   return (
-    <button className={classes.restartLevelButton} type="button" title="Restart Level" onClick={handleClick}>
-    </button>
+    <div className={classes.button}>
+      <button className={classes.restartLevelButton} type="button" title="Restart Level" onClick={handleClick}></button>
+    </div>
   );
 }

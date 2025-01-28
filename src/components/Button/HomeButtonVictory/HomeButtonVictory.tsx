@@ -8,7 +8,8 @@ export function HomeButtonVictory() {
   }
 
   return (
-    <button className={classes.homeButtonVictory} type="button" title="Home" onClick={handleClick}>
-    </button>
+    <div className={classes.button}>
+      <button className={classes.homeButtonVictory} type="button" title="Home" onClick={handleClick}></button>
+    </div>
   );
 }

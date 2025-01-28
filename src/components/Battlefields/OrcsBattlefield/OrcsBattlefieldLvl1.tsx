@@ -125,7 +125,7 @@ export const OrcsBattlefieldLvl1 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonsBattlefields} style={{backgroundColor: 'rgb(4, 27, 1)', borderTop: "solid rgb(180, 60, 20) 0.3vw", borderBottom: "solid rgb(180, 60, 20) 0.3vw", WebkitTextStroke: "0.1vw rgb(180, 60, 20)", WebkitTextFillColor: "black"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+              <div className={classes.buttonsOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>
@@ -133,9 +133,9 @@ export const OrcsBattlefieldLvl1 = () => {
                         <button className={classes.buttonDwarfLvl1} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageDwarves}><span>Жалкие орки.</span></div>}
-                {showMessage2 && <div className={classes.textMessageDwarves}><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessageDwarves}><span>Мы вас уничтожим!</span></div>}
+                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Жалкие орки.</span></div>}
+                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Это было больно.</span></div>}
+                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Мы вас уничтожим!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showWinOcrs123LvlMessage && <ModalOrcsWin123Lvl/>}
                 <div className={classes.unitsBlock}>
@@ -148,23 +148,19 @@ export const OrcsBattlefieldLvl1 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
                     {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
-                    {showSkilOrcPoulticeImg && <p className={classes.titleSkils}>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
                     {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
-                    {showSkilContagiousBiteImg &&<p className={classes.titleSkils}>Заразный укус</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
-                    {showSkilAngryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
                     {damageMultiplier}x
-                    <div className={classes.titleSkilsMultiplier}>Множитель урона</div> 
             </div>
         </div>
     );

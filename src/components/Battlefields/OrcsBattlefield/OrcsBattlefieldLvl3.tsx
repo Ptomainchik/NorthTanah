@@ -219,7 +219,7 @@ export const OrcsBattlefieldLvl3 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonsBattlefields} style={{backgroundColor: 'rgb(4, 27, 1)', borderTop: "solid rgb(180, 60, 20) 0.3vw", borderBottom: "solid rgb(180, 60, 20) 0.3vw", WebkitTextStroke: "0.1vw rgb(180, 60, 20)", WebkitTextFillColor: "black"}}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+            <div className={classes.buttonsOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>
@@ -227,9 +227,9 @@ export const OrcsBattlefieldLvl3 = () => {
                         <button className={classes.buttonDwarfLvl3} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageDwarves}><span>И это всё?</span></div>}
-                {showMessage2 && <div className={classes.textMessageDwarves}><span>Мы вас истребим!</span></div>}
-                {showMessage3 && <div className={classes.textMessageDwarves}><span>Ничтожества!</span></div>}
+                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>И это всё?</span></div>}
+                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Мы вас истребим!</span></div>}
+                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Ничтожества!</span></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showWinOcrs123LvlMessage && <ModalOrcsWin123Lvl/>}
                 <div className={classes.unitsBlock}>
@@ -242,39 +242,31 @@ export const OrcsBattlefieldLvl3 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
                     {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
-                    {showSkilOrcPoulticeImg && <p className={classes.titleSkils}>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilFetters}>
                     {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы"></button>}
-                    {showSkilFettersImg && <p className={classes.titleSkils}>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
-                    {showSkilContagiousBiteImg && <p className={classes.titleSkils}>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>} 
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
-                    {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>}
-                    {showSkilOrcFerocityImg && <p className={classes.titleSkils}>Свирепость орка</p>} 
+                    {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
-                    {showSkilAngryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
                     {showSkilFrozenGroundImg && <button title="Мёрзлая земля"></button>}
-                    {showSkilFrozenGroundImg && <p className={classes.titleSkils}>Мёрзлая земля</p>}
                 </div>
                 <div className={classes.blockSkilBearHug}>
                     {showSkilBearHugImg && <button title="Объятия севера"></button>}
-                    {showSkilBearHugImg && <p className={classes.titleSkils}>Объятия севера</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
                     {damageMultiplier}x
-                    <div className={classes.titleSkilsMultiplier}>Множитель урона</div> 
             </div>
         </div>
     );

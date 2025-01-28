@@ -39,7 +39,7 @@
 .dwarvesBattlefield .dwarfLvlUnic{
     position: absolute;
     left: 4%;
-    bottom: 25%;
+    bottom: 26%;
     width: 25vw;
 }
 
@@ -137,7 +137,7 @@
     border: none;
     position: absolute;
     left: 1%;
-    bottom: 27%;
+    bottom: 0%;
 }
 
 .buttonDwarfLvlUnic1{
@@ -148,7 +148,7 @@
     border: none;
     position: absolute;
     left: 1%;
-    bottom: 27%;
+    bottom: 0%;
 }
 
 .buttonDwarfLvlUnic1:hover{
@@ -171,7 +171,7 @@
     border: none;
     position: absolute;
     left: 1%;
-    bottom: 27%;
+    bottom: 0%;
 }
 
 .buttonDwarfLvlUnic2:hover{
@@ -194,7 +194,7 @@
     border: none;
     position: absolute;
     left: 1%;
-    bottom: 27%;
+    bottom: 0%;
 }
 
 .buttonDwarfLvlUnic3:hover{
@@ -236,7 +236,7 @@
 /* -----ModalLoseAndWinDwarves----- */
 
 .dwarvesLose{
-    width: 75vw;
+    width: 70vw;
     height: 40vw;
     background: rgb(30, 46, 70);
     border: solid black 1vw;
@@ -264,7 +264,7 @@
 
 .dwarvesWin123Lvl{
     display: flex;
-    width: 75vw;
+    width: 70vw;
     height: 40vw;
     background: rgb(30, 46, 70);
     border: solid black 1vw;
@@ -329,37 +329,54 @@
 /* -----MessageDwarvesBattlefields----- */
 
 .textMessageCrossbowman{
-    background: rgb(189, 189, 189) bottom left;
-    width: 15%;
-    height: 9%;
-    position: absolute;
-    bottom: 37%;
-    left: 15%;
-    font-family: "Pangolin";
-    border: black solid 0.3vw;
+background: rgb(189, 189, 189);
+width: 15%;
+height: 15%;
+position: absolute;
+top: 50%;
+left: 16%;
+font-family: "Pangolin";
+border: black solid 0.3vw;
+color: rgb(30, 46, 70);
 }
 
-.textMessageCrossbowman span{
-    font-size: 1.3vw;
-    font-weight: bold;
-    text-align: center;
+.textMessageCrossbowman h2{
+font-size: 2vw;
+margin-top: 2%;
+text-align: center;
+}
+
+.textMessageCrossbowman p{
+font-size: 1.3vw;
+font-weight: bold;
+text-align: center;
+color: black;
 }
 
 .textMessageOrcs{
-   background: rgb(189, 189, 189) bottom right;
-   width: 15%;
-   height: 9%;
-   position: absolute;
-   bottom: 37%;
-   left: 55%;
-   font-family: "Pangolin";
-   border: black solid 0.3vw;
+background: rgb(189, 189, 189);
+width: 15%;
+height: 15%;
+position: absolute;
+top: 50%;
+right: 25%;
+font-family: "Pangolin";
+border: black solid 0.3vw;
+color: rgb(30, 46, 70);
 }
 
-.textMessageOrcs span{
-    font-size: 1.3vw;
-    font-weight: bold;
-    text-align: center;
+.textMessageOrcs h2{
+font-size: 2vw;
+margin-top: 2%;
+padding: 0%;
+text-align: center; 
+}
+
+.textMessageOrcs p{
+font-size: 1.3vw;
+font-weight: bold;
+text-align: center;
+color: black;
 }
 
 /* -----SkilsDwarves----- */
@@ -367,7 +384,7 @@
 .flexSkilsDwarves{
     border: black solid 0.3vw;
     width: 45%;
-    height: 22%;
+    height: 16%;
     position: absolute;
     bottom: 3%;
     left: 3%;
@@ -678,43 +695,60 @@
 /* -----MessageOrcsBattlefields----- */
 
 .textMessageSpearThrower{
-    background: rgb(189, 189, 189) bottom right;
-    width: 15%;
-    height: 9%;
-    position: absolute;
-    bottom: 37%;
-    right: 15%;
-    font-family: "Pangolin";
-    border: black solid 0.3vw;
+background: rgb(189, 189, 189);
+width: 15%;
+height: 15%;
+position: absolute;
+top: 50%;
+right: 16%;
+font-family: "Pangolin";
+border: black solid 0.3vw;
+color: rgb(4, 27, 1);
 }
 
-.textMessageSpearThrower span{
-    font-size: 1.3vw;
-    font-weight: bold;
-    text-align: center;
+.textMessageSpearThrower h2{
+font-size: 2vw;
+margin-top: 2%;
+text-align: center;
+}
+
+.textMessageSpearThrower p{
+font-size: 1.3vw;
+font-weight: bold;
+text-align: center;
+color: black;
 }
 
 .textMessageDwarves{
-   background: rgb(189, 189, 189) bottom left;
-   width: 15%;
-   height: 9%;
-   position: absolute;
-   bottom: 37%;
-   right:  55%;
-   font-family: "Pangolin";
-   border: black solid 0.3vw;
+background: rgb(189, 189, 189) bottom left;
+width: 15%;
+height: 15%;
+position: absolute;
+top: 50%;
+left: 25%;
+font-family: "Pangolin";
+border: black solid 0.3vw;
+color: rgb(4, 27, 1);
 }
 
-.textMessageDwarves span{
-    font-size: 1.3vw;
-    font-weight: bold;
-    text-align: center;
+.textMessageDwarves h2{
+font-size: 2vw;
+margin-top: 2%;
+padding: 0%;
+text-align: center; 
+}
+
+.textMessageDwarves p{
+font-size: 1.3vw;
+font-weight: bold;
+text-align: center;
+color: black;
 }
 
 /* -----ModalLoseAndWinOrcs----- */
 
 .orcsLose{
-    width: 75vw;
+    width: 70vw;
     height: 40vw;
     background: rgb(4, 27, 1);
     border: solid black 1vw;
@@ -742,7 +776,7 @@
 
 .orcsWin123Lvl{
     display: flex;
-    width: 75vw;
+    width: 70vw;
     height: 40vw;
     background: rgb(4, 27, 1);
     border: solid black 1vw;
@@ -909,7 +943,7 @@
 .flexSkilsOrcs{
     border: black solid 0.3vw;
     width: 45%;
-    height: 22%;
+    height: 16%;
     position: absolute;
     bottom: 3%;
     right: 3%;
@@ -1045,25 +1079,45 @@
     background-color: rgb(30, 46, 70); 
 }
 
-.buttonsBattlefields{
-    width: 100%;
-    text-align: center;
-    font-size: 3.5vw;
-    font-family: "Rakkas";
-    justify-content: space-between; 
-    position: fixed;
-    z-index: 9999;
-    color: black;
-    -webkit-text-stroke: 0.1vw rgb(180, 60, 20);
+.buttonsOrcsBattlefield{
+width: 100%;
+background: rgb(4, 27, 1);
+text-align: center;
+font-size: 3.5vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+border-top: 0.3vw solid rgb(180, 60, 20);
+border-bottom: 0.3vw solid rgb(180, 60, 20);
+position: fixed;
+z-index: 9999;
+color: black;
+-webkit-text-stroke: 0.1vw rgb(180, 60, 20);
+}
+
+.buttonsDwarvesBattlefield{
+width: 100%;
+background: rgb(30, 46, 70);
+text-align: center;
+font-size: 3.5vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+border-top: 0.3vw solid rgb(247,189,0);
+border-bottom: 0.3vw solid rgb(247,189,0);
+position: fixed;
+z-index: 9999;
+color: black;
+-webkit-text-stroke: 0.1vw rgb(247,189,0);
 }
 
 /* @@@BattlefieldsMedia@@@ */
 
 @media (max-width: 440px) {
 
+/* -----DwarvesBattlefield----- */
+
 .dwarvesBattlefield .dwarfLvl123{
 position: absolute;
-left: 15%;
+left: 4%;
 bottom: 5%;
 width: 25vw;
 }
@@ -1366,7 +1420,7 @@ border: black solid 0.3vw;
 width: 20%;
 height: 50%;
 position: absolute;
-top: 20%;
+top: 15%;
 left: 3%;
 background: rgb(189, 189, 189);
 font-family: "Pangolin";
@@ -1457,7 +1511,7 @@ width: 25vw;
     
 .orcsBattlefield .orcLvl123{
 position: absolute;
-right: 15%;
+right: 4%;
 bottom: 5%;
 width: 25vw;
 }
@@ -1479,7 +1533,7 @@ width: 25vw;
 .orcsBattlefield .orcLvlUnic{
 position: absolute;
 right: 4%;
-bottom: 5%;
+bottom: 6%;
 width: 25vw;
 }
  
@@ -1749,7 +1803,7 @@ border: black solid 0.3vw;
 width: 20%;
 height: 50%;
 position: absolute;
-top: 20%;
+top: 15%;
 right: 3%;
 background: rgb(189, 189, 189);
 font-family: "Pangolin";
@@ -1838,7 +1892,7 @@ border: black solid 0.3vw;
 background: rgb(189, 189, 189);
 font-size: 10vw;
 position: absolute;
-top: 20%;
+top: 15%;
 left: 50%;
 transform: translateX(-50%);
 }
@@ -1916,7 +1970,7 @@ transform: scaleX(-1);
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-top: 35%;
+top: 30%;
 }
         
 .modalRules{
@@ -1997,9 +2051,1880 @@ font-family: "Pangolin";
 }
 
 @media (min-width: 441px) and (max-width: 700px) {
+ 
+
+/* -----DwarvesBattlefield----- */
+
+.dwarvesBattlefield .dwarfLvl123{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .orcLvl123{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .dwarfLvl4{
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .orcLvl4{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .dwarfLvlUnic{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .buttonDwarfLvl1{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl1.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl2{
+    width: 25vw;
+    height: 25vw;     
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl2.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl3{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl3.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl4{
+    width: 26vw;
+    height: 26vw;     
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl4.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+           
+    .buttonDwarfLvlUnic{
+    width: 25vw;
+    height: 25vw;    
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowman.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic1{
+    width: 25vw;
+    height: 25vw;    
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanOneBolt.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic2{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanTwoBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic3{
+    width: 25vw;
+    height: 25vw;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanThreeBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    /* -----ModalLoseAndWinDwarves----- */
+        
+    .dwarvesLose{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesLose img{
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    }
+        
+    .dwarvesLose h2{
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesLose h5{
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0);
+    }
+        
+    .dwarvesWin123Lvl{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70) ;
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
     
+    .dwarvesWin123Lvl img{
+    width: 55vw;
+    height: 55vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesWin123Lvl h2{
+    position: absolute;
+    top: 0  ;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesWin123Lvl h5{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0); 
+    }
+    
+    .dwarvesWin123Lvl button{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%);
+    margin: 0;  
+    }
+         
+    .dwarvesVictory{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesVictory h2{
+    position: absolute;
+    top: 0  ;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesVictory h5{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0);   
+    }
+    
+    .dwarvesVictory button{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .dwarvesVictory p{
+    margin: 6%;
+    color: rgb(247,189,0); 
+    font-size: 3.5vw; 
+    padding: 0;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Pangolin";
+    }
+        
+    .dwarvesVictory img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);    
+    }
+        
+    /* -----MessageDwarvesBattlefields----- */
+        
+    .textMessageCrossbowman{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(30, 46, 70);
+    }
+        
+    .textMessageCrossbowman span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    .textMessageOrcs{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(30, 46, 70);
+    }
+        
+    .textMessageOrcs span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    /* -----SkilsDwarves----- */
+        
+    .flexSkilsDwarves{
+    border: black solid 0.3vw;
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
+    }
+        
+    .blockSkilDwarfPoultice{
+    margin: 10%;
+    }
+        
+    .blockSkilDwarfPoultice button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Phial.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    .blockSkilAngryDwarf{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    }
+        
+    .blockSkilAngryDwarf button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    .blockSkilFrozenGround{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    }
+        
+    .blockSkilFrozenGround button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+        
+    .blockSkilBearHug{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    }
+        
+    .blockSkilBearHug button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+        
+    .blockSkilDwarvesBolts{
+    margin: 10%;
+    position: absolute;
+    left: 0;
+    }
+        
+    .blockSkilDwarvesBolts button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Bolt.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+            
+    /* -----OrcsBattlefield----- */
+        
+    .orcsBattlefield .dwarfLvl123{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .orcLvl123{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .dwarfLvl4{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .orcLvl4{
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+    width: 25vw;
+    }
+    
+    .orcsBattlefield .orcLvlUnic{
+    position: absolute;
+    right: 4%;
+    bottom: 6%;
+    width: 25vw;
+    }
+     
+    .buttonOrcLvl1{
+    width: 27vw;
+    height: 27vw;   
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl1.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl2{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl2.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl3{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl3.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl4{
+    width: 28vw;
+    height: 28vw;
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl4.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+    
+    .buttonOrcLvlUnic{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrower.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic1{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerOneS.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic2{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerTwoS.webp) no-repeat right bottom; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic3{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerThreeS.webp) no-repeat right bottom; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+            
+    /* -----MessageOrcsBattlefields----- */
+        
+    .textMessageSpearThrower{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(4, 27, 1);
+    }
+        
+    .textMessageSpearThrower span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    .textMessageDwarves{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(4, 27, 1);
+    }
+        
+    .textMessageDwarves span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    /* -----ModalLoseAndWinOrcs----- */
+        
+    .orcsLose{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsLose img{
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    }
+        
+    .orcsLose h2{
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsLose h5{
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);
+    }
+        
+    .orcsWin123Lvl{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .orcsWin123Lvl img{
+    width: 55vw;
+    height: 55vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsWin123Lvl h2{
+    position: absolute;
+    top: 0  ;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsWin123Lvl h5{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);  
+    }
+        
+    .orcsWin123Lvl button{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .orcsVictory{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsVictory h2{
+    position: absolute;
+    top: 0  ;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsVictory h5{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);  
+    }
+    
+    .orcsVictory button{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .orcsVictory p{
+    margin: 6%;
+    color: rgb(180, 60, 20); 
+    font-size: 3.5vw; 
+    padding: 0;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Pangolin";
+    }
+    
+    .orcsVictory img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+                    
+    /* -----SkilsOrcs----- */
+        
+    .flexSkilsOrcs{
+    border: black solid 0.3vw;
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
+    }
+        
+    .blockSkilOrcPoultice{
+    margin: 10%;
+    }
+        
+    .blockSkilOrcPoultice button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+        
+    .blockSkilContagiousBite{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    }
+        
+    .blockSkilContagiousBite button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+          
+    .blockSkilFetters{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    }
+        
+    .blockSkilFetters button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/Fetters.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+         
+    .blockSkilOrcFerocity{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    }
+        
+    .blockSkilOrcFerocity button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/OrcFerocity.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+            
+    .blockSkilOrcsSpear{
+    margin: 10%;
+    position: absolute;
+    left: 0;
+    }
+        
+    .blockSkilOrcsSpear button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/Log.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    /* -----OverallBattlefields----- */
+        
+    .damageMultiplier{
+    width: 20%;
+    height: 10%;
+    border: black solid 0.3vw;
+    background: rgb(189, 189, 189);
+    font-size: 10vw;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+            
+    progress {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 23vw;
+    transform: skewX(30deg) ;
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-inner-element {
+    border: 0.2vw solid rgb(0, 0, 0);
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-value {
+    background-color: rgb(4, 27, 1);       
+    }
+        
+    .healthIndicatorDwarf::-webkit-progress-inner-element {
+    border: 0.2vw solid rgb(0, 0, 0);
+    }
+          
+    .healthIndicatorDwarf::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    }
+          
+    .healthIndicatorDwarf::-webkit-progress-value {
+    background-color: rgb(30, 46, 70); 
+    }
+        
+    .buttonsOrcsBattlefield{
+    width: 100%;
+    background: rgb(4, 27, 1);
+    border-bottom: solid rgb(180, 60, 20) 0.7vw;
+    border-top: solid rgb(180, 60, 20) 0.7vw;
+    text-align: center;
+    font-size: 7vw;
+    font-family: "Rakkas";
+    justify-content: space-between; 
+    position: absolute;
+    z-index: 9999;
+    color: rgb(180, 60, 20);
+    -webkit-text-stroke: 0.1vw black;
+    }
+    
+    .buttonsDwarvesBattlefield{
+    width: 100%;
+    background: rgb(30, 46, 70);
+    border-bottom: solid rgb(247,189,0) 0.7vw;
+    border-top: solid rgb(247,189,0) 0.7vw;
+    text-align: center;
+    font-size: 7vw;
+    font-family: "Rakkas";
+    justify-content: space-between; 
+    position: absolute;
+    z-index: 9999;
+    color: rgb(247,189,0);
+    -webkit-text-stroke: 0.1vw black;
+    }
+    
+    /* -----ModalRules----- */
+        
+    .buttonModalRules{
+    width: 20vw;
+    height: 20vw;
+    background: url(../../images/Battlefields/Overall/RulesBook.webp);
+    background-size: cover;
+    border: none;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    }
+            
+    .modalRules{
+    width: 80%;
+    height: 98%;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    }
+            
+    .modalRule{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    }
+            
+    .rulesOrcs{
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    background: rgb(4, 27, 1);
+    }
+            
+    .rulesDwarves{
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: rgb(30, 46, 70);
+    }
+            
+    .ruleOrcs p{
+    position: absolute;
+    left: 15%;
+    font-size: 2.5vw;
+    margin: 2%;
+    color: rgb(180, 60, 20);
+    width: 80%;
+    text-align: start;
+    }
+            
+    .ruleDwarves p{
+    position: absolute;
+    left: 15%;
+    font-size: 2.5vw;
+    margin: 2%;
+    color: rgb(247,189,0);
+    width: 80%;
+    text-align: start;
+    }
+            
+    .imgRules{
+    width: 9.5vw;
+    height: 9.5vw;
+    margin: 1%;
+    border: solid grey 0.2vw;
+    }
+            
+    .buttonCloseModalRules{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 6vw;
+    font-size: 4vw;
+    border: solid black 0.2vw;
+    background:#a12435;
+    font-family: "Pangolin";
+    } 
+
 }
 
 @media (min-width: 701px) and (max-width: 1050px) {
     
+/* -----DwarvesBattlefield----- */
+
+.dwarvesBattlefield .dwarfLvl123{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .orcLvl123{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .dwarfLvl4{
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .orcLvl4{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .dwarvesBattlefield .dwarfLvlUnic{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .buttonDwarfLvl1{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl1.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl2{
+    width: 25vw;
+    height: 25vw;     
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl2.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl3{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl3.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+        
+    .buttonDwarfLvl4{
+    width: 26vw;
+    height: 26vw;     
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl4.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    margin-top: 9%;
+    }
+           
+    .buttonDwarfLvlUnic{
+    width: 25vw;
+    height: 25vw;    
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowman.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic1{
+    width: 25vw;
+    height: 25vw;    
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanOneBolt.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic2{
+    width: 25vw;
+    height: 25vw;      
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanTwoBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonDwarfLvlUnic3{
+    width: 25vw;
+    height: 25vw;   
+    background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanThreeBolts.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 1%;
+    bottom: 27%;
+    }
+        
+    /* -----ModalLoseAndWinDwarves----- */
+        
+    .dwarvesLose{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesLose img{
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    }
+        
+    .dwarvesLose h2{
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesLose h5{
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0);
+    }
+        
+    .dwarvesWin123Lvl{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70) ;
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .dwarvesWin123Lvl img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesWin123Lvl h2{
+    position: absolute;
+    top: 0  ;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesWin123Lvl h5{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0); 
+    }
+    
+    .dwarvesWin123Lvl button{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%);
+    margin: 0;  
+    }
+         
+    .dwarvesVictory{
+    width: 80%;
+    height: 90%;
+    background: rgb(30, 46, 70);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .dwarvesVictory h2{
+    position: absolute;
+    top: 0  ;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .dwarvesVictory h5{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(247,189,0);   
+    }
+    
+    .dwarvesVictory button{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .dwarvesVictory p{
+    margin: 6%;
+    color: rgb(247,189,0); 
+    font-size: 3.5vw; 
+    padding: 0;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Pangolin";
+    }
+        
+    .dwarvesVictory img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);    
+    }
+        
+    /* -----MessageDwarvesBattlefields----- */
+        
+    .textMessageCrossbowman{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(30, 46, 70);
+    }
+        
+    .textMessageCrossbowman span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    .textMessageOrcs{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(30, 46, 70);
+    }
+        
+    .textMessageOrcs span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    /* -----SkilsDwarves----- */
+        
+    .flexSkilsDwarves{
+    border: black solid 0.3vw;
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
+    }
+        
+    .blockSkilDwarfPoultice{
+    margin: 10%;
+    }
+        
+    .blockSkilDwarfPoultice button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Phial.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    .blockSkilAngryDwarf{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    }
+        
+    .blockSkilAngryDwarf button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    .blockSkilFrozenGround{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    }
+        
+    .blockSkilFrozenGround button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+        
+    .blockSkilBearHug{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    }
+        
+    .blockSkilBearHug button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+        
+    .blockSkilDwarvesBolts{
+    margin: 10%;
+    position: absolute;
+    left: 0;
+    }
+        
+    .blockSkilDwarvesBolts button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/DwarfSkils/Bolt.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+            
+    /* -----OrcsBattlefield----- */
+        
+    .orcsBattlefield .dwarfLvl123{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .orcLvl123{
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .dwarfLvl4{
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 25vw;
+    }
+        
+    .orcsBattlefield .orcLvl4{
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+    width: 25vw;
+    }
+    
+    .orcsBattlefield .orcLvlUnic{
+    position: absolute;
+    right: 4%;
+    bottom: 6%;
+    width: 25vw;
+    }
+     
+    .buttonOrcLvl1{
+    width: 27vw;
+    height: 27vw;   
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl1.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl2{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl2.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl3{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl3.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+        
+    .buttonOrcLvl4{
+    width: 28vw;
+    height: 28vw;
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl4.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    }
+    
+    .buttonOrcLvlUnic{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrower.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic1{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerOneS.webp) no-repeat; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic2{
+    width: 27vw;
+    height: 27vw; 
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerTwoS.webp) no-repeat right bottom; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+        
+    .buttonOrcLvlUnic3{
+    width: 27vw;
+    height: 27vw;  
+    background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerThreeS.webp) no-repeat right bottom; 
+    background-size: contain;
+    border: none;
+    position: absolute;
+    right: 1%;
+    bottom: 27%;
+    }
+            
+    /* -----MessageOrcsBattlefields----- */
+        
+    .textMessageSpearThrower{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(4, 27, 1);
+    }
+        
+    .textMessageSpearThrower span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    .textMessageDwarves{
+    background: rgb(189, 189, 189);
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    border: black solid 0.3vw;
+    color: rgb(4, 27, 1);
+    }
+        
+    .textMessageDwarves span{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    }
+        
+    /* -----ModalLoseAndWinOrcs----- */
+        
+    .orcsLose{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsLose img{
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    }
+        
+    .orcsLose h2{
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsLose h5{
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);
+    }
+        
+    .orcsWin123Lvl{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .orcsWin123Lvl img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsWin123Lvl h2{
+    position: absolute;
+    top: 0  ;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsWin123Lvl h5{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);  
+    }
+        
+    .orcsWin123Lvl button{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .orcsVictory{
+    width: 80%;
+    height: 90%;
+    background: rgb(4, 27, 1);
+    border: solid black 1vw;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .orcsVictory h2{
+    position: absolute;
+    top: 0  ;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 12vw;
+    }
+        
+    .orcsVictory h5{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 8vw;
+    color: rgb(180, 60, 20);  
+    }
+    
+    .orcsVictory button{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 0;
+    }
+        
+    .orcsVictory p{
+    margin: 6%;
+    color: rgb(180, 60, 20); 
+    font-size: 3.5vw; 
+    padding: 0;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Pangolin";
+    }
+    
+    .orcsVictory img{
+    width: 60vw;
+    height: 60vw;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+                    
+    /* -----SkilsOrcs----- */
+        
+    .flexSkilsOrcs{
+    border: black solid 0.3vw;
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    background: rgb(189, 189, 189);
+    font-family: "Pangolin";
+    }
+        
+    .blockSkilOrcPoultice{
+    margin: 10%;
+    }
+        
+    .blockSkilOrcPoultice button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+        
+    .blockSkilContagiousBite{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    }
+        
+    .blockSkilContagiousBite button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+          
+    .blockSkilFetters{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    }
+        
+    .blockSkilFetters button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/Fetters.jpg) no-repeat;
+    background-size: contain;
+    margin: 0;
+    }
+         
+    .blockSkilOrcFerocity{
+    margin: 10%;
+    margin-top: 5%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    }
+        
+    .blockSkilOrcFerocity button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/OrcFerocity.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+            
+    .blockSkilOrcsSpear{
+    margin: 10%;
+    position: absolute;
+    left: 0;
+    }
+        
+    .blockSkilOrcsSpear button{
+    width: 16vw;
+    height: 16vw;
+    background: url(../../images/Battlefields/OrcSkils/Log.jpg) no-repeat;
+    background-size: contain; 
+    margin: 0;
+    }
+    
+    /* -----OverallBattlefields----- */
+        
+    .damageMultiplier{
+    width: 20%;
+    height: 10%;
+    border: black solid 0.3vw;
+    background: rgb(189, 189, 189);
+    font-size: 10vw;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+            
+    progress {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 23vw;
+    transform: skewX(30deg) ;
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-inner-element {
+    border: 0.2vw solid rgb(0, 0, 0);
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    }
+          
+    .healthIndicatorOrc::-webkit-progress-value {
+    background-color: rgb(4, 27, 1);       
+    }
+        
+    .healthIndicatorDwarf::-webkit-progress-inner-element {
+    border: 0.2vw solid rgb(0, 0, 0);
+    }
+          
+    .healthIndicatorDwarf::-webkit-progress-bar {
+    background-color: rgb(189, 189, 189);
+    }
+          
+    .healthIndicatorDwarf::-webkit-progress-value {
+    background-color: rgb(30, 46, 70); 
+    }
+        
+    .buttonsOrcsBattlefield{
+    width: 100%;
+    background: rgb(4, 27, 1);
+    border-bottom: solid rgb(180, 60, 20) 0.5vw;
+    border-top: solid rgb(180, 60, 20) 0.5vw;
+    text-align: center;
+    font-size: 7vw;
+    font-family: "Rakkas";
+    justify-content: space-between; 
+    position: absolute;
+    z-index: 9999;
+    color: rgb(180, 60, 20);
+    -webkit-text-stroke: 0.1vw black;
+    }
+    
+    .buttonsDwarvesBattlefield{
+    width: 100%;
+    background: rgb(30, 46, 70);
+    border-bottom: solid rgb(247,189,0) 0.5vw;
+    border-top: solid rgb(247,189,0) 0.5vw;
+    text-align: center;
+    font-size: 7vw;
+    font-family: "Rakkas";
+    justify-content: space-between; 
+    position: absolute;
+    z-index: 9999;
+    color: rgb(247,189,0);
+    -webkit-text-stroke: 0.1vw black;
+    }
+    
+    /* -----ModalRules----- */
+        
+    .buttonModalRules{
+    width: 20vw;
+    height: 20vw;
+    background: url(../../images/Battlefields/Overall/RulesBook.webp);
+    background-size: cover;
+    border: none;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    }
+            
+    .modalRules{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Pangolin";
+    }
+            
+    .modalRule{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    }
+            
+    .rulesOrcs{
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    background: rgb(4, 27, 1);
+    }
+            
+    .rulesDwarves{
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: rgb(30, 46, 70);
+    }
+            
+    .ruleOrcs p{
+    position: absolute;
+    left: 15%;
+    font-size: 2.5vw;
+    margin: 2%;
+    color: rgb(180, 60, 20);
+    width: 80%;
+    text-align: start;
+    }
+            
+    .ruleDwarves p{
+    position: absolute;
+    left: 15%;
+    font-size: 2.5vw;
+    margin: 2%;
+    color: rgb(247,189,0);
+    width: 80%;
+    text-align: start;
+    }
+            
+    .imgRules{
+    width: 9vw;
+    height: 9vw;
+    margin: 1%;
+    border: solid grey 0.2vw;
+    }
+            
+    .buttonCloseModalRules{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 5vw;
+    font-size: 3.8vw;
+    border: solid black 0.2vw;
+    background:#a12435;
+    font-family: "Pangolin";
+    }
+
 }

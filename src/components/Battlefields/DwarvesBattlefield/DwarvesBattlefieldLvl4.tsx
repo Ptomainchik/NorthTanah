@@ -296,13 +296,13 @@ export const DwarvesBattlefieldLvl4 = () => {
                         <button className={classes.buttonDwarfLvl4}></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Глупая мелочь.</span></div>}
-                {showMessage2 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Недомерки!</span></div>}
-                {showMessage3 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Север падёт!</span></div>}
+                {showMessage && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Глупая мелочь.</p></div>}
+                {showMessage2 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Недомерки!</p></div>}
+                {showMessage3 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Север падёт!</p></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
                 {showWinDwarves123LvlMessage && <ModalDwarvesVictory/>}
-                {showMessageCrossbowman && <div className={classes.textMessageCrossbowman}><h2>Арбалетчик:</h2><span>Арбалетчик прибыл!</span></div>}
-                {showMessageCrossbowmanNoBolts && <div className={classes.textMessageCrossbowman}><h2>Арбалетчик:</h2><span>Закончились болты.</span></div>}
+                {showMessageCrossbowman && <div className={classes.textMessageCrossbowman}><h2>Арбалетчик:</h2><p>Арбалетчик прибыл!</p></div>}
+                {showMessageCrossbowmanNoBolts && <div className={classes.textMessageCrossbowman}><h2>Арбалетчик:</h2><p>Закончились болты.</p></div>}
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl4}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>

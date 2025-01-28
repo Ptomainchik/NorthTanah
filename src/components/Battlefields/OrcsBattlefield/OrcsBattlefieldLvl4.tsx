@@ -285,13 +285,13 @@ export const OrcsBattlefieldLvl4 = () => {
                         <button className={classes.buttonDwarfLvl4} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Зеленокожие тупицы.</span></div>}
-                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Мерзкие твари!</span></div>}
-                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Будьте прокляты!</span></div>}
+                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Зеленокожие тупицы.</p></div>}
+                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Мерзкие твари!</p></div>}
+                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Будьте прокляты!</p></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showOrcsVictoryMessage && <ModalOrcsVictory/>}
-                {showMessageSpearThrower && <div className={classes.textMessageSpearThrower}><h2>Метатель:</h2><span>Я пришёл на подмогу!</span></div>}
-                {showMessageSpearThrowerNoLog && <div className={classes.textMessageSpearThrower}><h2>Метатель:</h2><span>Закончились колы!</span></div>}
+                {showMessageSpearThrower && <div className={classes.textMessageSpearThrower}><h2>Метатель:</h2><p>Я пришёл на подмогу!</p></div>}
+                {showMessageSpearThrowerNoLog && <div className={classes.textMessageSpearThrower}><h2>Метатель:</h2><p>Закончились колы!</p></div>}
                 <div>
                     <div className={classes.orcLvl4}>
                         <progress className={classes.healthIndicatorOrc} max="8000" value={orcHealth} ></progress>

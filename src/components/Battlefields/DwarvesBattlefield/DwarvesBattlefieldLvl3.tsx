@@ -241,9 +241,9 @@ export const DwarvesBattlefieldLvl3 = () => {
                         <button className={classes.buttonDwarfLvl3}></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Бегите!</span></div>}
-                {showMessage2 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Горное стадо!</span></div>}
-                {showMessage3 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><span>Мы вас раздавим!</span></div>}
+                {showMessage && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Бегите!</p></div>}
+                {showMessage2 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Горное стадо!</p></div>}
+                {showMessage3 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Мы вас раздавим!</p></div>}
                 {showLoseDwarvesMessage && <ModalDwarvesLose/>}
                 {showWinDwarves123LvlMessage && <ModalDwarvesWin123Lvl/>}
                 <div className={classes.unitsBlock}>

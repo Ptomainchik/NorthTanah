@@ -133,9 +133,9 @@ export const OrcsBattlefieldLvl1 = () => {
                         <button className={classes.buttonDwarfLvl1} onClick={handleOrcAttack} ></button>
                     </div>
                 </div>
-                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Жалкие орки.</span></div>}
-                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Это было больно.</span></div>}
-                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><span>Мы вас уничтожим!</span></div>}
+                {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Жалкие орки.</p></div>}
+                {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Это было больно.</p></div>}
+                {showMessage3 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Мы вас уничтожим!</p></div>}
                 {showLoseOcrsMessage && <ModalOrcsLose/>}
                 {showWinOcrs123LvlMessage && <ModalOrcsWin123Lvl/>}
                 <div className={classes.unitsBlock}>

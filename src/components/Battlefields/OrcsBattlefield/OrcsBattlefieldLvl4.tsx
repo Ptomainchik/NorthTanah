@@ -305,26 +305,26 @@ export const OrcsBattlefieldLvl4 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
                     {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
-                    {showSkilOrcPoulticeImg && <p>Лечебный гриб</p>}
+                    {showSkilOrcPoulticeImg && <p className={classes.titleSkils}>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilFetters}>
                     {showSkilFettersImg && <button onClick={handleFetters} title="Охотничьи путы"></button>}
-                    {showSkilFettersImg && <p>Охотничьи путы</p>}
+                    {showSkilFettersImg && <p className={classes.titleSkils}>Охотничьи путы</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
                     {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
-                    {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <p className={classes.titleSkils}>Заразный укус</p>} 
                 </div>
                 <div className={classes.blockSkilOrcFerocity}>
                     {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>}
-                    {showSkilOrcFerocityImg && <p>Свирепость орка</p>} 
+                    {showSkilOrcFerocityImg && <p className={classes.titleSkils}>Свирепость орка</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
-                    {showSkilAngryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAngryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
                     {showSkilFrozenGroundImg && <button title="Мёрзлая земля"></button>}
@@ -332,11 +332,11 @@ export const OrcsBattlefieldLvl4 = () => {
                 </div>
                 <div className={classes.blockSkilBearHug}>
                     {showSkilBearHugImg && <button title="Объятия севера"></button>}
-                    {showSkilBearHugImg && <p>Объятия севера</p>}
+                    {showSkilBearHugImg && <p className={classes.titleSkils}>Объятия севера</p>}
                 </div>
                 <div className={classes.blockSkilDwarvesBolts}>
                     {showSkilDwarvesBoltsImg && <button title="Арбалетные болты"></button>}
-                    {showSkilDwarvesBoltsImg && <p>Арбалетные болты</p>}
+                    {showSkilDwarvesBoltsImg && <p className={classes.titleSkils}>Арбалетные болты</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

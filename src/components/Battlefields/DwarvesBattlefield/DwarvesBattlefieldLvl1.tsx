@@ -147,19 +147,19 @@ export const DwarvesBattlefieldLvl1 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button title="Заразный укус - наносит средний урон противнику."></button>}
-                    {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <button title="Заразный укус"></button>}
+                    {showSkilContagiousBiteImg && <p className={classes.titleSkils}>Заразный укус</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
-                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {showSkilDwarvesPoulticeImg && <p>Фиал с водой</p>}
+                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб"></button>}
+                    {showSkilDwarvesPoulticeImg && <p className={classes.titleSkils}>Фиал с водой</p>}
                 </div>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {showSkilAndryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома"></button>}
+                    {showSkilAndryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

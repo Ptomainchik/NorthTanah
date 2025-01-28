@@ -210,27 +210,27 @@ export const DwarvesBattlefieldLvl2 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button title="Заразный укус - наносит средний урон противнику."></button>}
-                    {showSkilContagiousBiteImg && <p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg && <button title="Заразный укус"></button>}
+                    {showSkilContagiousBiteImg && <p className={classes.titleSkils}>Заразный укус</p>} 
                 </div>
                 <div className={classes.blockSkilFetters}>
-                    {showSkilFettersImg && <button title="Охотничьи путы - наносит слабый урон противнику в течение 5 секунд."></button>}
-                    {showSkilFettersImg && <p>Охотничьи путы</p>}
+                    {showSkilFettersImg && <button title="Охотничьи путы"></button>}
+                    {showSkilFettersImg && <p className={classes.titleSkils}>Охотничьи путы</p>}
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
-                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб - восстанавливает здоровье."></button>}
-                    {showSkilDwarvesPoulticeImg && <p>Фиал с водой</p>}
+                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб"></button>}
+                    {showSkilDwarvesPoulticeImg && <p className={classes.titleSkils}>Фиал с водой</p>}
                 </div>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома - увеличивает урон от обычных атак."></button>}
-                    {showSkilAndryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома"></button>}
+                    {showSkilAndryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
                 <div className={classes.blockSkilFrozenGround}>
-                    {showSkilFrozenGroundImg && <button onClick={handleFrozenGround} disabled={frozenGround === -1 || frozenGroundActive} title="Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда."></button>}
-                    {showSkilFrozenGroundImg && <p>Мёрзлая земля</p>}
+                    {showSkilFrozenGroundImg && <button onClick={handleFrozenGround} disabled={frozenGround === -1 || frozenGroundActive} title="Мёрзлая земля"></button>}
+                    {showSkilFrozenGroundImg && <p className={classes.titleSkils}>Мёрзлая земля</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

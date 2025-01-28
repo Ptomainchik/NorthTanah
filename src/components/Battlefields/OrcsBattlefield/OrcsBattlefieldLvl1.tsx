@@ -148,18 +148,18 @@ export const OrcsBattlefieldLvl1 = () => {
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
                     {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
-                    {showSkilOrcPoulticeImg && <p>Лечебный гриб</p>}
+                    {showSkilOrcPoulticeImg && <p className={classes.titleSkils}>Лечебный гриб</p>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
                     {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
-                    {showSkilContagiousBiteImg &&<p>Заразный укус</p>} 
+                    {showSkilContagiousBiteImg &&<p className={classes.titleSkils}>Заразный укус</p>} 
                 </div>
             </div>
             <ModalRules/>
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}
-                    {showSkilAngryDwarfImg && <p>Гнев гнома</p>}
+                    {showSkilAngryDwarfImg && <p className={classes.titleSkils}>Гнев гнома</p>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

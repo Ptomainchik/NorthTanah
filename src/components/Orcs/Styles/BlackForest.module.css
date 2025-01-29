@@ -40,7 +40,7 @@ background:	rgb(4, 27, 1);
 border-top: solid 0.3vw rgb(180, 60, 20);
 border-bottom: solid 0.3vw rgb(180, 60, 20);
 padding: 1vw 2vw;
-font-size: 1.8vw;
+font-size: 2vw;
 cursor: pointer;
 user-select: none;
 color: rgb(180, 60, 20);
@@ -617,6 +617,23 @@ font-size: 3vw;
 
 .orcsPageButton:hover{
 opacity: 0.9;
+}
+
+/* ----Overall----- */
+
+.buttons{
+width: 100%;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 0.3vw;
+border-top: solid rgb(180, 60, 20) 0.3vw;
+text-align: center;
+font-size: 3.5vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: black;
+-webkit-text-stroke: 0.1vw  rgb(180, 60, 20);
 }
   
 /* @@@OrcsPageMedia@@@ */
@@ -1996,19 +2013,558 @@ color: rgb(180, 60, 20);
 }  
 }
 
-  /* ----Overall----- */
+/* @@@HistoryOrcsMedia@@@ */
 
-.buttons{
+@media (max-width: 440px) {
+
+/* -----Accordion----- */
+
+.historyOrcs{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 1vw;
+}
+  
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(180, 60, 20);
+border-bottom: 0.3vw solid rgb(180, 60, 20);
+}
+  
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+  
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(4, 27, 1);
+border-top: solid 0.3vw rgb(180, 60, 20);
+border-bottom: solid 0.3vw rgb(180, 60, 20);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(180, 60, 20);
+font-family: "Pangolin";
+}
+  
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+  
+/* -----History----- */
+  
+.imageHistory {
+width: 100%;
+background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+  
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+  
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+  
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+background: rgb(4, 27, 1);
+}
+  
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+  
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+  
+.awaking{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+  
+.exodus{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+  
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+background: rgb(189, 189, 189);
+filter: drop-shadow( 0 0 0vw rgb(4, 27, 1));
+border: solid rgb(4, 27, 1) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: rgb(15, 24, 9);
+}
+  
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+  
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+  
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+  
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+
+.historyOrcs .buttons{
 width: 100%;
 background: rgb(4, 27, 1);
-border-bottom: solid rgb(180, 60, 20) 0.3vw;
-border-top: solid rgb(180, 60, 20) 0.3vw;
+border-bottom: solid rgb(180, 60, 20) 1vw;
+border-top: solid rgb(180, 60, 20) 1vw;
 text-align: center;
-font-size: 3.5vw;
+font-size: 9vw;
 font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
-color: black;
--webkit-text-stroke: 0.1vw  rgb(180, 60, 20);
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw black;
 }
+
+}
+
+@media (min-width: 441px) and (max-width: 700px) {
+
+/* -----Accordion----- */
+
+.historyOrcs{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 1vw;
+}
+    
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(180, 60, 20);
+border-bottom: 0.3vw solid rgb(180, 60, 20);
+}
+    
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+    
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(4, 27, 1);
+border-top: solid 0.3vw rgb(180, 60, 20);
+border-bottom: solid 0.3vw rgb(180, 60, 20);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(180, 60, 20);
+font-family: "Pangolin";
+}
+    
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+    
+/* -----History----- */
+    
+.imageHistory {
+width: 100%;
+background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+    
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+    
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+    
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+background: rgb(4, 27, 1);
+}
+    
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+    
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+    
+.awaking{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+    
+.exodus{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+    
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+filter: drop-shadow( 0 0 0vw rgb(4, 27, 1));
+background: rgb(189, 189, 189);
+border: solid rgb(4, 27, 1) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: rgb(15, 24, 9);
+}
+    
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+    
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+    
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+    
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+
+.historyOrcs .buttons{
+width: 100%;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 0.7vw;
+border-top: solid rgb(180, 60, 20) 0.7vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw black;
+}
+}
+
+@media (min-width: 701px) and (max-width: 1050px) {
+
+/* -----Accordion----- */
+
+.historyOrcs{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 1vw;
+}
+      
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(180, 60, 20);
+border-bottom: 0.3vw solid rgb(180, 60, 20);
+}
+      
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+      
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(4, 27, 1);
+border-top: solid 0.3vw rgb(180, 60, 20);
+border-bottom: solid 0.3vw rgb(180, 60, 20);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(180, 60, 20);
+font-family: "Pangolin";
+}
+      
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+      
+/* -----History----- */
+      
+.imageHistory {
+width: 100%;
+background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+      
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+      
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+      
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+background: rgb(4, 27, 1);
+}
+      
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+      
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+      
+.awaking{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+      
+.exodus{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+      
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+filter: drop-shadow( 0 0 0vw rgb(4, 27, 1));
+background: rgb(189, 189, 189);
+border: solid rgb(4, 27, 1) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: rgb(15, 24, 9);
+}
+      
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+      
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+      
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+      
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+
+.historyOrcs .buttons{
+width: 100%;
+background: rgb(4, 27, 1);
+border-bottom: solid rgb(180, 60, 20) 0.5vw;
+border-top: solid rgb(180, 60, 20) 0.5vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw black;
+}
+}
+

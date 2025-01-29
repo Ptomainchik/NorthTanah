@@ -18,8 +18,8 @@ export const AccordionState = () => {
         content: (
 <div className={classes.accordionItemContent}>
   <div className={classes.pictures}>
-    <img title="Пробуждение" src={Awaking} alt="Пробуждение" className={classes.awaking}/>
-    <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} alt="Исход в Чёрный лес" className={classes.exodus}/>
+    <img title="Пробуждение" src={Awaking} className={classes.awaking} alt="Пробуждение"/>
+    <img title="Исход в Чёрный лес" src={ExodusToTheBlackForest} className={classes.exodus} alt="Исход в Чёрный лес"/>
   </div>
 
     <div className={classes.contentScroll}>
@@ -42,8 +42,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="Долина кабанов" className={classes.pictureLeft} src={BoarValley} alt="Долина кабанов"/>
-    <img title="Строительство" className={classes.pictureRight} src={Construction} alt="Строительство"/>
+    <img title="Долина кабанов" src={BoarValley} className={classes.pictureLeft} alt="Долина кабанов"/>
+    <img title="Строительство" src={Construction} className={classes.pictureRight} alt="Строительство"/>
   </div>
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
       <h2>Первые Общины</h2>
@@ -65,8 +65,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Решение" className={classes.pictureLeft} src={Solution} alt="Решение"/>
-   <img title="Добыча" className={classes.pictureRight} src={Booty} alt="Добыча"/>
+   <img title="Решение" src={Solution} className={classes.pictureLeft} alt="Решение"/>
+   <img title="Добыча" src={Booty} className={classes.pictureRight} alt="Добыча"/>
   </div>
 
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
@@ -81,9 +81,8 @@ export const AccordionState = () => {
           Новоиспечённый глава воров, вызвал лидеров двух крупнейших шаек - грабителей и мародёров, на сходку.
           Где предложил им пойти по тому же пути и позже объединиться в одну централизованную общину, с запретом преступлений против соплеменников.
         </strong></p>
-      </div>
-
-          </div>
+  </div>
+  </div>
         ),
       },
       {

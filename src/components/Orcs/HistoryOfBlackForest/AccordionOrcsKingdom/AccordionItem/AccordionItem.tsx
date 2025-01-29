@@ -10,7 +10,7 @@ export const AccordionItem = ({data, isOpen, btnOnClick,}: { data: AccordionData
       if (isOpen) {
         const contentEl = contentRef.current as HTMLDivElement;
   
-        setHeight(contentEl.scrollHeight);
+        setHeight(contentEl.scrollHeight );
       } else {
         setHeight(0);
       }
@@ -23,7 +23,7 @@ export const AccordionItem = ({data, isOpen, btnOnClick,}: { data: AccordionData
             {data.title}
           </button>
         </h2>
-        <div className={classes.accordionItemContainer} style={{ height }}>
+        <div className={classes.accordionItemContainer} style={{ height}}>
           <div ref={contentRef} className={classes.accordionItemContent}>
             {data.content}
           </div>

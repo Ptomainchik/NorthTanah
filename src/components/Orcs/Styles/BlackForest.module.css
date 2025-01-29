@@ -5,21 +5,25 @@
 /* -----Accordion----- */
 
 .historyOrcs{
-position: relative;
+position: absolute;
 width: 100%;
 height: 100%;
+background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
+background-size: contain;
+background-size: 15%; 
 }
 
 .accordion {
 position: relative;
 width: 100%;
-height: 100%;
 list-style: none;
 margin: 0;
 padding: 0;
 background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
 background-size: contain;
 background-size: 15%;
+background-color: grey;
+border-top: 0.3vw solid rgb(180, 60, 20);
 }
 
 .accordionItemTitle {
@@ -29,12 +33,12 @@ margin: 0;
 
 .accordionItemBtn {
 position: relative;
-display: flex;
 align-items: center;
 width: 100%;
+height: 5.5vw;
 background:	rgb(4, 27, 1);
-background-size:cover;
-border: solid 0.2vw rgb(180, 60, 20);
+border-top: solid 0.3vw rgb(180, 60, 20);
+border-bottom: solid 0.3vw rgb(180, 60, 20);
 padding: 1vw 2vw;
 font-size: 1.8vw;
 cursor: pointer;
@@ -44,21 +48,16 @@ font-family: "Pangolin";
 }
 
 .accordionItemContainer {
-transition: height 0.3s ease-in-out;
+transition: height 0.5s ease-in-out;
 overflow: hidden;
 position: relative;
 }
 
-
 /* -----History----- */
-
-
 
 .imageHistory {
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
-background-size: contain;
-width: 100%; 
-height: 100%;
+background-size: 100%;
 }
 
 .titleHistory{
@@ -69,6 +68,8 @@ align-items: center;
 justify-content: center;
 -webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
 font-size: 4vw;
+width: 100%;
+height: 50%;
 }
 
 .titleHistory h1{
@@ -79,16 +80,14 @@ text-align: center;
 .banner{
 width: 20%;
 height: 30%;
-background-size: cover;
-background-repeat: no-repeat;
-filter: drop-shadow(0 0 2vw rgb(4, 27, 1) );
-margin-top: 8%;
+filter: drop-shadow(0 0 1vw rgb(15, 63, 8) );
+margin-top: 7%;
 }
 
 .accordionItemContent{
-position: relative;
-height: 70vw;
-width: 100%;
+position: absolute;
+height: 80vw;
+width: 100vw;
 }
 
 .pictures{
@@ -97,34 +96,31 @@ justify-content: space-between;
 }
 
 .awaking{
-width: 35%;
-height: 35%;
-margin: 0;
-padding: 0;
-position: relative;
-left: -1%;
-top: -1%;
+width: 35vw;
+height: 35vw;
+position: absolute;
+top: -3%;
+left: -3;
 }
 
 .exodus{
-width: 35%;
-height: 35%;
-margin: 0;
-padding: 0;
-position: relative;
-right: -1%;
-top: -1%;
+width: 35vw;
+height: 35vw;
+position: absolute;
+top: -3%;
+right: -3%;
 }
 
 .contentScroll{
-width: 110%;
-height: 110%;
+width: 100%;
+height: 100%;
 position: absolute;
-top: 60%;
-margin-left: -5%;
+top: 45%;
+left: 50%;
+transform: translateX(-50%);
 background: url(../../../images/Orcs/HistoryBlackForest/Scroll.webp) center no-repeat;
 background-size: contain;
-filter: drop-shadow(0 0 3vw black);
+filter: drop-shadow(0 0 1vw black);
 font-family: "Pangolin";
 font-size: 1.4vw;
 color: rgb(15, 24, 9);
@@ -149,18 +145,18 @@ transform: translateX(-50%);
 width: 45%;
 margin: 0;
 padding: 0;
-position: relative;
-left: -20px;
-top: -20px;
+position: absolute;
+left: -1%;
+top: -1%;
 }
 
 .pictureRight{
 width: 45%;
 margin: 0;
 padding: 0;
-position: relative;
-right: -20px;
-top: -20px;
+position: absolute;
+right: -1%;
+top: -1%;
 }
 
 /* -----CommunitiesPage----- */

@@ -8,7 +8,7 @@
 position: absolute;
 width: 100%;
 height: 100%;
-background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 15%; 
 }
@@ -19,7 +19,7 @@ width: 100%;
 list-style: none;
 margin: 0;
 padding: 0;
-background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 15%;
 background-color: grey;
@@ -372,7 +372,7 @@ opacity: 0.7;
 position: fixed;
 width: 100%;
 height: 100%;
-background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 15%;
 }
@@ -422,7 +422,7 @@ transform: scaleY(-1) scaleX(-1);
 position: absolute;
 width: 100%;
 height: 100%;
-background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 14%;
 }

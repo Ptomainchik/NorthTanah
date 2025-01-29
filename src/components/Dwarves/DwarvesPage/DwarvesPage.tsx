@@ -9,7 +9,7 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 export const DwarvesPage = () => {
     return (
     <div className={classes.dwarvesPage}>
-      <div className={classes.button}><HomeButton/><span>Dwarves</span><BackButton/></div>
+      <div className={classes.buttons}><HomeButton/><span>Dwarves</span><BackButton/></div>
     <div className={classes.info}>
       <div className={classes.infoPage}>
              <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage}/>

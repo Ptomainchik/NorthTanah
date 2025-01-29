@@ -18,13 +18,14 @@ export const AccordionState = () => {
       {
         title: 'История Королевства Медвежьих Вершин',
         content: (
-          <div>
+<div className={classes.accordionItemContent}>
             <div className={classes.pictures}>
   <img title="Король Доронг Сапфир" src={KingDwarves} alt="Король Доронг Сапфир " className={classes.kingDwarves}/>
   <img title="Медвежьи Вершины" src={DwarfOnABear} alt="Вид на Горы где бродят медведи" className={classes.dwarvesKingdom}/>
 </div>
 
- <div className={classes.contentScroll}><h2>История Королевства Медвежьих Вершин</h2>
+ <div className={classes.contentScroll}>
+  <h2>История Королевства Медвежьих Вершин</h2>
      <p><strong>
      Во времена эпохи зимы гномы жили в предгорьях Медвежьих вершин. Но когда континент стал оттаивать, земля начала проваливаться у них под ногами. Образуя огромные расщелины и сеть подземных лабиринтов.
      По которым гномы и вышли в нагорья вершин. Где они обнаружили большие залежи руды. К тому же в ущельях процветала жизнь,
@@ -46,7 +47,7 @@ export const AccordionState = () => {
     <img title="Гном из экспедиции кричит в гневе" className={classes.pictureLeft} src={DwarfAngry} alt="Гном из экспедиции кричит в гневе"/>
     <img title="Разрушенное предместье Медвежьих Вершин" className={classes.pictureRight} src={FloodedMines} alt="Озеро после Ночи Золотой паники"/>
   </div>
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
       <h2>Ночь Золотой паники</h2>
       <p><strong> 
       В далекие столетия когда добыча золотоносной руды обрела сумасшедшие объёмы, прозванной золотой паникой. Гномы погружались всё глубже в недра вершин, в поисках больших богатых месторождений. Они обнаружили на западе хребта омывающемся водами озера холода, подгорье с затопленными природными тоннелями.
@@ -70,7 +71,7 @@ export const AccordionState = () => {
    <img title="Кузница Королевства Медвежьих Вершин" className={classes.pictureRight} src={Forge} alt="Гном работает в кузнице"/>
   </div>
 
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Ремесло</h2>
         <p><strong>
         Медвежьи Вершины славятся своей гильдией кузнецов и их качественной, тонкой работой. Оружие и доспехи, инструмент и предметы обихода, это не весь список изделий которые подвластны мастерам кузнечного дела королевства. Рудокопы постоянно ведут добычу, вне зависимости дня и ночи.
@@ -95,7 +96,7 @@ export const AccordionState = () => {
    <img title="Экспедиция гномов" className={classes.pictureRight} src={DwarfExpedition} alt="Экспедиция гномов"/>
   </div>
 
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Королевский камень</h2>
         <p><strong>
           В поисках ископаемых отправляются десятки, а то и сотни гномов. Но есть места в которых не бывал ещё никто, ввиду их сложного ландшафта и трудных климатических условий. Незадолго до своей коронации, молодой Доронг вызвался добровольцем в одну из таких экспедиций.
@@ -117,7 +118,7 @@ export const AccordionState = () => {
   <img title="Орк в тоннеле" className={classes.pictureLeft} src={OrcAttack} alt="Орк в тоннеле"/>
   <img title="Строй гномов" className={classes.pictureRight} src={RowsOfDwarves} alt="Строй гномов"/>
   </div>
-  <div className={classes.contentScroll}>
+  <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Тоннели</h2>
         <p><strong>
           Из южных шахт стали поступать противоречивые сообщения о появлении в тоннелях орков, грабящих тамошних трудяг.

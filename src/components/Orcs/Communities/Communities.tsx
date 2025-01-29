@@ -7,7 +7,6 @@ import { HomeButton } from '../../Button/HomeButton/HomeButton'
 import { BackButton } from '../../Button/BackButton/BackButton'
 import GreenTriangle from '../../../images/HomePageImage/GreenTriangle.webp'
 
-
 export const Communities = () => {
     return (
     <div>

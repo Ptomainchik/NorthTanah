@@ -4,168 +4,162 @@
 
 /* -----Accordion----- */
 
-.accordion {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
-    background-size: contain;
-    background-size: 15%;
-  }
+.historyDwarves{
+position: absolute;
+width: 100%;
+height: 100%;
+background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background-size: contain;
+background-size: 15%; 
+}
 
-.accordionItem {
-    border: 1px solid rgb(247,189,0);
-    position: fixed;
-  }
-  
-.accordionItem:not(:first-of-type) {
-    border-top: 0;
-  }
-  
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background-size: contain;
+background-size: 15%;
+background-color: grey;
+border-top: 0.3vw solid rgb(247,189,0);
+}
+
 .accordionItemTitle {
-    width: 100%;
-    margin: 0;
-  }
+width: 100%;
+margin: 0;
+}
   
 .accordionItemBtn {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color:rgb(30, 46, 70);
-    border: solid 2px	rgb(247,189,0);
-    padding: 15px 20px;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
-    user-select: none;
-    color: rgb(247,189,0) ;
-    font-family: "Pangolin";
-    
-  }
-  
-.accordionItemBtn::after {
-    content: '';
-    flex-shrink: 0;
-    width: 18px;
-    height: 18px;
-    margin-left: auto;
-    background-repeat: no-repeat;
-    background-size: 18px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-.accordionItem.active .accordionItemBtn::after {
-    transform: rotate(-180deg);
-  }
+position: relative;
+align-items: center;
+width: 100%;
+height: 5.5vw;
+background:	rgb(30, 46, 70);
+border-top: solid 0.3vw rgb(247,189,0);
+border-bottom: solid 0.3vw rgb(247,189,0);
+padding: 1vw 2vw;
+font-size: 2vw;
+cursor: pointer;
+user-select: none;
+color: rgb(247,189,0);
+font-family: "Pangolin";
+}
   
 .accordionItemContainer {
-    transition: height 0.2s ease-in-out;
-    overflow: hidden;
-  }
-  
-.accordionItemContent {
-    border-top: 1px solid rgb(247,189,0);
-    padding: 15px 20px;
-  }
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
 
 /* -----History----- */
 
 
 
 .imageHistory {
-    background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
-    background-size: contain;
+background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
+background-size: 100%;
 }
 
 .titleHistory{
-    display: flex;
-    font-family: "Rakkas", serif;
-    color: rgb(30, 46, 70); 
-    -webkit-text-stroke: 0.1px rgb(247,189,0);
-    align-items: center;
-    justify-content: center;
-    font-size: 45px;
+display: flex;
+font-family: "Rakkas", serif;
+color: rgb(30, 46, 70);
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(247,189,0) 0.1vw;
+font-size: 4vw;
+width: 100%;
+height: 50%;
 }
 
 .titleHistory h1{
-    width: 700px;
-    text-align: center;
+width: 50%;
+text-align: center;
 }
 
 .banner{
-    width: 280px;
-    height: 358px;
-    background-size: cover ;
-    filter: drop-shadow(1px 1px 10px rgb(231, 210, 22) );
-    margin-top: 60px;
-    margin-bottom: 60xp;
+width: 20%;
+height: 30%;
+filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+margin-top: 7%;
+}
+
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
 }
 
 .pictures{
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .kingDwarves{
-  width: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -20px;
-  top: -20px;
+width: 35vw;
+height: 35vw;
+position: absolute;
+top: -3%;
+left: -3;
 }
 
 .dwarvesKingdom{
-  width: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  right: -20px;
-  top: -20px;
+width: 35vw;
+height: 35vw;
+position: absolute;
+top: -3%;
+right: -3%;
 }
 
 .contentScroll{
-    background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) no-repeat;
-    background-size: contain;
-    background-position: center;
-    text-align: center;
-    filter: drop-shadow( 0px 0px 20px black);
-    font-size: 35%;
-    padding-left: 450px;  
-    padding-right: 450px;
-    height: 1350px;
-    color: rgb(56, 7, 7);
+background: url(../../../images/Dwarves/HistoryBearPeaks/Scroll.webp) center no-repeat;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translateX(-50%);
+background-size: contain;
+filter: drop-shadow(0 0 0.3vw black);
+font-family: "Pangolin";
+font-size: 1.1vw;
+color: black;
 }
 
 .contentScroll h2 {
-    padding-top: 330px;   
-    margin-top: 0px;
-    font-family: "Pangolin";
+position: absolute;
+left: 50%;
+top: 20%;
+transform: translateX(-50%);
+color: rgb(30, 46, 70);
 }
 
 .contentScroll p{
-    font-family: "Pangolin";
-    margin-top: 0px;
+position: absolute;
+left: 50%;
+top: 25%;
+width: 30%;
+transform: translateX(-50%);
 }
 
 .pictureLeft{
-  width: 550px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: -20px;
-  top: -20px;
+width: 45%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
 }
 
 .pictureRight{
-  width: 550px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  right: -20px;
-  top: -20px;
+width: 45%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
 }
 
 /* -----GuildsPage----- */
@@ -173,160 +167,65 @@
 /* BlacksmithModal */
 
 .anvilBlacksmith{
-  background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat;
-  background-size: contain;
-  border: none;
-  filter: drop-shadow(0px 0px 10px rgb(255, 130, 58));
-  cursor: pointer;
-  height: 230px;
-  width: 230px;
-  position: absolute;
-  z-index: 999 ;
-  top: 90px;
-  left: 130px;
+background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 0.5vw rgb(255, 130, 58));
+cursor: pointer;
+height: 30%;
+width: 30%;
+position: absolute;
+top: 12%;
+left: 9%;
 }
 
 .anvilBlacksmith:hover{
-  filter: drop-shadow(0px 0px 20px rgb(255, 130, 58));
-  opacity: 0.9;
-  animation: shifting 0.7s infinite;
-  animation-fill-mode: forwards; 
+filter: drop-shadow(0 0 1.5vw rgb(255, 130, 58));
+opacity: 0.9;
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
 }
 
 .blacksmithModal {
-  width: 1000px;
-  height: 700px;
-  background: rgb(30, 46, 70);
-  padding: 0;
-  font-size: 2rem;
-  position: fixed;
-  left: 20%;
-  top:5%;
+width: 70%;
+height: 90%;
+background: rgb(30, 46, 70);
+font-family: "Pangolin";
+position: absolute;
+left: 20%;
+top:5%;
 }
-
-.blacksmithModal img{
-  border-style:solid;
-  border-color: rgb(255, 130, 58);
-  display: block;
-}
-
-.blacksmithModal span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color: rgb(189, 189, 189);
-  text-align: start;
-}
-
-.blacksmithModal span span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  font-family: "Pangolin";
-  color: rgb(255, 130, 58);
-  text-align: start;
-  font-weight: bolder;
-}
-
-.imageHeadBlacksmith{
-  width: 230px;
-  height: 230px;
-  margin: 10px 50px 0px 10px;
-}
-
-.imageMemberBlacksmith{
-  width: 180px;
-  height: 180px;
-  margin: 10px 50px 0px 10px;
-}
-
-.buttonCloseBlacksmithModal{
-  position: absolute;
-  bottom: 1%;
-  width: 20rem;
-  height: 2.7rem;
-  font-size: 2rem;
-  border-style: solid;
-  border-color:black;
-  background:rgb(233, 121, 56);
-  font-family: "Pangolin";
-}
-
-.buttonCloseBlacksmithModal:hover{
-  opacity: 0.7;
-}
-
 
 /* MerchantModal */
 
 .scalesMerchants{
-  background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat;
-  background-size: contain;
-  border: none;
-  filter: drop-shadow(0px 0px 10px rgb(245, 231, 44));
-  cursor: pointer;
-  height: 230px;
-  width: 230px;
-  position: absolute;
-  z-index: 999;
-  top: 90px;
-  right: 130px;
+background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 0.5vw rgb(245, 231, 44));
+cursor: pointer;
+height: 30%;
+width: 30%;
+position: absolute;
+top: 12%;
+right: -5%;
 }
 
 .scalesMerchants:hover {
-  filter: drop-shadow(0px 0px 20px rgb(245, 231, 44));
-  opacity: 0.9;
-  animation: shifting 0.7s infinite;
-  animation-fill-mode: forwards; 
+filter: drop-shadow(0px 0px 1.5vw rgb(245, 231, 44));
+opacity: 0.9;
+animation: shifting 0.7s infinite;
+animation-fill-mode: forwards; 
 }
 
 .merchantsModal {
-  width: 1000px;
-  height: 700px;
-  background: rgb(30, 46, 70);
-  padding: 0;
-  font-size: 2rem;
-  position: fixed;
-  left: 20%;
-  top:5%;
-}
-
-.merchantsModal img{
-  border-style:solid;
-  border-color: rgb(245, 231, 44);
-  display: block;
-}
-
-.merchantsModal span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  color: rgb(189, 189, 189);
-  font-family: "Pangolin";
-  text-align: start;
-}
-
-.merchantsModal span span {
-  font-size: 1.9rem;
-  margin: 10px 0 0 0;
-  color: rgb(245, 231, 44);
-  font-family: "Pangolin";
-  text-align: start;
-  font-weight: bolder;
-}
-
-.buttonCloseMerchantsModal{
-  position: absolute;
-  bottom: 1%;
-  width: 20rem;
-  height: 2.7rem;
-  font-size: 2rem;
-  border-style: solid;
-  border-color:black;
-  background: #f5e72c;
-  font-family: "Pangolin";
-}
-
-.buttonCloseMerchantsModal:hover{
-  opacity: 0.7;
+width: 70%;
+height: 90%;
+background: rgb(30, 46, 70);
+position: absolute;
+font-family: "Pangolin";
+left: 20%;
+top:5%;
 }
 
 @keyframes  shifting {
@@ -368,76 +267,155 @@
 
 /* OverallContentModal */
 
-.imageHeadMerchants{
-  width: 250px;
-  height: 250px;
-  margin: 10px 50px 0px 10px;
+.imageHeadGuilds{
+width: 14vw;
+height: 14vw;
+margin: 1vw;
+position: absolute;
+top: 0;
+left: 0;
 }
 
-.imageMemberMerchants{
-  width: 200px;
-  height: 200px;
-  margin: 10px 50px 0px 10px;
+.imageMemberGuilds1{
+width: 12vw;
+height: 12vw;
+margin: 1vw;
+position: absolute;
+top: 32%;
+left: 0;
 }
 
-.contentModal{
-  display: flex;
+
+.imageMemberGuilds2{
+width: 12vw;
+height: 12vw;
+margin: 1vw;
+position: absolute;
+top: 60%;
+left: 0;
+}
+
+.contentModal1 h3 {
+position: absolute;
+left: 25%;
+top: -2%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+  
+.contentModal1 span {
+width: 73%;
+position: absolute;
+left: 25%;
+top: 10%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+  
+.contentModal2 h3 {
+position: absolute;
+left: 22%;
+top: 30%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+    
+.contentModal2 span {
+width: 70%;
+position: absolute;
+left: 22%;
+top: 40%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+
+.contentModal3 h3 {
+position: absolute;
+left: 22%;
+top: 58%;
+font-size: 2vw;
+text-align: start;
+font-weight: bolder; 
+}
+  
+.contentModal3 span {
+width: 70%;
+position: absolute;
+left: 22%;
+top: 68%;
+font-size: 1.7vw;
+color: rgb(189, 189, 189);
+text-align: start;
+}
+
+.closeModal{
+position: absolute;
+bottom: 1%;
+width: 20vw;
+height: 2.7vw;
+font-size: 2vw;
+border:solid black 0.2vw;
+font-family: "Pangolin";
+}
+    
+.closeModal:hover{
+opacity: 0.7;
 }
 
 /* OverallContentModal */
 
 .guilds {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
-  background-size: contain;
-  background-size: 15%;
+position: fixed;
+width: 100%;
+height: 100%;
+background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
+background-size: contain;
+background-size: 15%;
 }
 
 .guildsLists {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  color: rgb(247,189,0); 
-  -webkit-text-stroke: 0.1px black;
+height: 50%;
+text-align: center;
+justify-content: space-between;
+color: rgb(247,189,0); 
+-webkit-text-stroke: 0.1vw black;
+font-size: 3.5vw;
 } 
 
 .titleBlacksmith{
-  position: absolute;
-  top: 20px;
-  left: 440px;
+position: absolute;
+top: 5%;
+left: 31%;
 }
 
 .titleMerchants{
-  position: absolute;
-  top: 20px;
-  right: 440px;
-}
-
-.blueTriangleGuilds2{
-  background: url(../../../images/HomePageImage/BlueTriangle.webp) no-repeat;
-  background-size: contain;
-  position: absolute;
-  left: 0;
-  top: -80px;
-  width: 500px;
-  height: 500px;  
-  transform:  scaleY(-1);
+position: absolute;
+top: 5%;
+right: 31%;
 }
 
 .blueTriangleGuilds1{
-  background: url(../../../images/HomePageImage/BlueTriangle.webp) no-repeat;
-  background-size: contain;
-  position: absolute;
-  right: 0;
-  top: -80px;
-  width: 500px;
-  height: 500px;
-  transform: scaleX(-1) scaleY(-1);
+position: absolute;
+left: 0;
+top: 9%;
+width: 35%;
+height: 40%;  
+transform: scaleY(-1);
 }
-   
-   
+
+.blueTriangleGuilds2{
+position: absolute;
+right: 0;
+top: 9%;
+width: 35%;
+height: 40%;  
+transform: scaleY(-1) scaleX(-1);
+}
+ 
  /* -----DwarvesPage----- */
 
 .dwarvesPage{
@@ -446,7 +424,7 @@ width: 100%;
 height: 100%;
 background: url(../../../images/Dwarves/DwarvesPage/Snowflake.webp) repeat;
 background-size: contain;
-background-size: 15%;
+background-size: 14%;
 }
 
 .info{
@@ -558,9 +536,9 @@ font-size: 3vw;
 opacity: 0.9;
 }
 
-   /* ----Overall----- */
+/* ----Overall----- */
 
-.button{
+.buttons{
 background: rgb(30, 46, 70);
 border-bottom: solid  rgb(247,189,0) 0.3vw;
 border-top: solid  rgb(247,189,0) 0.3vw;

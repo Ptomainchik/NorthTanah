@@ -7,16 +7,16 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 
 export const HistoryOfBlackForest = () => {
     return (
-    <div className={classes.historyOrcs}>
+<div className={classes.historyOrcs}>
       <div className={classes.buttons}><HomeButton/><span>History</span><BackButton/></div>
-  <div className={classes.imageHistory}>
-  <div className={classes.titleHistory}>
-  <img title="Герб Чёрного леса" alt="Герб Чёрного леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
-  <h1>Black Forest</h1>
-  <img title="Герб Чёрного леса" alt="Герб Чёрного леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
- </div>
- <AccordionState/>
- </div>
+    <div className={classes.imageHistory}>
+      <div className={classes.titleHistory}>
+        <img title="Герб Чёрного леса" alt="Герб Чёрного леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
+        <h1>Black Forest</h1>
+        <img title="Герб Чёрного леса" alt="Герб Чёрного леса" src={CoatOfArmsOfBlackForest} className={classes.banner}/>
+      </div>
+    <AccordionState/>
+    </div>
  </div>
   )
 } 

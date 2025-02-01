@@ -881,16 +881,15 @@ color: rgb(180, 60, 20);
   top: 0;
   display: flex;
   background: rgb(4, 27, 1) ;
-  height: 15%;
+  height: 17%;
   width: 80%;
   font-family: "Pangolin";
   transform: skewX(20deg)
   }
         
   .infoPage img {
-  margin-top: 5%;
-  margin-left: 8%;
-  width: 25%;
+  margin-left: 10%;
+  width: 23%;
   border-radius: 50%;
   border: 1vw solid rgb(180, 60, 20);
   }
@@ -944,7 +943,7 @@ color: rgb(180, 60, 20);
         
   .blockLink{
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 5%;
   }
         
@@ -952,8 +951,8 @@ color: rgb(180, 60, 20);
   background: rgb(4, 27, 1);
   transform: skewX(30deg) ;
   font-family: "Rakkas", serif;
-  width: 143%;
-  margin-top: -10%;
+  width: 144%;
+  margin-top: -13%;
   display: block; 
   color: rgb(180, 60, 20);
   -webkit-text-stroke: 0.1px  black;

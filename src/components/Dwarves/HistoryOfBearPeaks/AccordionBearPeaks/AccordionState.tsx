@@ -16,7 +16,7 @@ import RowsOfDwarves from '../../../../images/Dwarves/HistoryBearPeaks/RowsOfDwa
 export const AccordionState = () => {
     const accordionItems = [
       {
-        title: 'История Королевства Медвежьих Вершин',
+        title: 'История Медвежьих вершин',
         content: (
 <div className={classes.accordionItemContent}>
             <div className={classes.pictures}>
@@ -25,7 +25,7 @@ export const AccordionState = () => {
 </div>
 
  <div className={classes.contentScroll}>
-  <h2>История Королевства Медвежьих Вершин</h2>
+  <h2>История Медвежьих вершин</h2>
      <p><strong>
      Во времена эпохи зимы гномы жили в предгорьях Медвежьих вершин. Но когда континент стал оттаивать, земля начала проваливаться у них под ногами. Образуя огромные расщелины и сеть подземных лабиринтов.
      По которым гномы и вышли в нагорья вершин. Где они обнаружили большие залежи руды. К тому же в ущельях процветала жизнь,

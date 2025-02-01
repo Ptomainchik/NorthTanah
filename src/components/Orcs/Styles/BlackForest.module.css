@@ -1086,43 +1086,6 @@ color: rgb(180, 60, 20);
   font-family: "Pangolin";
   }
       
-  @keyframes  shifting {
-    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
-      transform: translateX(0);
-      transform: translateX(0);
-    }
-  
-    10% {
-      transform: translateX(5px);
-      transform: translateX(5px);
-    }
-  
-    20% {
-      transform: translateX(-5px);
-      transform: translateX(-5px);
-    }
-  
-    30% {
-      transform: translateX(5px);
-      transform: translateX(5px);
-    }
-  
-    40% {
-      transform: translateX(-5px);
-      transform: translateX(-5px);
-    }
-  
-    50% {
-      transform: translateX(5px);
-      transform: translateX(5px);
-    }
-  
-    100% {
-      transform: translateX(-5px);
-      transform: translateX(-5px);
-    }
-  }
-  
   /* OverallContentModal */
   
   .imageHeadCommunities{
@@ -1242,12 +1205,6 @@ color: rgb(180, 60, 20);
     
   /* OverallCommunities */
   
-  .communities {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  }
-  
   .communitiesLists {
   height: 50%;
   text-align: center;
@@ -1348,13 +1305,13 @@ color: rgb(180, 60, 20);
     }
      
     .guardiansOfSpiritsModal {
-      width: 90%;
-      height: 98%;
-      background: rgb(4, 27, 1);
-      position: absolute;
-      font-family: "Pangolin";
-      left: 5%;
-      top: 1%;
+    width: 90%;
+    height: 98%;
+    background: rgb(4, 27, 1);
+    position: absolute;
+    font-family: "Pangolin";
+    left: 5%;
+    top: 1%;
     }
     
     /* WorkersModal */
@@ -1434,42 +1391,6 @@ color: rgb(180, 60, 20);
     font-family: "Pangolin";
     }
         
-    @keyframes  shifting {
-      0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
-        transform: translateX(0);
-        transform: translateX(0);
-      }
-    
-      10% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      20% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    
-      30% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      40% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    
-      50% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      100% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    }
     
     /* OverallContentModal */
     
@@ -1586,12 +1507,6 @@ color: rgb(180, 60, 20);
     }
       
     /* OverallCommunities */
-    
-    .communities {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    }
     
     .communitiesLists {
     height: 50%;
@@ -1778,43 +1693,6 @@ color: rgb(180, 60, 20);
     top: 10%;
     font-family: "Pangolin";
     }
-        
-    @keyframes  shifting {
-      0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
-        transform: translateX(0);
-        transform: translateX(0);
-      }
-    
-      10% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      20% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    
-      30% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      40% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    
-      50% {
-        transform: translateX(5px);
-        transform: translateX(5px);
-      }
-    
-      100% {
-        transform: translateX(-5px);
-        transform: translateX(-5px);
-      }
-    }
     
     /* OverallContentModal */
     
@@ -1825,7 +1703,6 @@ color: rgb(180, 60, 20);
     position: absolute;
     top: 0;
     left: 0;
-    
     }
       
     .imageMemberCommunities1{
@@ -1923,12 +1800,6 @@ color: rgb(180, 60, 20);
     }
       
     /* OverallCommunities */
-    
-    .communities {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    }
     
     .communitiesLists {
     height: 50%;

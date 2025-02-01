@@ -25,7 +25,6 @@ export const DwarvesPage = () => {
           <Link to="/battlefielddwlvl1" title="Боевое поле" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
       </div>
 
-<div className={classes.storyBlock}>
   <div className={classes.story}>
     <p>
       Раса гномов представляет собой - низкорослых существ, коренастого телосложения. Особенностью их характера является предприимчивость.
@@ -36,7 +35,7 @@ export const DwarvesPage = () => {
       Но есть два самых почитаемых, это прародитель Кунок Укротитель и сам король Доронг Сапфир, являющийся его потомком. А значит праотцом во плоти.
     </p>
   </div>
-  </div>
+  
 </div>
 </div>
 )

@@ -55,8 +55,6 @@ position: relative;
 
 /* -----History----- */
 
-
-
 .imageHistory {
 background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
 background-size: 100%;
@@ -285,7 +283,6 @@ top: 32%;
 left: 0;
 }
 
-
 .imageMemberGuilds2{
 width: 12vw;
 height: 12vw;
@@ -366,7 +363,7 @@ font-family: "Pangolin";
 opacity: 0.7;
 }
 
-/* OverallContentModal */
+/* OverallGuilds */
 
 .guilds {
 position: fixed;
@@ -483,22 +480,14 @@ margin: 1% ;
 transform: skewX(-20deg)
 }
   
-.storyBlock{
-position: absolute;
-top: 5%;
-right: 2%;
-width: 50%;
-height: 80%;
-background: rgb(30, 46, 70);
-}
-  
 .story{
 position: absolute;
 right: 5%;
 top: 5%;
-width: 90%;
-height: 90%;
+width: 48%;
+height: 70%;
 background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 2vw;
 }
      
 .story p {
@@ -553,3 +542,1570 @@ z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw  rgb(247,189,0);
 }
+
+/* @@@DwarvesPageMedia@@@ */
+
+@media (min-width: 701px) and (max-width: 1050px) {
+
+.info{
+position: fixed;
+top: 10%;
+width: 100%;
+height: 100%;
+}
+		
+.infoPage{
+position: absolute;
+left: 10%;
+top: 0;
+display: flex;
+background: rgb(30, 46, 70);
+height: 20%;
+width: 80%;
+font-family: "Pangolin";
+transform: skewX(20deg)
+}
+		
+.infoPage img {
+margin: 3%;
+margin-left: 8%;
+width: 25%;
+border-radius: 50%;
+border: 0.5vw solid rgb(247,189,0);
+}
+		
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+		
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: black;
+}
+			
+.infoTextPage h6{
+font-size: 9vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+		   
+.infoTextPage p{
+font-size: 4vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
+		
+.story{
+position: absolute;
+right: 2%;
+top: 52%;
+width: 90%;
+height: 32%;
+background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 3vw;
+}
+		   
+.story p {
+font-family: "Pangolin";
+font-size: 2.6vw;
+font-weight: bold;
+color: black;
+}
+		
+.blockLink{
+position: absolute;
+top: 23%;
+left: 4%;
+}
+		
+.dwarvesPageButton{
+background: rgb(30, 46, 70);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+width: 160%;
+margin-top: -10%;
+display: block; 
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1px  black;
+}
+		  
+.dwarvesPageButton h5{
+transform: skewX(-30deg);
+font-size: 5vw;
+}
+	  
+.dwarvesPage .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.5vw;
+border-top: solid rgb(247,189,0) 0.5vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}   
+}
+	
+@media (min-width: 441px) and (max-width: 700px) {
+	
+.info{
+position: fixed;
+top: 10%;
+width: 100%;
+height: 100%;
+}
+		  
+.infoPage{
+position: absolute;
+left: 10%;
+top: 0;
+display: flex;
+background: rgb(30, 46, 70);
+height: 20%;
+width: 80%;
+font-family: "Pangolin";
+transform: skewX(20deg)
+}
+		  
+.infoPage img {
+margin-top: 5%;
+margin-left: 8%;
+width: 25%;
+border-radius: 50%;
+border: 1vw solid rgb(247,189,0);
+}
+		  
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+		  
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: black;
+}
+			  
+.infoTextPage h6{
+font-size: 10vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+			 
+.infoTextPage p{
+font-size: 4vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
+		  
+.story{
+position: absolute;
+right: 2%;
+top: 53%;
+width: 90%;
+height: 32%;
+background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 3vw;
+}
+			 
+.story p {
+font-family: "Pangolin";
+font-size: 2.5vw;
+font-weight: bold;
+color: black;
+}
+		  
+.blockLink{
+position: absolute;
+top: 23%;
+left: 4%;
+}
+		  
+.dwarvesPageButton{
+background: rgb(30, 46, 70);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+width: 147%;
+margin-top: -10%;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1px  black;
+}
+			
+.dwarvesPageButton h5{
+transform: skewX(-30deg);
+font-size: 5.5vw;
+}
+		
+.dwarvesPage .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.7vw;
+border-top: solid rgb(247,189,0) 0.7vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}      
+}
+	
+@media (max-width: 440px) {
+	
+.info{
+position: fixed;
+top: 10%;
+width: 100%;
+height: 100%;
+}
+			
+.infoPage{
+position: absolute;
+left: 10%;
+top: 0;
+display: flex;
+background: rgb(30, 46, 70);
+height: 15%;
+width: 80%;
+font-family: "Pangolin";
+transform: skewX(20deg)
+}
+			
+.infoPage img {
+margin-top: 5%;
+margin-left: 8%;
+width: 25%;
+border-radius: 50%;
+border: 1vw solid rgb(247,189,0);
+}
+			
+.imgPage{
+position: absolute;
+margin: 4%;
+width: 30%;
+transform: skewX(-20deg)
+}
+			
+.infoTextPage{
+position: absolute;
+left: 40%;
+margin: 4%;
+background: rgb(189, 189, 189);
+width: 50%;
+height: 80%;
+color: black;
+}
+				
+.infoTextPage h6{
+font-size: 10vw;
+margin: 1%;
+padding: 0;
+transform: skewX(-20deg)
+}
+			   
+.infoTextPage p{
+font-size: 4.3vw;
+margin: 1% ;
+transform: skewX(-20deg)
+}
+			
+.story{
+position: absolute;
+right: 2%;
+top: 40%;
+width: 90%;
+height: 45%;
+background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 3vw;
+}
+			   
+.story p {
+font-family: "Pangolin";
+font-size: 3.5vw;
+font-weight: bold;
+color: black;
+}
+			
+.blockLink{
+position: absolute;
+top: 20%;
+left: 5%;
+}
+			
+.dwarvesPageButton{
+background: rgb(30, 46, 70);
+transform: skewX(30deg) ;
+font-family: "Rakkas", serif;
+width: 143%;
+margin-top: -10%;
+display: block; 
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1px  black;
+}
+			  
+.dwarvesPageButton h5{
+transform: skewX(-30deg);
+font-size: 5.5vw;
+}
+		  
+.dwarvesPage .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+border-top: solid rgb(247,189,0) 1vw;
+text-align: center;
+font-size: 9vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}     
+}
+	
+/* @@@GuildsPageMedia@@@ */
+	
+@media (max-width: 440px) {
+	
+
+/* BlacksmithModal */
+	
+.anvilBlacksmith{
+background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat left;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 0.5vw rgb(255, 130, 58));
+cursor: pointer;
+height: 40%;
+width: 40%;
+position: absolute;
+top: 7%;
+left: 1%;
+}
+	   
+.blacksmithModal {
+width: 90%;
+height: 90%;
+background: rgb(30, 46, 70);
+position: absolute;
+font-family: "Pangolin";
+left: 5%;
+top: 1%;
+}
+	  
+/* MerchantModal */
+	  
+.scalesMerchants{
+background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat right;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1.5vw rgb(245, 231, 44));
+cursor: pointer;
+height: 40%;
+width: 40%;
+position: absolute;
+top: 7%;
+right: 1%;
+}
+		   
+.merchantsModal {
+width: 90%;
+height: 90%;
+background: rgb(30, 46, 70);
+padding: 0;
+position: fixed;
+left: 5%;
+top: 1%;
+font-family: "Pangolin";
+}
+
+/* OverallContentModal */
+	  
+.imageHeadGuilds{
+width: 38vw;
+height: 38vw;
+margin: 2vw;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+		
+.imageMemberGuilds1{
+width: 28vw;
+height: 28vw;
+margin: 2vw;
+position: absolute;
+top: 36%;
+left: 50%;
+transform: translateX(-50%);
+}
+	  
+.imageMemberGuilds2{
+width: 28vw;
+height: 28vw;
+margin: 2vw;
+position: absolute;
+top: 66%;
+left: 50%;
+transform: translateX(-50%);
+}
+	  
+.contentModal1 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 24%;
+transform: translateX(-50%);
+padding-left: 5%;
+font-size: 3vw;
+text-align: center;
+font-weight: bolder; 
+}
+	  
+.contentModal1 span {
+width: 90%;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 28%;
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+	  
+.contentModal2 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 54%;
+transform: translateX(-50%);
+padding-left: 5%;
+font-size: 3vw;
+text-align: center;
+font-weight: bolder; 
+}
+		
+.contentModal2 span {
+width: 90%;
+position: absolute;
+left: 50%;
+top: 58%;
+transform: translateX(-50%);
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+	   
+.contentModal3 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 83%;
+transform: translateX(-50%);
+font-size: 3vw;
+padding-left: 5%;
+text-align: center;
+font-weight: bolder; 
+}
+	  
+.contentModal3 span {
+width: 90%;
+position: absolute;
+left: 50%;
+top: 87%;
+transform: translateX(-50%);
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+			  
+.closeModal{
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 100%;
+height: 6vw;
+font-size: 4vw;
+border:solid black 0.2vw;
+font-family: "Pangolin";
+}
+		
+.closeModal:hover{
+opacity: 0.7;
+}
+		
+/* OverallGuilds */
+	    
+.guildsLists {
+height: 50%;
+text-align: center;
+justify-content: space-between;
+color: rgb(247,189,0); 
+font-size: 7vw;
+} 
+	  
+.titleBlacksmith{
+width: 30%;
+position: absolute;
+top: 4%;
+left: 6%;
+}
+	  
+.titleMerchants{
+position: absolute;
+top: 4%;
+right: 11%;
+}
+	  
+.blueTriangleGuilds1{
+position: absolute;
+left: 0;
+top: 5%;
+width: 47%;
+height: 45%;  
+transform: scaleY(-1);
+}
+	  
+.blueTriangleGuilds2{
+position: absolute;
+right: 0;
+top: 5%;
+width: 47%;
+height: 45%;  
+transform: scaleX(-1) scaleY(-1);
+}
+	  
+.guilds .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+border-top: solid rgb(247,189,0) 1vw;
+text-align: center;
+font-size: 9vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}   
+}
+	
+@media (min-width: 441px) and (max-width: 700px) {
+
+/* BlacksmithModal */
+	
+.anvilBlacksmith{
+background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat left;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1.5vw rgb(255, 130, 58));
+cursor: pointer;
+height: 35%;
+width: 35%;
+position: absolute;
+top: 15%;
+left: 1%;
+}
+		   
+.blacksmithModal {
+width: 90%;
+height: 98%;
+background: rgb(30, 46, 70);
+position: absolute;
+font-family: "Pangolin";
+left: 5%;
+top: 1%;
+}
+		  
+/* MerchantModal */
+		  
+.scalesMerchants{
+background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat right;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1.5vw rgb(245, 231, 44));
+cursor: pointer;
+height: 35%;
+width: 35%;
+position: absolute;
+top: 15%;
+right: 1%;
+}
+			   
+.merchantsModal {
+width: 90%;
+height: 98%;
+background: rgb(30, 46, 70);
+padding: 0;
+position: fixed;
+left: 5%;
+top: 1%;
+font-family: "Pangolin";
+}
+	
+/* OverallContentModal */
+		  
+.imageHeadGuilds{
+width: 35vw;
+height: 35vw;
+margin: 1vw;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+			
+.imageMemberGuilds1{
+width: 26vw;
+height: 26vw;
+margin: 1vw;
+position: absolute;
+top: 36%;
+left: 50%;
+transform: translateX(-50%);
+}
+		  
+.imageMemberGuilds2{
+width: 26vw;
+height: 26vw;
+margin: 1vw;
+position: absolute;
+top: 66%;
+left: 50%;
+transform: translateX(-50%);
+}
+		  
+.contentModal1 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 22%;
+transform: translateX(-50%);
+font-size: 3.5vw;
+text-align: center;
+font-weight: bolder; 
+}
+		  
+.contentModal1 span {
+width: 96%;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 27%;
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+		  
+.contentModal2 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 52%;
+transform: translateX(-50%);
+font-size: 3.5vw;
+text-align: center;
+font-weight: bolder; 
+}
+			
+.contentModal2 span {
+width: 96%;
+position: absolute;
+left: 50%;
+top: 57%;
+transform: translateX(-50%);
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+		   
+.contentModal3 h3 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 82%;
+transform: translateX(-50%);
+font-size: 3.5vw;
+text-align: center;
+font-weight: bolder; 
+}
+		  
+.contentModal3 span {
+width: 96%;
+position: absolute;
+left: 50%;
+top: 87%;
+transform: translateX(-50%);
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+				  
+.closeModal{
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 100%;
+height: 5vw;
+font-size: 3.7vw;
+border:solid black 0.2vw;
+font-family: "Pangolin";
+}
+			
+.closeModal:hover{
+opacity: 0.7;
+}
+			
+/* OverallGuilds */
+		  
+.guildsLists {
+height: 50%;
+text-align: center;
+justify-content: space-between;
+color: rgb(247,189,0); 
+font-size: 7vw;
+} 
+		  
+.titleBlacksmith{
+width: 30%;
+position: absolute;
+top: 4%;
+left: 3%;
+}
+		  
+.titleMerchants{
+position: absolute;
+top: 4%;
+right: 9%;
+}
+		  
+.blueTriangleGuilds1{
+position: absolute;
+left: 0;
+top: 4%;
+width: 47%;
+height: 45%;  
+transform: scaleX(-1) scaleY(-1);
+}
+		  
+.blueTriangleGuilds2{
+position: absolute;
+right: 0;
+top: 4%;
+width: 47%;
+height: 45%;  
+transform: scaleY(-1);
+}
+		  
+.guilds .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.7vw;
+border-top: solid rgb(247,189,0) 0.7vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}   	
+}
+	
+@media (min-width: 701px) and (max-width: 1050px ) {
+
+/* BlacksmithModal */
+	
+.anvilBlacksmith{
+background: url(../../../images/Dwarves/Guilds/AnvilBlacksmith.webp) no-repeat left;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1.5vw rgb(255, 130, 58));
+cursor: pointer;
+height: 30%;
+width: 30%;
+position: absolute;
+top: 17%;
+left: 5%;
+}
+		   
+.blacksmithModal {
+width: 90%;
+height: 80%;
+background: rgb(30, 46, 70);
+position: absolute;
+font-family: "Pangolin";
+left: 5%;
+top: 10%;
+}
+		  
+/* MerchantModal */
+		  
+.iconsHuntersModalCommunity{
+background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat right;
+background-size: contain;
+border: none;
+filter: drop-shadow(0 0 1.5vw rgb(245, 231, 44));
+cursor: pointer;
+height: 30%;
+width: 30%;
+position: absolute;
+top: 17%;
+right: 5%;
+}
+			   
+.merchantsModal {
+width: 90%;
+height: 80%;
+background: rgb(30, 46, 70);
+padding: 0;
+position: fixed;
+left: 5%;
+top: 10;
+font-family: "Pangolin";
+}
+	
+/* OverallContentModal */
+		  
+.imageHeadGuilds{
+width: 35vw;
+height: 35vw;
+margin: 1vw;
+position: absolute;
+top: 0;
+left: 0;
+}
+			
+.imageMemberGuilds1{
+width: 26vw;
+height: 26vw;
+margin: 1vw;
+position: absolute;
+top: 35%;
+left: 0;
+}
+		  
+.imageMemberGuilds2{
+width: 26vw;
+height: 26vw;
+margin: 1vw;
+position: absolute;
+top: 62%;
+left: 0;	
+}
+		  
+.contentModal1 h3 {
+width: 60%;
+position: absolute;
+left: 40%;
+top: 0;
+font-size: 3.1vw;
+text-align: center;
+font-weight: bolder; 
+}
+		  
+.contentModal1 span {
+width: 55%;
+position: absolute;
+left: 42%;
+top: 7%;
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+		  
+.contentModal2 h3 {
+width: 60%;
+position: absolute;
+left: 35%;
+top: 34%;
+font-size: 3.1vw;
+text-align: center;
+font-weight: bolder; 
+}
+			
+.contentModal2 span {
+width: 67%;
+position: absolute;
+left: 32%;
+top: 41%;
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+		   
+.contentModal3 h3 {
+width: 60%;
+position: absolute;
+left: 35%;
+top: 61%;
+font-size: 3.1vw;
+text-align: center;
+font-weight: bolder; 
+}
+		  
+.contentModal3 span {
+width: 67%;
+position: absolute;
+left: 32%;
+top: 68%;
+font-size: 2.7vw;
+color: rgb(189, 189, 189);
+text-align: center;
+}
+				  
+.closeModal{
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 100%;
+height: 8vw;
+font-size: 4vw;
+border:solid black 0.2vw;
+font-family: "Pangolin";
+}
+			
+.closeModal:hover{
+opacity: 0.7;
+}
+			
+/* OverallGuilds */
+		  	  
+.guildsLists {
+height: 50%;
+text-align: center;
+justify-content: space-between;
+color: rgb(247,189,0); 
+font-size: 6vw;
+} 
+		  
+.titleBlacksmith{
+width: 30%;
+position: absolute;
+top: 4%;
+left: 5%;
+}
+		  
+.titleMerchants{
+position: absolute;
+top: 4%;
+right: 12%;
+}
+		  
+.blueTriangleGuilds1{
+position: absolute;
+left: 0;
+top: 5%;
+width: 47%;
+height: 45%;  
+transform: scaleX(-1) scaleY(-1);
+}
+		  
+.blueTriangleGuilds2{
+position: absolute;
+right: 0;
+top: 5%;
+width: 47%;
+height: 45%;  
+transform: scaleY(-1);
+}
+		  
+.guilds .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.5vw;
+border-top: solid rgb(247,189,0) 0.5vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}   
+}
+	
+/* @@@HistoryDwarvesMedia@@@ */
+	
+@media (max-width: 440px) {
+	
+/* -----Accordion----- */
+	
+.historyDwarves{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+}
+	  
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(247,189,0);
+border-bottom: 0.3vw solid rgb(247,189,0);
+}
+	  
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+	  
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(30, 46, 70);
+border-top: solid 0.3vw rgb(247,189,0);
+border-bottom: solid 0.3vw rgb(247,189,0);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(247,189,0);
+font-family: "Pangolin";
+}
+	  
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+	  
+/* -----History----- */
+	  
+.imageHistory {
+width: 100%;
+background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+	  
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(247,189,0) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+	  
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+	  
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+background: rgb(30, 46, 70);
+}
+	  
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+	  
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+	  
+.kingDwarves{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+	  
+.dwarvesKingdom{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+	  
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+background: rgb(189, 189, 189);
+filter: drop-shadow( 0 0 0vw rgb(30, 46, 70));
+border: solid rgb(30, 46, 70) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: black;
+}
+	  
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+	  
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+	  
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+	  
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+	
+.historyDwarves .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+border-top: solid rgb(247,189,0) 1vw;
+text-align: center;
+font-size: 9vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}
+}
+	
+@media (min-width: 441px) and (max-width: 700px) {
+	
+/* -----Accordion----- */
+	
+.historyDwarves{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+}
+		
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(247,189,0);
+border-bottom: 0.3vw solid rgb(247,189,0);
+}
+		
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+	
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(30, 46, 70);
+border-top: solid 0.3vw rgb(247,189,0);
+border-bottom: solid 0.3vw rgb(247,189,0);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(247,189,0);
+font-family: "Pangolin";
+}
+		
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+		
+/* -----History----- */
+		
+.imageHistory {
+width: 100%;
+background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+		
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(247,189,0) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+		
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+		
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+background: rgb(30, 46, 70);
+}
+		
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+		
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+		
+.kingDwarves{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+		
+.kingDwarves{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+		
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+filter: drop-shadow( 0 0 0vw rgb(30, 46, 70));
+background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: black;
+}
+		
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+		
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+		
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+		
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+	
+.historyDwarves .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.7vw;
+border-top: solid rgb(247,189,0) 0.7vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}
+}
+	
+@media (min-width: 701px) and (max-width: 1050px) {
+	
+/* -----Accordion----- */
+	
+.historyOrcs{
+position: absolute;
+width: 100%;
+height: 220vw;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 1vw;
+}
+		  
+.accordion {
+position: relative;
+width: 100%;
+list-style: none;
+margin: 0;
+padding: 0;
+background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
+background-size: contain;
+background-size: 17%;
+background-color: grey;
+border-top: 0.3vw solid rgb(247,189,0);
+border-bottom: 0.3vw solid rgb(247,189,0);
+}
+		  
+.accordionItemTitle {
+width: 100%;
+margin: 0;
+}
+		  
+.accordionItemBtn {
+position: relative;
+align-items: center;
+width: 100%;
+height: 10vw;
+background:	rgb(30, 46, 70);
+border-top: solid 0.3vw rgb(247,189,0);
+border-bottom: solid 0.3vw rgb(247,189,0);
+padding: 1vw 2vw;
+font-size: 6vw;
+cursor: pointer;
+user-select: none;
+color: rgb(247,189,0);
+font-family: "Pangolin";
+}
+	  
+.accordionItemContainer {
+transition: height 0.5s ease-in-out;
+overflow: hidden;
+position: relative;
+}
+		  
+/* -----History----- */
+		  
+.imageHistory {
+width: 100%;
+background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
+background-size: 100%;
+position: absolute;
+top: 5%;
+}
+		  
+.titleHistory{
+display: flex;
+font-family: "Rakkas", serif;
+color:  black;
+align-items: center;
+justify-content: center;
+-webkit-text-stroke: rgb(247,189,0) 0.1vw;
+font-size: 5.5vw;
+width: 100%;
+height: 50%;
+}
+		  
+.titleHistory h1{
+width: 100%;
+text-align: center;
+}
+		  
+.banner{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw;
+height: 110vw;
+filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+background: rgb(30, 46, 70);
+	}
+		  
+.accordionItemContent{
+position: absolute;
+height: 80vw;
+width: 100vw;
+}
+		  
+.pictures{
+display: flex;
+justify-content: space-between;
+}
+		  
+.kingDwarves{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+left: -3;
+}
+		  
+.dwarvesKingdom{
+width: 45vw;
+height: 45vw;
+position: absolute;
+top: -3%;
+right: -3%;
+}
+		  
+.contentScroll{
+width: 94%;
+height: 80%;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translateX(-50%);
+filter: drop-shadow( 0 0 0vw black);
+background: rgb(189, 189, 189);
+border: solid rgb(30, 46, 70) 4vw;
+font-family: "Pangolin";
+font-size: 3vw;
+color: black;
+}
+		  
+.contentScroll h2 {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translateX(-50%);
+}
+		  
+.contentScroll p{
+font-size: 2.8vw;
+position: absolute;
+left: 50%;
+top: 15%;
+width: 96%;
+transform: translateX(-50%);
+}
+		  
+.pictureLeft{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+left: -1%;
+top: -1%;
+}
+		  
+.pictureRight{
+width: 48%;
+margin: 0;
+padding: 0;
+position: absolute;
+right: -1%;
+top: -1%;
+}
+	
+.historyDwarves .buttons{
+width: 100%;
+background: rgb(30, 46, 70);
+border-bottom: solid rgb(247,189,0) 0.5vw;
+border-top: solid rgb(247,189,0) 0.5vw;
+text-align: center;
+font-size: 7vw;
+font-family: "Rakkas";
+justify-content: space-between; 
+position: absolute;
+z-index: 9999;
+color: rgb(247,189,0);
+-webkit-text-stroke: 0.1vw black;
+}
+}
+	

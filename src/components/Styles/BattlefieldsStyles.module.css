@@ -1029,14 +1029,23 @@ color: black;
   /* -----OverallBattlefield----- */
 
   .damageMultiplier{
-    width: 8%;
-    height: 11%;
+    width: 9vw;
+    height: 9vw;
     border: black solid 0.3vw;
     background: rgb(189, 189, 189);
     position: absolute;
     top: 13%;
     right: 1%;
 }
+
+.damageMultiplier p{
+    font-size: 1.5vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
 
 .titleSkilsMultiplier{
     font-size: 1.1vw ;
@@ -1388,6 +1397,7 @@ border: black solid 0.3vw;
 .textMessageCrossbowman h2{
 font-size: 5vw;
 color: rgb(30, 46, 70);
+text-align: center;
 }
     
 .textMessageCrossbowman p{
@@ -1412,6 +1422,7 @@ border: black solid 0.3vw;
 .textMessageOrcs h2{
 font-size: 5vw;
 color: rgb(30, 46, 70);
+text-align: center;
 }
 
 
@@ -1639,6 +1650,7 @@ border: black solid 0.3vw;
 .textMessageSpearThrower h2{
 font-size: 5vw;
 color: rgb(4, 27, 1);
+text-align: center;
 }
     
 .textMessageSpearThrower p{
@@ -1664,6 +1676,7 @@ color: rgb(4, 27, 1);
 .textMessageDwarves h2{
 font-size: 5vw;
 color: rgb(4, 27, 1);
+text-align: center;
 }
     
 .textMessageDwarves p{
@@ -2350,10 +2363,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageCrossbowman h2{
+    font-size: 5vw;
     color: rgb(30, 46, 70);
+    text-align: center;
     }
         
-    .textMessageCrossbowman span{
+    .textMessageCrossbowman p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -2370,10 +2388,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageOrcs h2{
+    font-size: 5vw;
     color: rgb(30, 46, 70);
+    text-align: center;
     }
         
-    .textMessageOrcs span{
+    .textMessageOrcs p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -2592,10 +2615,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageSpearThrower h2{
+    font-size: 5vw;
     color: rgb(4, 27, 1);
+    text-align: center;
     }
         
-    .textMessageSpearThrower span{
+    .textMessageSpearThrower p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -2612,10 +2640,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
-    color: rgb(4, 27, 1);
     }
         
-    .textMessageDwarves span{
+    .textMessageDwarves h2{
+    font-size: 5vw;
+    color: rgb(4, 27, 1);
+    text-align: center;
+    }
+
+    .textMessageDwarves p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -2853,8 +2886,8 @@ font-family: "Pangolin";
     /* -----OverallBattlefields----- */
         
     .damageMultiplier{
-    width: 20%;
-    height: 10%;
+    width: 25vw;
+    height: 20vw;
     border: black solid 0.3vw;
     background: rgb(189, 189, 189);
     font-size: 10vw;
@@ -2862,6 +2895,15 @@ font-family: "Pangolin";
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
+    }
+
+    .damageMultiplier p{
+    font-size: 3vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     }
             
     progress {
@@ -2941,7 +2983,7 @@ font-family: "Pangolin";
     }
             
     .modalRules{
-    width: 80%;
+    width: 90%;
     height: 98%;
     position: absolute;
     top: 1%;
@@ -2978,7 +3020,7 @@ font-family: "Pangolin";
     .ruleOrcs p{
     position: absolute;
     left: 15%;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     margin: 2%;
     color: rgb(180, 60, 20);
     width: 80%;
@@ -2988,7 +3030,7 @@ font-family: "Pangolin";
     .ruleDwarves p{
     position: absolute;
     left: 15%;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     margin: 2%;
     color: rgb(247,189,0);
     width: 80%;
@@ -3289,10 +3331,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
-    color: rgb(30, 46, 70);
     }
         
-    .textMessageCrossbowman span{
+    .textMessageCrossbowman h2{
+    font-size: 5vw;
+    color: rgb(30, 46, 70);
+    text-align: center;
+    }
+
+    .textMessageCrossbowman p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -3309,10 +3356,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageOrcs h2{
+    font-size: 5vw;
     color: rgb(30, 46, 70);
+    text-align: center;
     }
         
-    .textMessageOrcs span{
+    .textMessageOrcs p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -3531,10 +3583,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageSpearThrower h2{
+    font-size: 5vw;
     color: rgb(4, 27, 1);
+    text-align: center;
     }
         
-    .textMessageSpearThrower span{
+    .textMessageSpearThrower p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -3551,10 +3608,15 @@ font-family: "Pangolin";
     transform: translateX(-50%);
     font-family: "Pangolin";
     border: black solid 0.3vw;
+    }
+
+    .textMessageDwarves h2{
+    font-size: 5vw;
     color: rgb(4, 27, 1);
+    text-align: center;   
     }
         
-    .textMessageDwarves span{
+    .textMessageDwarves p{
     font-size: 3.5vw;
     font-weight: bold;
     text-align: center;
@@ -3792,8 +3854,8 @@ font-family: "Pangolin";
     /* -----OverallBattlefields----- */
         
     .damageMultiplier{
-    width: 20%;
-    height: 10%;
+    width: 25vw;
+    height: 20vw;
     border: black solid 0.3vw;
     background: rgb(189, 189, 189);
     font-size: 10vw;
@@ -3801,6 +3863,15 @@ font-family: "Pangolin";
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
+    }
+
+    .damageMultiplier p{
+    font-size: 3vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     }
             
     progress {

@@ -46,7 +46,7 @@ const Rules = (
         </div>
         <div className={classes.ruleDwarves}>
             <img className={classes.imgRules} src={FrozenGround} alt="Мёрзлая земля"/>
-            <p>Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам если находится в снегах, иначе даёт её на 3 раунда.</p>
+            <p>Мёрзлая земля - даёт постоянную неуязвимость к обычным атакам в снегах, иначе даёт её на 3 раунда.</p>
         </div>
         <div className={classes.ruleDwarves}>
         <img className={classes.imgRules} src={BearHug} alt="Объятия севера"/>
@@ -72,7 +72,7 @@ const Rules = (
         </div>
         <div className={classes.ruleOrcs}> 
             <img className={classes.imgRules} src={Ferocity} alt="Свирепость орка"/>
-            <p>Свирепость орка - даёт постоянную неуязвимость к обычным атакам если находится в лесах, иначе увеличивает урон от обычных атак на три раунда.</p>
+            <p>Свирепость орка - даёт постоянную неуязвимость к обычным атакам в лесах, иначе увеличивает урон от обычных атак на 3 раунда.</p>
         </div>
         <div className={classes.ruleOrcs}> 
             <img className={classes.imgRules} src={Log} alt="Орочьи колы"/>

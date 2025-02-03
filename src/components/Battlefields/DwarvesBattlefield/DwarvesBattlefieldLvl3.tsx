@@ -120,7 +120,7 @@ export const DwarvesBattlefieldLvl3 = () => {
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 1320 && orcHealth >= 900 && damageMultiplier !== null) {
+        else if (orcHealth <= 1320 && orcHealth >= 320 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)    
         }
         
@@ -148,7 +148,7 @@ export const DwarvesBattlefieldLvl3 = () => {
             
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 1840 && orcHealth >= 1680 && damageMultiplier !== null) {
+        else if (orcHealth <= 1840 && orcHealth >= 840 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
 
@@ -162,7 +162,7 @@ export const DwarvesBattlefieldLvl3 = () => {
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 2520 && orcHealth >= 2100 && damageMultiplier !== null) {
+        else if (orcHealth <= 2520 && orcHealth >= 1520 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)    
         }
 
@@ -189,7 +189,7 @@ export const DwarvesBattlefieldLvl3 = () => {
             }, 100) 
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 3440 && orcHealth >= 3280 && damageMultiplier !== null) {
+        else if (orcHealth <= 3440 && orcHealth >= 2440 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
         if (orcHealth <= 3600 && orcHealth >= 3440 && damageMultiplier !== null) {

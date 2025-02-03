@@ -161,13 +161,13 @@ export const DwarvesBattlefieldLvl4 = () => {
             setShowMessage3(true);
         }    
 
-        if (orcHealth <= 2000 && orcHealth >= 1840 && damageMultiplier !== null) {
+        if (orcHealth <= 2000 && orcHealth >= 1860 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth + 10)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 1840 && orcHealth >= 1000 && damageMultiplier !== null) {
+        else if (orcHealth <= 1860 && orcHealth >= 260 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)    
         }
         
@@ -195,7 +195,7 @@ export const DwarvesBattlefieldLvl4 = () => {
             
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 3600 && orcHealth >= 3280 && damageMultiplier !== null) {
+        else if (orcHealth <= 3600 && orcHealth >= 2000 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
 
@@ -203,13 +203,13 @@ export const DwarvesBattlefieldLvl4 = () => {
             setShowMessage2(true)
         }
 
-        if (orcHealth <= 5000 && orcHealth >= 4840 && damageMultiplier !== null) {
+        if (orcHealth <= 5000 && orcHealth >= 4860 && damageMultiplier !== null) {
             setTimeout(() => {
                 setOrcHealth(orcHealth + 10)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 4840 && orcHealth >= 4000 && damageMultiplier !== null) {
+        else if (orcHealth <= 4860 && orcHealth >= 3260 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)    
         }
 
@@ -236,7 +236,7 @@ export const DwarvesBattlefieldLvl4 = () => {
             }, 100) 
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 6600 && orcHealth >= 6280 && damageMultiplier !== null) {
+        else if (orcHealth <= 6600 && orcHealth >= 5000 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
         if (orcHealth <= 7000 && orcHealth >= 6840 && damageMultiplier !== null) {

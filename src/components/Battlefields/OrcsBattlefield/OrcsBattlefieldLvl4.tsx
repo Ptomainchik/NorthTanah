@@ -162,11 +162,11 @@ export const OrcsBattlefieldLvl4 = () => {
             setShowMessage3(true)
         } 
 
-        if (dwarfHealth <= 2000 && dwarfHealth >= 1720 && damageMultiplier !== null) {
+        if (dwarfHealth <= 2000 && dwarfHealth >= 1740 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(true)
             setFrozenGroundActive(true)
         }
-        else if (dwarfHealth <= 1720 && dwarfHealth >= 1000 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1740 && dwarfHealth >= 140 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(false)   
             setFrozenGroundActive(false) 
         }
@@ -188,7 +188,7 @@ export const OrcsBattlefieldLvl4 = () => {
             }, 100) 
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 3600 && dwarfHealth >= 3280 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 3600 && dwarfHealth >= 2000 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         }
 
@@ -196,11 +196,11 @@ export const OrcsBattlefieldLvl4 = () => {
             setShowMessage2(true)
         }
 
-        if (dwarfHealth <= 5000 && dwarfHealth >= 4720 && damageMultiplier !== null) {
+        if (dwarfHealth <= 5000 && dwarfHealth >= 4740 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(true)
             setFrozenGroundActive(true)
         } 
-        else if (dwarfHealth <= 4720 && dwarfHealth >= 4000 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 4740 && dwarfHealth >= 3140 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(false)
             setFrozenGroundActive(false)
         } 
@@ -222,7 +222,7 @@ export const OrcsBattlefieldLvl4 = () => {
             }, 100)
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 6600 && dwarfHealth >= 6280 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 6600 && dwarfHealth >= 5000 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         } 
         if (dwarfHealth <= 7000 && dwarfHealth >= 6840 && damageMultiplier !== null) {

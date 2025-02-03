@@ -74,7 +74,7 @@ export const DwarvesBattlefieldLvl1 = () => {
             setShowMessage2(true)
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 480 && orcHealth >= 410 && damageMultiplier !== null) {
+        else if (orcHealth <= 480 && orcHealth >= 230 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
        
@@ -85,7 +85,7 @@ export const DwarvesBattlefieldLvl1 = () => {
             setShowMessage(true)
             setShowSkilContagiousBiteImg(true)
         }
-        else if (orcHealth <= 780 && orcHealth >= 720 && damageMultiplier !== null) {
+        else if (orcHealth <= 780 && orcHealth >= 530 && damageMultiplier !== null) {
             setShowSkilContagiousBiteImg(false)
         } 
         if (orcHealth < 10){

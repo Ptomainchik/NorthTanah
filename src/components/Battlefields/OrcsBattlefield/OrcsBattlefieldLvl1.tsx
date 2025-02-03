@@ -74,7 +74,7 @@ export const OrcsBattlefieldLvl1 = () => {
             setShowMessage2(true)
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 480 && dwarfHealth >= 410 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 480 && dwarfHealth >= 230 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         } 
        
@@ -85,7 +85,7 @@ export const OrcsBattlefieldLvl1 = () => {
             setShowMessage(true)
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 780 && dwarfHealth >= 720 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 780 && dwarfHealth >= 530 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         } 
         if (dwarfHealth < 10){

@@ -94,7 +94,7 @@ export const OrcsBattlefieldLvl2 = () => {
             setShowSkilFrozenGroundImg(true)
             setFrozenGroundActive(true)
         }
-        else if (dwarfHealth <= 700 && dwarfHealth >= 500 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 700 && dwarfHealth >= 200 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(false)
             setFrozenGroundActive(false)    
         }
@@ -104,7 +104,7 @@ export const OrcsBattlefieldLvl2 = () => {
             }, 100) 
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 920 && dwarfHealth >= 800 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 920 && dwarfHealth >= 420 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         }
         if (dwarfHealth <= 1000 && dwarfHealth >= 960 && damageMultiplier !== null) {
@@ -124,7 +124,7 @@ export const OrcsBattlefieldLvl2 = () => {
             }, 100)
             setShowSkilAngryDwarfImg(true)
         }
-        else if (dwarfHealth <= 1720 && dwarfHealth >= 1600 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1720 && dwarfHealth >= 1120 && damageMultiplier !== null) {
             setShowSkilAngryDwarfImg(false)
         } 
         if (dwarfHealth <= 1800 && dwarfHealth >= 1760 && damageMultiplier !== null) {

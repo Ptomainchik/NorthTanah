@@ -48,7 +48,7 @@ export const DwarvesBattlefieldLvl3 = () => {
         if (angryDwarf === -1) { 
         } else {
             setAngryDwarf( -1);
-            setOrcHealth(orcHealth - 100);
+            setOrcHealth(orcHealth - 110);
             setShowSkilAngryDwarfImg(false);
             return
         }
@@ -280,7 +280,7 @@ export const DwarvesBattlefieldLvl3 = () => {
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
-                    {damageMultiplier}x
+                    {damageMultiplier}x <p>Множитель урона</p>
             </div>
         </div>
     );

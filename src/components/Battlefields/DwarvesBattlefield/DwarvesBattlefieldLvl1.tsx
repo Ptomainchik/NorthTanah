@@ -160,7 +160,7 @@ export const DwarvesBattlefieldLvl1 = () => {
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
-                    {damageMultiplier}x
+                    {damageMultiplier}x <p>Множитель урона</p>
             </div>
         </div>
     );

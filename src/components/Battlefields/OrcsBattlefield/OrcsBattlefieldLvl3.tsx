@@ -266,7 +266,7 @@ export const OrcsBattlefieldLvl3 = () => {
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
-                    {damageMultiplier}x
+                    {damageMultiplier}x <p>Множитель урона</p>
             </div>
         </div>
     );

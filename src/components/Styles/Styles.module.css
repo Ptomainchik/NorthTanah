@@ -153,9 +153,140 @@ filter: drop-shadow(0 0 1.7vw rgb(4, 27, 1));
 	}
 }
 
+/* -----OverallButtons----- */
+
+.homeButton{
+background: url(../../images/Other/Tower.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 4vw;
+height: 4vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+float: left;
+margin: 0.5vw 0 0 1vw;
+}
+	
+.homeButton:hover{
+opacity: 0.8;
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
+}
+	
+.backButton{
+background: url(../../images/Other/Arrow.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 4vw;
+height: 4vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+float: right;
+margin: 0.5vw 1vw 0 0;
+}
+	
+.backButton:hover{
+opacity: 0.8;
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
+}
+	
+.restartButton{
+background: url(../../images/Other/Hourglass.webp);
+background-size: cover;
+position: absolute;
+top: 0;
+right: 0;
+width: 4vw;
+height: 4vw;
+border: none;
+filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
+float: right;
+margin: 0.5vw 1vw 0 0;
+}
+	
+.restartButton:hover{
+opacity: 0.8;
+filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
+}
+	
+.restartLevelButton{
+width: 9vw;
+height: 9vw;
+margin: 0;
+background: url(../../images/Other/Hourglass.webp) no-repeat;
+background-size: cover;
+border: none;
+}
+	
+.restartLevelButton:hover{
+filter: drop-shadow(0.1vw 0.1vw 1.3vw #a12435); 
+opacity: 0.8;
+}
+	
+.nextLevelButton{
+background: url(../../images/Other/Arrow.webp) no-repeat;
+background-size: cover;
+transform: scaleX(-1);
+width: 9vw;
+height: 9vw;
+margin: 0;
+border: none;
+}
+	
+.nextLevelButton:hover{
+filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
+opacity: 0.8;
+}
+	
+.homeButtonVictory{
+background: url(../../images/Other/Tower.webp) no-repeat;
+background-size: cover;
+width: 9vw;
+height: 9vw;
+margin: 0;
+border: none;
+}
+	
+.homeButtonVictory:hover{
+filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
+opacity: 0.8;
+}
+	
+.errorPage{
+background: rgb(51, 51, 51);
+height:100%;
+width: 100%;
+position: fixed  ;
+}
+	
+.buttonErr{
+background: rgb(51, 51, 51);
+border-top: solid #a12435 0.4vw;
+border-bottom: solid #a12435 0.4vw;
+text-align: center;
+font-family: "Rakkas";
+font-size: 3.5vw;
+display: flex;
+justify-content: space-between; 
+position: relative; 
+}
+	
+.error{
+width: 30%;
+height: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 10%;
+}
+	
+
 /* HomePageMedia */
 
-@media (min-width: 701px) and (max-width: 1050px) {
+@media (min-width: 769px) and (max-width: 1050px) {
 
 .choiceTitle{
 position: absolute;
@@ -323,7 +454,7 @@ border: none;
 	}
 }
 
-@media (min-width: 441px) and (max-width: 700px) {
+@media (min-width: 441px) and (max-width: 768px) {
 
 .choiceTitle{
 position: absolute;
@@ -657,134 +788,4 @@ transform: translateX(-50%);
 width: 50vw;
 height: 50vw;
 }
-}
-
-/* -----OverallButtons----- */
-
-.homeButton{
-background: url(../../images/Other/Tower.webp);
-background-size: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 4vw;
-height: 4vw;
-border: none;
-filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
-float: left;
-margin: 0.5vw 0 0 1vw;
-}
-
-.homeButton:hover{
-opacity: 0.8;
-filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
-}
-
-.backButton{
-background: url(../../images/Other/Arrow.webp);
-background-size: cover;
-position: absolute;
-top: 0;
-right: 0;
-width: 4vw;
-height: 4vw;
-border: none;
-filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
-float: right;
-margin: 0.5vw 1vw 0 0;
-}
-
-.backButton:hover{
-opacity: 0.8;
-filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
-}
-
-.restartButton{
-background: url(../../images/Other/Hourglass.webp);
-background-size: cover;
-position: absolute;
-top: 0;
-right: 0;
-width: 4vw;
-height: 4vw;
-border: none;
-filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
-float: right;
-margin: 0.5vw 1vw 0 0;
-}
-
-.restartButton:hover{
-opacity: 0.8;
-filter: drop-shadow(0 0 1.3vw rgb(201, 201, 201));
-}
-
-.restartLevelButton{
-width: 9vw;
-height: 9vw;
-margin: 0;
-background: url(../../images/Other/Hourglass.webp) no-repeat;
-background-size: cover;
-border: none;
-}
-
-.restartLevelButton:hover{
-filter: drop-shadow(0.1vw 0.1vw 1.3vw #a12435); 
-opacity: 0.8;
-}
-
-.nextLevelButton{
-background: url(../../images/Other/Arrow.webp) no-repeat;
-background-size: cover;
-transform: scaleX(-1);
-width: 9vw;
-height: 9vw;
-margin: 0;
-border: none;
-}
-
-.nextLevelButton:hover{
-filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
-opacity: 0.8;
-}
-
-.homeButtonVictory{
-background: url(../../images/Other/Tower.webp) no-repeat;
-background-size: cover;
-width: 9vw;
-height: 9vw;
-margin: 0;
-border: none;
-}
-
-.homeButtonVictory:hover{
-filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
-opacity: 0.8;
-}
-
-.errorPage{
-background: rgb(51, 51, 51);
-height:100%;
-width: 100%;
-position: fixed  ;
-}
-
-.buttonErr{
-background: rgb(51, 51, 51);
-border-top: solid #a12435 0.4vw;
-border-bottom: solid #a12435 0.4vw;
-text-align: center;
-font-family: "Rakkas";
-font-size: 3.5vw;
-display: flex;
-justify-content: space-between; 
-position: relative; 
-}
-
-.error{
-width: 30%;
-height: 50%;
-display: block;
-margin-left: auto;
-margin-right: auto; 
-margin-top: 10%;
 }

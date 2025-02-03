@@ -53,7 +53,7 @@ export const DwarvesBattlefieldLvl4 = () => {
         if (angryDwarf === -1) { 
         } else {
             setAngryDwarf( -1);
-            setOrcHealth(orcHealth - 160);
+            setOrcHealth(orcHealth - 170);
             setShowSkilAngryDwarfImg(false);
             return
         }
@@ -281,7 +281,7 @@ export const DwarvesBattlefieldLvl4 = () => {
     useEffect(() => {
         const timeoutID = setTimeout(() => {
             setShowMessageCrossbowman(false)
-        }, 7000);
+        }, 3000);
 
         return () => clearTimeout(timeoutID)
     }, [showMessageCrossbowman])
@@ -346,7 +346,7 @@ export const DwarvesBattlefieldLvl4 = () => {
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
-                    {damageMultiplier}x
+                    {damageMultiplier}x <p>Множитель урона</p>
             </div>
         </div>
     );

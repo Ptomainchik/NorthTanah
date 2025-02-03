@@ -981,7 +981,7 @@ color: rgb(180, 60, 20);
 
 /* @@@CommunitiesPageMedia@@@ */
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
 /* SpiritCatchersModal */
 
@@ -1275,7 +1275,7 @@ color: rgb(180, 60, 20);
     }   
 }
 
-@media (min-width: 441px) and (max-width: 700px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
   .iconsGuardiansOfSpiritsModalCommunity{
     background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat left;
@@ -1578,7 +1578,7 @@ color: rgb(180, 60, 20);
 }  
 }
 
-@media (min-width: 701px) and (max-width: 1050px ) {
+@media (min-width: 769px) and (max-width: 1024px ) {
   
   .iconsGuardiansOfSpiritsModalCommunity{
     background: url(../../../images/Orcs/OrcCommunities/SpriritCatchers.webp) no-repeat left;
@@ -1873,7 +1873,7 @@ color: rgb(180, 60, 20);
 
 /* @@@HistoryOrcsMedia@@@ */
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
 /* -----Accordion----- */
 
@@ -2058,7 +2058,7 @@ color: rgb(180, 60, 20);
 
 }
 
-@media (min-width: 441px) and (max-width: 700px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
 /* -----Accordion----- */
 
@@ -2242,7 +2242,7 @@ color: rgb(180, 60, 20);
 }
 }
 
-@media (min-width: 701px) and (max-width: 1050px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
 /* -----Accordion----- */
 

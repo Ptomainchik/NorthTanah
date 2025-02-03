@@ -270,7 +270,7 @@ export const OrcsBattlefieldLvl4 = () => {
     useEffect(() => {
         const timeoutID = setTimeout(() => {
             setShowMessageSpearThrower(false)
-        }, 7000);
+        }, 3000);
 
         return () => clearTimeout(timeoutID)
     }, [showMessageSpearThrower])
@@ -336,7 +336,7 @@ export const OrcsBattlefieldLvl4 = () => {
                 </div>
             </div>
             <div className={classes.damageMultiplier}>
-                    {damageMultiplier}x
+                    {damageMultiplier}x <p>Множитель урона</p>
             </div>
         </div>
     );

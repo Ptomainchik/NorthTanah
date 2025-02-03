@@ -32,7 +32,7 @@ export const BlacksmithGuild = () => {
         <div>
             <div className={classes.contentModal1}>
                 <img title="Морей Хранитель" className={classes.imageHeadGuilds} src={HeadDwarfBlacksmithMorei} alt="Морей Хранитель" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
-                <h3 style={{color: "rgb(255, 130, 58)"}}>Морей Хранитель глава гильдии кузнецов.</h3>
+                <h3 style={{color: "rgb(255, 130, 58)"}}>Морей Хранитель - глава гильдии кузнецов.</h3>
                 <span>
                   Сколько ему лет не знает он и сам, но знания накопившиеся за всю жизнь в кузнечном ремесле он хранит до сих пор.
                   Стараясь не выдавать их своим же ученикам. Делая это порционно и лишь избранным. За что его и прозвали Хранителем.

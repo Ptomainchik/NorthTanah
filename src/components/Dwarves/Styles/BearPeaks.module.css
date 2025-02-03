@@ -186,12 +186,12 @@ animation-fill-mode: forwards;
 
 .blacksmithModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(30, 46, 70);
 font-family: "Pangolin";
 position: absolute;
 left: 20%;
-top:5%;
+top: 2%;
 }
 
 /* MerchantModal */
@@ -218,12 +218,12 @@ animation-fill-mode: forwards;
 
 .merchantsModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(30, 46, 70);
 position: absolute;
 font-family: "Pangolin";
 left: 20%;
-top:5%;
+top: 2%;
 }
 
 @keyframes  shifting {
@@ -631,7 +631,7 @@ left: 4%;
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
 font-family: "Rakkas", serif;
-width: 160%;
+width: 181%;
 margin-top: -10%;
 display: block; 
 color: rgb(247,189,0);
@@ -745,7 +745,7 @@ left: 4%;
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
 font-family: "Rakkas", serif;
-width: 147%;
+width: 164%;
 margin-top: -10%;
 color: rgb(247,189,0);
 -webkit-text-stroke: 0.1px  black;
@@ -842,7 +842,7 @@ border: solid rgb(30, 46, 70) 3vw;
 			   
 .story p {
 font-family: "Pangolin";
-font-size: 3.5vw;
+font-size: 3.4vw;
 font-weight: bold;
 color: black;
 }
@@ -901,7 +901,7 @@ height: 40%;
 width: 40%;
 position: absolute;
 top: 7%;
-left: 1%;
+left: 2%;
 }
 	   
 .blacksmithModal {
@@ -925,8 +925,8 @@ cursor: pointer;
 height: 40%;
 width: 40%;
 position: absolute;
-top: 7%;
-right: 1%;
+top: 6%;
+right: 2%;
 }
 		   
 .merchantsModal {
@@ -1064,7 +1064,7 @@ left: 6%;
 .titleMerchants{
 position: absolute;
 top: 4%;
-right: 8%;
+right: 9%;
 }
 	  
 .blueTriangleGuilds1{
@@ -1114,18 +1114,18 @@ cursor: pointer;
 height: 35%;
 width: 35%;
 position: absolute;
-top: 15%;
-left: 1%;
+top: 13%;
+left: 2%;
 }
 		   
 .blacksmithModal {
 width: 90%;
-height: 98%;
+height: 96%;
 background: rgb(30, 46, 70);
 position: absolute;
 font-family: "Pangolin";
 left: 5%;
-top: 1%;
+top: 2%;
 }
 		  
 /* MerchantModal */
@@ -1139,71 +1139,65 @@ cursor: pointer;
 height: 35%;
 width: 35%;
 position: absolute;
-top: 15%;
-right: 1%;
+top: 12%;
+right: 2%;
 }
 			   
 .merchantsModal {
 width: 90%;
-height: 98%;
+height: 96%;
 background: rgb(30, 46, 70);
 padding: 0;
 position: fixed;
 left: 5%;
-top: 1%;
+top: 2%;
 font-family: "Pangolin";
 }
 	
 /* OverallContentModal */
 		  
 .imageHeadGuilds{
-width: 35vw;
-height: 35vw;
+width: 33vw;
+height: 33vw;
 margin: 1vw;
 position: absolute;
-top: 0;
-left: 50%;
-transform: translateX(-50%);
+top:8%;
+left: 0;
 }
 			
 .imageMemberGuilds1{
-width: 26vw;
-height: 26vw;
-margin: 1vw;
+width: 28vw;
+height: 28vw;
+margin: 2vw;
 position: absolute;
-top: 36%;
-left: 50%;
-transform: translateX(-50%);
+top: 39%;
+left: 0;
 }
 		  
 .imageMemberGuilds2{
-width: 26vw;
-height: 26vw;
-margin: 1vw;
+width: 28vw;
+height: 28vw;
+margin: 2vw;
 position: absolute;
-top: 66%;
-left: 50%;
-transform: translateX(-50%);
+top: 67%;
+left: 0;
 }
 		  
 .contentModal1 h3 {
 width: 100%;
 position: absolute;
-left: 50%;
-top: 22%;
-transform: translateX(-50%);
-font-size: 3.5vw;
-text-align: center;
+left: 3%;
+top: 0;
+font-size: 4.2vw;
 font-weight: bolder; 
 }
 		  
 .contentModal1 span {
-width: 96%;
+width: 59%;
 position: absolute;
-left: 50%;
-transform: translateX(-50%);
-top: 27%;
-font-size: 2.7vw;
+left: 40%;
+top: 9%;
+font-size: 3.2vw;
 color: rgb(189, 189, 189);
 text-align: center;
 }
@@ -1211,21 +1205,19 @@ text-align: center;
 .contentModal2 h3 {
 width: 100%;
 position: absolute;
-left: 50%;
-top: 52%;
-transform: translateX(-50%);
-font-size: 3.5vw;
-text-align: center;
+left: 3%;
+top: 32%;
+font-size: 4.2vw;
 font-weight: bolder; 
 }
 			
 .contentModal2 span {
-width: 96%;
+width: 63%;
 position: absolute;
-left: 50%;
-top: 57%;
+left: 67%;
+top: 41%;
 transform: translateX(-50%);
-font-size: 2.7vw;
+font-size: 3.2vw;
 color: rgb(189, 189, 189);
 text-align: center;
 }
@@ -1233,21 +1225,19 @@ text-align: center;
 .contentModal3 h3 {
 width: 100%;
 position: absolute;
-left: 50%;
-top: 82%;
-transform: translateX(-50%);
-font-size: 3.5vw;
-text-align: center;
+left: 3%;
+top: 60%;
+font-size: 4.2vw;
 font-weight: bolder; 
 }
 		  
 .contentModal3 span {
-width: 96%;
+width: 63%;
 position: absolute;
-left: 50%;
-top: 87%;
+left: 67%;
+top: 69%;
 transform: translateX(-50%);
-font-size: 2.7vw;
+font-size: 3.2vw;
 color: rgb(189, 189, 189);
 text-align: center;
 }
@@ -1288,7 +1278,7 @@ left: 3%;
 .titleMerchants{
 position: absolute;
 top: 4%;
-right: 9%;
+right: 7%;
 }
 		  
 .blueTriangleGuilds1{
@@ -1297,7 +1287,7 @@ left: 0;
 top: 4%;
 width: 47%;
 height: 45%;  
-transform: scaleX(-1) scaleY(-1);
+transform: scaleY(-1);
 }
 		  
 .blueTriangleGuilds2{
@@ -1306,7 +1296,7 @@ right: 0;
 top: 4%;
 width: 47%;
 height: 45%;  
-transform: scaleY(-1);
+transform: scaleX(-1) scaleY(-1);
 }
 		  
 .guilds .buttons{
@@ -1338,23 +1328,23 @@ cursor: pointer;
 height: 30%;
 width: 30%;
 position: absolute;
-top: 17%;
+top: 13%;
 left: 5%;
 }
 		   
 .blacksmithModal {
-width: 90%;
+width: 98%;
 height: 80%;
 background: rgb(30, 46, 70);
 position: absolute;
 font-family: "Pangolin";
-left: 5%;
+left: 1%;
 top: 10%;
 }
 		  
 /* MerchantModal */
 		  
-.iconsHuntersModalCommunity{
+.scalesMerchants{
 background: url(../../../images/Dwarves/Guilds/ScalesMerchants.webp) no-repeat right;
 background-size: contain;
 border: none;
@@ -1363,17 +1353,17 @@ cursor: pointer;
 height: 30%;
 width: 30%;
 position: absolute;
-top: 17%;
+top: 12%;
 right: 5%;
 }
 			   
 .merchantsModal {
-width: 90%;
+width: 98%;
 height: 80%;
 background: rgb(30, 46, 70);
 padding: 0;
 position: fixed;
-left: 5%;
+left: 1%;
 top: 10;
 font-family: "Pangolin";
 }
@@ -1408,11 +1398,11 @@ left: 0;
 }
 		  
 .contentModal1 h3 {
-width: 60%;
+width: 70%;
 position: absolute;
-left: 40%;
+left: 34%;
 top: 0;
-font-size: 3.1vw;
+font-size: 2.9vw;
 text-align: center;
 font-weight: bolder; 
 }
@@ -1421,7 +1411,7 @@ font-weight: bolder;
 width: 55%;
 position: absolute;
 left: 42%;
-top: 7%;
+top: 10%;
 font-size: 2.7vw;
 color: rgb(189, 189, 189);
 text-align: center;
@@ -1432,7 +1422,7 @@ width: 60%;
 position: absolute;
 left: 35%;
 top: 34%;
-font-size: 3.1vw;
+font-size: 2.9vw;
 text-align: center;
 font-weight: bolder; 
 }
@@ -1452,7 +1442,7 @@ width: 60%;
 position: absolute;
 left: 35%;
 top: 61%;
-font-size: 3.1vw;
+font-size: 2.9vw;
 text-align: center;
 font-weight: bolder; 
 }
@@ -1503,7 +1493,7 @@ left: 5%;
 .titleMerchants{
 position: absolute;
 top: 4%;
-right: 12%;
+right: 9%;
 }
 		  
 .blueTriangleGuilds1{
@@ -1512,7 +1502,7 @@ left: 0;
 top: 5%;
 width: 47%;
 height: 45%;  
-transform: scaleX(-1) scaleY(-1);
+transform: scaleY(-1);
 }
 		  
 .blueTriangleGuilds2{
@@ -1521,7 +1511,7 @@ right: 0;
 top: 5%;
 width: 47%;
 height: 45%;  
-transform: scaleY(-1);
+transform: scaleX(-1) scaleY(-1);
 }
 		  
 .guilds .buttons{
@@ -1602,7 +1592,7 @@ width: 100%;
 background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
 	  
 .titleHistory{
@@ -1631,6 +1621,7 @@ width: 100vw;
 height: 110vw;
 filter: drop-shadow(0 0 0vw rgb(30, 46, 70));
 background: rgb(30, 46, 70);
+margin: 0;
 }
 	  
 .accordionItemContent{
@@ -1729,15 +1720,15 @@ color: rgb(247,189,0);
 @media (min-width: 481px) and (max-width: 768px) {
 	
 /* -----Accordion----- */
-	
+		
 .historyDwarves{
 position: absolute;
 width: 100%;
-height: 220vw;
+height: 290vw;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 1vw;
 }
-		
+
 .accordion {
 position: relative;
 width: 100%;
@@ -1786,7 +1777,7 @@ width: 100%;
 background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
 		
 .titleHistory{
@@ -1813,13 +1804,14 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw;
 height: 110vw;
-filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+filter: drop-shadow(0 0 0vw rgb(30, 46, 70));
 background: rgb(30, 46, 70);
+margin: 0;
 }
 		
 .accordionItemContent{
 position: absolute;
-height: 80vw;
+height: 100vw;
 width: 100vw;
 }
 		
@@ -1836,7 +1828,7 @@ top: -3%;
 left: -3;
 }
 		
-.kingDwarves{
+.dwarvesKingdom{
 width: 45vw;
 height: 45vw;
 position: absolute;
@@ -1846,7 +1838,7 @@ right: -3%;
 		
 .contentScroll{
 width: 94%;
-height: 80%;
+height: 124%;
 position: absolute;
 top: 60%;
 left: 50%;
@@ -1914,10 +1906,10 @@ color: rgb(247,189,0);
 	
 /* -----Accordion----- */
 	
-.historyOrcs{
+.historyDwarves{
 position: absolute;
 width: 100%;
-height: 220vw;
+height: 290vw;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 1vw;
 }
@@ -1970,7 +1962,7 @@ width: 100%;
 background: url(../../../images/Dwarves/HistoryBearPeaks/BearPeaks.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
 		  
 .titleHistory{
@@ -1997,13 +1989,14 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw;
 height: 110vw;
-filter: drop-shadow(0 0 1vw rgb(231, 210, 22));
+filter: drop-shadow(0 0 0vw rgb(30, 46, 70));
 background: rgb(30, 46, 70);
-	}
+margin: 0;
+}
 		  
 .accordionItemContent{
 position: absolute;
-height: 80vw;
+height: 100vw;
 width: 100vw;
 }
 		  
@@ -2030,12 +2023,12 @@ right: -3%;
 		  
 .contentScroll{
 width: 94%;
-height: 80%;
+height: 124%;
 position: absolute;
 top: 60%;
 left: 50%;
 transform: translateX(-50%);
-filter: drop-shadow( 0 0 0vw black);
+filter: drop-shadow( 0 0 0vw rgb(30, 46, 70));
 background: rgb(189, 189, 189);
 border: solid rgb(30, 46, 70) 4vw;
 font-family: "Pangolin";

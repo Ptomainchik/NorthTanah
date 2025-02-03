@@ -186,12 +186,12 @@ animation-fill-mode: forwards;
 
 .guardiansOfSpiritsModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(4, 27, 1);
 font-family: "Pangolin";
 position: absolute;
 left: 20%;
-top:5%;
+top:2%;
 }
 
 /* WorkersModal */
@@ -218,12 +218,12 @@ animation-fill-mode: forwards;
   
 .workersModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(4, 27, 1);
 position: absolute;
 font-family: "Pangolin";
 left: 20%;
-top:5%;
+top: 2%;
 }
   
 /* HuntersModal */
@@ -250,12 +250,12 @@ animation-fill-mode: forwards;
   
 .huntersModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(4, 27, 1);
 padding: 0;
 position: fixed;
 left: 20%;
-top:5%;
+top:2%;
 font-family: "Pangolin";
 }
     
@@ -283,12 +283,12 @@ animation-fill-mode: forwards;
   
 .gangsModal {
 width: 70%;
-height: 90%;
+height: 96%;
 background: rgb(4, 27, 1);
 padding: 0;
 position: fixed;
 left: 20%;
-top:5%;
+top:2%;
 font-family: "Pangolin";
 }
     
@@ -639,7 +639,7 @@ color: black;
   
 /* @@@OrcsPageMedia@@@ */
 
-@media (min-width: 701px) and (max-width: 1050px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
 .info{
 position: fixed;
@@ -753,7 +753,7 @@ color: rgb(180, 60, 20);
 }   
 }
 
-@media (min-width: 441px) and (max-width: 700px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
 .info{
 position: fixed;
@@ -866,7 +866,7 @@ color: rgb(180, 60, 20);
 }      
 }
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
   .info{
   position: fixed;
@@ -919,7 +919,7 @@ color: rgb(180, 60, 20);
   }
            
   .infoTextPage p{
-  font-size: 6vw;
+  font-size: 4.3vw;
   margin: 1% ;
   transform: skewX(-20deg)
   }
@@ -936,7 +936,7 @@ color: rgb(180, 60, 20);
            
   .story p {
   font-family: "Pangolin";
-  font-size: 3.5vw;
+  font-size: 3.4vw;
   font-weight: bold;
   color: black;
   }
@@ -1381,100 +1381,90 @@ color: rgb(180, 60, 20);
     /* OverallContentModal */
     
     .imageHeadCommunities{
-    width: 35vw;
-    height: 35vw;
-    margin: 1vw;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    }
-      
-    .imageMemberCommunities1{
-    width: 26vw;
-    height: 26vw;
-    margin: 1vw;
-    position: absolute;
-    top: 36%;
-    left: 50%;
-    transform: translateX(-50%);
-    }
-    
-    .imageMemberCommunities2{
-      width: 26vw;
-      height: 26vw;
+      width: 33vw;
+      height: 33vw;
       margin: 1vw;
       position: absolute;
-      top: 66%;
-      left: 50%;
+      top:8%;
+      left: 0;
+      }
+            
+      .imageMemberCommunities1{
+      width: 28vw;
+      height: 28vw;
+      margin: 2vw;
+      position: absolute;
+      top: 39%;
+      left: 0;
+      }
+            
+      .imageMemberCommunities2{
+      width: 28vw;
+      height: 28vw;
+      margin: 2vw;
+      position: absolute;
+      top: 67%;
+      left: 0;
+      }
+            
+      .contentModal1 h3 {
+      width: 100%;
+      position: absolute;
+      left: 3%;
+      top: 0;
+      font-size: 4.2vw;
+      font-weight: bolder; 
+      }
+            
+      .contentModal1 span {
+      width: 59%;
+      position: absolute;
+      left: 40%;
+      top: 9%;
+      font-size: 3.2vw;
+      color: rgb(189, 189, 189);
+      text-align: center;
+      }
+            
+      .contentModal2 h3 {
+      width: 100%;
+      position: absolute;
+      left: 3%;
+      top: 32%;
+      font-size: 4.2vw;
+      font-weight: bolder; 
+      }
+            
+      .contentModal2 span {
+      width: 63%;
+      position: absolute;
+      left: 67%;
+      top: 41%;
       transform: translateX(-50%);
-    }
-    
-    .contentModal1 h3 {
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 22%;
-    transform: translateX(-50%);
-    font-size: 3.5vw;
-    text-align: center;
-    font-weight: bolder; 
-    }
-    
-    .contentModal1 span {
-    width: 96%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 27%;
-    font-size: 2.7vw;
-    color: rgb(189, 189, 189);
-    text-align: center;
-    }
-    
-    .contentModal2 h3 {
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 52%;
-    transform: translateX(-50%);
-    font-size: 3.5vw;
-    text-align: center;
-    font-weight: bolder; 
-    }
-      
-    .contentModal2 span {
-    width: 96%;
-    position: absolute;
-    left: 50%;
-    top: 57%;
-    transform: translateX(-50%);
-    font-size: 2.7vw;
-    color: rgb(189, 189, 189);
-    text-align: center;
-    }
-     
-    .contentModal3 h3 {
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 82%;
-    transform: translateX(-50%);
-    font-size: 3.5vw;
-    text-align: center;
-    font-weight: bolder; 
-    }
-    
-    .contentModal3 span {
-    width: 96%;
-    position: absolute;
-    left: 50%;
-    top: 87%;
-    transform: translateX(-50%);
-    font-size: 2.7vw;
-    color: rgb(189, 189, 189);
-    text-align: center;
-    }
+      font-size: 3.2vw;
+      color: rgb(189, 189, 189);
+      text-align: center;
+      }
+             
+      .contentModal3 h3 {
+      width: 100%;
+      position: absolute;
+      left: 3%;
+      top: 60%;
+      font-size: 4.2vw;
+      font-weight: bolder; 
+      }
+            
+      .contentModal3 span {
+      width: 63%;
+      position: absolute;
+      left: 67%;
+      top: 69%;
+      transform: translateX(-50%);
+      font-size: 3.2vw;
+      color: rgb(189, 189, 189);
+      text-align: center;
+      }
             
     .closeModal{
     position: absolute;
@@ -1714,7 +1704,7 @@ color: rgb(180, 60, 20);
     position: absolute;
     left: 40%;
     top: 0;
-    font-size: 3.1vw;
+    font-size:  2.9vw;
     text-align: center;
     font-weight: bolder; 
     }
@@ -1734,7 +1724,7 @@ color: rgb(180, 60, 20);
     position: absolute;
     left: 35%;
     top: 34%;
-    font-size: 3.1vw;
+    font-size: 2.9vw;
     text-align: center;
     font-weight: bolder; 
     }
@@ -1754,7 +1744,7 @@ color: rgb(180, 60, 20);
     position: absolute;
     left: 35%;
     top: 61%;
-    font-size: 3.1vw;
+    font-size:  2.9vw;
     text-align: center;
     font-weight: bolder; 
     }
@@ -1880,7 +1870,7 @@ color: rgb(180, 60, 20);
 .historyOrcs{
 position: absolute;
 width: 100%;
-height: 220vw;
+height: 290vw;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 1vw;
 }
@@ -1933,7 +1923,7 @@ width: 100%;
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
   
 .titleHistory{
@@ -1960,13 +1950,14 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw;
 height: 110vw;
-filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+filter: drop-shadow(0 0 0vw rgb(4, 27, 1));
 background: rgb(4, 27, 1);
+margin: 0;
 }
   
 .accordionItemContent{
 position: absolute;
-height: 80vw;
+height: 100vw;
 width: 100vw;
 }
   
@@ -2061,15 +2052,15 @@ color: rgb(180, 60, 20);
 @media (min-width: 481px) and (max-width: 768px) {
 
 /* -----Accordion----- */
-
+  
 .historyOrcs{
 position: absolute;
 width: 100%;
-height: 220vw;
+height: 290vw;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 1vw;
 }
-    
+
 .accordion {
 position: relative;
 width: 100%;
@@ -2118,7 +2109,7 @@ width: 100%;
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
     
 .titleHistory{
@@ -2145,13 +2136,14 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw;
 height: 110vw;
-filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+filter: drop-shadow(0 0 0vw rgb(4, 27, 1));
 background: rgb(4, 27, 1);
+margin: 0;
 }
     
 .accordionItemContent{
 position: absolute;
-height: 80vw;
+height: 100vw;
 width: 100vw;
 }
     
@@ -2249,7 +2241,7 @@ color: rgb(180, 60, 20);
 .historyOrcs{
 position: absolute;
 width: 100%;
-height: 220vw;
+height: 290vw;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 1vw;
 }
@@ -2302,7 +2294,7 @@ width: 100%;
 background: url(../../../images/Orcs/HistoryBlackForest/BlackForest.jpg) no-repeat;
 background-size: 100%;
 position: absolute;
-top: 5%;
+top: 4%;
 }
       
 .titleHistory{
@@ -2329,13 +2321,14 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw;
 height: 110vw;
-filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
+filter: drop-shadow(0 0 0vw rgb(4, 27, 1));
 background: rgb(4, 27, 1);
+margin: 0;
 }
       
 .accordionItemContent{
 position: absolute;
-height: 80vw;
+height: 100vw;
 width: 100vw;
 }
       
@@ -2362,7 +2355,7 @@ right: -3%;
       
 .contentScroll{
 width: 94%;
-height: 80%;
+height: 124%;
 position: absolute;
 top: 60%;
 left: 50%;

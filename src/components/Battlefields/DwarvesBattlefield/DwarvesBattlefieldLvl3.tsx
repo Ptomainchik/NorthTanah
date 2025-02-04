@@ -29,6 +29,7 @@ export const DwarvesBattlefieldLvl3 = () => {
     const [showMessage3, setShowMessage3] = useState(false);
     const [showSkilContagiousBiteImg, setShowSkilContagiousBiteImg] = useState(false);
     const [showSkilFettersImg, setShowSkilFettersImg] = useState(false);
+    const [ferocityActive, setFerocityActive] = useState(false);
     const [showSkilOrcFerocityImg, setShowSkilOrcFerocityImg] = useState(false);
     const [showLoseDwarvesMessage, setShowLoseDwarvesMessage] = useState(false);
     const [showWinDwarves123LvlMessage, setShowWinDwarves123LvlMessage] = useState(false);
@@ -50,6 +51,8 @@ export const DwarvesBattlefieldLvl3 = () => {
             setAngryDwarf( -1);
             setOrcHealth(orcHealth - 110);
             setShowSkilAngryDwarfImg(false);
+            setFerocityActive(false)
+            setShowSkilOrcFerocityImg(false)
             return
         }
     };
@@ -68,6 +71,8 @@ export const DwarvesBattlefieldLvl3 = () => {
         if (bearHug === -1) { 
         } else {
             setBearHug( -1)
+            setFerocityActive(false)
+            setShowSkilOrcFerocityImg(false)
         const intervalId = setInterval(() => {
             setOrcHealth(prevHealth => prevHealth - 40)
         }, 1000)
@@ -88,12 +93,16 @@ export const DwarvesBattlefieldLvl3 = () => {
             setOrcHealth(orcHealth - damageMultiplier * 40)
             setFrozenGroundCount(frozenGroundCount + 1)
         }
+        else if (orcHealth > 0 && damageMultiplier !== null && ferocityActive === true) {
+            setDwarfHealth(dwarfHealth - 40)
+        }
+
         if (frozenGroundCount >= 2) {
             setShowSkilFrozenGroundImg(false)
             setFrozenGroundActive(false)
         }
 
-        if (orcHealth > 0 && damageMultiplier !== null && frozenGroundActive === false) {
+        if (orcHealth > 0 && damageMultiplier !== null && frozenGroundActive === false && ferocityActive === false) {
             setOrcHealth(orcHealth - damageMultiplier * 40)
             setTimeout(() => {
                 setDwarfHealth(dwarfHealth - 40)
@@ -114,15 +123,16 @@ export const DwarvesBattlefieldLvl3 = () => {
             setShowMessage3(true);
         }    
 
-        if (orcHealth <= 1400 && orcHealth >= 1320 && damageMultiplier !== null) {
+        if (orcHealth <= 1400 && orcHealth >= 1230 && damageMultiplier !== null) {
             setTimeout(() => {
-                setOrcHealth(orcHealth + 10)
+                setFerocityActive(true)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 1320 && orcHealth >= 320 && damageMultiplier !== null) {
-            setShowSkilOrcFerocityImg(false)    
-        }
+        else if (orcHealth <= 1230 && orcHealth >= 230 && damageMultiplier !== null) {
+            setShowSkilOrcFerocityImg(false)
+            setFerocityActive(false)
+        } 
         
         if (orcHealth <= 1600 && orcHealth >= 1440 && damageMultiplier !== null && frozenGroundActive === true) {
             setShowSkilFettersImg(true)
@@ -156,15 +166,16 @@ export const DwarvesBattlefieldLvl3 = () => {
             setShowMessage2(true)
         }
 
-        if (orcHealth <= 2600 && orcHealth >= 2520 && damageMultiplier !== null) {
+        if (orcHealth <= 2600 && orcHealth >= 2430 && damageMultiplier !== null) {
             setTimeout(() => {
-                setOrcHealth(orcHealth + 10)
+                setFerocityActive(true)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 2520 && orcHealth >= 1520 && damageMultiplier !== null) {
-            setShowSkilOrcFerocityImg(false)    
-        }
+        else if (orcHealth <= 2430 && orcHealth >= 1430 && damageMultiplier !== null) {
+            setShowSkilOrcFerocityImg(false)
+            setFerocityActive(false)
+        } 
 
         if (orcHealth <= 3000 && orcHealth >= 2840 && damageMultiplier !== null && frozenGroundActive === true) {
             setShowSkilFettersImg(true)

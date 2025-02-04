@@ -51,6 +51,8 @@ export const OrcsBattlefieldLvl3 = () => {
             setContagiousBite( -1)
             setDwarfHealth(dwarfHealth - 100)
             setShowSkilContagiousBiteImg(false)
+            setFrozenGroundActive(false)
+            setShowSkilFrozenGroundImg(false)
             return
         }
     }
@@ -61,7 +63,9 @@ export const OrcsBattlefieldLvl3 = () => {
         } else {
             setOrcFerocity(-1)
             setFerocityActive(true)
-            setFerocityCount(0);
+            setFerocityCount(0)
+            setFrozenGroundActive(false)
+            setShowSkilFrozenGroundImg(false)
         }
     }
 
@@ -69,6 +73,8 @@ export const OrcsBattlefieldLvl3 = () => {
         if (fetters === -1) { 
         } else {
             setFetters( -1)
+            setFrozenGroundActive(false)
+            setShowSkilFrozenGroundImg(false)
         const intervalId = setInterval(() => {
             setDwarfHealth(prevHealth => prevHealth - 40)
         }, 1000)
@@ -116,11 +122,11 @@ export const OrcsBattlefieldLvl3 = () => {
             setShowMessage3(true)
         } 
 
-        if (dwarfHealth <= 1200 && dwarfHealth >= 1080 && damageMultiplier !== null) {
+        if (dwarfHealth <= 1200 && dwarfHealth >= 1030 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(true)
             setFrozenGroundActive(true)
         }
-        else if (dwarfHealth <= 1080 && dwarfHealth >= 80 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 1030 && dwarfHealth >= 30 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(false)   
             setFrozenGroundActive(false) 
         }
@@ -150,11 +156,11 @@ export const OrcsBattlefieldLvl3 = () => {
             setShowMessage2(true)
         }
 
-        if (dwarfHealth <= 2400 && dwarfHealth >= 2280 && damageMultiplier !== null) {
+        if (dwarfHealth <= 2400 && dwarfHealth >= 2230 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(true)
             setFrozenGroundActive(true)
         } 
-        else if (dwarfHealth <= 2280 && dwarfHealth >= 1280 && damageMultiplier !== null) {
+        else if (dwarfHealth <= 2230 && dwarfHealth >= 1230 && damageMultiplier !== null) {
             setShowSkilFrozenGroundImg(false)
             setFrozenGroundActive(false)
         } 

@@ -1160,8 +1160,8 @@ width: 25vw;
 }
     
 .buttonDwarfLvl1{
-width: 25vw;
-height: 25vw;      
+width: 28vw;
+height: 28vw;      
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl1.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1169,8 +1169,8 @@ margin-top: 9%;
 }
     
 .buttonDwarfLvl2{
-width: 25vw;
-height: 25vw;     
+width: 28vw;
+height: 28vw;     
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl2.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1178,8 +1178,8 @@ margin-top: 9%;
 }
     
 .buttonDwarfLvl3{
-width: 25vw;
-height: 25vw;      
+width: 28vw;
+height: 28vw;      
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl3.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1187,8 +1187,8 @@ margin-top: 9%;
 }
     
 .buttonDwarfLvl4{
-width: 26vw;
-height: 26vw;     
+width: 29vw;
+height: 29vw;     
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitLvl4.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1196,8 +1196,8 @@ margin-top: 9%;
 }
        
 .buttonDwarfLvlUnic{
-width: 25vw;
-height: 25vw;    
+width: 28vw;
+height: 28vw;    
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowman.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1207,8 +1207,8 @@ bottom: 27%;
 }
     
 .buttonDwarfLvlUnic1{
-width: 25vw;
-height: 25vw;    
+width: 28vw;
+height: 28vw;    
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanOneBolt.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1218,8 +1218,8 @@ bottom: 27%;
 }
     
 .buttonDwarfLvlUnic2{
-width: 25vw;
-height: 25vw;      
+width: 28vw;
+height: 28vw;      
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanTwoBolts.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1229,8 +1229,8 @@ bottom: 27%;
 }
     
 .buttonDwarfLvlUnic3{
-width: 25vw;
-height: 25vw;   
+width: 28vw;
+height: 28vw;   
 background: url(../../images/Battlefields/DwarvesUnits/DwarfUnitCrossbowmanThreeBolts.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1558,40 +1558,40 @@ width: 25vw;
 }
  
 .buttonOrcLvl1{
-width: 27vw;
-height: 27vw;   
+width: 30vw;
+height: 30vw;   
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl1.webp) no-repeat; 
 background-size: contain;
 border: none;
 }
     
 .buttonOrcLvl2{
-width: 27vw;
-height: 27vw;  
+width: 30vw;
+height: 30vw; 
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl2.webp) no-repeat; 
 background-size: contain;
 border: none;
 }
     
 .buttonOrcLvl3{
-width: 27vw;
-height: 27vw; 
+width: 30vw;
+height: 30vw; 
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl3.webp) no-repeat; 
 background-size: contain;
 border: none;
 }
     
 .buttonOrcLvl4{
-width: 28vw;
-height: 28vw;
+width: 31vw;
+height: 31vw;
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl4.webp) no-repeat; 
 background-size: contain;
 border: none;
 }
 
 .buttonOrcLvlUnic{
-width: 27vw;
-height: 27vw; 
+width: 30vw;
+height: 30vw; 
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrower.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1601,8 +1601,8 @@ bottom: 27%;
 }
     
 .buttonOrcLvlUnic1{
-width: 27vw;
-height: 27vw;  
+width: 30vw;
+height: 30vw;  
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerOneS.webp) no-repeat; 
 background-size: contain;
 border: none;
@@ -1612,8 +1612,8 @@ bottom: 27%;
 }
     
 .buttonOrcLvlUnic2{
-width: 27vw;
-height: 27vw; 
+width: 30vw;
+height: 30vw; 
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerTwoS.webp) no-repeat right bottom; 
 background-size: contain;
 border: none;
@@ -1623,8 +1623,8 @@ bottom: 27%;
 }
     
 .buttonOrcLvlUnic3{
-width: 27vw;
-height: 27vw;  
+width: 30vw;
+height: 30vw;  
 background: url(../../images/Battlefields/OrcsUnits/OrcUnitSpearThrowerThreeS.webp) no-repeat right bottom; 
 background-size: contain;
 border: none;

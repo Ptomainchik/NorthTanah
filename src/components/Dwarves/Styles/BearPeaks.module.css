@@ -485,14 +485,14 @@ position: absolute;
 right: 5%;
 top: 5%;
 width: 48%;
-height: 70%;
+height: 74%;
 background: rgb(189, 189, 189);
 border: solid rgb(30, 46, 70) 2vw;
 }
      
 .story p {
 font-family: "Pangolin";
-font-size: 1.8vw;
+font-size: 1.7vw;
 font-weight: bold;
 color: black;
 margin: 1%;
@@ -1653,7 +1653,7 @@ right: -3%;
 	  
 .contentScroll{
 width: 94%;
-height: 124%;
+height: 190%;
 position: absolute;
 top: 60%;
 left: 50%;
@@ -1668,19 +1668,23 @@ color: black;
 	  
 .contentScroll h2 {
 width: 100%;
+font-size: 6vw;
 position: absolute;
 left: 50%;
-top: 0%;
+top: 1%;
 transform: translateX(-50%);
+
 }
 	  
 .contentScroll p{
-font-size: 2.8vw;
+font-size: 3.7vw;
 position: absolute;
 left: 50%;
-top: 15%;
+top: 10%;
 width: 96%;
 transform: translateX(-50%);
+margin: 0;
+padding: 0;
 }
 	  
 .pictureLeft{
@@ -1838,7 +1842,7 @@ right: -3%;
 		
 .contentScroll{
 width: 94%;
-height: 124%;
+height: 160%;
 position: absolute;
 top: 60%;
 left: 50%;
@@ -1853,19 +1857,22 @@ color: black;
 		
 .contentScroll h2 {
 width: 100%;
+font-size: 6vw;
 position: absolute;
 left: 50%;
-top: 0%;
+top: 1%;
 transform: translateX(-50%);
 }
 		
 .contentScroll p{
-font-size: 2.8vw;
+font-size: 3.3vw;
 position: absolute;
 left: 50%;
-top: 15%;
+top: 11%;
 width: 96%;
 transform: translateX(-50%);
+margin: 0;
+padding: 0;
 }
 		
 .pictureLeft{

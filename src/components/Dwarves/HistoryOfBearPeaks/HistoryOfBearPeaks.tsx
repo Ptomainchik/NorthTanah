@@ -10,9 +10,9 @@ export const HistoryOfBearPeaks = () => {
       <div className={classes.buttons}><HomeButton/><span>History</span><BackButton/></div>
     <div className={classes.imageHistory}>
       <div className={classes.titleHistory}>
-        <img title="Герб Королевства Медвежьих Вершин " src={CoatOfArmsOfBearPeaks} alt="Герб Королевства Медвежьих Вершин" className={classes.banner}/>
+        <img title="Герб Медвежьих Вершин " src={CoatOfArmsOfBearPeaks} alt="Герб Медвежьих Вершин" className={classes.banner}/>
         <h1>Bear Peaks</h1>
-        <img title="Герб Королевства Медвежьих Вершин" src={CoatOfArmsOfBearPeaks} alt="Герб Королевства Медвежьих Вершин" className={classes.banner}/>
+        <img title="Герб Медвежьих Вершин" src={CoatOfArmsOfBearPeaks} alt="Герб Медвежьих Вершин" className={classes.banner}/>
       </div>
     <AccordionState/>
     </div>

@@ -288,7 +288,7 @@ margin-top: 10%;
 
 /* HomePageMedia */
 
-@media (min-width: 769px) and (max-width: 1050px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
 .choice{
 background: url(../../images/HomePageImage/PanoramaSmall.jpg) no-repeat bottom;
@@ -461,7 +461,7 @@ border: none;
 	}
 }
 
-@media (min-width: 441px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
 .choice{
 background: url(../../images/HomePageImage/PanoramaSmall.jpg) no-repeat bottom;
@@ -634,7 +634,7 @@ bottom: -10%;
 		}
 }
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
 .choice{
 background: url(../../images/HomePageImage/PanoramaSmall.jpg) no-repeat bottom;

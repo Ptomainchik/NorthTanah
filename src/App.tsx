@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import { BearPeaks } from './components/Dwarves/BearPeaks/BearPeaks';
 import { NoPage } from './components/NoPage/NoPage';
 import { HistoryOfBearPeaks } from './components/Dwarves/HistoryOfBearPeaks/HistoryOfBearPeaks';

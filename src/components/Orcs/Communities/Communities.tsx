@@ -15,22 +15,22 @@ export const Communities = () => {
  
  <div className={classes.communitiesLists}>
     
-       <img src={GreenTriangle} className={classes.greenTriangleCommuties1}/>
+       <img src={GreenTriangle} className={classes.greenTriangleCommuties1} alt='Green triangle'/>
               <GuardiansOfSpirits/>
        <h5 className={classes.titleGuardiansOfSpirits}>Guardians of spirits</h5>  
         
-       <img src={GreenTriangle} className={classes.greenTriangleCommuties2}/>
+       <img src={GreenTriangle} className={classes.greenTriangleCommuties2} alt='Green triangle'/>
               <Hunters/>
        <h5 className={classes.titleHunters}>Hunters</h5>
  </div>
 
  <div className={classes.communitiesLists}>
   
-       <img src={GreenTriangle} className={classes.greenTriangleCommuties3}/>
+       <img src={GreenTriangle} className={classes.greenTriangleCommuties3} alt='Green triangle'/>
               <Workers/>
        <h5 className={classes.titleWorkers}>Workers</h5>
         
-       <img src={GreenTriangle} className={classes.greenTriangleCommuties4}/>
+       <img src={GreenTriangle} className={classes.greenTriangleCommuties4} alt='Green triangle'/>
               <Gangs/>
        <h5 className={classes.titleGangs}>Gangs</h5>
  </div>

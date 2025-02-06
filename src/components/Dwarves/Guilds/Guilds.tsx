@@ -12,11 +12,11 @@ export const Guilds = () => {
       <div className={classes.buttons}><HomeButton/><span>Guilds</span><BackButton/></div>
       <div className={classes.guildsLists}>
 
-      <img className={classes.blueTriangleGuilds1} src={BlueTriangle}/>  
+      <img className={classes.blueTriangleGuilds1} src={BlueTriangle} alt="Blue triangle"/>  
       <BlacksmithGuild/>
       <h5 className={classes.titleBlacksmith}>Blacksmith</h5>
 
-      <img className={classes.blueTriangleGuilds2} src={BlueTriangle}/>
+      <img className={classes.blueTriangleGuilds2} src={BlueTriangle} alt="Blue triangle"/>
       <h5 className={classes.titleMerchants}>Merchants</h5>
       <MerchantsGuild/>
   

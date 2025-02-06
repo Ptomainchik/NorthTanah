@@ -30,21 +30,19 @@ const MerchantsGuildDescription =
    (
     <div>
         <div className={classes.contentModal1}>
-            <img title="Бартон Златопалый" className={classes.imageHeadGuilds} src={HeadDwarfMerchantBarton} alt="Бартон Златопалый" style={{border: "solid rgb(245, 231, 44) 0.3vw"}}/>
+            <img title="Бартон Златопалый" className={classes.imageHeadGuilds} src={HeadDwarfMerchantBarton} alt="Бартон Златопалый" draggable="false" style={{border: "solid rgb(245, 231, 44) 0.3vw"}}/>
                 <h3 style={{color: "rgb(245, 231, 44)"}}>Бартон Златопалый - глава гильдии торговцев.</h3>
                 <span>
-                  Именно он поднял вопрос за отделение от кузнецов, во время создания гильдии. Когда же
-                  всё было решено, Златопалого выбрали главой торговцев. Ему подчиняются
-                  все члены гильдии и он решает какой процент с продаж пойдёт в казну.
+                  Именно он поднял вопрос об отделении от кузнецов во время создания гильдии. Когда всё было решено, Златопалого выбрали главой торговцев. 
+                  Ему подчиняются все члены гильдии, и он решает, какой процент с продаж пойдет в казну.
                 </span>
         </div>
         <div className={classes.contentModal2}>
-                <img title="Гарберт" className={classes.imageMemberGuilds1} src={DwarfMerchantGarbert} alt="Гарберт" style={{border: "solid rgb(245, 231, 44) 0.3vw"}}/>
+                <img title="Гарберт" className={classes.imageMemberGuilds1} src={DwarfMerchantGarbert} alt="Гарберт" draggable="false" style={{border: "solid rgb(245, 231, 44) 0.3vw"}}/>
                 <h3 style={{color: "rgb(245, 231, 44)"}}>Гарберт - старший закупщик.</h3>
                 <span>
-                  Он договаривается о цене
-                  с гильдиями производителями и помогает торговцам заполнить их лавки.
-                  Его подчинённые путешествует в поисках нового ассортимента.
+                  Он договаривается о цене с гильдиями производителей и помогает торговцам заполнить их лавки. 
+                  Его подчиненные путешествуют в поисках нового ассортимента.
                 </span>
         </div>
     </div>

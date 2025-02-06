@@ -6,6 +6,7 @@
     height: 100%;
     background: url(../../images/Battlefields/DwarvesBattlefield/Forest.jpg) no-repeat;
     background-size: cover; 
+    user-select: none;
 }
 
 .dwarvesBattlefield .dwarfLvl123{
@@ -245,6 +246,7 @@
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .dwarvesLose img{
@@ -273,6 +275,7 @@
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .dwarvesWin123Lvl h2{
@@ -301,6 +304,7 @@
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .dwarvesVictory h2{
@@ -333,7 +337,7 @@ background: rgb(189, 189, 189);
 width: 15%;
 height: 15%;
 position: absolute;
-top: 50%;
+top: 53%;
 left: 16%;
 font-family: "Pangolin";
 border: black solid 0.3vw;
@@ -358,7 +362,7 @@ background: rgb(189, 189, 189);
 width: 15%;
 height: 15%;
 position: absolute;
-top: 50%;
+top: 53%;
 right: 25%;
 font-family: "Pangolin";
 border: black solid 0.3vw;
@@ -477,6 +481,7 @@ color: black;
     height: 100%;
     background: url(../../images/Battlefields/OrcsBattlefield/Snow.jpg) no-repeat;
     background-size: cover;
+    user-select: none;
 }
 
 .orcsBattlefield .dwarfLvl123{
@@ -699,7 +704,7 @@ background: rgb(189, 189, 189);
 width: 15%;
 height: 15%;
 position: absolute;
-top: 50%;
+top: 53%;
 right: 16%;
 font-family: "Pangolin";
 border: black solid 0.3vw;
@@ -724,7 +729,7 @@ background: rgb(189, 189, 189) bottom left;
 width: 15%;
 height: 15%;
 position: absolute;
-top: 50%;
+top: 53%;
 left: 25%;
 font-family: "Pangolin";
 border: black solid 0.3vw;
@@ -757,6 +762,7 @@ color: black;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .orcsLose img{
@@ -785,6 +791,7 @@ color: black;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .orcsWin123Lvl h2{
@@ -813,6 +820,7 @@ color: black;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 .orcsVictory h2{
@@ -864,6 +872,7 @@ color: black;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Pangolin";
+  user-select: none;
 }
 
 .modalRule{

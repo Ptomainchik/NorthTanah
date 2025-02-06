@@ -12,7 +12,7 @@ export const DwarvesPage = () => {
       <div className={classes.buttons}><HomeButton/><span>Dwarves</span><BackButton/></div>
     <div className={classes.info}>
       <div className={classes.infoPage}>
-             <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage}/>
+             <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage} draggable="false"/>
           <div className={classes.infoTextPage}>
           <h6>Гномы</h6>
           <p>Медвежьи Вершины</p>

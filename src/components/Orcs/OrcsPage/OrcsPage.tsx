@@ -10,7 +10,7 @@ export const OrcsPage = () => {
       <div className={classes.buttons}><HomeButton/><span>Orcs</span><BackButton/></div>
 <div className={classes.info}> 
   <div className={classes.infoPage}>
-           <img title="Орк" src={OrcShaman} alt="Орк" className={classes.imgPage}/>
+           <img title="Орк" src={OrcShaman} alt="Орк" className={classes.imgPage} draggable="false"/>
          <div className={classes.infoTextPage}>
            <h6>Орки</h6>
            <p>Чёрный Лес</p>

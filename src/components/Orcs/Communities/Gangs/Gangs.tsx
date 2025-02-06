@@ -31,7 +31,7 @@ export const Gangs = () => {
     const GangsDescription =  (
         <div>
             <div className={classes.contentModal1}>
-                <img title="Родзарик" className={classes.imageHeadCommunities} src={LeaderOfTheBandits} alt="Orc leader of the bandits" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
+                <img title="Родзарик" className={classes.imageHeadCommunities} src={LeaderOfTheBandits} alt="Orc leader of the bandits" draggable="false" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
                 <h3 style={{color: "rgb(158, 4, 4)"}}>Родзарик - вождь разбойников и банд.</h3>
                 <span>
                   Разбойники грабили и убивали десятками, а то и сотнями тех, 
@@ -40,7 +40,7 @@ export const Gangs = () => {
                 </span>
             </div>
             <div className={classes.contentModal2}>  
-                <img title="Фругеш" className={classes.imageMemberCommunities1} src={MasterOfTheMarauders} alt="Orc master of marauders" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
+                <img title="Фругеш" className={classes.imageMemberCommunities1} src={MasterOfTheMarauders} alt="Orc master of marauders" draggable="false" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
                 <h3 style={{color: "rgb(158, 4, 4)"}}>Фругеш - хозяин мародёров.</h3>
                 <span>
                   Места, где полыхали сражения, где происходили стихийные бедствия, 
@@ -49,7 +49,7 @@ export const Gangs = () => {
                 </span>
             </div>    
             <div className={classes.contentModal3}>
-                <img title="Хармук" className={classes.imageMemberCommunities2} src={ChiefOfThieves} alt="Orc chief of thieves" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
+                <img title="Хармук" className={classes.imageMemberCommunities2} src={ChiefOfThieves} alt="Orc chief of thieves" draggable="false" style={{border: "solid rgb(158, 4, 4) 0.3vw"}}/>
                 <h3 style={{color: "rgb(158, 4, 4)"}}>Хармук - глава воров.</h3> 
                 <span>
                   Ловкости и скрытности у Хармука было в достатке, а ещё он обладал проницательным умом. 

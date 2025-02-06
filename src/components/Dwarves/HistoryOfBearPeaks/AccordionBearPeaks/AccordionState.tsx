@@ -20,8 +20,8 @@ export const AccordionState = () => {
         content: (
 <div className={classes.accordionItemContent}>
             <div className={classes.pictures}>
-  <img title="Король Доронг Сапфир" src={KingDwarves} alt="Король Доронг Сапфир " className={classes.kingDwarves}/>
-  <img title="Медвежьи Вершины" src={DwarfOnABear} alt="Вид на Горы где бродят медведи" className={classes.dwarvesKingdom}/>
+  <img title="Король Доронг Сапфир" src={KingDwarves} alt="Король Доронг Сапфир " className={classes.kingDwarves} draggable="false"/>
+  <img title="Медвежьи Вершины" src={DwarfOnABear} alt="Вид на Горы где бродят медведи" className={classes.dwarvesKingdom} draggable="false"/>
 </div>
 
  <div className={classes.contentScroll}>
@@ -43,8 +43,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="Гном из экспедиции кричит в гневе" className={classes.pictureLeft} src={DwarfAngry} alt="Гном из экспедиции кричит в гневе"/>
-    <img title="Разрушенное предместье Медвежьих Вершин" className={classes.pictureRight} src={FloodedMines} alt="Озеро после Ночи Золотой паники"/>
+    <img title="Гном из экспедиции кричит в гневе" className={classes.pictureLeft} src={DwarfAngry} alt="Гном из экспедиции кричит в гневе" draggable="false"/>
+    <img title="Разрушенное предместье Медвежьих Вершин" className={classes.pictureRight} src={FloodedMines} alt="Озеро после Ночи Золотой паники" draggable="false"/>
   </div>
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
       <h2>Ночь Золотой паники</h2>
@@ -69,8 +69,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Рудники Медвежьих Вершин" className={classes.pictureLeft}  src={DwarfMines} alt="Рудники гномов"/>
-   <img title="Кузница Медвежьих Вершин" className={classes.pictureRight} src={Forge} alt="Гном работает в кузнице"/>
+   <img title="Рудники Медвежьих Вершин" className={classes.pictureLeft}  src={DwarfMines} alt="Рудники гномов" draggable="false"/>
+   <img title="Кузница Медвежьих Вершин" className={classes.pictureRight} src={Forge} alt="Гном работает в кузнице" draggable="false"/>
   </div>
 
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
@@ -80,7 +80,7 @@ export const AccordionState = () => {
           Рудокопы постоянно ведут добычу, вне зависимости от времени суток, выплавляя тонны металла для поставки его в кузни.
           Заказы приходят один за другим со всего света, и спрос опережает предложение. Благодаря этому цена на товар из Медвежьих Вершин баснословная. К тому же гильдия торговцев идёт на всяческие ухищрения, чтобы ещё больше поднять цены.
           В Королевстве гномов всегда была лишь одна гильдия кузнецов. Её торговцам не нравилось, когда с их трудом обращаются как с второстепенной, посредственной задачей. 
-          Они считали, что произвести товар — это полдела, а вот преподнести и продать его покупателю так, чтобы тот остался доволен и с пустыми карманами, - это и есть искусство.
+          Они считали, что произвести товар - это полдела, а вот преподнести и продать его покупателю так, чтобы тот остался доволен и с пустыми карманами, - это и есть искусство.
           После долгих разбирательств и споров торговцы решили создать свою гильдию, где они оставляли бы себе часть золота с продаж. 
           Сначала их восприняли как шутов, но со временем обратили внимание, что торговля у них идёт полным ходом, а прибыль растёт вдвое у тех, кто к ним обратился. Так в королевстве появилась вторая гильдия.
         </strong></p>
@@ -94,8 +94,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Сапфировые озёра" className={classes.pictureLeft} src={SapphireMountains} alt="В горах виднеется синее свечение"/>
-   <img title="Экспедиция гномов" className={classes.pictureRight} src={DwarfExpedition} alt="Экспедиция гномов"/>
+   <img title="Сапфировые озёра" className={classes.pictureLeft} src={SapphireMountains} alt="В горах виднеется синее свечение" draggable="false"/>
+   <img title="Экспедиция гномов" className={classes.pictureRight} src={DwarfExpedition} alt="Экспедиция гномов" draggable="false"/>
   </div>
 
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
@@ -119,8 +119,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-  <img title="Орк в тоннеле" className={classes.pictureLeft} src={OrcAttack} alt="Орк в тоннеле"/>
-  <img title="Строй гномов" className={classes.pictureRight} src={RowsOfDwarves} alt="Строй гномов"/>
+  <img title="Орк в тоннеле" className={classes.pictureLeft} src={OrcAttack} alt="Орк в тоннеле" draggable="false"/>
+  <img title="Строй гномов" className={classes.pictureRight} src={RowsOfDwarves} alt="Строй гномов" draggable="false"/>
   </div>
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Тоннели</h2>

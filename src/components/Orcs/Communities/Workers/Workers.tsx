@@ -29,7 +29,7 @@ const WorkersDescription =
    (
     <div>
         <div className={classes.contentModal1}>
-            <img title="Вакшиг" className={classes.imageHeadCommunities} src={Brigadier} alt="Orc Head Brigadier" style={{border: "solid rgb(255, 193, 21) 0.3vw"}}/>
+            <img title="Вакшиг" className={classes.imageHeadCommunities} src={Brigadier} alt="Orc Head Brigadier" draggable="false" style={{border: "solid rgb(255, 193, 21) 0.3vw"}}/>
                 <h3 style={{color: "rgb(255, 193, 21)"}}>Вакшиг - главный бригадир.</h3>
                 <span>
                   В новом доме орков требовались рабочие руки, способные обустроить быт и хозяйство. 

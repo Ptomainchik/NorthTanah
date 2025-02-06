@@ -170,13 +170,13 @@ export const DwarvesBattlefieldLvl4 = () => {
             setShowMessage3(true);
         }    
 
-        if (orcHealth <= 2000 && orcHealth >= 1750 && damageMultiplier !== null) {
+        if (orcHealth <= 2000 && orcHealth >= 1670 && damageMultiplier !== null) {
             setTimeout(() => {
                 setFerocityActive(true)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 1750 && orcHealth >= 150 && damageMultiplier !== null) {
+        else if (orcHealth <= 1670 && orcHealth >= 70 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)
             setFerocityActive(false)
         } 
@@ -213,13 +213,13 @@ export const DwarvesBattlefieldLvl4 = () => {
             setShowMessage2(true)
         }
 
-        if (orcHealth <= 5000 && orcHealth >= 4750 && damageMultiplier !== null) {
+        if (orcHealth <= 5000 && orcHealth >= 4670 && damageMultiplier !== null) {
             setTimeout(() => {
                 setFerocityActive(true)
                 setShowSkilOrcFerocityImg(true)
             },100)
         }
-        else if (orcHealth <= 4750 && orcHealth >= 3150 && damageMultiplier !== null) {
+        else if (orcHealth <= 4670 && orcHealth >= 3070 && damageMultiplier !== null) {
             setShowSkilOrcFerocityImg(false)
             setFerocityActive(false)
         } 

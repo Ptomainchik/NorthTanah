@@ -11,6 +11,7 @@ height: 100%;
 background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
 background-size: contain;
 background-size: 15%; 
+user-select: none;
 }
 
 .accordion {
@@ -192,6 +193,7 @@ font-family: "Pangolin";
 position: absolute;
 left: 20%;
 top:2%;
+user-select: none;
 }
 
 /* WorkersModal */
@@ -224,6 +226,7 @@ position: absolute;
 font-family: "Pangolin";
 left: 20%;
 top: 2%;
+user-select: none;
 }
   
 /* HuntersModal */
@@ -257,6 +260,7 @@ position: fixed;
 left: 20%;
 top:2%;
 font-family: "Pangolin";
+user-select: none;
 }
     
 /* GangsModal */
@@ -290,6 +294,7 @@ position: fixed;
 left: 20%;
 top:2%;
 font-family: "Pangolin";
+user-select: none;
 }
     
 @keyframes  shifting {
@@ -438,6 +443,7 @@ height: 100%;
 background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
 background-size: contain;
 background-size: 15%;
+user-select: none;
 }
 
 .communitiesLists {
@@ -517,6 +523,7 @@ height: 100%;
 background: url(../../../images/Orcs/OrcsPage/Leaf.webp) repeat;
 background-size: contain;
 background-size: 14% ;
+user-select: none;
 }
 
 .info{

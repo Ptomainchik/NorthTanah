@@ -14,7 +14,7 @@ export const ModalOrcsWin123Lvl = () =>{
                     <NextOrcsLevelButton/>
                     <h5>Next Level</h5>
                 </div>
-                <img className={classes.blockModalWinOrcs123Lvl} src={OrcsWin} alt="Win" />
+                <img className={classes.blockModalWinOrcs123Lvl} src={OrcsWin} alt="Win" draggable="false"/>
             </Modal>
        </div>
     )

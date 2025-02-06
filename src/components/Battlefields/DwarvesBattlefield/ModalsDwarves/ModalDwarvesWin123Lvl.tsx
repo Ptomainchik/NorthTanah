@@ -14,7 +14,7 @@ export const ModalDwarvesWin123Lvl = () =>{
                     <NextDwarvesLevelButton/>
                     <h5>Next Level</h5>
                 </div>
-                <img className={classes.blockModalWinDwarves123Lvl} src={DwarvesWin} alt="Win" />
+                <img className={classes.blockModalWinDwarves123Lvl} src={DwarvesWin} alt="Win" draggable="false"/>
             </Modal>
        </div>
     )

@@ -15,7 +15,7 @@ export const ModalDwarvesVictory = () =>{
                     <HomeButtonVictory/>
                     <h5>Home</h5>
                 </div>
-                <img className={classes.blockModalDwarvesVictory} src={DwarvesVictory} alt="Victory" />
+                <img className={classes.blockModalDwarvesVictory} src={DwarvesVictory} alt="Victory" draggable="false"/>
             </Modal>
        </div>
     )

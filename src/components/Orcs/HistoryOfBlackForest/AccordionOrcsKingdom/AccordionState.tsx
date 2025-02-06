@@ -18,8 +18,8 @@ export const AccordionState = () => {
         content: (
 <div className={classes.accordionItemContent}>
   <div className={classes.pictures}>
-    <img title="Пробуждение" src={Awaking} className={classes.awaking} alt="Пробуждение"/>
-    <img title="Исход в Чёрный Лес" src={ExodusToTheBlackForest} className={classes.exodus} alt="Исход в Чёрный Лес"/>
+    <img title="Пробуждение" src={Awaking} className={classes.awaking} alt="Пробуждение" draggable="false"/>
+    <img title="Исход в Чёрный Лес" src={ExodusToTheBlackForest} className={classes.exodus} alt="Исход в Чёрный Лес" draggable="false"/>
   </div>
 
     <div className={classes.contentScroll}>
@@ -41,8 +41,8 @@ export const AccordionState = () => {
         content: (
           <div>
            <div className={classes.pictures}>
-    <img title="Долина кабанов" src={BoarValley} className={classes.pictureLeft} alt="Долина кабанов"/>
-    <img title="Строительство" src={Construction} className={classes.pictureRight} alt="Строительство"/>
+    <img title="Долина кабанов" src={BoarValley} className={classes.pictureLeft} alt="Долина кабанов" draggable="false"/>
+    <img title="Строительство" src={Construction} className={classes.pictureRight} alt="Строительство" draggable="false"/>
   </div>
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
       <h2>Первые Общины</h2>
@@ -62,8 +62,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Решение" src={Solution} className={classes.pictureLeft} alt="Решение"/>
-   <img title="Добыча" src={Booty} className={classes.pictureRight} alt="Добыча"/>
+   <img title="Решение" src={Solution} className={classes.pictureLeft} alt="Решение" draggable="false"/>
+   <img title="Добыча" src={Booty} className={classes.pictureRight} alt="Добыча" draggable="false"/>
   </div>
 
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
@@ -86,8 +86,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-   <img title="Нападение гномов" className={classes.pictureLeft} src={DwarvenAttack} alt="Нападение гномов"/>
-   <img title="Выжженное поселение" className={classes.pictureRight} src={ScorchedSettlement} alt="Выжженное поселение"/>
+   <img title="Нападение гномов" className={classes.pictureLeft} src={DwarvenAttack} alt="Нападение гномов" draggable="false"/>
+   <img title="Выжженное поселение" className={classes.pictureRight} src={ScorchedSettlement} alt="Выжженное поселение" draggable="false"/>
   </div>
 
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
@@ -108,8 +108,8 @@ export const AccordionState = () => {
         content: (
           <div>
       <div className={classes.pictures}>
-  <img title="Собрание" className={classes.pictureLeft} src={Council} alt="Собрание"/>
-  <img title="Первый король" className={classes.pictureRight} src={FirstKing} alt="Первый король"/>
+  <img title="Собрание" className={classes.pictureLeft} src={Council} alt="Собрание" draggable="false"/>
+  <img title="Первый король" className={classes.pictureRight} src={FirstKing} alt="Первый король" draggable="false"/>
   </div>
   <div className={classes.contentScroll} style={{position: "absolute", top: "45%"}}>
         <h2>Первый король</h2>

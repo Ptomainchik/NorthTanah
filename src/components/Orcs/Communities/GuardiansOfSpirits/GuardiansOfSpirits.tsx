@@ -30,7 +30,7 @@ export const GuardiansOfSpirits = () => {
     const SpiritCathersDescription =  (
         <div>
             <div className={classes.contentModal1}>
-                <img title="Норзуг" className={classes.imageHeadCommunities} src={FirstGuardianOfSpirits} alt="Orc guardian of spirits" style={{border: "solid rgb(50, 88, 255) 0.3vw"}}/>
+                <img title="Норзуг" className={classes.imageHeadCommunities} src={FirstGuardianOfSpirits} alt="Orc guardian of spirits" draggable="false" style={{border: "solid rgb(50, 88, 255) 0.3vw"}}/>
                 <h3 style={{color: "rgb(50, 88, 255)"}}>Норзуг - первый хранитель духов.</h3> 
                 <span>
                   Очнувшись от тысячелетнего анабиоза, он вернул своих соплеменников к жизни, 

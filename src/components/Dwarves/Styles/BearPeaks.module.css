@@ -11,6 +11,7 @@ height: 100%;
 background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 15%; 
+user-select: none;
 }
 
 .accordion {
@@ -192,6 +193,7 @@ font-family: "Pangolin";
 position: absolute;
 left: 20%;
 top: 2%;
+user-select: none;
 }
 
 /* MerchantModal */
@@ -224,6 +226,7 @@ position: absolute;
 font-family: "Pangolin";
 left: 20%;
 top: 2%;
+user-select: none;
 }
 
 @keyframes  shifting {
@@ -372,6 +375,7 @@ height: 100%;
 background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 15%;
+user-select: none;
 }
 
 .guildsLists {
@@ -422,6 +426,7 @@ height: 100%;
 background: url(../../../images/Dwarves/DwarvesPage/Paw.webp) repeat;
 background-size: contain;
 background-size: 14%;
+user-select: none;
 }
 
 .info{

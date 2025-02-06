@@ -31,26 +31,26 @@ export const BlacksmithGuild = () => {
     const BlacksmithGuildDescription =  (
         <div>
             <div className={classes.contentModal1}>
-                <img title="Морей Хранитель" className={classes.imageHeadGuilds} src={HeadDwarfBlacksmithMorei} alt="Морей Хранитель" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
+                <img title="Морей Хранитель" className={classes.imageHeadGuilds} src={HeadDwarfBlacksmithMorei} alt="Морей Хранитель" draggable="false" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
                 <h3 style={{color: "rgb(255, 130, 58)"}}>Морей Хранитель - глава гильдии кузнецов.</h3>
                 <span>
-                  Сколько ему лет не знает он и сам, но знания накопившиеся за всю жизнь в кузнечном ремесле он хранит до сих пор.
-                  Стараясь не выдавать их своим же ученикам. Делая это порционно и лишь избранным. За что его и прозвали Хранителем.
+                  Сколько ему лет, не знает он и сам, но знания, накопленные за всю жизнь в кузнечном ремесле, он хранит до сих пор. 
+                  Стараясь не выдавать их своим ученикам сразу, он делится ими порционно и лишь с избранными. За это его и прозвали Хранителем.
                 </span>
             </div>
             <div className={classes.contentModal2}>  
-                <img title="Салгон" className={classes.imageMemberGuilds1} src={DwarfBlacksmithSalgon} alt="Салгон" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
+                <img title="Салгон" className={classes.imageMemberGuilds1} src={DwarfBlacksmithSalgon} alt="Салгон" draggable="false" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
                 <h3 style={{color: "rgb(255, 130, 58)"}}>Салгон - старший мастер.</h3>
                 <span>
-                  Он тот к кому в первую очередь попадают новенькие не опалённые жаром кузнечного горна храбрецы решившие связать свою жизнь с наковальней.
+                  Он тот, к кому в первую очередь попадают новички, еще не закаленные жаром кузнечного горна, храбрецы, решившие связать свою жизнь с наковальней.
                 </span>
             </div>    
             <div className={classes.contentModal3}>
-                <img title="Гаркан" className={classes.imageMemberGuilds2} src={DwarfBlacksmithGarkan} alt="Гаркан" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
+                <img title="Гаркан" className={classes.imageMemberGuilds2} src={DwarfBlacksmithGarkan} alt="Гаркан" draggable="false" style={{border: "solid rgb(255, 130, 58) 0.3vw"}}/>
                 <h3 style={{color: "rgb(255, 130, 58)"}}>Гаркан - заведующий склада.</h3>
                 <span>
-                  Он днём и ночью приглядывает за кузнями, чтобы металл был всегда в достатке. Хотя его мастерству в ремесле ковки,
-                  могут позавидовать многие.
+                  Он днём и ночью приглядывает за кузнями, чтобы металл был всегда в достатке. 
+                  Хотя его мастерству в ремесле ковки могут позавидовать многие.
                 </span>
             </div>
         </div>

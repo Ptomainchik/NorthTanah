@@ -30,7 +30,7 @@ export const Hunters = () => {
     const HuntersDescription =  (
         <div>
             <div className={classes.contentModal1}>
-                <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
+                <img title="Малгар" className={classes.imageHeadCommunities} src={SeniorHunter} alt="Orc elder hunter" draggable="false" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
                 <h3 style={{color: "rgb(84, 230, 55)"}}>Малгар - старший охотник.</h3>
                 <span>
                   Каждый думал только о себе и своих ближних. Добыча попросту не доходила до всех сородичей. 
@@ -38,7 +38,7 @@ export const Hunters = () => {
                 </span>
             </div>
             <div className={classes.contentModal2}>  
-                <img title="Бурзаг" className={classes.imageMemberCommunities1} src={TrapMaster} alt="Orc trap master" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
+                <img title="Бурзаг" className={classes.imageMemberCommunities1} src={TrapMaster} alt="Orc trap master" draggable="false" style={{border: "solid rgb(84, 230, 55) 0.3vw"}}/>
                 <h3 style={{color: "rgb(84, 230, 55)"}}>Бурзаг - мастер ловушек.</h3>
                 <span>
                   Всё своё время он тратил на то, чтобы улучшить способы охоты. 

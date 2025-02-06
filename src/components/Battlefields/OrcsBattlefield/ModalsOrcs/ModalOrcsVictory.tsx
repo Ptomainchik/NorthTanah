@@ -15,7 +15,7 @@ export const ModalOrcsVictory = () =>{
                     <HomeButtonVictory/>
                     <h5>Home</h5>
                 </div>
-                <img className={classes.blockModalOrcsVictory} src={OrcsVictory} alt="Victory" />
+                <img className={classes.blockModalOrcsVictory} src={OrcsVictory} alt="Victory" draggable="false"/>
             </Modal>
        </div>
     )

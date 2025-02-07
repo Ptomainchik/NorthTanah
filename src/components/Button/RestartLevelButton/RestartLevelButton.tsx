@@ -5,8 +5,12 @@ export function RestartLevelButton() {
   const navigate = useNavigate();
   const handleClick = () => {
     const currentPath = window.location.pathname;
-    navigate(currentPath);
+    navigate("*");
+    setTimeout(() => {
+      navigate(currentPath);
+    }, 100); 
   };
+  
 
   return (
     <div className={classes.button}>

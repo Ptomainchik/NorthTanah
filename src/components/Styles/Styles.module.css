@@ -258,8 +258,7 @@ filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435);
 opacity: 0.8;
 }
 
-.restartPage{
-
+.noPage{
 width: 100%;
 height: 100%;
 background: rgb(189, 189, 189);

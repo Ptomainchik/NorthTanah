@@ -15,6 +15,7 @@ import { OrcsBattlefieldLvl2 } from './components/Battlefields/OrcsBattlefield/O
 import { OrcsBattlefieldLvl3 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl3';
 import { OrcsBattlefieldLvl4 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl4';
 import { RestartPage } from './components/Button/RestartPage/RestartPage';
+import { NoPage } from './components/NoPage/NoPage';
 
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="battlefieldorlvl3" element={<OrcsBattlefieldLvl3/>}/>
           <Route path="battlefieldorlvl4" element={<OrcsBattlefieldLvl4/>}/>
           <Route path="restart" element={<RestartPage/>}/>
+          <Route path="*" element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>
   

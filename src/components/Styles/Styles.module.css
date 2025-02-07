@@ -258,6 +258,13 @@ filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435);
 opacity: 0.8;
 }
 
+.restartPage{
+
+width: 100%;
+height: 100%;
+background: rgb(189, 189, 189);
+}
+
 /* HomePageMedia */
 
 @media (min-width: 769px) and (max-width: 1024px) {

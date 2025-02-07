@@ -5,7 +5,7 @@ export function RestartButton() {
   const navigate = useNavigate();
   const handleClick = () => {
     const currentPath = window.location.pathname;
-    navigate("*");
+    navigate("/restart");
     setTimeout(() => {
       navigate(currentPath);
     }, 100); 

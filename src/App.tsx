@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { BearPeaks } from './components/Dwarves/BearPeaks/BearPeaks';
 import { NoPage } from './components/NoPage/NoPage';
 import { HistoryOfBearPeaks } from './components/Dwarves/HistoryOfBearPeaks/HistoryOfBearPeaks';
@@ -16,13 +16,10 @@ import { OrcsBattlefieldLvl2 } from './components/Battlefields/OrcsBattlefield/O
 import { OrcsBattlefieldLvl3 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl3';
 import { OrcsBattlefieldLvl4 } from './components/Battlefields/OrcsBattlefield/OrcsBattlefieldLvl4';
 
-
-
-
 function App() {
   return (
 
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
           <Route index element={<HomePage/> } />
           <Route path="dwarves" element={<BearPeaks/>} />
@@ -41,7 +38,7 @@ function App() {
           <Route path="battlefieldorlvl4" element={<OrcsBattlefieldLvl4/>}/>
           <Route path="*" element={<NoPage/>} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   
   );
 }

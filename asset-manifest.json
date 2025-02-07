@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tanah/static/css/main.b93d3bb2.css",
-    "main.js": "/Tanah/static/js/main.b924d274.js",
+    "main.js": "/Tanah/static/js/main.596d2409.js",
     "static/js/453.a9f356b8.chunk.js": "/Tanah/static/js/453.a9f356b8.chunk.js",
     "static/media/Scroll.webp": "/Tanah/static/media/Scroll.027124b2d1884b63d96c.webp",
     "static/media/Snow.jpg": "/Tanah/static/media/Snow.e750862979a9ee076379.jpg",
@@ -97,11 +97,11 @@
     "static/media/Bolt.jpg": "/Tanah/static/media/Bolt.5509844fa33d58e11a57.jpg",
     "index.html": "/Tanah/index.html",
     "main.b93d3bb2.css.map": "/Tanah/static/css/main.b93d3bb2.css.map",
-    "main.b924d274.js.map": "/Tanah/static/js/main.b924d274.js.map",
+    "main.596d2409.js.map": "/Tanah/static/js/main.596d2409.js.map",
     "453.a9f356b8.chunk.js.map": "/Tanah/static/js/453.a9f356b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b93d3bb2.css",
-    "static/js/main.b924d274.js"
+    "static/js/main.596d2409.js"
   ]
 }

@@ -257,35 +257,6 @@ border: none;
 filter: drop-shadow(0.1vw 0.1vw 1.2vw #a12435); 
 opacity: 0.8;
 }
-	
-.errorPage{
-background: rgb(51, 51, 51);
-height:100%;
-width: 100%;
-position: fixed  ;
-}
-	
-.buttonErr{
-background: rgb(51, 51, 51);
-border-top: solid #a12435 0.4vw;
-border-bottom: solid #a12435 0.4vw;
-text-align: center;
-font-family: "Rakkas";
-font-size: 3.5vw;
-display: flex;
-justify-content: space-between; 
-position: relative; 
-}
-	
-.error{
-width: 30%;
-height: 50%;
-display: block;
-margin-left: auto;
-margin-right: auto; 
-margin-top: 10%;
-}
-	
 
 /* HomePageMedia */
 
@@ -439,27 +410,6 @@ height: 25vw;
 margin: 0;
 border: none;
 }
-		
-.errorPage .buttonErr{
-	background: rgb(51, 51, 51);
-	border-top: solid #a12435 0.5vw;
-	border-bottom: solid #a12435 0.5vw;
-	text-align: center;
-	font-family: "Rakkas";
-	font-size: 7vw;
-	display: flex;
-	justify-content: space-between; 
-	position: relative; 
-	}
-			
-	.errorPage .error{
-	position: absolute;
-	top:30%;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 50vw;
-	height: 50vw;
-	}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -612,27 +562,6 @@ bottom: -10%;
 	margin: 0;
 	border: none;
 	}
-			
-	.errorPage .buttonErr{
-		background: rgb(51, 51, 51);
-		border-top: solid #a12435 0.7vw;
-		border-bottom: solid #a12435 0.7vw;
-		text-align: center;
-		font-family: "Rakkas";
-		font-size: 7vw;
-		display: flex;
-		justify-content: space-between; 
-		position: relative; 
-		}
-				
-		.errorPage .error{
-		position: absolute;
-		top:30%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 50vw;
-		height: 50vw;
-		}
 }
 
 @media (max-width: 480px) {
@@ -784,26 +713,5 @@ width: 25vw;
 height: 25vw;
 margin: 0;
 border: none;
-}
-		
-.errorPage .buttonErr{
-background: rgb(51, 51, 51);
-border-top: solid #a12435 1vw;
-border-bottom: solid #a12435 1vw;
-text-align: center;
-font-family: "Rakkas";
-font-size: 9vw;
-display: flex;
-justify-content: space-between; 
-position: relative; 
-}
-		
-.errorPage .error{
-position: absolute;
-top:30%;
-left: 50%;
-transform: translateX(-50%);
-width: 50vw;
-height: 50vw;
 }
 }

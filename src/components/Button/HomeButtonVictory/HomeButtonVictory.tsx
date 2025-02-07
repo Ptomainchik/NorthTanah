@@ -4,7 +4,7 @@ import classes from '../../Styles/Styles.module.css'
 export function HomeButtonVictory() {
   let navigate = useNavigate();
   function handleClick() {
-    navigate('/');
+    navigate('*');
   }
 
   return (

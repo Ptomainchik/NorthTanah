@@ -1151,35 +1151,35 @@ color: black;
 
 .dwarvesBattlefield .dwarfLvl123{
 position: absolute;
-left: 4%;
+left: 7%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .orcLvl123{
 position: absolute;
-right: 4%;
+right: 7%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .dwarfLvl4{
 position: absolute;
-left: 25%;
+left: 27%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .orcLvl4{
 position: absolute;
-right: 4%;
+right: 5%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .dwarfLvlUnic{
 position: absolute;
-left: 4%;
+left: 0;
 bottom: 5%;
 width: 25vw;
 }
@@ -1549,35 +1549,35 @@ margin: 0;
     
 .orcsBattlefield .dwarfLvl123{
 position: absolute;
-left: 4%;
+left: 7%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .orcLvl123{
 position: absolute;
-right: 4%;
+right: 7%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .dwarfLvl4{
 position: absolute;
-left: 4%;
+left: 5%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .orcLvl4{
 position: absolute;
-right: 25%;
+right: 27%;
 bottom: 5%;
 width: 25vw;
 }
 
 .orcsBattlefield .orcLvlUnic{
 position: absolute;
-right: 4%;
+right: 0;
 bottom: 6%;
 width: 25vw;
 }

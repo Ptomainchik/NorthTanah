@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import classes from "../../Styles/Styles.module.css";
+import classes from "../Styles/Styles.module.css";
 import { useEffect } from "react";
 
 export const NoPage = () => {

@@ -22,9 +22,9 @@ import { RestartPage } from './components/Button/RestartPage/RestartPage';
 function App() {
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/Tanah">
     <Routes>
-          <Route path="*" element={<HomePage/> } />
+          <Route path="/" element={<HomePage/> } />
           <Route path="dwarves" element={<BearPeaks/>} />
           <Route path="historybp" element={<HistoryOfBearPeaks/>} />
           <Route path="guilds" element={<Guilds/>} />

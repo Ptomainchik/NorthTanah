@@ -180,7 +180,7 @@ export const OrcsBattlefieldLvl1 = () => {
                 <div className={classes.arrowRules3}></div><div className={classes.arrowRules4}></div></div>}
                 {showMessageRules4 && <div><div className={classes.textMessageRulesOrcs}>Это энциклопедия, в которой описаны все ваши навыки и навыки противника.<p onClick={handleCloseMessageRules4}>---Продолжить---</p></div>
                 <div className={classes.arrowRules5}></div></div>}
-                {showMessageRules5 && <div><div className={classes.textMessageRulesOrcs}>Это множитель урона. Он показывает, насколько будет умножен урон от следующей обычной атаки<p onClick={handleCloseMessageRules5}>---Продолжить---</p></div>
+                {showMessageRules5 && <div><div className={classes.textMessageRulesOrcs}>Это множитель урона. Он показывает, насколько будет умножен урон от следующей обычной атаки.<p onClick={handleCloseMessageRules5}>---Начать---</p></div>
                 <div className={classes.arrowRules6}></div></div>}
                 {showMessage && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Жалкие орки.</p></div>}
                 {showMessage2 && <div className={classes.textMessageDwarves}><h2>Гном:</h2><p>Это было больно.</p></div>}

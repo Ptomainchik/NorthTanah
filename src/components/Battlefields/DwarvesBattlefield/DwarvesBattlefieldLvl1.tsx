@@ -181,7 +181,7 @@ export const DwarvesBattlefieldLvl1 = () => {
                 <div className={classes.arrowRules3}></div><div className={classes.arrowRules4}></div></div>}
                 {showMessageRules4 && <div><div className={classes.textMessageRulesDwarves}>Это энцинклопедия, в которой описанны все ваши навыки и противника.<p onClick={handleCloseMessageRules4}>---Продолжить---</p></div>
                 <div className={classes.arrowRules5}></div></div>}
-                {showMessageRules5 && <div><div className={classes.textMessageRulesDwarves}>Это множитель урона. Он показывает, насколько будет умножен урон от следующей обычной атаки<p onClick={handleCloseMessageRules5}>---Продолжить---</p></div>
+                {showMessageRules5 && <div><div className={classes.textMessageRulesDwarves}>Это множитель урона. Он показывает, насколько будет умножен урон от следующей обычной атаки.<p onClick={handleCloseMessageRules5}>---Начать---</p></div>
                 <div className={classes.arrowRules6}></div></div>}
                 {showMessage && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Коротышки.</p></div>}
                 {showMessage2 && <div className={classes.textMessageOrcs}><h2>Орк:</h2><p>Больно!</p></div>}

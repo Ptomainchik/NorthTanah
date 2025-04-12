@@ -259,7 +259,12 @@ export const OrcsBattlefieldLvl3 = () => {
                     {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>} 
                 </div>
             </div>
-            <ModalRules/>
+
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Навыки</p>
+            </div>
+
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}

@@ -198,7 +198,12 @@ export const OrcsBattlefieldLvl2 = () => {
                     {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
                 </div>
             </div>
-            <ModalRules/>
+
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Навыки</p>
+            </div>
+
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}

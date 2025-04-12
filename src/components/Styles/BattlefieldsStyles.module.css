@@ -481,6 +481,58 @@ color: black;
     margin: 0;
 }
 
+/* ---MessageRulesDwarves--- */
+
+.textMessageRulesDwarves{
+width: 30vw;
+height: 31vw;
+font-size: 2vw;
+font-family: "Pangolin";
+opacity: 0.8;
+background: grey;
+border: solid 0.3vw black;
+z-index: 200;
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translateX(-50%);
+padding: 1vw;
+}
+
+.textMessageRulesDwarves p{
+width: 100%;
+position: absolute;
+bottom: 15%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.arrowRulesDwarves1{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+right: 14%;
+top: 17%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+
+.arrowRulesDwarves2{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+left: 23%;
+top: 17%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+
 /* -----OrcsBattlefield----- */
 
 .orcsBattlefield{
@@ -864,17 +916,38 @@ color: black;
 
 /* -----ModalRules----- */
 
-
-.buttonModalRules{
+.encyclopedia{
     width: 9vw;
     height: 9vw;
+    border: black solid 0.3vw;
+    background: rgb(189, 189, 189);
+    position: absolute;
+    top: 13%;
+    left: 1%;
+}
+
+.encyclopedia p{
+    font-size: 1.5vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttonModalRules{
+    width: 8vw;
+    height: 8vw;
     background: url(../../images/Battlefields/Overall/RulesBook.webp);
     background-size: cover;
     border: none;
-    transform: scaleX(-1);
     position: absolute;
-    left: 1%;
-    top: 10%;
+    left: 50%;
+    top: -15%;
+    transform: translateX(-50%);
 }
 
 .buttonModalRules:hover{
@@ -1051,6 +1124,129 @@ color: black;
     margin: 0;
 }
 
+/* ---MessageRulesOrcs--- */
+
+.textMessageRulesOrcs{
+width: 30vw;
+height: 31vw;
+font-size: 2vw;
+font-family: "Pangolin";
+opacity: 0.8;
+background: grey;
+border: solid 0.3vw black;z-index: 200;
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translateX(-50%);
+padding: 1vw;
+}
+
+.textMessageRulesOrcs p{
+width: 100%;
+position: absolute;
+bottom: 15%;
+left: 50%;
+transform: translateX(-50%);
+}
+    
+    
+.arrowRulesOrcs1{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+left: 13%;
+top: 17%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+    
+.arrowRulesOrcs2{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+right: 25%;
+top: 17%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+
+/* ---OverallRules--- */
+
+.arrowRules3{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+left: 20%;
+bottom: 23%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+    
+.arrowRules4{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(0 0, 100% 0, 66% 55%, 100% 55%, 50% 100%, 0 55%, 34% 55%);
+z-index: 200;
+position: absolute;
+right: 20%;
+bottom: 23%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+    
+.arrowRules5{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(50% 0, 100% 45%, 66% 45%, 100% 100%, 0 100%, 34% 45%, 0 45%);
+z-index: 200;
+position: absolute;
+left: 2%;
+top: 35%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+        
+.arrowRules6{
+width: 8vw;
+height: 11vw;
+background: red;
+clip-path: polygon(50% 0, 100% 45%, 66% 45%, 100% 100%, 0 100%, 34% 45%, 0 45%);
+z-index: 200;
+position: absolute;
+right: 2%;
+top: 35%;
+animation: arrow 1s infinite;
+animation-fill-mode: forwards;
+}
+    
+@keyframes arrow {
+    0%,  100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    50% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    
+    100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
   /* -----OverallBattlefield----- */
 
   .damageMultiplier{
@@ -1151,35 +1347,35 @@ color: black;
 
 .dwarvesBattlefield .dwarfLvl123{
 position: absolute;
-left: 7%;
+left: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .orcLvl123{
 position: absolute;
-right: 7%;
+right: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .dwarfLvl4{
 position: absolute;
-left: 27%;
+left: 25%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .orcLvl4{
 position: absolute;
-right: 5%;
+right: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .dwarvesBattlefield .dwarfLvlUnic{
 position: absolute;
-left: 0;
+left: 4%;
 bottom: 5%;
 width: 25vw;
 }
@@ -1549,35 +1745,35 @@ margin: 0;
     
 .orcsBattlefield .dwarfLvl123{
 position: absolute;
-left: 7%;
+left: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .orcLvl123{
 position: absolute;
-right: 7%;
+right: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .dwarfLvl4{
 position: absolute;
-left: 5%;
+left: 4%;
 bottom: 5%;
 width: 25vw;
 }
     
 .orcsBattlefield .orcLvl4{
 position: absolute;
-right: 27%;
+right: 25%;
 bottom: 5%;
 width: 25vw;
 }
 
 .orcsBattlefield .orcLvlUnic{
 position: absolute;
-right: 0;
+right: 4%;
 bottom: 6%;
 width: 25vw;
 }
@@ -2024,6 +2220,30 @@ color: rgb(247,189,0);
 }
 
 /* -----ModalRules----- */
+
+.encyclopedia{
+width: 25vw;
+height: 20vw;
+border: black solid 0.3vw;
+background: rgb(189, 189, 189);
+font-size: 10vw;
+position: absolute;
+top: 27%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.encyclopedia p{
+font-size: 3vw;
+font-family: "PAngolin";
+font-weight: bold;
+margin: 0;
+padding: 0;
+position: absolute;
+bottom: 10%;
+left: 50%;
+transform: translateX(-50%);
+}
     
 .buttonModalRules{
 width: 20vw;
@@ -2031,11 +2251,10 @@ height: 20vw;
 background: url(../../images/Battlefields/Overall/RulesBook.webp);
 background-size: cover;
 border: none;
-transform: scaleX(-1);
 position: absolute;
+top: -15%;
 left: 50%;
 transform: translateX(-50%);
-top: 30%;
 }
         
 .modalRules{
@@ -2993,6 +3212,30 @@ font-family: "Pangolin";
     }
     
     /* -----ModalRules----- */
+
+    .encyclopedia{
+    width: 25vw;
+    height: 20vw;
+    border: black solid 0.3vw;
+    background: rgb(189, 189, 189);
+    font-size: 10vw;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+        
+    .encyclopedia p{
+    font-size: 3vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
         
     .buttonModalRules{
     width: 20vw;
@@ -3004,7 +3247,7 @@ font-family: "Pangolin";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 25%;
+    top: -15%;
     }
             
     .modalRules{
@@ -3961,6 +4204,30 @@ font-family: "Pangolin";
     }
     
     /* -----ModalRules----- */
+
+    .encyclopedia{
+    width: 25vw;
+    height: 20vw;
+    border: black solid 0.3vw;
+    background: rgb(189, 189, 189);
+    font-size: 10vw;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+            
+    .encyclopedia p{
+    font-size: 3vw;
+    font-family: "PAngolin";
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
         
     .buttonModalRules{
     width: 20vw;
@@ -3972,7 +4239,7 @@ font-family: "Pangolin";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 25%;
+    top: -15%;
     }
             
     .modalRules{

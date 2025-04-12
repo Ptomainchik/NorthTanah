@@ -10,7 +10,7 @@ export const ModalDwarvesLose = () =>{
             <h2>Defeat</h2>
             <img src={DwarfSkull} alt="Lose" draggable="false"/>
             <h5>Restart Level</h5>
-             <RestartLevelButton/>
+            <RestartLevelButton/>
            </div>
        </div>
     )

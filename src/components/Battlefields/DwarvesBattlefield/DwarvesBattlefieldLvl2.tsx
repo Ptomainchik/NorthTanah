@@ -216,7 +216,12 @@ export const DwarvesBattlefieldLvl2 = () => {
                     {showSkilFettersImg && <button title="Охотничьи путы"></button>}
                 </div>
             </div>
-            <ModalRules/>
+
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Навыки</p>
+            </div>
+
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
                     {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб"></button>}

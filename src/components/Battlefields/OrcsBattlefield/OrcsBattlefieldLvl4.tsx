@@ -309,8 +309,11 @@ export const OrcsBattlefieldLvl4 = () => {
             <div className={classes.orcLvlUnic}>
                 <button className={buttonClass} onClick={handleSpearThrower} title="Метатель" ></button>
             </div>
-           
-            <ModalRules/>
+
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Энцинклопедия навыков</p>
+            </div>
             
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
@@ -326,7 +329,12 @@ export const OrcsBattlefieldLvl4 = () => {
                     {showSkilOrcFerocityImg && <button onClick={handleOrcFerocity} disabled={orcFerocity === -1 || ferocityActive} title="Свирепость орка"></button>}
                 </div>
             </div>
-            <ModalRules/>
+            
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Навыки</p>
+            </div>
+
             <div className={classes.flexSkilsDwarves}>
                 <div className={classes.blockSkilAngryDwarf}>
                     {showSkilAngryDwarfImg && <button title="Гнев гнома"></button>}

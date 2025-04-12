@@ -340,7 +340,10 @@ export const DwarvesBattlefieldLvl4 = () => {
                 <button className={buttonClass} onClick={handleCrossbowman} title="Арбалетчик"></button>
             </div>
 
-            <ModalRules/>
+            <div className={classes.encyclopedia}>
+                <ModalRules/>
+                <p>Навыки</p>
+            </div>
 
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>

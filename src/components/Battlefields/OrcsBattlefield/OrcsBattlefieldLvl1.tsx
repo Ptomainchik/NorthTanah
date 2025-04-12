@@ -201,8 +201,8 @@ export const OrcsBattlefieldLvl1 = () => {
                 <div className={classes.blockSkilContagiousBite}>
                     {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
                 </div>
-            </div>
-
+            </div> 
+            
             <div className={classes.encyclopedia}>
                 <ModalRules/>
                 <p>Навыки</p>

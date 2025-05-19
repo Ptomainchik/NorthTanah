@@ -29,6 +29,7 @@ export const OrcsBattlefieldLvl1 = () => {
     const [showSkilAngryDwarfImg, setShowSkilAngryDwarfImg] = useState(false);
     const [showLoseOcrsMessage, setShowLoseOrcsMessage] = useState(false);
     const [showWinOcrs123LvlMessage, setShowWinOcrs123LvlMessage] = useState(false);
+    const [buttonDisebled, setButtonDisebled] = useState(true);
 
     const handleCloseMessageRules = () => {
         if (showMessageRules === true) {
@@ -61,6 +62,7 @@ export const OrcsBattlefieldLvl1 = () => {
     const handleCloseMessageRules5 = () => {
         if (showMessageRules5 === true) {
             setShowMessageRules5(false);
+            setButtonDisebled(false);
         }
     }
 
@@ -169,7 +171,7 @@ export const OrcsBattlefieldLvl1 = () => {
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>
                     <progress className={classes.healthIndicatorDwarf} max="1000" value={dwarfHealth} ></progress>
-                        <button className={classes.buttonDwarfLvl1} onClick={handleOrcAttack} ></button>
+                        <button className={classes.buttonDwarfLvl1} onClick={handleOrcAttack} disabled={buttonDisebled === true}></button>
                     </div>
                 </div>
                 {showMessageRules && <div><div className={classes.textMessageRulesOrcs}>Это ваш противник. Для того чтобы атаковать его, кликайте по нему. Шкала над головой показывает, сколько у него здоровья.<p onClick={handleCloseMessageRules}>---Продолжить---</p></div>
@@ -196,10 +198,10 @@ export const OrcsBattlefieldLvl1 = () => {
             </div>
             <div className={classes.flexSkilsOrcs}>
                 <div className={classes.blockSkilOrcPoultice}>
-                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб"></button>}
+                    {showSkilOrcPoulticeImg && <button onClick={handlePoultice} title="Лечебный гриб" disabled={buttonDisebled === true}></button>}
                 </div>
                 <div className={classes.blockSkilContagiousBite}>
-                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус"></button>}
+                    {showSkilContagiousBiteImg && <button onClick={handleContagiousBite} title="Заразный укус" disabled={buttonDisebled === true}></button>}
                 </div>
             </div>
 

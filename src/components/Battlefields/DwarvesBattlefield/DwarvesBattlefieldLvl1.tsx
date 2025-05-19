@@ -29,6 +29,7 @@ export const DwarvesBattlefieldLvl1 = () => {
     const [showSkilContagiousBiteImg, setShowSkilContagiousBiteImg] = useState(false);
     const [showLoseDwarvesMessage, setShowLoseDwarvesMessage] = useState(false);
     const [showWinDwarves123LvlMessage, setShowWinDwarves123LvlMessage] = useState(false);
+    const [buttonDisebled, setButtonDisebled] = useState(true);
 
     
     const handleCloseMessageRules = () => {
@@ -62,6 +63,7 @@ export const DwarvesBattlefieldLvl1 = () => {
     const handleCloseMessageRules5 = () => {
         if (showMessageRules5 === true) {
             setShowMessageRules5(false);
+            setButtonDisebled(false);
         }
     }
 
@@ -191,7 +193,7 @@ export const DwarvesBattlefieldLvl1 = () => {
                 <div className={classes.unitsBlock}>
                     <div className={classes.orcLvl123}>
                         <progress className={classes.healthIndicatorOrc} max="1000" value={orcHealth} ></progress>
-                        <button className={classes.buttonOrcLvl1} onClick={handleDwarfAttack}></button>
+                        <button className={classes.buttonOrcLvl1} onClick={handleDwarfAttack} disabled={buttonDisebled === true}></button>
                     </div>
                 </div>
             </div>
@@ -208,10 +210,10 @@ export const DwarvesBattlefieldLvl1 = () => {
 
             <div className={classes.flexSkilsDwarves}>
             <div className={classes.blockSkilDwarfPoultice}>
-                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб"></button>}
+                    {showSkilDwarvesPoulticeImg && <button  onClick={handlePoultice} title="Лечебный гриб" disabled={buttonDisebled === true}></button>}
                 </div>
                 <div className={classes.blockSkilAngryDwarf}>
-                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома"></button>}
+                    {showSkilAndryDwarfImg && <button onClick={handleAngryDwarf} title="Гнев гнома" disabled={buttonDisebled === true}></button>}
                 </div>
             </div>
             <div className={classes.damageMultiplier}>

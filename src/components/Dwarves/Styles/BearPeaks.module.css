@@ -63,12 +63,13 @@ background-size: 100%;
 
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
+font-family: "El Messiri";
 color: rgb(30, 46, 70);
 align-items: center;
 justify-content: center;
 -webkit-text-stroke: rgb(247,189,0) 0.1vw;
-font-size: 4vw;
+font-size: 3vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -384,7 +385,8 @@ text-align: center;
 justify-content: space-between;
 color: rgb(247,189,0); 
 -webkit-text-stroke: 0.1vw black;
-font-size: 3.5vw;
+font-size: 4vw;
+font-weight: 700;
 } 
 
 .titleBlacksmith{
@@ -513,17 +515,17 @@ left: 5%;
 .dwarvesPageButton{
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
-font-size: 60%;
+font-family: "El Messiri";
 width: 110%;
 display: block; 
 color: black;
--webkit-text-stroke: 0.1px  rgb(247,189,0) ;
+-webkit-text-stroke: 0.1vw  rgb(247,189,0) ;
 }
   
 .dwarvesPageButton h5{
 transform: skewX(-30deg);
-font-size: 3vw;
+font-size: 2.4vw;
+font-weight: 700;
 }
 
 .dwarvesPageButton:hover{
@@ -538,7 +540,6 @@ border-bottom: solid  rgb(247,189,0) 0.3vw;
 border-top: solid  rgb(247,189,0) 0.3vw;
 text-align: center;
 font-size: 3.5vw;
-font-family: "Rakkas";
 display: flex;
 justify-content: space-between; 
 position: fixed;
@@ -546,6 +547,13 @@ width: 100%;
 z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw  rgb(247,189,0);
+}
+
+.buttons p{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-family: "El Messiri";
 }
 
 /* @@@DwarvesPageMedia@@@ */
@@ -635,9 +643,8 @@ left: 4%;
 .dwarvesPageButton{
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
-width: 181%;
-margin-top: -10%;
+width: 175%;
+margin-top: -3%;
 display: block; 
 color: rgb(247,189,0);
 -webkit-text-stroke: 0.1px  black;
@@ -645,17 +652,17 @@ color: rgb(247,189,0);
 		  
 .dwarvesPageButton h5{
 transform: skewX(-30deg);
-font-size: 5vw;
+font-size: 4vw;
 }
 	  
 .dwarvesPage .buttons{
 width: 100%;
+height: 7%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 0.5vw;
 border-top: solid rgb(247,189,0) 0.5vw;
 text-align: center;
 font-size: 7vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -749,26 +756,25 @@ left: 4%;
 .dwarvesPageButton{
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
 width: 164%;
-margin-top: -10%;
+margin-top: -3%;
 color: rgb(247,189,0);
 -webkit-text-stroke: 0.1px  black;
 }
 			
 .dwarvesPageButton h5{
 transform: skewX(-30deg);
-font-size: 5.5vw;
+font-size: 4.2vw;
 }
 		
 .dwarvesPage .buttons{
 width: 100%;
+height: 7.5%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 0.7vw;
 border-top: solid rgb(247,189,0) 0.7vw;
 text-align: center;
-font-size: 7vw;
-font-family: "Rakkas";
+font-size: 6.5vw;
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -861,9 +867,8 @@ left: 5%;
 .dwarvesPageButton{
 background: rgb(30, 46, 70);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
-width: 162%;
-margin-top: -13%;
+width: 153%;
+margin-top: -3%;
 display: block; 
 color: rgb(247,189,0);
 -webkit-text-stroke: 0.1px  black;
@@ -871,23 +876,27 @@ color: rgb(247,189,0);
 			  
 .dwarvesPageButton h5{
 transform: skewX(-30deg);
-font-size: 5.5vw;
+font-size: 4.5vw;
 }
 		  
 .dwarvesPage .buttons{
 width: 100%;
+height: 6.5%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 1vw;
 border-top: solid rgb(247,189,0) 1vw;
 text-align: center;
-font-size: 9vw;
-font-family: "Rakkas";
+font-size: 7.3vw;
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
 color: rgb(247,189,0);
 -webkit-text-stroke: 0.1vw black;
-}     
+}   
+
+.dwarvesPage .buttons p{
+	padding-top: 1%;
+}
 }
 	
 /* @@@GuildsPageMedia@@@ */
@@ -1602,12 +1611,13 @@ top: 4%;
 	  
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
+font-family: "El Messiri";
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(247,189,0) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(247,189,0) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -1615,6 +1625,7 @@ height: 50%;
 .titleHistory h1{
 width: 100%;
 text-align: center;
+padding-top: 5%;
 }
 	  
 .banner{
@@ -1712,12 +1723,12 @@ top: -1%;
 	
 .historyDwarves .buttons{
 width: 100%;
+height: 4.5%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 1vw;
 border-top: solid rgb(247,189,0) 1vw;
 text-align: center;
 font-size: 9vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -1791,12 +1802,12 @@ top: 4%;
 		
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(247,189,0) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(247,189,0) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -1900,12 +1911,12 @@ top: -1%;
 	
 .historyDwarves .buttons{
 width: 100%;
+height: 3.5%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 0.7vw;
 border-top: solid rgb(247,189,0) 0.7vw;
 text-align: center;
 font-size: 7vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -1979,12 +1990,12 @@ top: 4%;
 		  
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(247,189,0) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(247,189,0) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -2085,12 +2096,12 @@ top: -1%;
 	
 .historyDwarves .buttons{
 width: 100%;
+height: 3.5%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 0.5vw;
 border-top: solid rgb(247,189,0) 0.5vw;
 text-align: center;
 font-size: 7vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;

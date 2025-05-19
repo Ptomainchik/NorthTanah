@@ -8,9 +8,9 @@ export const ModalDwarvesWin123Lvl = () =>{
         <div className={classes.dwarvesOverlay}>
            <div className={classes.dwarvesWin123Lvl}>
                 <div className={classes.blockModalWinDwarves123Lvl}>
-                    <h2>Victory</h2>
+                    <h2>Победа</h2>
                     <NextDwarvesLevelButton/>
-                    <h5>Next Level</h5>
+                    <h5>Следующий уровень</h5>
                 </div>
                 <img className={classes.blockModalWinDwarves123Lvl} src={DwarvesWin} alt="Win" draggable="false"/>
             </div>

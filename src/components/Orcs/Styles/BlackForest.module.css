@@ -63,12 +63,13 @@ background-size: 100%;
 
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
+font-family: "El Messiri";
 color: rgb(4, 27, 1);
 align-items: center;
 justify-content: center;
 -webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
-font-size: 4vw;
+font-size: 3vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -610,17 +611,18 @@ left: 5%;
 .orcsPageButton{
 background: rgb(4, 27, 1);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
+font-family: "El Messiri";
 font-size: 60%;
-width: 110%;
+width: 150%;
 display: block; 
 color: black;
--webkit-text-stroke: 0.1px  rgb(180, 60, 20);
+-webkit-text-stroke: 0.1vw  rgb(180, 60, 20);
 }
   
 .orcsPageButton h5{
 transform: skewX(-30deg);
-font-size: 3vw;
+font-size: 2.4vw;
+font-weight: 700;
 }
 
 .orcsPageButton:hover{
@@ -636,12 +638,18 @@ border-bottom: solid rgb(180, 60, 20) 0.3vw;
 border-top: solid rgb(180, 60, 20) 0.3vw;
 text-align: center;
 font-size: 3.5vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw  rgb(180, 60, 20);
+}
+
+.buttons p{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-family: "El Messiri";
 }
   
 /* @@@OrcsPageMedia@@@ */
@@ -731,9 +739,8 @@ left: 4%;
 .orcsPageButton{
 background: rgb(4, 27, 1);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
-width: 160%;
-margin-top: -10%;
+width: 220%;
+margin-top: -3%;
 display: block; 
 color: rgb(180, 60, 20);
 -webkit-text-stroke: 0.1px  black;
@@ -741,11 +748,12 @@ color: rgb(180, 60, 20);
       
 .orcsPageButton h5{
 transform: skewX(-30deg);
-font-size: 5vw;
+font-size: 4vw;
 }
   
 .orcsPage .buttons{
 width: 100%;
+height: 7%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 0.5vw;
 border-top: solid rgb(180, 60, 20) 0.5vw;
@@ -845,26 +853,25 @@ left: 4%;
 .orcsPageButton{
 background: rgb(4, 27, 1);
 transform: skewX(30deg) ;
-font-family: "Rakkas", serif;
-width: 147%;
-margin-top: -10%;
+width: 210%;
+margin-top: -3%;
 color: rgb(180, 60, 20);
 -webkit-text-stroke: 0.1px  black;
 }
         
 .orcsPageButton h5{
 transform: skewX(-30deg);
-font-size: 5.5vw;
+font-size: 4.2vw;
 }
     
 .orcsPage .buttons{
 width: 100%;
+height: 7.5%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 0.7vw;
 border-top: solid rgb(180, 60, 20) 0.7vw;
 text-align: center;
-font-size: 7vw;
-font-family: "Rakkas";
+font-size: 6.5vw;
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -957,9 +964,8 @@ color: rgb(180, 60, 20);
   .orcsPageButton{
   background: rgb(4, 27, 1);
   transform: skewX(30deg) ;
-  font-family: "Rakkas", serif;
-  width: 144%;
-  margin-top: -13%;
+  width: 193%;
+  margin-top: -3%;
   display: block; 
   color: rgb(180, 60, 20);
   -webkit-text-stroke: 0.1px  black;
@@ -967,23 +973,27 @@ color: rgb(180, 60, 20);
           
   .orcsPageButton h5{
   transform: skewX(-30deg);
-  font-size: 5.5vw;
+  font-size: 4.5vw;
   }
       
   .orcsPage .buttons{
   width: 100%;
+  height: 6.5%;
   background: rgb(4, 27, 1);
   border-bottom: solid rgb(180, 60, 20) 1vw;
   border-top: solid rgb(180, 60, 20) 1vw;
   text-align: center;
-  font-size: 9vw;
-  font-family: "Rakkas";
+  font-size: 7.3vw;
   justify-content: space-between; 
   position: absolute;
   z-index: 9999;
   color: rgb(180, 60, 20);
   -webkit-text-stroke: 0.1vw black;
   }     
+
+  .orcsPage .buttons p{
+	padding-top: 1%;
+}
 }
 
 /* @@@CommunitiesPageMedia@@@ */
@@ -1935,12 +1945,13 @@ top: 4%;
   
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
+font-family: "El Messiri";
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(180, 60, 20) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -1948,6 +1959,7 @@ height: 50%;
 .titleHistory h1{
 width: 100%;
 text-align: center;
+padding-top: 5%;
 }
   
 .banner{
@@ -2044,12 +2056,12 @@ top: -1%;
 
 .historyOrcs .buttons{
 width: 100%;
+height: 4.5%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 1vw;
 border-top: solid rgb(180, 60, 20) 1vw;
 text-align: center;
 font-size: 9vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -2124,12 +2136,12 @@ top: 4%;
     
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(180, 60, 20) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -2233,12 +2245,12 @@ top: -1%;
 
 .historyOrcs .buttons{
 width: 100%;
+height: 3.5%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 0.7vw;
 border-top: solid rgb(180, 60, 20) 0.7vw;
 text-align: center;
 font-size: 7vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -2312,12 +2324,12 @@ top: 4%;
       
 .titleHistory{
 display: flex;
-font-family: "Rakkas", serif;
 color:  black;
 align-items: center;
 justify-content: center;
--webkit-text-stroke: rgb(180, 60, 20) 0.1vw;
-font-size: 5.5vw;
+-webkit-text-stroke: rgb(180, 60, 20) 0.3vw;
+font-size: 5vw;
+font-weight: 700;
 width: 100%;
 height: 50%;
 }
@@ -2418,12 +2430,12 @@ top: -1%;
 
 .historyOrcs .buttons{
 width: 100%;
+height: 3.5%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 0.5vw;
 border-top: solid rgb(180, 60, 20) 0.5vw;
 text-align: center;
 font-size: 7vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;

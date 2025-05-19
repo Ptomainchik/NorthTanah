@@ -283,7 +283,7 @@ export const OrcsBattlefieldLvl4 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-            <div className={classes.buttonsOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+            <div className={classes.buttonsOrcsBattlefield}><HomeButton/><p>Поле боя</p><RestartButton/></div>
             <div>
                 <div>
                     <div className={classes.dwarfLvl4}>
@@ -312,7 +312,7 @@ export const OrcsBattlefieldLvl4 = () => {
 
             <div className={classes.encyclopedia}>
                 <ModalRules/>
-                <p>Энцинклопедия навыков</p>
+                <p>Навыки</p>
             </div>
             
             <div className={classes.flexSkilsOrcs}>

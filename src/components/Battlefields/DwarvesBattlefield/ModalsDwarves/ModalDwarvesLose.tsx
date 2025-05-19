@@ -7,9 +7,9 @@ export const ModalDwarvesLose = () =>{
     return (
         <div className={classes.dwarvesOverlay}>
            <div className={classes.dwarvesLose}>
-            <h2>Defeat</h2>
+            <h2>Поражение</h2>
             <img src={DwarfSkull} alt="Lose" draggable="false"/>
-            <h5>Restart Level</h5>
+            <h5>Заново</h5>
             <RestartLevelButton/>
            </div>
        </div>

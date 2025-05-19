@@ -165,7 +165,7 @@ export const DwarvesBattlefieldLvl1 = () => {
 
     return (
         <div className={classes.dwarvesBattlefield}>
-            <div className={classes.buttonsDwarvesBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+            <div className={classes.buttonsDwarvesBattlefield}><HomeButton/><p>Поле боя</p><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>

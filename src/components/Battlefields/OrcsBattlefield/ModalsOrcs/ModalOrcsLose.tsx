@@ -7,9 +7,9 @@ export const ModalOrcsLose = () =>{
     return (
         <div className={classes.orcsOverlay}>
            <div className={classes.orcsLose} >
-            <h2>Defeat</h2>
+            <h2>Поражение</h2>
             <img src={OrcSkull} alt="Lose" draggable="false"/>
-            <h5>Restart Level</h5>
+            <h5>Заново</h5>
             <RestartLevelButton/>
            </div>
        </div>

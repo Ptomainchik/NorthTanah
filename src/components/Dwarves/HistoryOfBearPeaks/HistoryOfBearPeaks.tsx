@@ -7,11 +7,11 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 export const HistoryOfBearPeaks = () => {
     return (
 <div className={classes.historyDwarves}>
-      <div className={classes.buttons}><HomeButton/><span>History</span><BackButton/></div>
+      <div className={classes.buttons}><HomeButton/><p>История</p><BackButton/></div>
     <div className={classes.imageHistory}>
       <div className={classes.titleHistory}>
         <img title="Герб Медвежьих Вершин " src={CoatOfArmsOfBearPeaks} alt="Герб Медвежьих Вершин" className={classes.banner} draggable="false"/>
-        <h1>Bear Peaks</h1>
+        <h1>Медвежьи Вершины</h1>
         <img title="Герб Медвежьих Вершин" src={CoatOfArmsOfBearPeaks} alt="Герб Медвежьих Вершин" className={classes.banner} draggable="false"/>
       </div>
     <AccordionState/>

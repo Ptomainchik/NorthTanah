@@ -11,28 +11,28 @@ export const Communities = () => {
     return (
     <div>
 <div className={classes.communities}>
-        <div className={classes.buttons}><HomeButton/><span>Communities</span><BackButton/></div>
+        <div className={classes.buttons}><HomeButton/><p>Общины</p><BackButton/></div>
  
  <div className={classes.communitiesLists}>
     
        <img src={GreenTriangle} className={classes.greenTriangleCommuties1} alt='Green triangle'/>
               <GuardiansOfSpirits/>
-       <h5 className={classes.titleGuardiansOfSpirits}>Guardians of spirits</h5>  
+       <h5 className={classes.titleGuardiansOfSpirits}>Хранители духов</h5>  
         
        <img src={GreenTriangle} className={classes.greenTriangleCommuties2} alt='Green triangle'/>
               <Hunters/>
-       <h5 className={classes.titleHunters}>Hunters</h5>
+       <h5 className={classes.titleHunters}>Охотники</h5>
  </div>
 
  <div className={classes.communitiesLists}>
   
        <img src={GreenTriangle} className={classes.greenTriangleCommuties3} alt='Green triangle'/>
               <Workers/>
-       <h5 className={classes.titleWorkers}>Workers</h5>
+       <h5 className={classes.titleWorkers}>Работники</h5>
         
        <img src={GreenTriangle} className={classes.greenTriangleCommuties4} alt='Green triangle'/>
               <Gangs/>
-       <h5 className={classes.titleGangs}>Gangs</h5>
+       <h5 className={classes.titleGangs}>Банды</h5>
  </div>
 
  </div>

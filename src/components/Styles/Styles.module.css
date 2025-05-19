@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Pangolin&family=Rakkas&display=swap');
 /* -----HomePage----- */
 
 body {
 color: #a80016;
 font-size: 3vw;
-font-family: "Rakkas";  
+font-family: "El Messiri";  
 font-style: normal;
 text-align: center;
 background: grey;
@@ -42,16 +41,16 @@ clip-path: polygon(100% 0, 100% 30%, 50% 100%, 0 30%, 0 0);
 background: black;
 }
 
-.choiceTitle span{
+.choiceTitle h3{
 position: absolute;
+top: -20%;
 left: 50%;
 transform: translateX(-50%);
 text-align: center;
 color: #a12435;
 -webkit-text-stroke: 0.1vw  rgb(189, 189, 189) ;
-font-size: 5vw;
-font-family: "Rakkas";
-text-align: center;
+font-size: 4vw;
+font-family: "El Messiri";
 }
 
 .choiceTitle p {
@@ -281,16 +280,17 @@ clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
 background: black;
 }	
 		
-.choiceTitle span{
+.choiceTitle h3{
+width: 100%;
 position: absolute;
+top: -13%;
 left: 50%;
 transform: translateX(-50%);
 text-align: center;
 color: #a12435;
 -webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
 font-size: 13vw;
-font-family: "Rakkas";
-text-align: center;
+font-family: "El Messiri";
 }
 			
 .choiceTitle p {
@@ -433,8 +433,10 @@ clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
 background: black;
 }	
 	
-.choiceTitle span{
+.choiceTitle h3{
+width: 100%;
 position: absolute;
+top: -17%;
 left: 50%;
 transform: translateX(-50%);
 text-align: center;
@@ -442,7 +444,6 @@ color: #a12435;
 -webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
 font-size: 15vw;
 font-family: "Rakkas";
-text-align: center;
 }
 		
 .choiceTitle p {
@@ -585,16 +586,17 @@ clip-path: polygon(100% 0, 100% 40%, 50% 100%, 0 40%, 0 0);
 background: black;
 }	
 
-.choiceTitle span{
+.choiceTitle h3{
+width: 100%;
 position: absolute;
+top: -10%;
 left: 50%;
 transform: translateX(-50%);
 text-align: center;
 color: #a12435;
 -webkit-text-stroke: 0.2vw  rgb(189, 189, 189) ;
 font-size: 15vw;
-font-family: "Rakkas";
-text-align: center;
+font-family: "El Messiri";
 }
 	
 .choiceTitle p {

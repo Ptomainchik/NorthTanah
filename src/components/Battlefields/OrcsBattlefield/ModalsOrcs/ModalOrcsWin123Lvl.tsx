@@ -8,9 +8,9 @@ export const ModalOrcsWin123Lvl = () =>{
         <div className={classes.orcsOverlay}>
            <div className={classes.orcsWin123Lvl}>
                 <div className={classes.blockModalWinOrcs123Lvl}>
-                    <h2>Victory</h2>
+                    <h2>Победа</h2>
                     <NextOrcsLevelButton/>
-                    <h5>Next Level</h5>
+                    <h5>Следующий уровень</h5>
                 </div>
                 <img className={classes.blockModalWinOrcs123Lvl} src={OrcsWin} alt="Win" draggable="false"/>
             </div>

@@ -7,7 +7,7 @@ import { HomeButton } from '../../Button/HomeButton/HomeButton'
 export const OrcsPage = () => {
     return (
     <div className={classes.orcsPage}>
-      <div className={classes.buttons}><HomeButton/><span>Orcs</span><BackButton/></div>
+      <div className={classes.buttons}><HomeButton/><p>Чёрный Лес</p><BackButton/></div>
 <div className={classes.info}> 
   <div className={classes.infoPage}>
            <img title="Орк" src={OrcShaman} alt="Орк" className={classes.imgPage} draggable="false"/>
@@ -17,9 +17,9 @@ export const OrcsPage = () => {
         </div>
   </div>
   <div className={classes.blockLink}>
-          <Link to="/historybf" title="История Чёрного Леса" className={classes.orcsPageButton} ><h5>The history of Black Forest</h5></Link>
-          <Link to="/communities" title="Общины Чёрного Леса" className={classes.orcsPageButton} ><h5>Communities of Black Forest</h5></Link>
-          <Link to="/battlefieldorlvl1" title="Боевое поле" className={classes.orcsPageButton} ><h5>Battlefield</h5></Link>
+          <Link to="/historybf" title="История Чёрного Леса" className={classes.orcsPageButton} ><h5>История Чёрного Леса</h5></Link>
+          <Link to="/communities" title="Общины Чёрного Леса" className={classes.orcsPageButton} ><h5>Общины Чёрного Леса</h5></Link>
+          <Link to="/battlefieldorlvl1" title="Боевое поле" className={classes.orcsPageButton} ><h5>Поле боя</h5></Link>
   </div>
   
   <div className={classes.story}>

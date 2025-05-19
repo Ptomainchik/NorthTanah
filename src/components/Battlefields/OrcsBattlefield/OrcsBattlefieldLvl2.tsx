@@ -167,7 +167,7 @@ export const OrcsBattlefieldLvl2 = () => {
 
     return (
         <div className={classes.orcsBattlefield}>
-              <div className={classes.buttonsOrcsBattlefield}><HomeButton/><span>Battlefield</span><RestartButton/></div>
+              <div className={classes.buttonsOrcsBattlefield}><HomeButton/><p>Поле боя</p><RestartButton/></div>
             <div className={classes.unitsFlex}>
                 <div className={classes.unitsBlock}>
                     <div className={classes.dwarfLvl123}>

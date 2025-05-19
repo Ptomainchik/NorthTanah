@@ -9,7 +9,7 @@ import { BackButton } from '../../Button/BackButton/BackButton'
 export const DwarvesPage = () => {
     return (
     <div className={classes.dwarvesPage}>
-      <div className={classes.buttons}><HomeButton/><span>Dwarves</span><BackButton/></div>
+      <div className={classes.buttons}><HomeButton/><p>Медвежьи Вершины</p><BackButton/></div>
     <div className={classes.info}>
       <div className={classes.infoPage}>
              <img title="Гном" src={DwarfWithBook} alt="Гном" className={classes.imgPage} draggable="false"/>
@@ -20,9 +20,9 @@ export const DwarvesPage = () => {
       </div>
 
       <div className={classes.blockLink}>
-          <Link to="/historybp" title="История Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>The history of Bear Peaks</h5></Link>
-          <Link to="/guilds" title="Гильдии Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>Guilds of Bear Peaks</h5></Link>
-          <Link to="/battlefielddwlvl1" title="Боевое поле" className={classes.dwarvesPageButton} ><h5>Battlefield</h5></Link>
+          <Link to="/historybp" title="История Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>История Медвежьих Вершин</h5></Link>
+          <Link to="/guilds" title="Гильдии Медвежьих вершин" className={classes.dwarvesPageButton} ><h5>Гильдии Медвежьих Вершин</h5></Link>
+          <Link to="/battlefielddwlvl1" title="Боевое поле" className={classes.dwarvesPageButton} ><h5>Поле боя</h5></Link>
       </div>
 
   <div className={classes.story}>

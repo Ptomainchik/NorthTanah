@@ -292,6 +292,7 @@
 }
 
 .dwarvesWin123Lvl h5{
+    width: 100%;
     margin: 0;
     color: rgb(247,189,0);  
 }
@@ -464,7 +465,6 @@ color: black;
     background-size: contain; 
     margin: 0;
 }
-
 
 .blockSkilDwarvesBolts{
     margin: 5%;
@@ -868,6 +868,7 @@ color: black;
 }
 
 .orcsWin123Lvl h5{
+    width: 100%;
     margin: 0;
     color: rgb(180, 60, 20);  
 }
@@ -1149,7 +1150,6 @@ left: 50%;
 transform: translateX(-50%);
 }
     
-    
 .arrowRulesOrcs1{
 width: 8vw;
 height: 11vw;
@@ -1249,7 +1249,7 @@ animation-fill-mode: forwards;
 
   /* -----OverallBattlefield----- */
 
-  .damageMultiplier{
+.damageMultiplier{
     width: 9vw;
     height: 9vw;
     border: black solid 0.3vw;
@@ -1312,31 +1312,45 @@ animation-fill-mode: forwards;
 .buttonsOrcsBattlefield{
 width: 100%;
 background: rgb(4, 27, 1);
-text-align: center;
-font-size: 3.5vw;
-font-family: "Rakkas";
+font-size: 3.3vw;
 justify-content: space-between; 
 border-top: 0.3vw solid rgb(180, 60, 20);
 border-bottom: 0.3vw solid rgb(180, 60, 20);
+margin: 0;
+padding: 0;
 position: fixed;
 z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw rgb(180, 60, 20);
 }
 
+.buttonsOrcsBattlefield p{
+margin: 0;
+padding: 0;
+font-family: "El Messiri";
+font-weight: 700;
+}
+
 .buttonsDwarvesBattlefield{
 width: 100%;
 background: rgb(30, 46, 70);
-text-align: center;
-font-size: 3.5vw;
-font-family: "Rakkas";
+font-size: 3.3vw;
 justify-content: space-between; 
 border-top: 0.3vw solid rgb(247,189,0);
 border-bottom: 0.3vw solid rgb(247,189,0);
+margin: 0;
+padding: 0;
 position: fixed;
 z-index: 9999;
 color: black;
 -webkit-text-stroke: 0.1vw rgb(247,189,0);
+}
+
+.buttonsDwarvesBattlefield p{
+margin: 0;
+padding: 0;
+font-family: "El Messiri";
+font-weight: 700;
 }
 
 /* @@@BattlefieldsMedia@@@ */
@@ -1798,7 +1812,7 @@ width: 25vw;
 
 .orcsBattlefield .orcLvlUnic{
 position: absolute;
-right: 4%;
+right: 0%;
 bottom: 6%;
 width: 25vw;
 }
@@ -2244,9 +2258,7 @@ width: 100%;
 background: rgb(4, 27, 1);
 border-bottom: solid rgb(180, 60, 20) 1vw;
 border-top: solid rgb(180, 60, 20) 1vw;
-text-align: center;
 font-size: 9vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -2259,9 +2271,7 @@ width: 100%;
 background: rgb(30, 46, 70);
 border-bottom: solid rgb(247,189,0) 1vw;
 border-top: solid rgb(247,189,0) 1vw;
-text-align: center;
 font-size: 9vw;
-font-family: "Rakkas";
 justify-content: space-between; 
 position: absolute;
 z-index: 9999;
@@ -3342,9 +3352,7 @@ animation-fill-mode: forwards;
     background: rgb(4, 27, 1);
     border-bottom: solid rgb(180, 60, 20) 0.7vw;
     border-top: solid rgb(180, 60, 20) 0.7vw;
-    text-align: center;
     font-size: 7vw;
-    font-family: "Rakkas";
     justify-content: space-between; 
     position: absolute;
     z-index: 9999;
@@ -3357,9 +3365,7 @@ animation-fill-mode: forwards;
     background: rgb(30, 46, 70);
     border-bottom: solid rgb(247,189,0) 0.7vw;
     border-top: solid rgb(247,189,0) 0.7vw;
-    text-align: center;
     font-size: 7vw;
-    font-family: "Rakkas";
     justify-content: space-between; 
     position: absolute;
     z-index: 9999;
@@ -4440,9 +4446,7 @@ animation-fill-mode: forwards;
     background: rgb(4, 27, 1);
     border-bottom: solid rgb(180, 60, 20) 0.5vw;
     border-top: solid rgb(180, 60, 20) 0.5vw;
-    text-align: center;
     font-size: 7vw;
-    font-family: "Rakkas";
     justify-content: space-between; 
     position: absolute;
     z-index: 9999;
@@ -4455,9 +4459,7 @@ animation-fill-mode: forwards;
     background: rgb(30, 46, 70);
     border-bottom: solid rgb(247,189,0) 0.5vw;
     border-top: solid rgb(247,189,0) 0.5vw;
-    text-align: center;
     font-size: 7vw;
-    font-family: "Rakkas";
     justify-content: space-between; 
     position: absolute;
     z-index: 9999;

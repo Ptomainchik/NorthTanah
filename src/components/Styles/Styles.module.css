@@ -105,6 +105,7 @@ filter: drop-shadow(0 0 1vw rgb(30, 46, 70));
 position: absolute;
 left: -20%;
 bottom: -50%;
+cursor: pointer;
 }
 
 .dwarvesButton:hover{
@@ -123,6 +124,7 @@ filter: drop-shadow(0 0 1vw rgb(4, 27, 1));
 position: absolute;
 right: -20%;
 bottom: -50%;
+cursor: pointer;
 }
 
 .orcsButton:hover{
@@ -169,6 +171,7 @@ border: none;
 filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: left;
 margin: 0.5vw 0 0 1vw;
+cursor: pointer;
 }
 	
 .homeButton:hover{
@@ -188,6 +191,7 @@ border: none;
 filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: right;
 margin: 0.5vw 1vw 0 0;
+cursor: pointer;
 }
 	
 .backButton:hover{
@@ -207,6 +211,7 @@ border: none;
 filter: drop-shadow(0 0 1vw rgb(201, 201, 201));
 float: right;
 margin: 0.5vw 1vw 0 0;
+cursor: pointer;
 }
 	
 .restartButton:hover{
@@ -221,6 +226,7 @@ margin: 0;
 background: url(../../images/Other/Hourglass.webp) no-repeat;
 background-size: cover;
 border: none;
+cursor: pointer;
 }
 	
 .restartLevelButton:hover{
@@ -236,6 +242,7 @@ width: 9vw;
 height: 9vw;
 margin: 0;
 border: none;
+cursor: pointer;
 }
 	
 .nextLevelButton:hover{
@@ -250,6 +257,7 @@ width: 9vw;
 height: 9vw;
 margin: 0;
 border: none;
+cursor: pointer;
 }
 	
 .homeButtonVictory:hover{

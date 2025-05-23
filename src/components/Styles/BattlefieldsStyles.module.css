@@ -51,6 +51,7 @@
     background-size: contain;
     border: none;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .buttonDwarfLvl1:hover{
@@ -74,6 +75,7 @@
     background-size: contain;
     border: none;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .buttonDwarfLvl2:hover{
@@ -95,6 +97,7 @@
     background-size: contain;
     border: none;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .buttonDwarfLvl3:hover{
@@ -116,6 +119,7 @@
     background-size: contain;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .buttonDwarfLvl4:hover{
@@ -139,6 +143,7 @@
     position: absolute;
     left: 1%;
     bottom: 0%;
+    cursor: pointer;
 }
 
 .buttonDwarfLvlUnic1{
@@ -150,6 +155,7 @@
     position: absolute;
     left: 1%;
     bottom: 0%;
+    cursor: pointer;
 }
 
 .buttonDwarfLvlUnic1:hover{
@@ -173,6 +179,7 @@
     position: absolute;
     left: 1%;
     bottom: 0%;
+    cursor: pointer;
 }
 
 .buttonDwarfLvlUnic2:hover{
@@ -196,6 +203,7 @@
     position: absolute;
     left: 1%;
     bottom: 0%;
+    cursor: pointer;
 }
 
 .buttonDwarfLvlUnic3:hover{
@@ -418,8 +426,8 @@ color: black;
     background: url(../../images/Battlefields/DwarfSkils/Phial.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
-
 
 .blockSkilAngryDwarf{
     margin: 5%;
@@ -434,6 +442,7 @@ color: black;
     background: url(../../images/Battlefields/DwarfSkils/AngryDwarf.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilFrozenGround{
@@ -449,6 +458,7 @@ color: black;
     background: url(../../images/Battlefields/DwarfSkils/Boot.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilBearHug{
@@ -464,6 +474,7 @@ color: black;
     background: url(../../images/Battlefields/DwarfSkils/BearHug.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilDwarvesBolts{
@@ -479,6 +490,7 @@ color: black;
     background: url(../../images/Battlefields/DwarfSkils/Bolt.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 /* ---MessageRulesDwarves--- */
@@ -505,6 +517,11 @@ position: absolute;
 bottom: 15%;
 left: 50%;
 transform: translateX(-50%);
+cursor: pointer;
+}
+
+.textMessageRulesDwarves p:hover{
+    filter: drop-shadow( 0 0 0.2vw red );
 }
 
 .arrowRulesDwarves1{
@@ -578,6 +595,7 @@ animation-fill-mode: forwards;
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl1.webp) no-repeat right bottom; 
     background-size: contain;
     border: none;
+    cursor: pointer;
 }
 
 .buttonOrcLvl1:hover{
@@ -598,6 +616,7 @@ animation-fill-mode: forwards;
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl2.webp) no-repeat right bottom; 
     background-size: contain;
     border: none;
+    cursor: pointer;
 }
 
 .buttonOrcLvl2:hover{
@@ -618,6 +637,7 @@ animation-fill-mode: forwards;
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl3.webp) no-repeat right bottom; 
     background-size: contain;
     border: none;
+    cursor: pointer;
 }
 
 .buttonOrcLvl3:hover{
@@ -638,6 +658,7 @@ animation-fill-mode: forwards;
     background: url(../../images/Battlefields/OrcsUnits/OrcUnitLvl4.webp) no-repeat right bottom; 
     background-size: contain;
     border: none;
+    cursor: pointer;
 }
 
 .buttonOrcLvl4:hover{
@@ -661,6 +682,7 @@ animation-fill-mode: forwards;
     position: absolute;
     right: 1%;
     bottom: 27%;
+    cursor: pointer;
 }
 
 .buttonOrcLvlUnic1{
@@ -672,6 +694,7 @@ animation-fill-mode: forwards;
     position: absolute;
     right: 1%;
     bottom: 27%;
+    cursor: pointer;
 }
 
 .buttonOrcLvlUnic1:hover{
@@ -695,6 +718,7 @@ animation-fill-mode: forwards;
     position: absolute;
     right: 1%;
     bottom: 27%;
+    cursor: pointer;
 }
 
 .buttonOrcLvlUnic2:hover{
@@ -718,6 +742,7 @@ animation-fill-mode: forwards;
     position: absolute;
     right: 1%;
     bottom: 27%;
+    cursor: pointer;
 }
 
 .buttonOrcLvlUnic3:hover{
@@ -949,6 +974,7 @@ color: black;
     left: 50%;
     top: -15%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 .buttonModalRules:hover{
@@ -1031,6 +1057,7 @@ color: black;
     border: solid black 0.2vw;
     background:#a12435;
     font-family: "Pangolin";
+    cursor: pointer;
 }
 
 .buttonCloseModalRules:hover{
@@ -1063,6 +1090,7 @@ color: black;
     background: url(../../images/Battlefields/OrcSkils/MedicinalMushroom.jpg) no-repeat;
     background-size: contain;
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilContagiousBite{
@@ -1078,6 +1106,7 @@ color: black;
     background: url(../../images/Battlefields/OrcSkils/OrcBite.jpg) no-repeat;
     background-size: contain;
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilFetters{
@@ -1093,6 +1122,7 @@ color: black;
     background: url(../../images/Battlefields/OrcSkils/Fetters.jpg) no-repeat;
     background-size: contain;
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilOrcFerocity{
@@ -1108,6 +1138,7 @@ color: black;
     background: url(../../images/Battlefields/OrcSkils/OrcFerocity.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 .blockSkilOrcsSpear{
@@ -1123,6 +1154,7 @@ color: black;
     background: url(../../images/Battlefields/OrcSkils/Log.jpg) no-repeat;
     background-size: contain; 
     margin: 0;
+    cursor: pointer;
 }
 
 /* ---MessageRulesOrcs--- */
@@ -1148,8 +1180,13 @@ position: absolute;
 bottom: 15%;
 left: 50%;
 transform: translateX(-50%);
+cursor: pointer;
 }
-    
+
+.textMessageRulesOrcs p:hover{
+    filter: drop-shadow( 0 0 0.2vw red );
+}
+
 .arrowRulesOrcs1{
 width: 8vw;
 height: 11vw;

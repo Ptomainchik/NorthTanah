@@ -29,6 +29,7 @@ border-top: 0.3vw solid rgb(247,189,0);
 
 .accordionItemTitle {
 width: 100%;
+height: 6vw;
 margin: 0;
 }
   
@@ -46,6 +47,7 @@ cursor: pointer;
 user-select: none;
 color: rgb(247,189,0);
 font-family: "Pangolin";
+z-index: 20;
 }
   
 .accordionItemContainer {
@@ -361,6 +363,7 @@ height: 2.7vw;
 font-size: 2vw;
 border:solid black 0.2vw;
 font-family: "Pangolin";
+cursor: pointer;
 }
     
 .closeModal:hover{
@@ -520,6 +523,7 @@ width: 110%;
 display: block; 
 color: black;
 -webkit-text-stroke: 0.1vw  rgb(247,189,0) ;
+cursor: pointer;
 }
   
 .dwarvesPageButton h5{
@@ -1574,6 +1578,7 @@ border-bottom: 0.3vw solid rgb(247,189,0);
 	  
 .accordionItemTitle {
 width: 100%;
+height: 10vw;
 margin: 0;
 }
 	  
@@ -1765,6 +1770,7 @@ border-bottom: 0.3vw solid rgb(247,189,0);
 		
 .accordionItemTitle {
 width: 100%;
+height: 10vw;
 margin: 0;
 }
 	
@@ -1953,6 +1959,7 @@ border-bottom: 0.3vw solid rgb(247,189,0);
 		  
 .accordionItemTitle {
 width: 100%;
+height: 10vw;
 margin: 0;
 }
 		  

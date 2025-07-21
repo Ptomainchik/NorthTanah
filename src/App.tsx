@@ -17,9 +17,6 @@ import { OrcsBattlefieldLvl4 } from './components/Battlefields/OrcsBattlefield/O
 import { RestartPage } from './components/Button/RestartPage/RestartPage';
 import { NoPage } from './components/NoPage/NoPage';
 
-
-
-
 function App() {
   return (
 

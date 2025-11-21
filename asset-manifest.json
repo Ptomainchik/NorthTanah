@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/NorthTanah/static/css/main.276e5f86.css",
-    "main.js": "/NorthTanah/static/js/main.bf15d707.js",
+    "main.js": "/NorthTanah/static/js/main.13614208.js",
     "static/js/453.a9f356b8.chunk.js": "/NorthTanah/static/js/453.a9f356b8.chunk.js",
     "static/media/Scroll.webp": "/NorthTanah/static/media/Scroll.027124b2d1884b63d96c.webp",
     "static/media/Snow.jpg": "/NorthTanah/static/media/Snow.e750862979a9ee076379.jpg",
     "static/media/Forest.jpg": "/NorthTanah/static/media/Forest.7d642022c3579d0292c3.jpg",
     "static/media/Panorama.jpg": "/NorthTanah/static/media/Panorama.1c0652f4e9eb6d876b95.jpg",
-    "static/media/KingDwarves.webp": "/NorthTanah/static/media/KingDwarves.350ce2822e3d6f08d510.webp",
     "static/media/DwarvesWin.webp": "/NorthTanah/static/media/DwarvesWin.6e9999e727f9e710e212.webp",
     "static/media/Awakening.webp": "/NorthTanah/static/media/Awakening.264626f5db7f10885717.webp",
     "static/media/OrcUnitLvl2.webp": "/NorthTanah/static/media/OrcUnitLvl2.da1d1d404236e35c217f.webp",
@@ -17,6 +16,7 @@
     "static/media/DwarfOnABear.webp": "/NorthTanah/static/media/DwarfOnABear.3a442bee793c01a8dff7.webp",
     "static/media/OrcUnitLvl3.webp": "/NorthTanah/static/media/OrcUnitLvl3.302a146a92f259c8dc6a.webp",
     "static/media/Hunters.webp": "/NorthTanah/static/media/Hunters.6efac24e0e0b42a17f0b.webp",
+    "static/media/KingDwarves.webp": "/NorthTanah/static/media/KingDwarves.1534774f99486a647380.webp",
     "static/media/CoatOfArmsOfBearPeaks.webp": "/NorthTanah/static/media/CoatOfArmsOfBearPeaks.a685a7b2f3a489a87343.webp",
     "static/media/SpriritCatchers.webp": "/NorthTanah/static/media/SpriritCatchers.e9bf75453b7eafe50fa0.webp",
     "static/media/DwarfUnitLvl2.webp": "/NorthTanah/static/media/DwarfUnitLvl2.5f874198cc32bca5486b.webp",
@@ -96,11 +96,11 @@
     "static/media/Bolt.jpg": "/NorthTanah/static/media/Bolt.5509844fa33d58e11a57.jpg",
     "index.html": "/NorthTanah/index.html",
     "main.276e5f86.css.map": "/NorthTanah/static/css/main.276e5f86.css.map",
-    "main.bf15d707.js.map": "/NorthTanah/static/js/main.bf15d707.js.map",
+    "main.13614208.js.map": "/NorthTanah/static/js/main.13614208.js.map",
     "453.a9f356b8.chunk.js.map": "/NorthTanah/static/js/453.a9f356b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.276e5f86.css",
-    "static/js/main.bf15d707.js"
+    "static/js/main.13614208.js"
   ]
 }

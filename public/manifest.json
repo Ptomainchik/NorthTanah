@@ -10,17 +10,17 @@
     {
       "src": "logo24.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "24x24"
     },
     {
       "src": "logo32.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "32x32"
     },
     {
       "src": "logo64.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "64x64"
     },
     {
       "src": "logo192.png",

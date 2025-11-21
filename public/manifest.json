@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "North Tanan",
+  "name": "North Tanan",
   "icons": [
     {
       "src": "favicon.ico",
@@ -36,5 +36,22 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720", 
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "North Tanan - Desktop View"
+    },
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png", 
+      "form_factor": "narrow",
+      "label": "North Tanan - Mobile View"
+    }
+  ]
 }

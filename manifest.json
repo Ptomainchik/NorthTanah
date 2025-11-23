@@ -1,6 +1,6 @@
 {
-  "short_name": "North Tanan",
-  "name": "North Tanan",
+  "short_name": "North Tanah",
+  "name": "North Tanah",
   "icons": [
     {
       "src": "favicon.ico",
@@ -44,14 +44,14 @@
       "sizes": "1280x720", 
       "type": "image/png",
       "form_factor": "wide",
-      "label": "North Tanan - Desktop View"
+      "label": "North Tanah - Desktop View"
     },
     {
       "src": "screenshot-mobile.png",
       "sizes": "375x667",
       "type": "image/png", 
       "form_factor": "narrow",
-      "label": "North Tanan - Mobile View"
+      "label": "North Tanah - Mobile View"
     }
   ]
 }

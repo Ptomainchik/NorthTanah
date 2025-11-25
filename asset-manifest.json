@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NorthTanah/static/css/main.276e5f86.css",
-    "main.js": "/NorthTanah/static/js/main.13614208.js",
+    "main.js": "/NorthTanah/static/js/main.10bcd4d9.js",
     "static/js/453.a9f356b8.chunk.js": "/NorthTanah/static/js/453.a9f356b8.chunk.js",
     "static/media/Scroll.webp": "/NorthTanah/static/media/Scroll.027124b2d1884b63d96c.webp",
     "static/media/Snow.jpg": "/NorthTanah/static/media/Snow.e750862979a9ee076379.jpg",
@@ -63,20 +63,20 @@
     "static/media/FloodedMines.webp": "/NorthTanah/static/media/FloodedMines.c0d4ce4b3aa8652ea3cb.webp",
     "static/media/BearPeaks.jpg": "/NorthTanah/static/media/BearPeaks.06f512f7699e74043cd6.jpg",
     "static/media/BlackForest.jpg": "/NorthTanah/static/media/BlackForest.44289fdaff39f616b0b9.jpg",
-    "static/media/DwarfMerchantGarbert.jpg": "/NorthTanah/static/media/DwarfMerchantGarbert.5628b2d577f3960ba436.jpg",
-    "static/media/DwarfBlacksmithGarkan.jpg": "/NorthTanah/static/media/DwarfBlacksmithGarkan.308f7179f8c2d74d4d9e.jpg",
-    "static/media/HeadDwarfBlacksmithMorei.jpg": "/NorthTanah/static/media/HeadDwarfBlacksmithMorei.41f9c0ec79789a9d6efe.jpg",
-    "static/media/DwarfBlacksmithSalgon.jpg": "/NorthTanah/static/media/DwarfBlacksmithSalgon.27d495dabecbfc0caea0.jpg",
-    "static/media/HeadDwarfMerchantBarton.jpg": "/NorthTanah/static/media/HeadDwarfMerchantBarton.a0de30812208fc1c1034.jpg",
+    "static/media/DwarfMerchantGarbert.jpg": "/NorthTanah/static/media/DwarfMerchantGarbert.95dd6a77e5adfc3dfecd.jpg",
+    "static/media/DwarfBlacksmithSalgon.jpg": "/NorthTanah/static/media/DwarfBlacksmithSalgon.f9ef814b0a72a367590d.jpg",
     "static/media/OrcShaman.jpg": "/NorthTanah/static/media/OrcShaman.a97a4d34d33d718692fc.jpg",
+    "static/media/HeadDwarfBlacksmithMorei.jpg": "/NorthTanah/static/media/HeadDwarfBlacksmithMorei.1db9b09e721775b4fb89.jpg",
     "static/media/RulesBook.webp": "/NorthTanah/static/media/RulesBook.a8578ed630cc921ad439.webp",
     "static/media/SeniorHunter.jpg": "/NorthTanah/static/media/SeniorHunter.1d7f11c30382fd14c995.jpg",
     "static/media/LeaderOfTheBandits.jpg": "/NorthTanah/static/media/LeaderOfTheBandits.a1ceaea24481514affc3.jpg",
     "static/media/MasterOfTheMarauders.jpg": "/NorthTanah/static/media/MasterOfTheMarauders.71ef64be261b3fc4a102.jpg",
     "static/media/TrapMaster.jpg": "/NorthTanah/static/media/TrapMaster.3b91eaa26db1ac8b2a71.jpg",
+    "static/media/DwarfBlacksmithGarkan.jpg": "/NorthTanah/static/media/DwarfBlacksmithGarkan.2f532c3a0238a2d50dfe.jpg",
     "static/media/FirstGuardianOfSpirits.jpg": "/NorthTanah/static/media/FirstGuardianOfSpirits.1b3d06a9d6be5bed61ae.jpg",
     "static/media/PanoramaSmall.jpg": "/NorthTanah/static/media/PanoramaSmall.286564a7a25310bb901d.jpg",
     "static/media/Brigadier.jpg": "/NorthTanah/static/media/Brigadier.33e81dd02a3476ab2085.jpg",
+    "static/media/HeadDwarfMerchantBarton.jpg": "/NorthTanah/static/media/HeadDwarfMerchantBarton.57e73af0efc788c72482.jpg",
     "static/media/DwarfWithBook.jpg": "/NorthTanah/static/media/DwarfWithBook.9143965497d1a6899275.jpg",
     "static/media/Hourglass.webp": "/NorthTanah/static/media/Hourglass.bd4d37b2a0f080005cce.webp",
     "static/media/ChiefOfThieves.jpg": "/NorthTanah/static/media/ChiefOfThieves.c2700ac82391ec3e35a5.jpg",
@@ -96,11 +96,11 @@
     "static/media/Bolt.jpg": "/NorthTanah/static/media/Bolt.5509844fa33d58e11a57.jpg",
     "index.html": "/NorthTanah/index.html",
     "main.276e5f86.css.map": "/NorthTanah/static/css/main.276e5f86.css.map",
-    "main.13614208.js.map": "/NorthTanah/static/js/main.13614208.js.map",
+    "main.10bcd4d9.js.map": "/NorthTanah/static/js/main.10bcd4d9.js.map",
     "453.a9f356b8.chunk.js.map": "/NorthTanah/static/js/453.a9f356b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.276e5f86.css",
-    "static/js/main.13614208.js"
+    "static/js/main.10bcd4d9.js"
   ]
 }

@@ -28,7 +28,7 @@ export const Communities = () => {
   
        <img src={GreenTriangle} className={classes.greenTriangleCommuties3} alt='Green triangle'/>
               <Workers/>
-       <h5 className={classes.titleWorkers}>Работники</h5>
+       <h5 className={classes.titleWorkers}>Рабочие</h5>
         
        <img src={GreenTriangle} className={classes.greenTriangleCommuties4} alt='Green triangle'/>
               <Gangs/>
